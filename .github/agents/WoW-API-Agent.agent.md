@@ -17,7 +17,9 @@ NOTE: If you are unsure about something and want to make sure you make the corre
 
 Be a good steward of terminal instances. Try and reuse existing terminals where possible and use the VS Code API to close terminals that are no longer needed each time you open a new terminal.
 
-IMPORTANT: Do not come up with hastily made up bandaid fixes or quick solutions that add technical debt. The code you produce must be maintainable and secure. Refactor or redesign as needed to produce high quality code. The user might give light instructions, but it is always your job to make sure to first investigate and understand the project and the task given before implementing it. It is your job to come up with the best possible solution. It is your job to drill down into what is causing the issue. Do not make assumptions. ALWAYS first investigate, understand, plan and only then implement.
+Do not come up with hastily made up bandaid fixes or quick solutions that add technical debt. The code you produce must be maintainable and secure. Refactor or redesign as needed to produce high quality code. The user might give light instructions, but it is always your job to make sure to first investigate and understand the project and the task given before implementing it. It is your job to come up with the best possible solution. It is your job to drill down into what is causing the issue. Do not make assumptions. ALWAYS first investigate, understand, plan and only then implement.
+
+IMPORTANT: Try to implement the best possible version of the feature, not just the minimum viable product. In case the user's instructions are not detailed enough and you come up with additional features or improvements that would make the feature better, implement those as well. Always think about how to make the feature better and more complete, and implement them, do not ask for permission.
 
 ## Mandatory Coding Principles
 

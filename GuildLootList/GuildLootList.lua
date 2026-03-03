@@ -2,7 +2,7 @@ local addonFrame = CreateFrame("Frame")
 local openDialog
 
 local state = {
-    debug = true,
+    debug = false,
     entries = {},
     guildUiHooked = false,
     buttonRetryPending = false,
@@ -99,24 +99,54 @@ end
 
 local function formatCharacterText(entry)
     local baseName = entry.player or "Unknown"
-    local withLevel = baseName
-    if safeNumber(entry.level, 0) > 0 then
-        withLevel = string.format("%d %s", entry.level, baseName)
-    end
 
     if entry.classFile and entry.classFile ~= "" then
         local _, _, _, classHex = GetClassColor(entry.classFile)
         if classHex and classHex ~= "" then
-            return colorizeText(classHex, withLevel)
+            return colorizeText(classHex, baseName)
         end
     end
 
-    return withLevel
+    return baseName
+end
+
+local function formatLevelText(entry)
+    local level = safeNumber(entry.level, 0)
+    if level > 0 then
+        return tostring(level)
+    end
+    return "-"
 end
 
 local function formatItemText(entry)
     local itemName = entry.itemName or getItemName(entry.itemLink)
     return colorizeText(entry.itemQualityHex, itemName)
+end
+
+local function getItemUpgradeTrack(itemLink)
+    if not itemLink then
+        return "-", ""
+    end
+
+    local upgradeInfo = C_Item.GetItemUpgradeInfo(itemLink)
+    if not upgradeInfo then
+        return "-", ""
+    end
+
+    local currentLevel = safeNumber(upgradeInfo.currentLevel, 0)
+    local maxLevel = safeNumber(upgradeInfo.maxLevel, 0)
+    local trackString = upgradeInfo.trackString
+
+    if trackString and trackString ~= "" and maxLevel > 0 then
+        local text = string.format("%s %d/%d", trackString, currentLevel, maxLevel)
+        return text, text
+    end
+
+    if trackString and trackString ~= "" then
+        return trackString, trackString
+    end
+
+    return "-", ""
 end
 
 local function getItemLevel(itemLink)
@@ -175,6 +205,7 @@ local function rebuildEntriesFromGuildNews()
                 local dateText, dateSort = buildDateTextAndSortValue(newsInfo)
                 local playerName = normalizePlayerName(newsInfo.whoText)
                 local rosterMeta = rosterByName[playerName]
+                local upgradeTrackText, upgradeTrackSort = getItemUpgradeTrack(itemLink)
                 table.insert(state.entries, {
                     player = playerName,
                     level = rosterMeta and rosterMeta.level or 0,
@@ -182,6 +213,8 @@ local function rebuildEntriesFromGuildNews()
                     itemLink = itemLink,
                     itemName = getItemName(itemLink),
                     itemQualityHex = getItemQualityColor(itemLink),
+                    upgradeTrackText = upgradeTrackText,
+                    upgradeTrackSort = upgradeTrackSort,
                     itemLevel = getItemLevel(itemLink),
                     timeText = dateText,
                     timeSort = dateSort,
@@ -262,12 +295,16 @@ local function refreshTable()
         local entry = state.ui.filtered[dataIndex]
 
         if entry then
+            row.entry = entry
             row.character:SetText(formatCharacterText(entry))
+            row.level:SetText(formatLevelText(entry))
             row.item:SetText(formatItemText(entry))
+            row.track:SetText(entry.upgradeTrackText or "-")
             row.ilvl:SetText(tostring(entry.itemLevel or 0))
             row.time:SetText(entry.timeText or "Unknown")
             row:Show()
         else
+            row.entry = nil
             row:Hide()
         end
     end
@@ -304,6 +341,8 @@ local function createDialog()
     local dialog = CreateFrame("Frame", "GuildLootListDialog", UIParent, "BasicFrameTemplateWithInset")
     dialog:SetSize(760, 520)
     dialog:SetPoint("CENTER")
+    dialog:SetFrameStrata("DIALOG")
+    dialog:SetToplevel(true)
     dialog:SetMovable(true)
     dialog:EnableMouse(true)
     dialog:RegisterForDrag("LeftButton")
@@ -315,15 +354,12 @@ local function createDialog()
     dialog.title:SetPoint("CENTER", dialog.TitleBg, "CENTER", 0, 0)
     dialog.title:SetText("Guild Loot List")
 
-    local closeButton = CreateFrame("Button", nil, dialog, "UIPanelCloseButton")
-    closeButton:SetPoint("TOPRIGHT", dialog, "TOPRIGHT", -2, -2)
-
     dialog.charFilterLabel = dialog:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     dialog.charFilterLabel:SetPoint("TOPLEFT", dialog, "TOPLEFT", 18, -36)
     dialog.charFilterLabel:SetText("Character")
 
     dialog.charFilterBox = CreateFrame("EditBox", nil, dialog, "InputBoxTemplate")
-    dialog.charFilterBox:SetSize(160, 20)
+    dialog.charFilterBox:SetSize(130, 20)
     dialog.charFilterBox:SetPoint("LEFT", dialog.charFilterLabel, "RIGHT", 8, 0)
     dialog.charFilterBox:SetAutoFocus(false)
 
@@ -332,7 +368,7 @@ local function createDialog()
     dialog.itemFilterLabel:SetText("Item")
 
     dialog.itemFilterBox = CreateFrame("EditBox", nil, dialog, "InputBoxTemplate")
-    dialog.itemFilterBox:SetSize(180, 20)
+    dialog.itemFilterBox:SetSize(130, 20)
     dialog.itemFilterBox:SetPoint("LEFT", dialog.itemFilterLabel, "RIGHT", 8, 0)
     dialog.itemFilterBox:SetAutoFocus(false)
 
@@ -348,13 +384,13 @@ local function createDialog()
 
     local applyFilterButton = CreateFrame("Button", nil, dialog, "UIPanelButtonTemplate")
     applyFilterButton:SetSize(70, 20)
-    applyFilterButton:SetPoint("LEFT", dialog.minIlvlBox, "RIGHT", 12, 0)
+    applyFilterButton:SetPoint("TOPRIGHT", dialog, "TOPRIGHT", -94, -36)
     applyFilterButton:SetText("Apply")
     applyFilterButton:SetScript("OnClick", refreshTable)
 
     local resetFilterButton = CreateFrame("Button", nil, dialog, "UIPanelButtonTemplate")
     resetFilterButton:SetSize(70, 20)
-    resetFilterButton:SetPoint("LEFT", applyFilterButton, "RIGHT", 6, 0)
+    resetFilterButton:SetPoint("TOPRIGHT", dialog, "TOPRIGHT", -18, -36)
     resetFilterButton:SetText("Reset")
     resetFilterButton:SetScript("OnClick", function()
         dialog.charFilterBox:SetText("")
@@ -367,10 +403,12 @@ local function createDialog()
     tableFrame:SetPoint("TOPLEFT", dialog, "TOPLEFT", 16, -68)
     tableFrame:SetPoint("BOTTOMRIGHT", dialog, "BOTTOMRIGHT", -36, 40)
 
-    createHeaderButton(tableFrame, "Character", 140, "TOPLEFT", tableFrame, "TOPLEFT", 6, -6, "player")
-    createHeaderButton(tableFrame, "Item", 300, "TOPLEFT", tableFrame, "TOPLEFT", 150, -6, "itemLink")
-    createHeaderButton(tableFrame, "iLvl", 80, "TOPLEFT", tableFrame, "TOPLEFT", 454, -6, "itemLevel")
-    createHeaderButton(tableFrame, "Time", 180, "TOPLEFT", tableFrame, "TOPLEFT", 538, -6, "timeSort")
+    createHeaderButton(tableFrame, "Character", 115, "TOPLEFT", tableFrame, "TOPLEFT", 6, -6, "player")
+    createHeaderButton(tableFrame, "Lvl", 45, "TOPLEFT", tableFrame, "TOPLEFT", 125, -6, "level")
+    createHeaderButton(tableFrame, "Item", 220, "TOPLEFT", tableFrame, "TOPLEFT", 174, -6, "itemLink")
+    createHeaderButton(tableFrame, "Track", 110, "TOPLEFT", tableFrame, "TOPLEFT", 398, -6, "upgradeTrackSort")
+    createHeaderButton(tableFrame, "iLvl", 55, "TOPLEFT", tableFrame, "TOPLEFT", 512, -6, "itemLevel")
+    createHeaderButton(tableFrame, "Date", 110, "TOPLEFT", tableFrame, "TOPLEFT", 571, -6, "timeSort")
 
     dialog.scrollFrame = CreateFrame("ScrollFrame", nil, tableFrame, "UIPanelScrollFrameTemplate")
     dialog.scrollFrame:SetPoint("TOPLEFT", tableFrame, "TOPLEFT", 6, -30)
@@ -401,24 +439,45 @@ local function createDialog()
             row.background:SetColorTexture(1, 1, 1, 0.01)
         end
 
+        row:EnableMouse(true)
+        row:SetScript("OnEnter", function(self)
+            if self.entry and self.entry.itemLink then
+                GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+                GameTooltip:SetHyperlink(self.entry.itemLink)
+            end
+        end)
+        row:SetScript("OnLeave", function()
+            GameTooltip:Hide()
+        end)
+
         row.character = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
         row.character:SetPoint("LEFT", row, "LEFT", 4, 0)
-        row.character:SetWidth(140)
+        row.character:SetWidth(115)
         row.character:SetJustifyH("LEFT")
 
+        row.level = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+        row.level:SetPoint("LEFT", row.character, "RIGHT", 4, 0)
+        row.level:SetWidth(45)
+        row.level:SetJustifyH("LEFT")
+
         row.item = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-        row.item:SetPoint("LEFT", row.character, "RIGHT", 4, 0)
-        row.item:SetWidth(300)
+        row.item:SetPoint("LEFT", row.level, "RIGHT", 4, 0)
+        row.item:SetWidth(220)
         row.item:SetJustifyH("LEFT")
 
+        row.track = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+        row.track:SetPoint("LEFT", row.item, "RIGHT", 4, 0)
+        row.track:SetWidth(110)
+        row.track:SetJustifyH("LEFT")
+
         row.ilvl = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-        row.ilvl:SetPoint("LEFT", row.item, "RIGHT", 4, 0)
-        row.ilvl:SetWidth(80)
+        row.ilvl:SetPoint("LEFT", row.track, "RIGHT", 4, 0)
+        row.ilvl:SetWidth(55)
         row.ilvl:SetJustifyH("LEFT")
 
         row.time = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
         row.time:SetPoint("LEFT", row.ilvl, "RIGHT", 4, 0)
-        row.time:SetWidth(180)
+        row.time:SetWidth(110)
         row.time:SetJustifyH("LEFT")
 
         table.insert(state.ui.rows, row)
@@ -443,16 +502,34 @@ local function createDialog()
         self:ClearFocus()
         refreshTable()
     end)
+    dialog.charFilterBox:SetScript("OnTextChanged", function(_, userInput)
+        if userInput then
+            refreshTable()
+        end
+    end)
     dialog.itemFilterBox:SetScript("OnEnterPressed", function(self)
         self:ClearFocus()
         refreshTable()
+    end)
+    dialog.itemFilterBox:SetScript("OnTextChanged", function(_, userInput)
+        if userInput then
+            refreshTable()
+        end
     end)
     dialog.minIlvlBox:SetScript("OnEnterPressed", function(self)
         self:ClearFocus()
         refreshTable()
     end)
+    dialog.minIlvlBox:SetScript("OnTextChanged", function(_, userInput)
+        if userInput then
+            refreshTable()
+        end
+    end)
 
-    dialog:SetScript("OnShow", refreshTable)
+    dialog:SetScript("OnShow", function(self)
+        self:Raise()
+        refreshTable()
+    end)
 
     state.ui.dialog = dialog
     return dialog
