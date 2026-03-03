@@ -1,0 +1,5 @@
+local addonFrame = CreateFrame("Frame")
+addonFrame:RegisterEvent("PLAYER_LOGIN")
+addonFrame:SetScript("OnEvent", function()
+    print("Hello World")
+end)

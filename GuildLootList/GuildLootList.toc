@@ -1,0 +1,7 @@
+## Interface: 110200
+## Title: Guild Loot List
+## Notes: Minimal midnight-style starter addon.
+## Author: Juha
+## Version: 0.0.1
+
+GuildLootList.lua
