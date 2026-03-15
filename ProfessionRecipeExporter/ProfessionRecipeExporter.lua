@@ -1,0 +1,561 @@
+local ADDON_NAME = ...
+
+local defaults = {
+    schemaVersion = 1,
+    runCount = 0,
+    latestExportID = nil,
+    exports = {},
+}
+
+local L = {
+    addonPrefix = "|cff33ff99ProfessionRecipeExporter|r",
+    loaded = "Loaded. Use /pre scan to export profession recipe data.",
+    scanStarted = "Scan started.",
+    scanInstruction = "Open each profession window manually to capture data. Use /pre finish when done.",
+    scanAlreadyRunning = "Scan is already running.",
+    scanNotRunning = "No active scan. Use /pre scan to start.",
+    professionCaptured = "Captured profession skillLineID=%d.",
+    professionUpdated = "Updated capture for profession skillLineID=%d.",
+    scanFinished = "Scan finished. Export #%d saved (%d professions, %d recipes).",
+    noExportData = "No export data available yet.",
+    statusIdle = "Status: idle.",
+    statusRunning = "Status: scanning (%d professions captured).",
+    statusLatest = "Latest export #%d: %d professions, %d recipes, %s.",
+    commandHelp = "Commands: /pre scan, /pre finish, /pre status, /pre latest, /pre clear",
+    dataCleared = "All saved export data cleared.",
+    captureSkippedNotReady = "Trade skill UI is not ready yet; waiting for next update.",
+    captureSkippedNoSkillLine = "Could not determine current profession skillLineID; waiting for next update.",
+    captureUsedRecipeFallback = "Resolved profession via recipe fallback skillLineID=%d.",
+}
+
+local state = {
+    isScanning = false,
+    currentExport = nil,
+}
+
+local eventFrame = CreateFrame("Frame")
+
+local function log(message, ...)
+    if select("#", ...) > 0 then
+        message = string.format(message, ...)
+    end
+    print(string.format("%s %s", L.addonPrefix, message))
+end
+
+local function copyDefaults(target, source)
+    for key, value in pairs(source) do
+        if target[key] == nil then
+            if type(value) == "table" then
+                target[key] = {}
+                copyDefaults(target[key], value)
+            else
+                target[key] = value
+            end
+        elseif type(target[key]) == "table" and type(value) == "table" then
+            copyDefaults(target[key], value)
+        end
+    end
+end
+
+local function ensureDatabase()
+    ProfessionRecipeExporterDB = ProfessionRecipeExporterDB or {}
+    copyDefaults(ProfessionRecipeExporterDB, defaults)
+end
+
+local function safeCall(fn, ...)
+    if type(fn) ~= "function" then
+        return nil
+    end
+
+    local ok, result1, result2, result3, result4 = pcall(fn, ...)
+    if not ok then
+        return nil
+    end
+
+    return result1, result2, result3, result4
+end
+
+local function safeCallList(fn, ...)
+    if type(fn) ~= "function" then
+        return {}
+    end
+
+    local function pack(...)
+        return {
+            n = select("#", ...),
+            ...,
+        }
+    end
+
+    local results = pack(pcall(fn, ...))
+    local ok = results[1]
+    if not ok then
+        return {}
+    end
+
+    local firstResult = results[2]
+    if firstResult == nil then
+        return {}
+    end
+
+    if type(firstResult) == "table" then
+        return firstResult
+    end
+
+    local list = {}
+    for i = 2, results.n do
+        local value = results[i]
+        local valueType = type(value)
+        if value ~= nil and (
+            valueType == "number"
+            or valueType == "string"
+            or valueType == "table"
+            or valueType == "boolean"
+        ) then
+            list[#list + 1] = value
+        end
+    end
+
+    return list
+end
+
+local function safeToString(value)
+    local ok, result = pcall(tostring, value)
+    if ok then
+        return result
+    end
+    return "<unstringable>"
+end
+
+local function resolveItemNameByID(itemID)
+    if type(itemID) ~= "number" then
+        return nil
+    end
+
+    local itemName = safeCall(C_Item.GetItemNameByID, itemID)
+    if type(itemName) == "string" and itemName ~= "" then
+        return itemName
+    end
+
+    local itemNameFromInfo = safeCall(C_Item.GetItemInfo, itemID)
+    if type(itemNameFromInfo) == "string" and itemNameFromInfo ~= "" then
+        return itemNameFromInfo
+    end
+
+    safeCall(C_Item.RequestLoadItemDataByID, itemID)
+    return nil
+end
+
+local function sanitize(value, seen, depth)
+    local valueType = type(value)
+    if valueType == "nil" or valueType == "boolean" or valueType == "number" or valueType == "string" then
+        return value
+    end
+
+    if valueType ~= "table" then
+        return {
+            __type = valueType,
+            __value = safeToString(value),
+        }
+    end
+
+    seen = seen or {}
+    depth = depth or 0
+    if depth > 10 then
+        return {
+            __type = "table",
+            __truncated = true,
+        }
+    end
+
+    if seen[value] then
+        return {
+            __type = "table",
+            __circular = true,
+        }
+    end
+
+    seen[value] = true
+    local result = {}
+    for key, tableValue in pairs(value) do
+        local resultKeyType = type(key)
+        local resultKey = key
+        if resultKeyType ~= "string" and resultKeyType ~= "number" then
+            resultKey = "__key_" .. safeToString(key)
+        end
+        result[resultKey] = sanitize(tableValue, seen, depth + 1)
+    end
+    seen[value] = nil
+    return result
+end
+
+local function extractRecipeSchematicReagents(schematic)
+    local reagentSlots = {}
+    if type(schematic) ~= "table" then
+        return reagentSlots
+    end
+
+    local slotSchematics = schematic.reagentSlotSchematics
+    if type(slotSchematics) ~= "table" then
+        return reagentSlots
+    end
+
+    for slotIndex, slot in ipairs(slotSchematics) do
+        local slotEntry = {
+            slotIndex = slotIndex,
+            raw = sanitize(slot),
+            reagents = {},
+        }
+
+        if type(slot) == "table" and type(slot.reagents) == "table" then
+            for reagentIndex, reagent in ipairs(slot.reagents) do
+                local sanitizedReagent = sanitize(reagent)
+                if type(reagent) == "table" then
+                    local itemID = reagent.itemID
+                    local itemName = resolveItemNameByID(itemID)
+                    if type(itemName) == "string" and itemName ~= "" then
+                        sanitizedReagent.itemName = itemName
+                    end
+                end
+                slotEntry.reagents[reagentIndex] = sanitizedReagent
+            end
+        end
+
+        reagentSlots[#reagentSlots + 1] = slotEntry
+    end
+
+    return reagentSlots
+end
+
+local function collectCategoryData()
+    local categories = {}
+    local categoryIDs = safeCallList(C_TradeSkillUI.GetCategories)
+
+    for _, categoryID in ipairs(categoryIDs) do
+        local categoryInfo = safeCall(C_TradeSkillUI.GetCategoryInfo, categoryID)
+        local subcategories = safeCallList(C_TradeSkillUI.GetSubCategories, categoryID)
+        local subcategoryData = {}
+
+        for _, subCategoryID in ipairs(subcategories) do
+            subcategoryData[#subcategoryData + 1] = {
+                subCategoryID = subCategoryID,
+                info = sanitize(safeCall(C_TradeSkillUI.GetCategoryInfo, subCategoryID)),
+            }
+        end
+
+        categories[#categories + 1] = {
+            categoryID = categoryID,
+            info = sanitize(categoryInfo),
+            subcategories = subcategoryData,
+        }
+    end
+
+    return categories
+end
+
+local function collectRecipeData(recipeID, professionSkillLineID)
+    local recipeInfo = safeCall(C_TradeSkillUI.GetRecipeInfo, recipeID)
+    local schematic = safeCall(C_TradeSkillUI.GetRecipeSchematic, recipeID, false)
+    local outputItemData = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID)
+    local qualityItemIDs = safeCall(C_TradeSkillUI.GetRecipeQualityItemIDs, recipeID)
+    local qualityIDs = safeCall(C_TradeSkillUI.GetQualitiesForRecipe, recipeID)
+    local requirements = safeCall(C_TradeSkillUI.GetRecipeRequirements, recipeID)
+    local sourceText = safeCall(C_TradeSkillUI.GetRecipeSourceText, recipeID)
+    local recipeItemLink = safeCall(C_TradeSkillUI.GetRecipeItemLink, recipeID)
+    local recipeLink = safeCall(C_TradeSkillUI.GetRecipeLink, recipeID)
+    local tradeSkillLineID, tradeSkillLineName, parentTradeSkillID = safeCall(C_TradeSkillUI.GetTradeSkillLineForRecipe, recipeID)
+
+    return {
+        recipeID = recipeID,
+        professionSkillLineID = professionSkillLineID,
+        recipeInfo = sanitize(recipeInfo),
+        recipeSchematic = sanitize(schematic),
+        recipeReagentSlots = extractRecipeSchematicReagents(schematic),
+        recipeOutput = sanitize(outputItemData),
+        qualityItemIDs = sanitize(qualityItemIDs),
+        qualityIDs = sanitize(qualityIDs),
+        recipeRequirements = sanitize(requirements),
+        recipeSourceText = sourceText,
+        recipeItemLink = recipeItemLink,
+        recipeLink = recipeLink,
+        recipeTradeSkillLine = {
+            tradeSkillLineID = tradeSkillLineID,
+            tradeSkillLineName = tradeSkillLineName,
+            parentTradeSkillID = parentTradeSkillID,
+        },
+    }
+end
+
+local function collectProfessionData(skillLineID)
+    local professionInfoBySkillLine = safeCall(C_TradeSkillUI.GetProfessionInfoBySkillLineID, skillLineID)
+    local baseProfessionInfo = safeCall(C_TradeSkillUI.GetBaseProfessionInfo)
+    local childProfessionInfos = safeCall(C_TradeSkillUI.GetChildProfessionInfos) or {}
+    local categoryData = collectCategoryData()
+    local recipeIDs = safeCallList(C_TradeSkillUI.GetAllRecipeIDs)
+    local recipes = {}
+
+    for _, recipeID in ipairs(recipeIDs) do
+        recipes[#recipes + 1] = collectRecipeData(recipeID, skillLineID)
+    end
+
+    return {
+        skillLineID = skillLineID,
+        collectedAtEpoch = time(),
+        professionInfo = sanitize(professionInfoBySkillLine),
+        baseProfessionInfo = sanitize(baseProfessionInfo),
+        childProfessionInfos = sanitize(childProfessionInfos),
+        categories = categoryData,
+        recipes = recipes,
+        recipeCount = #recipes,
+    }
+end
+
+local function finalizeScan()
+    state.isScanning = false
+
+    local exportData = state.currentExport
+    if not exportData then
+        return
+    end
+
+    local db = ProfessionRecipeExporterDB
+    db.runCount = db.runCount + 1
+    local exportID = db.runCount
+
+    exportData.exportID = exportID
+    exportData.completedAtEpoch = time()
+    exportData.completedAtISO8601 = date("!%Y-%m-%dT%H:%M:%SZ")
+    exportData.totalProfessionsScanned = 0
+    exportData.totalRecipesScanned = 0
+
+    for _, professionData in pairs(exportData.professions) do
+        exportData.totalProfessionsScanned = exportData.totalProfessionsScanned + 1
+        exportData.totalRecipesScanned = exportData.totalRecipesScanned + (professionData.recipeCount or 0)
+    end
+
+    db.exports[exportID] = exportData
+    db.latestExportID = exportID
+    state.currentExport = nil
+
+    log(L.scanFinished, exportID, exportData.totalProfessionsScanned, exportData.totalRecipesScanned)
+end
+
+local function resolveCurrentSkillLineID()
+    local childSkillLineID = safeCall(C_TradeSkillUI.GetProfessionChildSkillLineID)
+    if type(childSkillLineID) == "number" and childSkillLineID > 0 then
+        return childSkillLineID
+    end
+
+    local childInfo = safeCall(C_TradeSkillUI.GetChildProfessionInfo)
+    if type(childInfo) == "table" and type(childInfo.skillLineID) == "number" and childInfo.skillLineID > 0 then
+        return childInfo.skillLineID
+    end
+
+    local baseInfo = safeCall(C_TradeSkillUI.GetBaseProfessionInfo)
+    if type(baseInfo) == "table" and type(baseInfo.skillLineID) == "number" and baseInfo.skillLineID > 0 then
+        return baseInfo.skillLineID
+    end
+
+    local recipeIDs = safeCallList(C_TradeSkillUI.GetAllRecipeIDs)
+    local firstRecipeID = recipeIDs[1]
+    if firstRecipeID ~= nil then
+        local tradeSkillID = safeCall(C_TradeSkillUI.GetTradeSkillLineForRecipe, firstRecipeID)
+        if type(tradeSkillID) == "number" and tradeSkillID > 0 then
+            log(L.captureUsedRecipeFallback, tradeSkillID)
+            return tradeSkillID
+        end
+    end
+
+    return nil
+end
+
+local function captureCurrentProfession()
+    if not state.isScanning then
+        return
+    end
+
+    local isReady = safeCall(C_TradeSkillUI.IsTradeSkillReady)
+    if not isReady then
+        log(L.captureSkippedNotReady)
+        return
+    end
+
+    local currentExport = state.currentExport
+    if not currentExport then
+        state.isScanning = false
+        return
+    end
+
+    local skillLineID = resolveCurrentSkillLineID()
+    if type(skillLineID) ~= "number" then
+        log(L.captureSkippedNoSkillLine)
+        return
+    end
+
+    currentExport.professions = currentExport.professions or {}
+    local hadPrevious = currentExport.professions[skillLineID] ~= nil
+    currentExport.professions[skillLineID] = collectProfessionData(skillLineID)
+
+    if hadPrevious then
+        log(L.professionUpdated, skillLineID)
+    else
+        log(L.professionCaptured, skillLineID)
+    end
+end
+
+local function beginScan()
+    if state.isScanning then
+        log(L.scanAlreadyRunning)
+        return
+    end
+
+    state.isScanning = true
+    local classLocalized, classFile = UnitClass("player")
+    local raceLocalized, raceFile = UnitRace("player")
+    state.currentExport = {
+        schemaVersion = 1,
+        addonName = ADDON_NAME,
+        gameVersion = select(1, GetBuildInfo()),
+        interfaceVersion = select(4, GetBuildInfo()),
+        startedAtEpoch = time(),
+        startedAtISO8601 = date("!%Y-%m-%dT%H:%M:%SZ"),
+        player = {
+            name = UnitName("player"),
+            realm = GetRealmName(),
+            classLocalized = classLocalized,
+            classFile = classFile,
+            raceLocalized = raceLocalized,
+            raceFile = raceFile,
+            faction = UnitFactionGroup("player"),
+            level = UnitLevel("player"),
+        },
+        professions = {},
+    }
+
+    log(L.scanStarted)
+    log(L.scanInstruction)
+end
+
+local function finishScan()
+    if not state.isScanning then
+        log(L.scanNotRunning)
+        return
+    end
+
+    finalizeScan()
+end
+
+local function printStatus()
+    if state.isScanning then
+        local currentExport = state.currentExport
+        local capturedCount = 0
+        if currentExport and currentExport.professions then
+            for _ in pairs(currentExport.professions) do
+                capturedCount = capturedCount + 1
+            end
+        end
+
+        log(L.statusRunning, capturedCount)
+        return
+    end
+
+    log(L.statusIdle)
+    local db = ProfessionRecipeExporterDB
+    if not db.latestExportID then
+        log(L.noExportData)
+        return
+    end
+
+    local latest = db.exports[db.latestExportID]
+    if not latest then
+        log(L.noExportData)
+        return
+    end
+
+    log(L.statusLatest, latest.exportID, latest.totalProfessionsScanned or 0, latest.totalRecipesScanned or 0, latest.completedAtISO8601 or "unknown")
+end
+
+local function printLatestExportPathHint()
+    local db = ProfessionRecipeExporterDB
+    if not db.latestExportID or not db.exports[db.latestExportID] then
+        log(L.noExportData)
+        return
+    end
+
+    local latest = db.exports[db.latestExportID]
+    log("Latest export ID: %d", latest.exportID)
+    log("SavedVariables table: ProfessionRecipeExporterDB.exports[%d]", latest.exportID)
+end
+
+local function clearData()
+    ProfessionRecipeExporterDB = {}
+    copyDefaults(ProfessionRecipeExporterDB, defaults)
+    log(L.dataCleared)
+end
+
+local function handleSlashCommand(input)
+    local command = input and input:match("^%s*(%S+)")
+    if not command then
+        log(L.commandHelp)
+        return
+    end
+
+    command = string.lower(command)
+    if command == "scan" then
+        beginScan()
+        return
+    end
+
+    if command == "finish" then
+        finishScan()
+        return
+    end
+
+    if command == "status" then
+        printStatus()
+        return
+    end
+
+    if command == "latest" then
+        printLatestExportPathHint()
+        return
+    end
+
+    if command == "clear" then
+        clearData()
+        return
+    end
+
+    log(L.commandHelp)
+end
+
+eventFrame:SetScript("OnEvent", function(_, event, ...)
+    if event == "ADDON_LOADED" then
+        local addonName = ...
+        if addonName ~= ADDON_NAME then
+            return
+        end
+
+        ensureDatabase()
+        SLASH_PROFESSIONRECIPEEXPORTER1 = "/pre"
+        SlashCmdList.PROFESSIONRECIPEEXPORTER = handleSlashCommand
+        log(L.loaded)
+        return
+    end
+
+    if event == "TRADE_SKILL_SHOW"
+        or event == "TRADE_SKILL_LIST_UPDATE"
+        or event == "TRADE_SKILL_DETAILS_UPDATE"
+        or event == "TRADE_SKILL_DATA_SOURCE_CHANGED"
+    then
+        if state.isScanning then
+            captureCurrentProfession()
+        end
+    end
+end)
+
+eventFrame:RegisterEvent("ADDON_LOADED")
+eventFrame:RegisterEvent("TRADE_SKILL_SHOW")
+eventFrame:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
+eventFrame:RegisterEvent("TRADE_SKILL_DETAILS_UPDATE")
+eventFrame:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")

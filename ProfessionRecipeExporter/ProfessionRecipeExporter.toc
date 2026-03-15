@@ -1,0 +1,9 @@
+## Interface: 120001
+## Title: ProfessionRecipeExporter
+## Notes: Exports profession recipes, outputs, and reagents to SavedVariables.
+## Author: Juha
+## Version: 1.0.0
+## DefaultState: enabled
+## SavedVariables: ProfessionRecipeExporterDB
+
+ProfessionRecipeExporter.lua
