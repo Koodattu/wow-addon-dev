@@ -103,6 +103,12 @@ def build_reagent_candidates(raw_reagents: list[Any], fallback_reagents: list[An
             {
                 "itemID": item_id,
                 "itemName": item_name,
+                "reagentQuality": normalize_int(raw_reagent.get("reagentQuality"))
+                if isinstance(raw_reagent, dict)
+                else None,
+                "itemQuality": normalize_int(raw_reagent.get("itemQuality"))
+                if isinstance(raw_reagent, dict)
+                else None,
             }
         )
 
@@ -125,6 +131,26 @@ def normalize_salvage_targets(raw_targets: Any) -> list[dict[str, Any]]:
             }
         )
     return targets
+
+
+def normalize_output_quality_entries(raw_entries: Any) -> list[dict[str, Any]]:
+    normalized: list[dict[str, Any]] = []
+    for raw_entry in listify(raw_entries):
+        if not isinstance(raw_entry, dict):
+            continue
+        item_id = normalize_int(raw_entry.get("itemID"))
+        if item_id is None:
+            continue
+        normalized.append(
+            {
+                "rank": normalize_int(raw_entry.get("rank")),
+                "qualityID": normalize_int(raw_entry.get("qualityID")),
+                "itemID": item_id,
+                "itemName": normalize_name(raw_entry.get("itemName")),
+                "itemQuality": normalize_int(raw_entry.get("itemQuality")),
+            }
+        )
+    return normalized
 
 
 def profession_expansion_name(profession_data: dict[str, Any]) -> str:
@@ -269,6 +295,7 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                     recipe.get("recipeCraftingStats") if isinstance(recipe.get("recipeCraftingStats"), dict) else {}
                 )
                 recipe_salvage_targets = normalize_salvage_targets(recipe.get("recipeSalvageTargets"))
+                recipe_output_qualities = normalize_output_quality_entries(recipe.get("recipeOutputQualities"))
 
                 category_id = normalize_int(recipe_info.get("categoryID"))
                 category_details = category_map.get(category_id or -1, {})
@@ -292,10 +319,12 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                     "tradeSkillLineID": normalize_int(trade_skill_line.get("tradeSkillLineID")),
                     "tradeSkillLineName": trade_skill_line.get("tradeSkillLineName"),
                     "outputItemID": output_item_id,
+                    "outputItemName": normalize_name(recipe_output.get("name")),
                     "outputQuantityMin": normalize_int(recipe_schematic.get("quantityMin")),
                     "outputQuantityMax": normalize_int(recipe_schematic.get("quantityMax")),
                     "qualityItemIDs": listify(recipe.get("qualityItemIDs")),
                     "qualityIDs": listify(recipe.get("qualityIDs")),
+                    "outputQualities": recipe_output_qualities,
                     "supportsCraftingStats": bool(recipe_info.get("supportsCraftingStats")),
                     "canCreateMultiple": bool(recipe_info.get("canCreateMultiple")),
                     "isRecraft": bool(recipe_info.get("isRecraft")),
@@ -354,6 +383,8 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                             "optionIndex": option_index,
                             "reagentItemID": reagent_item_id,
                             "reagentItemName": reagent_item_name,
+                            "reagentQuality": normalize_int(reagent.get("reagentQuality")),
+                            "itemQuality": normalize_int(reagent.get("itemQuality")),
                         }
 
                         reagent_key = (

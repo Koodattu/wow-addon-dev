@@ -392,6 +392,17 @@ local function extractRecipeSchematicReagents(schematic)
                     if type(itemName) == "string" and itemName ~= "" then
                         sanitizedReagent.itemName = itemName
                     end
+                    if type(itemID) == "number" then
+                        local reagentQuality = safeCall(C_TradeSkillUI.GetItemReagentQualityByItemInfo, itemID)
+                        if type(reagentQuality) == "number" then
+                            sanitizedReagent.reagentQuality = reagentQuality
+                        end
+
+                        local itemQuality = safeCall(C_Item.GetItemQualityByID, itemID)
+                        if type(itemQuality) == "number" then
+                            sanitizedReagent.itemQuality = itemQuality
+                        end
+                    end
                 end
                 slotEntry.reagents[reagentIndex] = sanitizedReagent
             end
@@ -511,6 +522,32 @@ local function extractSalvageTargets(recipeID)
     return targets
 end
 
+local function buildOutputQualityEntries(qualityItemIDs, qualityIDs)
+    local entries = {}
+    local qualityItemIDList = safeCallList(function()
+        return qualityItemIDs
+    end)
+    local qualityIDList = safeCallList(function()
+        return qualityIDs
+    end)
+
+    for index, itemID in ipairs(qualityItemIDList) do
+        if type(itemID) == "number" then
+            local itemName = resolveItemNameByID(itemID)
+            local itemQuality = safeCall(C_Item.GetItemQualityByID, itemID)
+            entries[#entries + 1] = {
+                rank = index,
+                qualityID = qualityIDList[index],
+                itemID = itemID,
+                itemName = itemName,
+                itemQuality = itemQuality,
+            }
+        end
+    end
+
+    return entries
+end
+
 local function collectCategoryData()
     local categories = {}
     local categoryIDs = safeCallList(C_TradeSkillUI.GetCategories)
@@ -543,6 +580,7 @@ local function collectRecipeData(recipeID, professionSkillLineID)
     local outputItemData = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID)
     local qualityItemIDs = safeCall(C_TradeSkillUI.GetRecipeQualityItemIDs, recipeID)
     local qualityIDs = safeCall(C_TradeSkillUI.GetQualitiesForRecipe, recipeID)
+    local outputQualityEntries = buildOutputQualityEntries(qualityItemIDs, qualityIDs)
     local requirements = safeCall(C_TradeSkillUI.GetRecipeRequirements, recipeID)
     local sourceText = safeCall(C_TradeSkillUI.GetRecipeSourceText, recipeID)
     local recipeItemLink = safeCall(C_TradeSkillUI.GetRecipeItemLink, recipeID)
@@ -569,6 +607,7 @@ local function collectRecipeData(recipeID, professionSkillLineID)
         recipeOutput = sanitize(outputItemData),
         qualityItemIDs = sanitize(qualityItemIDs),
         qualityIDs = sanitize(qualityIDs),
+        recipeOutputQualities = sanitize(outputQualityEntries),
         defaultCraftingReagents = sanitize(defaultCraftingReagents),
         recipeOperationInfo = sanitize(craftingOperationInfo),
         recipeCraftingStats = sanitize(craftingStatFlags),
