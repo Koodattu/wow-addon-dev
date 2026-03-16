@@ -206,6 +206,36 @@ def normalize_output_qualities(raw_entries: Any) -> list[dict[str, Any]]:
     return result
 
 
+def build_inferred_reagent_ranks(item_rows: list[dict[str, Any]]) -> dict[int, int]:
+    grouped: dict[str, list[int]] = {}
+    for row in item_rows:
+        item_id = normalize_int(row.get("itemID"))
+        if item_id is None:
+            continue
+        entry_types = row.get("entryTypes")
+        if not isinstance(entry_types, list) or "reagent" not in entry_types:
+            continue
+
+        reagent_qualities = row.get("reagentQualities")
+        if isinstance(reagent_qualities, list) and len(reagent_qualities) > 0:
+            continue
+
+        item_name = normalize_name(row.get("itemName"))
+        if not item_name:
+            continue
+
+        grouped.setdefault(item_name.lower(), []).append(item_id)
+
+    inferred: dict[int, int] = {}
+    for _, item_ids in grouped.items():
+        unique_ids = sorted(set(item_ids))
+        if len(unique_ids) < 2:
+            continue
+        for index, item_id in enumerate(unique_ids, start=1):
+            inferred[item_id] = index
+    return inferred
+
+
 def build_simplified(
     recipes: list[dict[str, Any]],
     reagents: list[dict[str, Any]],
@@ -405,6 +435,28 @@ def build_simplified(
                 "reagentName": usage_row["itemName"],
             }
         )
+
+    inferred_reagent_ranks = build_inferred_reagent_ranks(unique_reagents)
+    for row in unique_reagents:
+        explicit_reagent_qualities = row.get("reagentQualities") if isinstance(row.get("reagentQualities"), list) else []
+        explicit_output_ranks = row.get("recipeOutputRanks") if isinstance(row.get("recipeOutputRanks"), list) else []
+        item_id = normalize_int(row.get("itemID"))
+        inferred_rank = inferred_reagent_ranks.get(item_id) if item_id is not None else None
+
+        if explicit_reagent_qualities:
+            row["qualityRank"] = explicit_reagent_qualities[0]
+            row["qualityRankSource"] = "apiReagentQuality"
+        elif explicit_output_ranks:
+            row["qualityRank"] = explicit_output_ranks[0]
+            row["qualityRankSource"] = "recipeOutputRank"
+        elif inferred_rank is not None:
+            row["qualityRank"] = inferred_rank
+            row["qualityRankSource"] = "inferredByItemIDOrder"
+        else:
+            row["qualityRank"] = None
+            row["qualityRankSource"] = None
+
+        row["inferredReagentRankByNameID"] = inferred_rank
 
     unique_reagents.sort(
         key=lambda row: (

@@ -394,6 +394,17 @@ local function extractRecipeSchematicReagents(schematic)
                     end
                     if type(itemID) == "number" then
                         local reagentQuality = safeCall(C_TradeSkillUI.GetItemReagentQualityByItemInfo, itemID)
+                        if type(reagentQuality) ~= "number" then
+                            local reagentQualityInfo = safeCall(C_TradeSkillUI.GetItemReagentQualityInfo, itemID)
+                            if type(reagentQualityInfo) == "table" then
+                                sanitizedReagent.reagentQualityInfo = sanitize(reagentQualityInfo)
+                                if type(reagentQualityInfo.currentQuality) == "number" then
+                                    reagentQuality = reagentQualityInfo.currentQuality
+                                elseif type(reagentQualityInfo.quality) == "number" then
+                                    reagentQuality = reagentQualityInfo.quality
+                                end
+                            end
+                        end
                         if type(reagentQuality) == "number" then
                             sanitizedReagent.reagentQuality = reagentQuality
                         end
