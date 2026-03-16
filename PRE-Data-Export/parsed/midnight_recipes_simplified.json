@@ -6915,15 +6915,15 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 239198,
-        "itemName": "Arcanoweave Bolt",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 239200,
-        "itemName": "Arcanoweave Bolt",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -8056,15 +8056,15 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 240154,
-        "itemName": "Arcanoweave Spellthread",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 240155,
-        "itemName": "Arcanoweave Spellthread",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -15535,24 +15535,23 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 239711,
-        "itemName": "Bright Linen Bandage",
-        "itemQuality": 1
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 239713,
-        "itemName": "Bright Linen Bandage",
-        "itemQuality": 1
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
-    "affectedByMulticraft": true,
+    "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
     "affectedByIngenuity": true,
     "apiBonusStats": [
       "Resourcefulness",
-      "Multicraft",
       "Ingenuity"
     ],
     "salvageTargets": [],
@@ -15666,15 +15665,15 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 239700,
-        "itemName": "Bright Linen Bolt",
-        "itemQuality": 2
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 239701,
-        "itemName": "Bright Linen Bolt",
-        "itemQuality": 2
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -16315,15 +16314,15 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 240156,
-        "itemName": "Bright Linen Spellthread",
-        "itemQuality": 3
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 240157,
-        "itemName": "Bright Linen Spellthread",
-        "itemQuality": 3
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -58610,8 +58609,8 @@
         "rank": 2,
         "qualityID": 14,
         "itemID": 239703,
-        "itemName": "Imbued Bright Linen Bolt",
-        "itemQuality": 3
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -106703,15 +106702,15 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 239201,
-        "itemName": "Sunfire Silk Bolt",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 239202,
-        "itemName": "Sunfire Silk Bolt",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -107027,15 +107026,15 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 240094,
-        "itemName": "Sunfire Silk Spellthread",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       },
       {
         "rank": 2,
         "qualityID": 14,
         "itemID": 240133,
-        "itemName": "Sunfire Silk Spellthread",
-        "itemQuality": 4
+        "itemName": "",
+        "itemQuality": null
       }
     ],
     "supportsCraftingStats": true,
@@ -108902,8 +108901,8 @@
         "rank": 1,
         "qualityID": 13,
         "itemID": 240991,
-        "itemName": "",
-        "itemQuality": null
+        "itemName": "Sunglass Vial",
+        "itemQuality": 1
       },
       {
         "rank": 2,
@@ -108914,12 +108913,13 @@
       }
     ],
     "supportsCraftingStats": true,
-    "affectedByMulticraft": false,
+    "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
     "affectedByIngenuity": true,
     "apiBonusStats": [
       "Resourcefulness",
       "Crafting Speed",
+      "Multicraft",
       "Ingenuity"
     ],
     "salvageTargets": [],
