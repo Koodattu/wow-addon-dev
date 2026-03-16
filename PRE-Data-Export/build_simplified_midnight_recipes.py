@@ -458,6 +458,11 @@ def build_simplified(
 
         row["inferredReagentRankByNameID"] = inferred_rank
 
+    for row in unique_reagents:
+        row.pop("reagentQualities", None)
+        row.pop("recipeOutputRanks", None)
+        row.pop("recipeOutputQualityIDs", None)
+
     unique_reagents.sort(
         key=lambda row: (
             normalize_name(row.get("itemName")),
