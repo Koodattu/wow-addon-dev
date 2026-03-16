@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -40,6 +41,11 @@ def parse_args() -> argparse.Namespace:
         "--required-only",
         action="store_true",
         help="Exclude optional reagent slots and keep only required reagents.",
+    )
+    parser.add_argument(
+        "--craftsim-enchant-data",
+        default="../CraftSim/Data/EnchantData.lua",
+        help="Path to CraftSim EnchantData.lua used as fallback for enchant output item IDs.",
     )
     return parser.parse_args()
 
@@ -228,6 +234,32 @@ def normalize_enchant_target_outputs(raw_entries: Any) -> list[dict[str, Any]]:
     return result
 
 
+def load_craftsim_enchant_data(path: Path) -> dict[int, list[int]]:
+    if not path.exists():
+        return {}
+
+    text = path.read_text(encoding="utf-8")
+    mapping: dict[int, list[int]] = {}
+
+    for entry_match in re.finditer(r"\[(\d+)\]\s*=\s*\{(.*?)\},", text, re.DOTALL):
+        crafting_data_id = int(entry_match.group(1))
+        body = entry_match.group(2)
+
+        quality_by_rank: dict[int, int] = {}
+        for quality_match in re.finditer(r"q([123])\s*=\s*(\d+)", body):
+            rank = int(quality_match.group(1))
+            item_id = int(quality_match.group(2))
+            quality_by_rank[rank] = item_id
+
+        if not quality_by_rank:
+            continue
+
+        ranked_ids = [quality_by_rank[rank] for rank in sorted(quality_by_rank.keys())]
+        mapping[crafting_data_id] = ranked_ids
+
+    return mapping
+
+
 def build_inferred_reagent_ranks(item_rows: list[dict[str, Any]]) -> dict[int, int]:
     grouped: dict[str, list[int]] = {}
     for row in item_rows:
@@ -262,6 +294,7 @@ def build_simplified(
     recipes: list[dict[str, Any]],
     reagents: list[dict[str, Any]],
     include_optional: bool,
+    enchant_output_fallback_by_crafting_data_id: dict[int, list[int]],
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     recipe_name_map = build_recipe_name_map(recipes)
     recipe_row_map = build_recipe_row_map(recipes)
@@ -364,6 +397,10 @@ def build_simplified(
         output_item_ids: list[int] = []
         output_qualities = normalize_output_qualities(recipe_row.get("outputQualities"))
         enchant_target_outputs = normalize_enchant_target_outputs(recipe_row.get("enchantTargetOutputs"))
+        crafting_data_id = normalize_int(recipe_row.get("craftingDataID"))
+        quality_ids = normalize_int_list(recipe_row.get("qualityIDs"))
+        used_craftsim_enchant_fallback = False
+
         if not output_qualities and enchant_target_outputs:
             output_qualities = [
                 {
@@ -375,6 +412,23 @@ def build_simplified(
                 }
                 for entry in enchant_target_outputs
             ]
+
+        if not output_qualities and crafting_data_id is not None:
+            fallback_item_ids = enchant_output_fallback_by_crafting_data_id.get(crafting_data_id, [])
+            if fallback_item_ids:
+                used_craftsim_enchant_fallback = True
+                for index, item_id in enumerate(fallback_item_ids, start=1):
+                    quality_id = quality_ids[index - 1] if index - 1 < len(quality_ids) else None
+                    output_qualities.append(
+                        {
+                            "rank": index,
+                            "qualityID": quality_id,
+                            "itemID": item_id,
+                            "itemName": "",
+                            "itemQuality": None,
+                        }
+                    )
+
         if output_qualities:
             output_item_ids = [entry["itemID"] for entry in output_qualities if normalize_int(entry.get("itemID")) is not None]
         else:
@@ -384,9 +438,17 @@ def build_simplified(
 
         output_name = normalize_name(recipe_row.get("outputItemName"))
         if not output_name and output_qualities:
-            output_name = normalize_name(output_qualities[0].get("itemName"))
+            first_named_quality = next(
+                (normalize_name(entry.get("itemName")) for entry in output_qualities if normalize_name(entry.get("itemName"))),
+                "",
+            )
+            output_name = first_named_quality
         if not output_name:
             output_name = recipe_name
+
+        for quality_entry in output_qualities:
+            if not normalize_name(quality_entry.get("itemName")):
+                quality_entry["itemName"] = output_name
         for output_item_id in output_item_ids:
             usage_row = item_usage.get(output_item_id)
             if usage_row is None:
@@ -431,14 +493,20 @@ def build_simplified(
                 "categoryName": normalize_name(recipe_row.get("categoryName")),
                 "topCategoryID": normalize_int(recipe_row.get("topCategoryID")),
                 "topCategoryName": normalize_name(recipe_row.get("topCategoryName")),
-                "outputItemID": normalize_int(recipe_row.get("outputItemID")),
+                "craftingDataID": crafting_data_id,
+                "outputItemID": (
+                    normalize_int(output_qualities[0].get("itemID"))
+                    if output_qualities
+                    else normalize_int(recipe_row.get("outputItemID"))
+                ),
                 "outputItemName": output_name,
                 "outputQuantityMin": normalize_int(recipe_row.get("outputQuantityMin")),
                 "outputQuantityMax": normalize_int(recipe_row.get("outputQuantityMax")),
                 "qualityItemIDs": normalize_int_list(recipe_row.get("qualityItemIDs")),
-                "qualityIDs": normalize_int_list(recipe_row.get("qualityIDs")),
+                "qualityIDs": quality_ids,
                 "outputQualities": output_qualities,
                 "enchantTargetOutputs": enchant_target_outputs,
+                "usedCraftSimEnchantFallback": used_craftsim_enchant_fallback,
                 "supportsCraftingStats": bool(recipe_row.get("supportsCraftingStats")),
                 "affectedByMulticraft": affected_by_multicraft,
                 "affectedByResourcefulness": affected_by_resourcefulness,
@@ -520,14 +588,27 @@ def main() -> None:
     reagents_input = Path(args.reagents_input)
     output_path = Path(args.output)
     reagents_output_path = Path(args.reagents_output)
+    craftsim_enchant_data_path = Path(args.craftsim_enchant_data)
+    if not craftsim_enchant_data_path.exists():
+        fallback_relative_path = Path(__file__).resolve().parents[1] / "CraftSim" / "Data" / "EnchantData.lua"
+        if fallback_relative_path.exists():
+            craftsim_enchant_data_path = fallback_relative_path
 
     recipes = load_json_array(recipes_input)
     reagents = load_json_array(reagents_input)
+    enchant_output_fallback_by_crafting_data_id = load_craftsim_enchant_data(craftsim_enchant_data_path)
 
     include_optional = bool(args.include_optional) and not bool(args.required_only)
-    simplified, unique_reagents = build_simplified(recipes, reagents, include_optional=include_optional)
+    simplified, unique_reagents = build_simplified(
+        recipes,
+        reagents,
+        include_optional=include_optional,
+        enchant_output_fallback_by_crafting_data_id=enchant_output_fallback_by_crafting_data_id,
+    )
     write_json(output_path, simplified)
     write_json(reagents_output_path, unique_reagents)
+
+    fallback_recipe_count = sum(1 for row in simplified if row.get("usedCraftSimEnchantFallback") is True)
 
     print(
         json.dumps(
@@ -536,6 +617,9 @@ def main() -> None:
                 "reagentsInput": str(reagents_input.resolve()),
                 "recipesOutput": str(output_path.resolve()),
                 "reagentsOutput": str(reagents_output_path.resolve()),
+                "craftsimEnchantData": str(craftsim_enchant_data_path.resolve()) if craftsim_enchant_data_path.exists() else None,
+                "craftsimEnchantEntries": len(enchant_output_fallback_by_crafting_data_id),
+                "recipesUsingCraftSimEnchantFallback": fallback_recipe_count,
                 "includeOptional": include_optional,
                 "requiredOnly": bool(args.required_only),
                 "simplifiedRecipesWritten": len(simplified),

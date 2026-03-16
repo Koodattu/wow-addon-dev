@@ -42,6 +42,8 @@ local state = {
 
 local FINALIZE_RETRY_INTERVAL_SECONDS = 1
 local FINALIZE_MAX_RETRIES = 8
+local DEBUG_ENCHANT_OUTPUTS = false
+local DEBUG_MIDNIGHT_RECIPES = false
 local finalizeScan
 
 local eventFrame = CreateFrame("Frame")
@@ -51,6 +53,100 @@ local function log(message, ...)
         message = string.format(message, ...)
     end
     print(string.format("%s %s", L.addonPrefix, message))
+end
+
+local function debugEnchantLog(message, ...)
+    if not DEBUG_ENCHANT_OUTPUTS then
+        return
+    end
+    log("[enchant-debug] " .. message, ...)
+end
+
+local function debugMidnightLog(message, ...)
+    if not DEBUG_MIDNIGHT_RECIPES then
+        return
+    end
+    log("[midnight-debug] " .. message, ...)
+end
+
+local function summarizeTable(tableValue)
+    local function asString(value)
+        local ok, result = pcall(tostring, value)
+        if ok then
+            return result
+        end
+        return "<unstringable>"
+    end
+
+    if type(tableValue) ~= "table" then
+        return asString(tableValue)
+    end
+
+    local keys = {}
+    for key in pairs(tableValue) do
+        keys[#keys + 1] = asString(key)
+    end
+    table.sort(keys)
+
+    local keyParts = {}
+    local maxKeys = 24
+    local keyLimit = math.min(#keys, maxKeys)
+    for index = 1, keyLimit do
+        keyParts[#keyParts + 1] = keys[index]
+    end
+    if #keys > maxKeys then
+        keyParts[#keyParts + 1] = string.format("...(+%d)", #keys - maxKeys)
+    end
+
+    local fieldParts = {}
+    local preferredFields = {
+        "itemID",
+        "itemLink",
+        "hyperlink",
+        "name",
+        "qualityID",
+        "quality",
+        "quantity",
+        "numAvailable",
+        "craftableCount",
+    }
+
+    for _, fieldName in ipairs(preferredFields) do
+        local value = tableValue[fieldName]
+        if value ~= nil then
+            fieldParts[#fieldParts + 1] = string.format("%s=%s", fieldName, asString(value))
+        end
+    end
+
+    if #fieldParts == 0 then
+        fieldParts[#fieldParts + 1] = "no-preferred-fields"
+    end
+
+    local scalarParts = {}
+    local maxScalarParts = 20
+    local scalarCount = 0
+    for _, key in ipairs(keys) do
+        if scalarCount >= maxScalarParts then
+            break
+        end
+
+        local value = tableValue[key]
+        local valueType = type(value)
+        if valueType == "string" or valueType == "number" or valueType == "boolean" or valueType == "nil" then
+            scalarCount = scalarCount + 1
+            scalarParts[#scalarParts + 1] = string.format("%s=%s", key, asString(value))
+        end
+    end
+    if #scalarParts == 0 then
+        scalarParts[#scalarParts + 1] = "no-scalar-fields"
+    end
+
+    return string.format(
+        "keys=[%s] fields=[%s] scalars=[%s]",
+        table.concat(keyParts, ", "),
+        table.concat(fieldParts, ", "),
+        table.concat(scalarParts, ", ")
+    )
 end
 
 local function copyDefaults(target, source)
@@ -583,6 +679,44 @@ local function extractItemIDFromLink(link)
     return nil
 end
 
+local function collectVellumTargetGUIDs()
+    local targetGUIDs = {}
+    local seen = {}
+    local vellumItemIDs = {
+        [38682] = true,
+    }
+
+    local bagStart = Enum and Enum.BagIndex and Enum.BagIndex.Backpack or 0
+    local bagEnd = Enum and Enum.BagIndex and Enum.BagIndex.ReagentBag or 5
+
+    for bagIndex = bagStart, bagEnd do
+        local numSlots = safeCall(C_Container.GetContainerNumSlots, bagIndex)
+        if type(numSlots) == "number" and numSlots > 0 then
+            for slotIndex = 1, numSlots do
+                local containerInfo = safeCall(C_Container.GetContainerItemInfo, bagIndex, slotIndex)
+                if type(containerInfo) == "table" and vellumItemIDs[containerInfo.itemID] == true then
+                    local itemGUID = containerInfo.itemGUID
+                    if type(itemGUID) ~= "string" or itemGUID == "" then
+                        if type(ItemLocation) == "table" and type(ItemLocation.CreateFromBagAndSlot) == "function" then
+                            local itemLocation = ItemLocation:CreateFromBagAndSlot(bagIndex, slotIndex)
+                            itemGUID = safeCall(C_Item.GetItemGUID, itemLocation)
+                        end
+                    end
+
+                    if type(itemGUID) == "string" and itemGUID ~= "" and not seen[itemGUID] then
+                        seen[itemGUID] = true
+                        targetGUIDs[#targetGUIDs + 1] = itemGUID
+                        debugEnchantLog("Found vellum GUID bag=%d slot=%d guid=%s", bagIndex, slotIndex, itemGUID)
+                    end
+                end
+            end
+        end
+    end
+
+    debugEnchantLog("Collected %d vellum GUID(s)", #targetGUIDs)
+    return targetGUIDs
+end
+
 local function buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
     if type(outputInfo) ~= "table" then
         return nil
@@ -614,7 +748,7 @@ local function buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, 
     }
 end
 
-local function extractEnchantTargetOutputs(recipeID, recipeInfo, defaultCraftingReagents, qualityIDs)
+local function extractEnchantTargetOutputs(recipeID, recipeInfo, defaultCraftingReagents, qualityIDs, fallbackTargetGUIDs)
     local outputs = {}
     if type(recipeInfo) ~= "table" then
         return outputs
@@ -622,40 +756,147 @@ local function extractEnchantTargetOutputs(recipeID, recipeInfo, defaultCrafting
 
     local recipeType = recipeInfo.recipeType
     local enchantRecipeType = Enum and Enum.TradeskillRecipeType and Enum.TradeskillRecipeType.Enchant or 3
-    if recipeType ~= enchantRecipeType then
+    local recipeName = recipeInfo.name
+    local isEnchantRecipe = false
+
+    if recipeType == enchantRecipeType then
+        isEnchantRecipe = true
+    elseif recipeInfo.isEnchantingRecipe == true then
+        isEnchantRecipe = true
+    elseif type(recipeName) == "string" and string.find(string.lower(recipeName), "^enchant ") then
+        isEnchantRecipe = true
+    end
+
+    if not isEnchantRecipe then
+        debugEnchantLog(
+            "Recipe %d skipped for enchant-target extraction (recipeType=%s, isEnchantingRecipe=%s, name=%s)",
+            recipeID,
+            tostring(recipeType),
+            tostring(recipeInfo.isEnchantingRecipe),
+            tostring(recipeName)
+        )
         return outputs
     end
 
     local qualityIDList = getQualityIDList(qualityIDs)
-    local enchantTargetGUIDs = safeCallList(C_TradeSkillUI.GetEnchantItems, recipeID, defaultCraftingReagents)
-    for _, targetGUID in ipairs(enchantTargetGUIDs) do
+
+    local seenTargetGUIDs = {}
+    local targetGUIDs = {}
+    local function addTargetGUIDs(guidList)
+        for _, guid in ipairs(guidList) do
+            if type(guid) == "string" and guid ~= "" and not seenTargetGUIDs[guid] then
+                seenTargetGUIDs[guid] = true
+                targetGUIDs[#targetGUIDs + 1] = guid
+            end
+        end
+    end
+
+    addTargetGUIDs(safeCallList(C_TradeSkillUI.GetEnchantItems, recipeID, defaultCraftingReagents))
+    addTargetGUIDs(safeCallList(C_TradeSkillUI.GetEnchantItems, recipeID))
+    addTargetGUIDs(fallbackTargetGUIDs or {})
+    debugEnchantLog("Recipe %d (%s): target GUID candidates=%d", recipeID, tostring(recipeInfo.name), #targetGUIDs)
+
+    local seenOutputKey = {}
+    for _, targetGUID in ipairs(targetGUIDs) do
         if type(targetGUID) == "string" and targetGUID ~= "" then
             local canStoreEnchant = safeCall(C_TradeSkillUI.CanStoreEnchantInItem, targetGUID)
+            debugEnchantLog("Recipe %d target=%s canStore=%s", recipeID, targetGUID, tostring(canStoreEnchant))
             if canStoreEnchant == true then
-                if #qualityIDList > 0 then
-                    for rank, qualityID in ipairs(qualityIDList) do
-                        local outputInfo = safeCall(
+                local function tryAddEntry(qualityID, rank)
+                    local outputInfo = safeCall(
+                        C_TradeSkillUI.GetRecipeOutputItemData,
+                        recipeID,
+                        defaultCraftingReagents,
+                        targetGUID,
+                        qualityID
+                    )
+                    debugEnchantLog(
+                        "Recipe %d target=%s qualityID=%s attempt=withReagents+quality output=%s",
+                        recipeID,
+                        targetGUID,
+                        tostring(qualityID),
+                        outputInfo and "table" or "nil"
+                    )
+                    local entry = buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
+                    if not entry then
+                        outputInfo = safeCall(
                             C_TradeSkillUI.GetRecipeOutputItemData,
                             recipeID,
-                            defaultCraftingReagents,
+                            nil,
                             targetGUID,
                             qualityID
                         )
-                        local entry = buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
-                        if entry then
+                        debugEnchantLog(
+                            "Recipe %d target=%s qualityID=%s attempt=noReagents+quality output=%s",
+                            recipeID,
+                            targetGUID,
+                            tostring(qualityID),
+                            outputInfo and "table" or "nil"
+                        )
+                        entry = buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
+                    end
+                    if not entry then
+                        outputInfo = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, targetGUID)
+                        debugEnchantLog(
+                            "Recipe %d target=%s qualityID=%s attempt=withReagents output=%s",
+                            recipeID,
+                            targetGUID,
+                            tostring(qualityID),
+                            outputInfo and "table" or "nil"
+                        )
+                        entry = buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
+                    end
+                    if not entry then
+                        outputInfo = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, nil, targetGUID)
+                        debugEnchantLog(
+                            "Recipe %d target=%s qualityID=%s attempt=noReagents output=%s",
+                            recipeID,
+                            targetGUID,
+                            tostring(qualityID),
+                            outputInfo and "table" or "nil"
+                        )
+                        entry = buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
+                    end
+
+                    if entry then
+                        local itemID = entry.itemID
+                        local qualityKey = qualityID or 0
+                        local key = string.format("%s:%d:%d", targetGUID, itemID, qualityKey)
+                        if not seenOutputKey[key] then
+                            seenOutputKey[key] = true
                             outputs[#outputs + 1] = entry
+                            debugEnchantLog(
+                                "Recipe %d resolved target output: qualityID=%s rank=%s itemID=%d itemName=%s",
+                                recipeID,
+                                tostring(qualityID),
+                                tostring(rank),
+                                entry.itemID,
+                                tostring(entry.itemName)
+                            )
+                            return true
                         end
                     end
-                else
-                    local outputInfo = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, targetGUID)
-                    local entry = buildEnchantTargetOutputEntry(targetGUID, nil, outputInfo, nil)
-                    if entry then
-                        outputs[#outputs + 1] = entry
+                    debugEnchantLog(
+                        "Recipe %d target=%s qualityID=%s no item resolved",
+                        recipeID,
+                        targetGUID,
+                        tostring(qualityID)
+                    )
+                    return false
+                end
+
+                if #qualityIDList > 0 then
+                    for rank, qualityID in ipairs(qualityIDList) do
+                        tryAddEntry(qualityID, rank)
                     end
+                else
+                    tryAddEntry(nil, nil)
                 end
             end
         end
     end
+
+    debugEnchantLog("Recipe %d (%s): resolved enchant target outputs=%d", recipeID, tostring(recipeInfo.name), #outputs)
 
     return outputs
 end
@@ -686,10 +927,29 @@ local function collectCategoryData()
     return categories
 end
 
-local function collectRecipeData(recipeID, professionSkillLineID)
+local function collectRecipeData(recipeID, professionSkillLineID, vellumTargetGUIDs)
     local recipeInfo = safeCall(C_TradeSkillUI.GetRecipeInfo, recipeID)
     local schematic = safeCall(C_TradeSkillUI.GetRecipeSchematic, recipeID, false)
     local outputItemData = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID)
+    local recipeName = type(recipeInfo) == "table" and recipeInfo.name or nil
+    local recipeType = type(recipeInfo) == "table" and recipeInfo.recipeType or nil
+    local isEnchantingRecipe = type(recipeInfo) == "table" and recipeInfo.isEnchantingRecipe or nil
+    local enchantRecipeType = Enum and Enum.TradeskillRecipeType and Enum.TradeskillRecipeType.Enchant or 3
+    local looksEnchantByName = type(recipeName) == "string" and string.find(string.lower(recipeName), "^enchant ") ~= nil
+    local isEnchantRecipe = recipeType == enchantRecipeType or isEnchantingRecipe == true or looksEnchantByName
+
+    local isDebugTargetRecipeName = type(recipeName) == "string"
+        and (string.match(recipeName, "^Enchant Chest %- ") ~= nil or string.match(recipeName, "^Enchant Helm %- ") ~= nil)
+
+    if isEnchantRecipe and isDebugTargetRecipeName then
+        debugMidnightLog(
+            "GetRecipeOutputItemData recipeID=%d recipeName=%s output=%s",
+            recipeID,
+            safeToString(recipeName),
+            summarizeTable(outputItemData)
+        )
+        debugMidnightLog("RecipeInfo recipeID=%d recipeType=%s isEnchantingRecipe=%s", recipeID, safeToString(recipeType), safeToString(isEnchantingRecipe))
+    end
     local qualityItemIDs = safeCall(C_TradeSkillUI.GetRecipeQualityItemIDs, recipeID)
     local qualityIDs = safeCall(C_TradeSkillUI.GetQualitiesForRecipe, recipeID)
     local outputQualityEntries = buildOutputQualityEntries(qualityItemIDs, qualityIDs)
@@ -703,6 +963,9 @@ local function collectRecipeData(recipeID, professionSkillLineID)
     local craftingOperationInfo = nil
     if type(schematic) == "table" and schematic.hasCraftingOperationInfo then
         craftingOperationInfo = safeCall(C_TradeSkillUI.GetCraftingOperationInfo, recipeID, defaultCraftingReagents, nil, false)
+        if type(craftingOperationInfo) ~= "table" then
+            craftingOperationInfo = safeCall(C_TradeSkillUI.GetCraftingOperationInfo, recipeID, {}, nil, false)
+        end
     end
     local craftingStatFlags = extractCraftingStatFlags(craftingOperationInfo)
     local recipeSalvageTargets = {}
@@ -713,8 +976,98 @@ local function collectRecipeData(recipeID, professionSkillLineID)
         recipeID,
         recipeInfo,
         defaultCraftingReagents,
-        qualityIDs
+        qualityIDs,
+        vellumTargetGUIDs
     )
+
+    if isEnchantRecipe and isDebugTargetRecipeName then
+        debugMidnightLog("RecipeProbe recipeID=%d professionSkillLineID=%s", recipeID, safeToString(professionSkillLineID))
+        debugMidnightLog("RecipeInfo summary=%s", summarizeTable(recipeInfo))
+        debugMidnightLog("RecipeSchematic summary=%s", summarizeTable(schematic))
+        debugMidnightLog("RecipeOutput(base) summary=%s", summarizeTable(outputItemData))
+        debugMidnightLog("QualityIDs summary=%s", summarizeTable(qualityIDs))
+        debugMidnightLog("QualityItemIDs summary=%s", summarizeTable(qualityItemIDs))
+        debugMidnightLog("OutputQualities summary=%s", summarizeTable(outputQualityEntries))
+        debugMidnightLog("DefaultCraftingReagents summary=%s", summarizeTable(defaultCraftingReagents))
+        debugMidnightLog("RecipeLinks itemLink=%s recipeLink=%s sourceText=%s", safeToString(recipeItemLink), safeToString(recipeLink), safeToString(sourceText))
+        debugMidnightLog("TradeSkillLine tradeSkillLineID=%s tradeSkillLineName=%s parentTradeSkillID=%s", safeToString(tradeSkillLineID), safeToString(tradeSkillLineName), safeToString(parentTradeSkillID))
+
+        local qualityIDList = getQualityIDList(qualityIDs)
+        if #qualityIDList == 0 then
+            qualityIDList = { nil }
+        end
+
+        local probeTargetGUIDs = {}
+        local seenProbeTargetGUIDs = {}
+        local function addProbeTargetGUIDs(guidList)
+            for _, guid in ipairs(guidList or {}) do
+                if type(guid) == "string" and guid ~= "" and not seenProbeTargetGUIDs[guid] then
+                    seenProbeTargetGUIDs[guid] = true
+                    probeTargetGUIDs[#probeTargetGUIDs + 1] = guid
+                end
+            end
+        end
+
+        addProbeTargetGUIDs(safeCallList(C_TradeSkillUI.GetEnchantItems, recipeID, defaultCraftingReagents))
+        addProbeTargetGUIDs(safeCallList(C_TradeSkillUI.GetEnchantItems, recipeID))
+        addProbeTargetGUIDs(vellumTargetGUIDs)
+        debugMidnightLog("Probe targetGUID count=%d", #probeTargetGUIDs)
+
+        local probeBase = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID)
+        debugMidnightLog("Probe GetRecipeOutputItemData(recipeID) => %s", summarizeTable(probeBase))
+
+        for _, qualityID in ipairs(qualityIDList) do
+            local probeQualityOnly = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, nil, nil, qualityID)
+            debugMidnightLog(
+                "Probe GetRecipeOutputItemData(recipeID,nil,nil,qualityID=%s) => %s",
+                safeToString(qualityID),
+                summarizeTable(probeQualityOnly)
+            )
+
+            local probeReagentsQuality = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, nil, qualityID)
+            debugMidnightLog(
+                "Probe GetRecipeOutputItemData(recipeID,defaultReagents,nil,qualityID=%s) => %s",
+                safeToString(qualityID),
+                summarizeTable(probeReagentsQuality)
+            )
+        end
+
+        local maxTargetProbes = math.min(#probeTargetGUIDs, 3)
+        if #probeTargetGUIDs > maxTargetProbes then
+            debugMidnightLog("Probe targetGUID list truncated to first %d of %d", maxTargetProbes, #probeTargetGUIDs)
+        end
+
+        for targetIndex = 1, maxTargetProbes do
+            local targetGUID = probeTargetGUIDs[targetIndex]
+            local canStoreEnchant = safeCall(C_TradeSkillUI.CanStoreEnchantInItem, targetGUID)
+            debugMidnightLog("Probe targetGUID[%d]=%s canStore=%s", targetIndex, safeToString(targetGUID), safeToString(canStoreEnchant))
+
+            local probeTargetNoQuality = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, targetGUID)
+            debugMidnightLog(
+                "Probe GetRecipeOutputItemData(recipeID,defaultReagents,targetGUID=%s) => %s",
+                safeToString(targetGUID),
+                summarizeTable(probeTargetNoQuality)
+            )
+
+            for _, qualityID in ipairs(qualityIDList) do
+                local probeTargetQuality = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, targetGUID, qualityID)
+                debugMidnightLog(
+                    "Probe GetRecipeOutputItemData(recipeID,defaultReagents,targetGUID=%s,qualityID=%s) => %s",
+                    safeToString(targetGUID),
+                    safeToString(qualityID),
+                    summarizeTable(probeTargetQuality)
+                )
+
+                local probeTargetNoReagentsQuality = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, nil, targetGUID, qualityID)
+                debugMidnightLog(
+                    "Probe GetRecipeOutputItemData(recipeID,nil,targetGUID=%s,qualityID=%s) => %s",
+                    safeToString(targetGUID),
+                    safeToString(qualityID),
+                    summarizeTable(probeTargetNoReagentsQuality)
+                )
+            end
+        end
+    end
 
     return {
         recipeID = recipeID,
@@ -749,10 +1102,11 @@ local function collectProfessionData(skillLineID)
     local childProfessionInfos = safeCall(C_TradeSkillUI.GetChildProfessionInfos) or {}
     local categoryData = collectCategoryData()
     local recipeIDs = safeCallList(C_TradeSkillUI.GetAllRecipeIDs)
+    local vellumTargetGUIDs = collectVellumTargetGUIDs()
     local recipes = {}
 
     for _, recipeID in ipairs(recipeIDs) do
-        recipes[#recipes + 1] = collectRecipeData(recipeID, skillLineID)
+        recipes[#recipes + 1] = collectRecipeData(recipeID, skillLineID, vellumTargetGUIDs)
     end
 
     return {
@@ -985,6 +1339,46 @@ local function handleSlashCommand(input)
 
     if command == "clear" then
         clearData()
+        return
+    end
+
+    if command == "debugenchant" then
+        local arg = input and input:match("^%s*%S+%s+(%S+)")
+        if type(arg) == "string" then
+            arg = string.lower(arg)
+        end
+
+        if arg == "on" then
+            DEBUG_ENCHANT_OUTPUTS = true
+            log("Enchant debug logging enabled.")
+            return
+        elseif arg == "off" then
+            DEBUG_ENCHANT_OUTPUTS = false
+            log("Enchant debug logging disabled.")
+            return
+        end
+
+        log("Usage: /pre debugenchant on|off")
+        return
+    end
+
+    if command == "debugmidnight" then
+        local arg = input and input:match("^%s*%S+%s+(%S+)")
+        if type(arg) == "string" then
+            arg = string.lower(arg)
+        end
+
+        if arg == "on" then
+            DEBUG_MIDNIGHT_RECIPES = true
+            log("Midnight recipe debug logging enabled.")
+            return
+        elseif arg == "off" then
+            DEBUG_MIDNIGHT_RECIPES = false
+            log("Midnight recipe debug logging disabled.")
+            return
+        end
+
+        log("Usage: /pre debugmidnight on|off")
         return
     end
 

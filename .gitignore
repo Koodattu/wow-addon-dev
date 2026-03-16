@@ -40,3 +40,4 @@ luac.out
 *.hex
 
 /PRE-Data-Export/.venv
+/CraftSim

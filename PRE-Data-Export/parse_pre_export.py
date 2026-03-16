@@ -316,6 +316,9 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                 recipe_crafting_stats = (
                     recipe.get("recipeCraftingStats") if isinstance(recipe.get("recipeCraftingStats"), dict) else {}
                 )
+                recipe_operation_info = (
+                    recipe.get("recipeOperationInfo") if isinstance(recipe.get("recipeOperationInfo"), dict) else {}
+                )
                 recipe_salvage_targets = normalize_salvage_targets(recipe.get("recipeSalvageTargets"))
                 recipe_output_qualities = normalize_output_quality_entries(recipe.get("recipeOutputQualities"))
                 recipe_enchant_target_outputs = normalize_enchant_target_outputs(recipe.get("recipeEnchantTargetOutputs"))
@@ -341,6 +344,7 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                     "topCategoryName": category_details.get("topCategoryName"),
                     "tradeSkillLineID": normalize_int(trade_skill_line.get("tradeSkillLineID")),
                     "tradeSkillLineName": trade_skill_line.get("tradeSkillLineName"),
+                    "craftingDataID": normalize_int(recipe_operation_info.get("craftingDataID")),
                     "outputItemID": output_item_id,
                     "outputItemName": normalize_name(recipe_output.get("name")),
                     "outputQuantityMin": normalize_int(recipe_schematic.get("quantityMin")),
