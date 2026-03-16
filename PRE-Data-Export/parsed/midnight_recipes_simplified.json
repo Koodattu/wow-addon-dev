@@ -3,11 +3,11 @@
     "recipeName": "Adherent's Silken Shroud",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -32,15 +32,15 @@
     "recipeName": "Aetherlume Bands",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -65,15 +65,15 @@
     "recipeName": "Aetherlume Bracelets",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -98,19 +98,19 @@
     "recipeName": "Aetherlume Clonkers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -135,15 +135,15 @@
     "recipeName": "Aetherlume Eye Wrap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -168,19 +168,19 @@
     "recipeName": "Aetherlume Guards",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -201,15 +201,15 @@
     "recipeName": "Aetherlume Optics",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -234,19 +234,19 @@
     "recipeName": "Aetherlume Runners",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -271,15 +271,15 @@
     "recipeName": "Aetherlume Silken Cuffs",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -304,19 +304,19 @@
     "recipeName": "Aetherlume Softsteppers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -341,23 +341,23 @@
     "recipeName": "Aetherlume Stompers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -378,19 +378,19 @@
     "recipeName": "Aetherlume Sun Guard",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -411,15 +411,15 @@
     "recipeName": "Aetherlume Vision Shroud",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -444,11 +444,11 @@
     "recipeName": "Aln'hara Cane",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -469,11 +469,11 @@
     "recipeName": "Aln'hara Lantern",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -494,11 +494,11 @@
     "recipeName": "Aln'hara Pikestaff",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -519,11 +519,11 @@
     "recipeName": "Aln'hara Sprigshot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -570,7 +570,7 @@
     "recipeName": "Ambient Aethercharged Crystal",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 30
       },
       {
@@ -595,11 +595,11 @@
     "recipeName": "Animated Sin'dorei Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 14
       },
       {
@@ -620,11 +620,11 @@
     "recipeName": "Animated Sin'dorei Pick",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 14
       },
       {
@@ -645,7 +645,7 @@
     "recipeName": "Apprentice Jeweler's Apron",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -662,7 +662,7 @@
     "recipeName": "Apprentice Smith's Apron",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -675,7 +675,7 @@
     "recipeName": "Arcanoweave Bolt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 4
       },
       {
@@ -692,15 +692,15 @@
     "recipeName": "Arcanoweave Bracers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -725,19 +725,19 @@
     "recipeName": "Arcanoweave Cloak",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 4
       },
       {
@@ -758,15 +758,15 @@
     "recipeName": "Arcanoweave Cord",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -791,7 +791,7 @@
     "recipeName": "Arcanoweave Lining",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 1
       },
       {
@@ -808,11 +808,11 @@
     "recipeName": "Arcanoweave Reagent Rucksack",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 6
       },
       {
@@ -829,15 +829,15 @@
     "recipeName": "Arcanoweave Spellthread",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -858,15 +858,15 @@
     "recipeName": "Arcanoweave Treads",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -887,7 +887,7 @@
     "recipeName": "Attuned Thalassian Rune-Prism",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -916,11 +916,11 @@
     "recipeName": "Axe-Flingin' Bands",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
@@ -949,11 +949,11 @@
     "recipeName": "B0P, Curator of Booms",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -966,11 +966,11 @@
     "recipeName": "B1P, Scorcher of Souls",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -983,11 +983,11 @@
     "recipeName": "Bejeweled Sin'dorei Lyre",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 25
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       },
       {
@@ -1004,15 +1004,15 @@
     "recipeName": "Blessed Pango Charm",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -1029,15 +1029,15 @@
     "recipeName": "Blood Knight's Armor Kit",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -1054,11 +1054,11 @@
     "recipeName": "Blood Knight's Impetus",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -1083,11 +1083,11 @@
     "recipeName": "Blood Knight's Mercy",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -1112,11 +1112,11 @@
     "recipeName": "Blood Knight's Warblade",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -1141,7 +1141,7 @@
     "recipeName": "Blood-Tempered Basinet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -1154,7 +1154,7 @@
     "recipeName": "Blood-Tempered Bracers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -1167,7 +1167,7 @@
     "recipeName": "Blood-Tempered Bulwark",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -1180,11 +1180,11 @@
     "recipeName": "Blood-Tempered Cape",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
@@ -1201,7 +1201,7 @@
     "recipeName": "Blood-Tempered Chestplate",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -1214,7 +1214,7 @@
     "recipeName": "Blood-Tempered Gauntlets",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -1227,7 +1227,7 @@
     "recipeName": "Blood-Tempered Greatbelt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -1240,7 +1240,7 @@
     "recipeName": "Blood-Tempered Greaves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -1253,7 +1253,7 @@
     "recipeName": "Blood-Tempered Leggings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -1266,7 +1266,7 @@
     "recipeName": "Blood-Tempered Pauldrons",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -1279,11 +1279,11 @@
     "recipeName": "Bloomforged Claw",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -1308,11 +1308,11 @@
     "recipeName": "Bloomforged Greataxe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -1350,7 +1350,7 @@
     "recipeName": "Bouquet of Herbs",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 1
       },
       {
@@ -1367,11 +1367,11 @@
     "recipeName": "Box of Rocks",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 1
       },
       {
@@ -1388,7 +1388,7 @@
     "recipeName": "Bright Linen Alchemy Apron",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 5
       },
       {
@@ -1414,7 +1414,7 @@
     "recipeName": "Bright Linen Bolt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 4
       },
       {
@@ -1427,7 +1427,7 @@
     "recipeName": "Bright Linen Enchanting Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1444,7 +1444,7 @@
     "recipeName": "Bright Linen Fishing Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1461,7 +1461,7 @@
     "recipeName": "Bright Linen Herbalism Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1478,11 +1478,11 @@
     "recipeName": "Bright Linen Reagent Satchel",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 8
       },
       {
@@ -1495,7 +1495,7 @@
     "recipeName": "Bright Linen Spellthread",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 3
       },
       {
@@ -1512,7 +1512,7 @@
     "recipeName": "Bright Linen Tailoring Robe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1529,11 +1529,11 @@
     "recipeName": "Brilliant Phoenix Harp",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 25
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 36
       },
       {
@@ -1550,15 +1550,15 @@
     "recipeName": "Cauldron of Sin'dorei Flasks",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -1575,7 +1575,7 @@
     "recipeName": "Chef's Bright Linen Cooking Chapeau",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1592,7 +1592,7 @@
     "recipeName": "Chemist's Cap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -1609,11 +1609,11 @@
     "recipeName": "Chic Silvermoon Pillow",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 8
       },
       {
@@ -1630,11 +1630,11 @@
     "recipeName": "Codified Azeroot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -1651,7 +1651,7 @@
     "recipeName": "Cognitive Heliotrope",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253307",
+        "reagentName": "Infused Heliotrope",
         "quantity": 1
       },
       {
@@ -1668,11 +1668,11 @@
     "recipeName": "Composite Flora",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 4
       },
       {
@@ -1689,11 +1689,11 @@
     "recipeName": "Consistent Cogwheel",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -1710,11 +1710,11 @@
     "recipeName": "Contract: The Amani Tribe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 3
       },
       {
@@ -1731,11 +1731,11 @@
     "recipeName": "Contract: The Hara'ti",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 3
       },
       {
@@ -1752,11 +1752,11 @@
     "recipeName": "Contract: The Silvermoon Court",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 3
       },
       {
@@ -1773,11 +1773,11 @@
     "recipeName": "Contract: The Singularity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 3
       },
       {
@@ -1794,11 +1794,11 @@
     "recipeName": "Courtly Belt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
@@ -1811,7 +1811,7 @@
     "recipeName": "Courtly Cloak",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1824,7 +1824,7 @@
     "recipeName": "Courtly Gloves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1837,11 +1837,11 @@
     "recipeName": "Courtly Helm",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 3
       },
       {
@@ -1854,11 +1854,11 @@
     "recipeName": "Courtly Pants",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 3
       },
       {
@@ -1871,7 +1871,7 @@
     "recipeName": "Courtly Robes",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1884,11 +1884,11 @@
     "recipeName": "Courtly Shoulders",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 1
       },
       {
@@ -1901,7 +1901,7 @@
     "recipeName": "Courtly Slippers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
@@ -1914,7 +1914,7 @@
     "recipeName": "Courtly Wrists",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
@@ -1927,7 +1927,7 @@
     "recipeName": "Curious Red Button",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -1944,19 +1944,19 @@
     "recipeName": "Darkmoon Dominion: Blood",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245855",
+        "reagentName": "Darkmoon Deck: Blood",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -1977,19 +1977,19 @@
     "recipeName": "Darkmoon Dominion: Hunt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245829",
+        "reagentName": "Darkmoon Deck: Hunt",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -2010,19 +2010,19 @@
     "recipeName": "Darkmoon Dominion: Rot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245846",
+        "reagentName": "Darkmoon Deck: Rot",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -2043,19 +2043,19 @@
     "recipeName": "Darkmoon Dominion: Void",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245750",
+        "reagentName": "Darkmoon Deck: Void",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -2076,15 +2076,15 @@
     "recipeName": "Darkmoon Sigil: Blood",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245855",
+        "reagentName": "Darkmoon Deck: Blood",
         "quantity": 1
       },
       {
@@ -2097,15 +2097,15 @@
     "recipeName": "Darkmoon Sigil: Hunt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245829",
+        "reagentName": "Darkmoon Deck: Hunt",
         "quantity": 1
       },
       {
@@ -2118,15 +2118,15 @@
     "recipeName": "Darkmoon Sigil: Rot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245846",
+        "reagentName": "Darkmoon Deck: Rot",
         "quantity": 1
       },
       {
@@ -2139,15 +2139,15 @@
     "recipeName": "Darkmoon Sigil: Void",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245750",
+        "reagentName": "Darkmoon Deck: Void",
         "quantity": 1
       },
       {
@@ -2164,7 +2164,7 @@
     "recipeName": "Dawnforged Edge",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -2177,7 +2177,7 @@
     "recipeName": "Dawnforged Long Blade",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -2190,7 +2190,7 @@
     "recipeName": "Dawnforged Ritual Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -2203,7 +2203,7 @@
     "recipeName": "Dawnforged Splitter",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -2216,7 +2216,7 @@
     "recipeName": "Dawnforged War Mace",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -2281,7 +2281,7 @@
     "recipeName": "Determined Heliotrope",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253307",
+        "reagentName": "Infused Heliotrope",
         "quantity": 1
       },
       {
@@ -2298,7 +2298,7 @@
     "recipeName": "Devouring Banding",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 10
       },
       {
@@ -2311,7 +2311,7 @@
     "recipeName": "Draught of Rampant Abandon",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 3
       },
       {
@@ -2336,11 +2336,11 @@
     "recipeName": "Elegant Artisan's Alchemy Coveralls",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
@@ -2357,11 +2357,11 @@
     "recipeName": "Elegant Artisan's Cooking Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
@@ -2378,11 +2378,11 @@
     "recipeName": "Elegant Artisan's Enchanting Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
@@ -2399,11 +2399,11 @@
     "recipeName": "Elegant Artisan's Fishing Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
@@ -2420,11 +2420,11 @@
     "recipeName": "Elegant Artisan's Herbalism Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
@@ -2441,11 +2441,11 @@
     "recipeName": "Elegant Artisan's Tailoring Robe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 5
       },
       {
@@ -2462,19 +2462,19 @@
     "recipeName": "Embossed Sin'dorei Fur Rug",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       },
       {
@@ -2500,15 +2500,15 @@
     "recipeName": "Enchant Boots - Farstrider's Hunt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2529,15 +2529,15 @@
     "recipeName": "Enchant Boots - Lynx's Dexterity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2558,11 +2558,11 @@
     "recipeName": "Enchant Boots - Shaladrassil's Roots",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2587,15 +2587,15 @@
     "recipeName": "Enchant Chest - Mark of Nalorakk",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2616,11 +2616,11 @@
     "recipeName": "Enchant Chest - Mark of the Magister",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2645,15 +2645,15 @@
     "recipeName": "Enchant Chest - Mark of the Rootwarden",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2674,15 +2674,15 @@
     "recipeName": "Enchant Chest - Mark of the Worldsoul",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2716,11 +2716,11 @@
     "recipeName": "Enchant Helm - Empowered Blessing of Speed",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2741,11 +2741,11 @@
     "recipeName": "Enchant Helm - Empowered Hex of Leeching",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2766,11 +2766,11 @@
     "recipeName": "Enchant Helm - Empowered Rune of Avoidance",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2826,15 +2826,15 @@
     "recipeName": "Enchant Ring - Eyes of the Eagle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2855,11 +2855,11 @@
     "recipeName": "Enchant Ring - Nature's Fury",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2889,11 +2889,11 @@
     "recipeName": "Enchant Ring - Silvermoon's Alacrity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2914,11 +2914,11 @@
     "recipeName": "Enchant Ring - Silvermoon's Tenacity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2957,11 +2957,11 @@
     "recipeName": "Enchant Ring - Zul'jin's Mastery",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -2982,7 +2982,7 @@
     "recipeName": "Enchant Shoulders - Akil'zon's Swiftness",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
@@ -3003,11 +3003,11 @@
     "recipeName": "Enchant Shoulders - Amirdrassil's Grace",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -3054,7 +3054,7 @@
     "recipeName": "Enchant Shoulders - Silvermoon's Mending",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
@@ -3088,7 +3088,7 @@
     "recipeName": "Enchant Tool - Amani Perception",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
@@ -3113,7 +3113,7 @@
     "recipeName": "Enchant Tool - Amani Resourcefulness",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
@@ -3138,7 +3138,7 @@
     "recipeName": "Enchant Tool - Haranir Finesse",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -3163,7 +3163,7 @@
     "recipeName": "Enchant Tool - Haranir Multicrafting",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -3188,7 +3188,7 @@
     "recipeName": "Enchant Tool - Ren'dorei Ingenuity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 20
       },
       {
@@ -3213,7 +3213,7 @@
     "recipeName": "Enchant Tool - Sin'dorei Deftness",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
@@ -3238,11 +3238,11 @@
     "recipeName": "Enchant Weapon - Acuity of the Ren'dorei",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3267,11 +3267,11 @@
     "recipeName": "Enchant Weapon - Arcane Mastery",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3296,11 +3296,11 @@
     "recipeName": "Enchant Weapon - Berserker's Rage",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3325,11 +3325,11 @@
     "recipeName": "Enchant Weapon - Flames of the Sin'dorei",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3354,15 +3354,15 @@
     "recipeName": "Enchant Weapon - Jan'alai's Precision",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3383,15 +3383,15 @@
     "recipeName": "Enchant Weapon - Strength of Halazzi",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3412,11 +3412,11 @@
     "recipeName": "Enchant Weapon - Worldsoul Aegis",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3441,11 +3441,11 @@
     "recipeName": "Enchant Weapon - Worldsoul Cradle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3470,11 +3470,11 @@
     "recipeName": "Enchant Weapon - Worldsoul Tenacity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -3499,15 +3499,15 @@
     "recipeName": "Endless Codex of Blooming Light",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 50
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 50
       },
       {
@@ -3532,15 +3532,15 @@
     "recipeName": "Endless Codex of Nature's Grace",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 50
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 50
       },
       {
@@ -3565,15 +3565,15 @@
     "recipeName": "Endless Codex of the Voidtouched",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 50
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 50
       },
       {
@@ -3598,7 +3598,7 @@
     "recipeName": "Enduring Heliotrope",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253307",
+        "reagentName": "Infused Heliotrope",
         "quantity": 1
       },
       {
@@ -3628,11 +3628,11 @@
     "recipeName": "Ensorcelled Broom",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 50
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 22
       },
       {
@@ -3666,11 +3666,11 @@
     "recipeName": "Entropic Illuminant",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 26
       },
       {
@@ -3705,7 +3705,7 @@
     "recipeName": "Evercore Dome Dinger",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -3727,7 +3727,7 @@
     "recipeName": "Evercore Greaseplates",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -3758,7 +3758,7 @@
     "recipeName": "Evercore Stichwraps",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -3771,7 +3771,7 @@
     "recipeName": "Evercore Swiftfeet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -3784,7 +3784,7 @@
     "recipeName": "Evercore Turbochains",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -3824,7 +3824,7 @@
     "recipeName": "Eversong Botanist's Satchel",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -3845,11 +3845,11 @@
     "recipeName": "Eversong Hunter's Headcover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -3948,7 +3948,7 @@
     "recipeName": "Farstrider's Brilliant Plumes",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -3977,11 +3977,11 @@
     "recipeName": "Farstrider's Chopper",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -4006,11 +4006,11 @@
     "recipeName": "Farstrider's Embroidered Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
@@ -4048,11 +4048,11 @@
     "recipeName": "Farstrider's Mercy",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -4077,7 +4077,7 @@
     "recipeName": "Farstrider's Plated Bracers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4106,7 +4106,7 @@
     "recipeName": "Farstrider's Razor Talons",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4135,7 +4135,7 @@
     "recipeName": "Farstrider's Reinforced Faulds",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4164,7 +4164,7 @@
     "recipeName": "Farstrider's Scouting Vest",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4193,7 +4193,7 @@
     "recipeName": "Farstrider's Sharpened Claws",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4222,7 +4222,7 @@
     "recipeName": "Farstrider's Trophy Belt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4251,7 +4251,7 @@
     "recipeName": "Farstrider's Unwavering Visage",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -4280,7 +4280,7 @@
     "recipeName": "Faunatender's Baton",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
@@ -4293,7 +4293,7 @@
     "recipeName": "Faunatender's Trust",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
@@ -4306,11 +4306,11 @@
     "recipeName": "Flask of Thalassian Resistance",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 2
       },
       {
@@ -4331,11 +4331,11 @@
     "recipeName": "Flask of the Blood Knights",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 2
       },
       {
@@ -4356,11 +4356,11 @@
     "recipeName": "Flask of the Magisters",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 2
       },
       {
@@ -4381,11 +4381,11 @@
     "recipeName": "Flask of the Shattered Sun",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 2
       },
       {
@@ -4406,11 +4406,11 @@
     "recipeName": "Flawless Deadly Amethyst",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4427,11 +4427,11 @@
     "recipeName": "Flawless Deadly Garnet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4448,11 +4448,11 @@
     "recipeName": "Flawless Deadly Lapis",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4469,11 +4469,11 @@
     "recipeName": "Flawless Deadly Peridot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4490,11 +4490,11 @@
     "recipeName": "Flawless Masterful Amethyst",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4511,11 +4511,11 @@
     "recipeName": "Flawless Masterful Garnet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4532,11 +4532,11 @@
     "recipeName": "Flawless Masterful Lapis",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4553,11 +4553,11 @@
     "recipeName": "Flawless Masterful Peridot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4574,11 +4574,11 @@
     "recipeName": "Flawless Quick Amethyst",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4595,11 +4595,11 @@
     "recipeName": "Flawless Quick Garnet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4616,11 +4616,11 @@
     "recipeName": "Flawless Quick Lapis",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4637,11 +4637,11 @@
     "recipeName": "Flawless Quick Peridot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4658,7 +4658,7 @@
     "recipeName": "Flawless Text Scrutinizers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -4679,11 +4679,11 @@
     "recipeName": "Flawless Versatile Amethyst",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4700,11 +4700,11 @@
     "recipeName": "Flawless Versatile Garnet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4721,11 +4721,11 @@
     "recipeName": "Flawless Versatile Lapis",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4742,11 +4742,11 @@
     "recipeName": "Flawless Versatile Peridot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 1
       },
       {
@@ -4763,7 +4763,7 @@
     "recipeName": "Floating Void-Touched Tome",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 22
       },
       {
@@ -4780,7 +4780,7 @@
     "recipeName": "Floratender's Crutch",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
@@ -4793,11 +4793,11 @@
     "recipeName": "Flux Cogwheel",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -4814,15 +4814,15 @@
     "recipeName": "Font of Gleaming Water",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 14
       },
       {
@@ -4847,15 +4847,15 @@
     "recipeName": "Forest Hunter's Armor Kit",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 10
       },
       {
@@ -4872,15 +4872,15 @@
     "recipeName": "Giga-Gem Grippers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -4897,7 +4897,7 @@
     "recipeName": "Gilded Alchemist's Mixing Rod",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -4914,7 +4914,7 @@
     "recipeName": "Gilded Eversong Book",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 6
       },
       {
@@ -4931,7 +4931,7 @@
     "recipeName": "Gilded Silvermoon Anvil",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 26
       },
       {
@@ -4952,7 +4952,7 @@
     "recipeName": "Gilded Silvermoon Hanger",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -4973,7 +4973,7 @@
     "recipeName": "Gilded Sin'dorei Quill",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -4994,11 +4994,11 @@
     "recipeName": "Gilded Sin'dorei Rolling Pin",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -5024,7 +5024,7 @@
     "recipeName": "Gleeful Glamour - Blood Elf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5037,7 +5037,7 @@
     "recipeName": "Gleeful Glamour - Dark Iron Dwarf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5050,7 +5050,7 @@
     "recipeName": "Gleeful Glamour - Draenei",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -5063,7 +5063,7 @@
     "recipeName": "Gleeful Glamour - Dwarf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5076,7 +5076,7 @@
     "recipeName": "Gleeful Glamour - Earthen",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5089,7 +5089,7 @@
     "recipeName": "Gleeful Glamour - Gnome",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5102,7 +5102,7 @@
     "recipeName": "Gleeful Glamour - Goblin",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5115,7 +5115,7 @@
     "recipeName": "Gleeful Glamour - Haranir",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5128,7 +5128,7 @@
     "recipeName": "Gleeful Glamour - Highmountain Tauren",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5141,7 +5141,7 @@
     "recipeName": "Gleeful Glamour - Human",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5154,7 +5154,7 @@
     "recipeName": "Gleeful Glamour - Kul Tiran",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5167,7 +5167,7 @@
     "recipeName": "Gleeful Glamour - Lightforged Draenei",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -5180,7 +5180,7 @@
     "recipeName": "Gleeful Glamour - Mag'har Orc",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -5193,7 +5193,7 @@
     "recipeName": "Gleeful Glamour - Mechagnome",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -5206,7 +5206,7 @@
     "recipeName": "Gleeful Glamour - Night Elf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5219,7 +5219,7 @@
     "recipeName": "Gleeful Glamour - Nightborne",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5232,7 +5232,7 @@
     "recipeName": "Gleeful Glamour - Orc",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -5245,7 +5245,7 @@
     "recipeName": "Gleeful Glamour - Pandaren",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5258,7 +5258,7 @@
     "recipeName": "Gleeful Glamour - Tauren",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5271,7 +5271,7 @@
     "recipeName": "Gleeful Glamour - Troll",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5284,7 +5284,7 @@
     "recipeName": "Gleeful Glamour - Undead",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -5297,7 +5297,7 @@
     "recipeName": "Gleeful Glamour - Void Elf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -5310,7 +5310,7 @@
     "recipeName": "Gleeful Glamour - Vulpera",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5323,7 +5323,7 @@
     "recipeName": "Gleeful Glamour - Worgen",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5336,7 +5336,7 @@
     "recipeName": "Gleeful Glamour - Zandalari Troll",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5349,7 +5349,7 @@
     "recipeName": "Gloaming Alloy",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -5366,11 +5366,11 @@
     "recipeName": "Greased Cogwheel",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -5387,11 +5387,11 @@
     "recipeName": "HU5H, Nonchalant Pup",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -5413,7 +5413,7 @@
     "recipeName": "Harandar Signpost",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -5430,27 +5430,27 @@
     "recipeName": "Haranir Canopy Bed",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 46
       }
     ]
@@ -5459,7 +5459,7 @@
     "recipeName": "Haranir Phial of Finesse",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 2
       },
       {
@@ -5484,7 +5484,7 @@
     "recipeName": "Haranir Phial of Ingenuity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 2
       },
       {
@@ -5509,7 +5509,7 @@
     "recipeName": "Haranir Phial of Perception",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 2
       },
       {
@@ -5534,11 +5534,11 @@
     "recipeName": "Haranir Preserving Agents",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 8
       },
       {
@@ -5555,15 +5555,15 @@
     "recipeName": "Head-Mounted Beam Bummer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -5580,15 +5580,15 @@
     "recipeName": "Heavy-Duty Rock Assister",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -5605,11 +5605,11 @@
     "recipeName": "Hexwoven Strand",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
@@ -5638,7 +5638,7 @@
     "recipeName": "Hideworker's Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -5655,7 +5655,7 @@
     "recipeName": "Hobbyist Alchemist's Mixing Rod",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
@@ -5685,7 +5685,7 @@
     "recipeName": "Hobbyist Scribe's Quill",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
@@ -5706,7 +5706,7 @@
     "recipeName": "Homely Sin'dorei Shelf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       },
       {
@@ -5723,7 +5723,7 @@
     "recipeName": "Homely Wall Shelves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       },
       {
@@ -5740,11 +5740,11 @@
     "recipeName": "Illusory Adornment - Blooming Light",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 38682",
+        "reagentName": "Enchanting Vellum",
         "quantity": 1
       },
       {
@@ -5757,11 +5757,11 @@
     "recipeName": "Illusory Adornment - Nature's Embrace",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 38682",
+        "reagentName": "Enchanting Vellum",
         "quantity": 1
       },
       {
@@ -5774,11 +5774,11 @@
     "recipeName": "Illusory Adornment - Voidtouched",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 38682",
+        "reagentName": "Enchanting Vellum",
         "quantity": 1
       },
       {
@@ -5791,11 +5791,11 @@
     "recipeName": "Imbued Bright Linen Backpack",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 8
       },
       {
@@ -5808,7 +5808,7 @@
     "recipeName": "Imbued Bright Linen Bolt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 4
       },
       {
@@ -5842,7 +5842,7 @@
     "recipeName": "Indecipherable Eversong Diamond",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -5859,23 +5859,23 @@
     "recipeName": "Infused Scalewoven Hide",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
@@ -5904,11 +5904,11 @@
     "recipeName": "Junker's Big Ol' Bag",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
@@ -5993,11 +5993,11 @@
     "recipeName": "Knight-Commander's Palisade",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -6043,19 +6043,19 @@
     "recipeName": "Leather-Bound Haranir Wall Shelf",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       }
     ]
@@ -6064,7 +6064,7 @@
     "recipeName": "Light's Potential",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -6089,7 +6089,7 @@
     "recipeName": "Light's Preservation",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 2
       },
       {
@@ -6127,7 +6127,7 @@
     "recipeName": "Lively Songwriter's Quill",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -6144,11 +6144,11 @@
     "recipeName": "Loa Worshiper's Band",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 20
       },
       {
@@ -6173,11 +6173,11 @@
     "recipeName": "Lucky Keychain",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -6190,11 +6190,11 @@
     "recipeName": "Lush Telogrus Carpet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -6211,11 +6211,11 @@
     "recipeName": "Luxurious Silvermoon Lounge Cushion",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 12
       },
       {
@@ -6266,11 +6266,11 @@
     "recipeName": "Mage-Eye Precision Loupes",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
@@ -6295,19 +6295,19 @@
     "recipeName": "Magister's Alchemist Stone",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -6324,11 +6324,11 @@
     "recipeName": "Magister's Cleaver",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -6353,11 +6353,11 @@
     "recipeName": "Magister's Grand Focus",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -6382,11 +6382,11 @@
     "recipeName": "Magister's Mana Sword",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -6411,11 +6411,11 @@
     "recipeName": "Magister's Ritual Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -6440,11 +6440,11 @@
     "recipeName": "Magister's Valediction",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -6469,7 +6469,7 @@
     "recipeName": "Magnificent Towering Bookcase",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 50
       },
       {
@@ -6486,19 +6486,19 @@
     "recipeName": "Martyr's Bindings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6519,19 +6519,19 @@
     "recipeName": "Martyr's Crown",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6552,19 +6552,19 @@
     "recipeName": "Martyr's Gloves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6585,19 +6585,19 @@
     "recipeName": "Martyr's Leggings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6618,19 +6618,19 @@
     "recipeName": "Martyr's Mantle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6651,19 +6651,19 @@
     "recipeName": "Martyr's Slippers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6684,19 +6684,19 @@
     "recipeName": "Martyr's Vestments",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6717,19 +6717,19 @@
     "recipeName": "Martyr's Waistwrap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -6802,7 +6802,7 @@
     "recipeName": "Masterwork Crafting Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 12
       },
       {
@@ -6823,11 +6823,11 @@
     "recipeName": "Masterwork Sin'dorei Amulet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -6848,7 +6848,7 @@
     "recipeName": "Masterwork Sin'dorei Band",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -6899,7 +6899,7 @@
     "recipeName": "Munsell Ink",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 3
       },
       {
@@ -6920,11 +6920,11 @@
     "recipeName": "Murder Row Fishhook",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -6949,11 +6949,11 @@
     "recipeName": "Murder Row Fleet Feet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -6991,11 +6991,11 @@
     "recipeName": "Oil of Dawn",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -7012,7 +7012,7 @@
     "recipeName": "Opened Sin'dorei Scroll",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 6
       },
       {
@@ -7029,7 +7029,7 @@
     "recipeName": "Ornamental Silvermoon Hanger",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -7050,23 +7050,23 @@
     "recipeName": "P.O.W. x3",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -7087,11 +7087,11 @@
     "recipeName": "Perfected Cogwheel",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -7108,19 +7108,19 @@
     "recipeName": "Plush Haranir Leather Pillow",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 16
       }
     ]
@@ -7129,11 +7129,11 @@
     "recipeName": "Plush Silvermoon Bed",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 46
       },
       {
@@ -7150,7 +7150,7 @@
     "recipeName": "Potion of Devoured Dreams",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 2
       },
       {
@@ -7171,7 +7171,7 @@
     "recipeName": "Potion of Recklessness",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 2
       },
       {
@@ -7192,7 +7192,7 @@
     "recipeName": "Potion of Zealotry",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -7213,7 +7213,7 @@
     "recipeName": "Powerful Eversong Diamond",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -7230,11 +7230,11 @@
     "recipeName": "Primal Philosopher's Stone",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 2
       },
       {
@@ -7247,11 +7247,11 @@
     "recipeName": "Primal Spore Binding",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 1
       },
       {
@@ -7264,7 +7264,7 @@
     "recipeName": "Primalforged Heavy Axe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -7277,7 +7277,7 @@
     "recipeName": "Primalforged Knuckles",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -7303,11 +7303,11 @@
     "recipeName": "Quel'dorei Bands",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7320,11 +7320,11 @@
     "recipeName": "Quel'dorei Bracelets",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7337,11 +7337,11 @@
     "recipeName": "Quel'dorei Clonkers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7354,11 +7354,11 @@
     "recipeName": "Quel'dorei Cloth Goggles",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7371,11 +7371,11 @@
     "recipeName": "Quel'dorei Guards",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7388,11 +7388,11 @@
     "recipeName": "Quel'dorei Leather Optics",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7405,11 +7405,11 @@
     "recipeName": "Quel'dorei Mail Shroud",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7422,11 +7422,11 @@
     "recipeName": "Quel'dorei Runners",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7439,11 +7439,11 @@
     "recipeName": "Quel'dorei Silken Cuffs",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7456,11 +7456,11 @@
     "recipeName": "Quel'dorei Softsteppers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7473,11 +7473,11 @@
     "recipeName": "Quel'dorei Stompers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7490,11 +7490,11 @@
     "recipeName": "Quel'dorei Visor",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -7563,11 +7563,11 @@
     "recipeName": "Ranger-General's Grips",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
@@ -7596,7 +7596,7 @@
     "recipeName": "Recycle Flasks",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 247811",
+        "reagentName": "Oil of Heartwood",
         "quantity": 2
       }
     ]
@@ -7605,7 +7605,7 @@
     "recipeName": "Recycle Potions",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 247811",
+        "reagentName": "Oil of Heartwood",
         "quantity": 2
       }
     ]
@@ -7635,7 +7635,7 @@
     "recipeName": "Refulgent Copper Ingot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 2
       },
       {
@@ -7648,11 +7648,11 @@
     "recipeName": "Refulgent Razorstone",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -7669,7 +7669,7 @@
     "recipeName": "Refulgent Repair Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 1
       },
       {
@@ -7686,11 +7686,11 @@
     "recipeName": "Refulgent Weightstone",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -7707,11 +7707,11 @@
     "recipeName": "Refulgent Whetstone",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 15
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -7728,7 +7728,7 @@
     "recipeName": "Ren'dorei Anvil",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 26
       },
       {
@@ -7749,7 +7749,7 @@
     "recipeName": "Ren'dorei Crafting Framework",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       },
       {
@@ -7774,7 +7774,7 @@
     "recipeName": "Ren'dorei Lightpost",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 26
       },
       {
@@ -7799,15 +7799,15 @@
     "recipeName": "Ren'dorei Postal Repository",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -7828,7 +7828,7 @@
     "recipeName": "Ren'dorei Stargazer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 32
       },
       {
@@ -7853,7 +7853,7 @@
     "recipeName": "Ren'dorei Void Projector",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 22
       },
       {
@@ -7878,7 +7878,7 @@
     "recipeName": "Ren'dorei Warp Orb",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 28
       },
       {
@@ -7903,7 +7903,7 @@
     "recipeName": "Replica Haranir Mural",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 48
       },
       {
@@ -7924,7 +7924,7 @@
     "recipeName": "Resplendent Highborne Statue",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 50
       },
       {
@@ -7941,7 +7941,7 @@
     "recipeName": "Restful Bronze Bench",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 22
       },
       {
@@ -7958,11 +7958,11 @@
     "recipeName": "Riftstone",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 8
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 8
       },
       {
@@ -7979,15 +7979,15 @@
     "recipeName": "Rock Bonkin' Hardhat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -8004,11 +8004,11 @@
     "recipeName": "Rootbound Vat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 32
       },
       {
@@ -8025,11 +8025,11 @@
     "recipeName": "Rootflame Campfire",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 32
       },
       {
@@ -8050,7 +8050,7 @@
     "recipeName": "Rootwarden's Lamp",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
@@ -8063,7 +8063,7 @@
     "recipeName": "Row Walker's Deflectors",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8092,7 +8092,7 @@
     "recipeName": "Row Walker's Insurance",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8121,7 +8121,7 @@
     "recipeName": "Row Walker's Swiftgrips",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8175,11 +8175,11 @@
     "recipeName": "Runed Dazzling Thorium Rod",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 3
       },
       {
@@ -8204,7 +8204,7 @@
     "recipeName": "Runed Refulgent Copper Rod",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 244174",
+        "reagentName": "Refulgent Copper Rod",
         "quantity": 1
       },
       {
@@ -8239,19 +8239,19 @@
     "recipeName": "School of Gems",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238383",
+        "reagentName": "Eversong Trout",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238369",
+        "reagentName": "Bloomtail Minnow",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 238365",
+        "reagentName": "Sin'dorei Swarmer",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 1
       },
       {
@@ -8264,11 +8264,11 @@
     "recipeName": "Scout's Cape",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 6
       },
       {
@@ -8285,7 +8285,7 @@
     "recipeName": "Scout's Polished Gauntlets",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -8302,7 +8302,7 @@
     "recipeName": "Scout's Polished Legguards",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 1
       },
       {
@@ -8332,7 +8332,7 @@
     "recipeName": "Scout's Polished Spaulders",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 1
       },
       {
@@ -8401,7 +8401,7 @@
     "recipeName": "Self-Pouring Thalassian Sunwine",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -8422,15 +8422,15 @@
     "recipeName": "Self-Sharpening Sin'dorei Snippers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -8451,7 +8451,7 @@
     "recipeName": "Shining Sin'dorei Hourglass",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -8468,7 +8468,7 @@
     "recipeName": "Sienna Ink",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 3
       },
       {
@@ -8489,11 +8489,11 @@
     "recipeName": "Signet of Azerothian Blessings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -8518,7 +8518,7 @@
     "recipeName": "Silvermoon Agent's Coat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8547,7 +8547,7 @@
     "recipeName": "Silvermoon Agent's Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8576,7 +8576,7 @@
     "recipeName": "Silvermoon Agent's Deflectors",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8605,11 +8605,11 @@
     "recipeName": "Silvermoon Agent's Drape",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 6
       },
       {
@@ -8626,7 +8626,7 @@
     "recipeName": "Silvermoon Agent's Handwraps",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8655,7 +8655,7 @@
     "recipeName": "Silvermoon Agent's Leggings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8684,7 +8684,7 @@
     "recipeName": "Silvermoon Agent's Mantle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8713,7 +8713,7 @@
     "recipeName": "Silvermoon Agent's Sneakers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8742,7 +8742,7 @@
     "recipeName": "Silvermoon Agent's Utility Belt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -8771,11 +8771,11 @@
     "recipeName": "Silvermoon Curtains",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 24
       },
       {
@@ -8835,15 +8835,15 @@
     "recipeName": "Silvermoon Spire Fountain",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 40
       },
       {
@@ -8860,11 +8860,11 @@
     "recipeName": "Silvermoon Weapon Wrap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 1
       },
       {
@@ -8877,19 +8877,19 @@
     "recipeName": "Simple Haranir Table",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -8902,11 +8902,11 @@
     "recipeName": "Sin'dorei Alchemist's Hat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -8936,11 +8936,11 @@
     "recipeName": "Sin'dorei Angler's Rod",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
@@ -8957,11 +8957,11 @@
     "recipeName": "Sin'dorei Armor Banding",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 1
       },
       {
@@ -8974,11 +8974,11 @@
     "recipeName": "Sin'dorei Clampers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
@@ -9016,7 +9016,7 @@
     "recipeName": "Sin'dorei Engineer's Gloves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
@@ -9033,11 +9033,11 @@
     "recipeName": "Sin'dorei Forgemaster's Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -9054,11 +9054,11 @@
     "recipeName": "Sin'dorei Gilded Hardhat",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
@@ -9075,11 +9075,11 @@
     "recipeName": "Sin'dorei Headlamp",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
@@ -9096,15 +9096,15 @@
     "recipeName": "Sin'dorei Herbalist's Backpack",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 4
       },
       {
@@ -9121,11 +9121,11 @@
     "recipeName": "Sin'dorei Hunter's Pack",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
@@ -9146,11 +9146,11 @@
     "recipeName": "Sin'dorei Jeweler's Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -9188,11 +9188,11 @@
     "recipeName": "Sin'dorei Leathershaper's Smock",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
@@ -9226,7 +9226,7 @@
     "recipeName": "Sin'dorei Phoenix Quill",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 4
       },
       {
@@ -9260,15 +9260,15 @@
     "recipeName": "Sin'dorei Reeler's Rod",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -9285,7 +9285,7 @@
     "recipeName": "Sin'dorei Rolling Pin",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
@@ -9315,11 +9315,11 @@
     "recipeName": "Sin'dorei Snippers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
@@ -9336,7 +9336,7 @@
     "recipeName": "Skinner's Backpack",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -9353,7 +9353,7 @@
     "recipeName": "Skinner's Cap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
@@ -9370,7 +9370,7 @@
     "recipeName": "Small Telogrus Lamp",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -9395,11 +9395,11 @@
     "recipeName": "Smuggler's Cloak",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 6
       },
       {
@@ -9416,11 +9416,11 @@
     "recipeName": "Smuggler's Enchanted Edge",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -9510,7 +9510,7 @@
     "recipeName": "Smuggler's Reinforced Gloves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -9540,7 +9540,7 @@
     "recipeName": "Smuggler's Reinforced Pants",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 1
       },
       {
@@ -9557,7 +9557,7 @@
     "recipeName": "Smuggler's Reinforced Shoulderguards",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 1
       },
       {
@@ -9574,7 +9574,7 @@
     "recipeName": "Song Gear",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -9591,11 +9591,11 @@
     "recipeName": "Soul Cipher",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -9616,7 +9616,7 @@
     "recipeName": "Soul Sprocket",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
@@ -9633,15 +9633,15 @@
     "recipeName": "Spellbound Tome of Thalassian Magics",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 20
       },
       {
@@ -9662,11 +9662,11 @@
     "recipeName": "Spellbreaker's Blade",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -9691,11 +9691,11 @@
     "recipeName": "Spellbreaker's Bracers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9720,11 +9720,11 @@
     "recipeName": "Spellbreaker's Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9749,11 +9749,11 @@
     "recipeName": "Spellbreaker's Girdle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9778,11 +9778,11 @@
     "recipeName": "Spellbreaker's Legguards",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9807,11 +9807,11 @@
     "recipeName": "Spellbreaker's Mantle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9836,11 +9836,11 @@
     "recipeName": "Spellbreaker's March",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9865,11 +9865,11 @@
     "recipeName": "Spellbreaker's Rebuke",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -9894,11 +9894,11 @@
     "recipeName": "Spellbreaker's Resolve",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9923,11 +9923,11 @@
     "recipeName": "Spellbreaker's Shelter",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -9952,11 +9952,11 @@
     "recipeName": "Spellbreaker's Shroud",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 6
       },
       {
@@ -9973,11 +9973,11 @@
     "recipeName": "Spellbreaker's Ultimatum",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10002,11 +10002,11 @@
     "recipeName": "Spellbreaker's Warglaive",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10056,7 +10056,7 @@
     "recipeName": "Sterling Alloy",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -10073,19 +10073,19 @@
     "recipeName": "Stitched Haranir Rug",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       }
     ]
@@ -10094,7 +10094,7 @@
     "recipeName": "Stoic Eversong Diamond",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -10111,27 +10111,27 @@
     "recipeName": "Sturdy Haranir Chair",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 20
       }
     ]
@@ -10140,7 +10140,7 @@
     "recipeName": "Sturdy Ren'dorei Cask",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 26
       },
       {
@@ -10157,11 +10157,11 @@
     "recipeName": "Sun-Blessed Blacksmith's Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10174,15 +10174,15 @@
     "recipeName": "Sun-Blessed Blacksmith's Toolbox",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10195,11 +10195,11 @@
     "recipeName": "Sun-Blessed Leatherworker's Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10212,15 +10212,15 @@
     "recipeName": "Sun-Blessed Leatherworker's Toolset",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10233,15 +10233,15 @@
     "recipeName": "Sun-Blessed Needle Set",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10254,11 +10254,11 @@
     "recipeName": "Sun-Blessed Pickaxe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10271,11 +10271,11 @@
     "recipeName": "Sun-Blessed Sickle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10288,11 +10288,11 @@
     "recipeName": "Sun-Blessed Skinning Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
@@ -10305,19 +10305,19 @@
     "recipeName": "Sunfire Bracers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -10342,19 +10342,19 @@
     "recipeName": "Sunfire Cloak",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 4
       },
       {
@@ -10375,15 +10375,15 @@
     "recipeName": "Sunfire Sash",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -10408,11 +10408,11 @@
     "recipeName": "Sunfire Silk Backpack",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
@@ -10429,7 +10429,7 @@
     "recipeName": "Sunfire Silk Bolt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 4
       },
       {
@@ -10446,7 +10446,7 @@
     "recipeName": "Sunfire Silk Lining",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 1
       },
       {
@@ -10463,15 +10463,15 @@
     "recipeName": "Sunfire Silk Spellthread",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -10492,15 +10492,15 @@
     "recipeName": "Sunfire Treads",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 12
       },
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
@@ -10525,15 +10525,15 @@
     "recipeName": "Sunforged Blacksmith's Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10546,19 +10546,19 @@
     "recipeName": "Sunforged Blacksmith's Toolbox",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10571,15 +10571,15 @@
     "recipeName": "Sunforged Leatherworker's Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10592,19 +10592,19 @@
     "recipeName": "Sunforged Leatherworker's Toolset",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10617,19 +10617,19 @@
     "recipeName": "Sunforged Needle Set",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10642,15 +10642,15 @@
     "recipeName": "Sunforged Pickaxe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10663,15 +10663,15 @@
     "recipeName": "Sunforged Sickle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10684,15 +10684,15 @@
     "recipeName": "Sunforged Skinning Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10718,11 +10718,11 @@
     "recipeName": "Sunsmoke Censer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 6
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 12
       },
       {
@@ -10739,7 +10739,7 @@
     "recipeName": "Telluric Eversong Diamond",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -10765,7 +10765,7 @@
     "recipeName": "Tenebrous Ren'dorei Armillary",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 26
       },
       {
@@ -10786,15 +10786,15 @@
     "recipeName": "Thalassian Alchemist's Mixcap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10811,15 +10811,15 @@
     "recipeName": "Thalassian Alchemy Coveralls",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10836,7 +10836,7 @@
     "recipeName": "Thalassian Blacksmith's Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -10849,7 +10849,7 @@
     "recipeName": "Thalassian Blacksmith's Toolbox",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -10862,15 +10862,15 @@
     "recipeName": "Thalassian Chef's Chapeau",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -10917,7 +10917,7 @@
     "recipeName": "Thalassian Competitor's Bulwark",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 8
       },
       {
@@ -11138,15 +11138,15 @@
     "recipeName": "Thalassian Competitor's Cloth Bands",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11163,11 +11163,11 @@
     "recipeName": "Thalassian Competitor's Cloth Cloak",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 4
       },
       {
@@ -11184,7 +11184,7 @@
     "recipeName": "Thalassian Competitor's Cloth Cuffs",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11205,15 +11205,15 @@
     "recipeName": "Thalassian Competitor's Cloth Gloves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11230,7 +11230,7 @@
     "recipeName": "Thalassian Competitor's Cloth Goggles",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11251,15 +11251,15 @@
     "recipeName": "Thalassian Competitor's Cloth Hood",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11276,15 +11276,15 @@
     "recipeName": "Thalassian Competitor's Cloth Leggings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11301,15 +11301,15 @@
     "recipeName": "Thalassian Competitor's Cloth Sash",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11326,15 +11326,15 @@
     "recipeName": "Thalassian Competitor's Cloth Shoulderpads",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11351,7 +11351,7 @@
     "recipeName": "Thalassian Competitor's Cloth Tip-Toes",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11372,15 +11372,15 @@
     "recipeName": "Thalassian Competitor's Cloth Treads",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11397,15 +11397,15 @@
     "recipeName": "Thalassian Competitor's Cloth Tunic",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 4
       },
       {
-        "reagentName": "Unknown Reagent ID 238523",
+        "reagentName": "Carving Canine",
         "quantity": 4
       },
       {
@@ -11422,7 +11422,7 @@
     "recipeName": "Thalassian Competitor's Emblem",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 3
       },
       {
@@ -11443,7 +11443,7 @@
     "recipeName": "Thalassian Competitor's Greatsword",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 8
       },
       {
@@ -11464,7 +11464,7 @@
     "recipeName": "Thalassian Competitor's Insignia of Alacrity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 3
       },
       {
@@ -11485,7 +11485,7 @@
     "recipeName": "Thalassian Competitor's Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
@@ -11523,7 +11523,7 @@
     "recipeName": "Thalassian Competitor's Leather Bands",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11669,7 +11669,7 @@
     "recipeName": "Thalassian Competitor's Leather Optics",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11715,7 +11715,7 @@
     "recipeName": "Thalassian Competitor's Leather Sliders",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11786,7 +11786,7 @@
     "recipeName": "Thalassian Competitor's Mail Footlinks",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11807,7 +11807,7 @@
     "recipeName": "Thalassian Competitor's Mail Links",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11828,7 +11828,7 @@
     "recipeName": "Thalassian Competitor's Mail Visor",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11849,7 +11849,7 @@
     "recipeName": "Thalassian Competitor's Maxim",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 8
       },
       {
@@ -11870,7 +11870,7 @@
     "recipeName": "Thalassian Competitor's Medallion",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 3
       },
       {
@@ -11891,7 +11891,7 @@
     "recipeName": "Thalassian Competitor's Pickaxe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 8
       },
       {
@@ -11925,7 +11925,7 @@
     "recipeName": "Thalassian Competitor's Plate Armguards",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -11946,7 +11946,7 @@
     "recipeName": "Thalassian Competitor's Plate Bindings",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -11967,7 +11967,7 @@
     "recipeName": "Thalassian Competitor's Plate Breastplate",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 6
       },
       {
@@ -11988,7 +11988,7 @@
     "recipeName": "Thalassian Competitor's Plate Dunkers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -12009,7 +12009,7 @@
     "recipeName": "Thalassian Competitor's Plate Gauntlets",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -12030,7 +12030,7 @@
     "recipeName": "Thalassian Competitor's Plate Greaves",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 6
       },
       {
@@ -12051,7 +12051,7 @@
     "recipeName": "Thalassian Competitor's Plate Guard",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -12072,7 +12072,7 @@
     "recipeName": "Thalassian Competitor's Plate Helm",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -12093,7 +12093,7 @@
     "recipeName": "Thalassian Competitor's Plate Pauldrons",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 6
       },
       {
@@ -12114,7 +12114,7 @@
     "recipeName": "Thalassian Competitor's Plate Sabatons",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -12135,7 +12135,7 @@
     "recipeName": "Thalassian Competitor's Plate Waistguard",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -12156,7 +12156,7 @@
     "recipeName": "Thalassian Competitor's Rifle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 3
       },
       {
@@ -12194,7 +12194,7 @@
     "recipeName": "Thalassian Competitor's Skewer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 5
       },
       {
@@ -12215,7 +12215,7 @@
     "recipeName": "Thalassian Competitor's Splitter",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 8
       },
       {
@@ -12249,7 +12249,7 @@
     "recipeName": "Thalassian Competitor's Sword",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 8
       },
       {
@@ -12270,15 +12270,15 @@
     "recipeName": "Thalassian Enchanter's Bonnet",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12295,15 +12295,15 @@
     "recipeName": "Thalassian Gemshaper's Grand Cover",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12320,15 +12320,15 @@
     "recipeName": "Thalassian Herbalist's Cowl",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12345,19 +12345,19 @@
     "recipeName": "Thalassian Herbtender's Cradle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 8
       },
       {
@@ -12374,19 +12374,19 @@
     "recipeName": "Thalassian Hideshaper's Regalia",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
@@ -12399,15 +12399,15 @@
     "recipeName": "Thalassian Ironbender's Regalia",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12424,7 +12424,7 @@
     "recipeName": "Thalassian Leatherworker's Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -12437,7 +12437,7 @@
     "recipeName": "Thalassian Leatherworker's Toolset",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -12450,11 +12450,11 @@
     "recipeName": "Thalassian Master Repair Hammer",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 237366",
+        "reagentName": "Dazzling Thorium",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 10
       },
       {
@@ -12471,11 +12471,11 @@
     "recipeName": "Thalassian Missive of Crafting Speed",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -12492,11 +12492,11 @@
     "recipeName": "Thalassian Missive of Deftness",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -12513,11 +12513,11 @@
     "recipeName": "Thalassian Missive of Finesse",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -12534,11 +12534,11 @@
     "recipeName": "Thalassian Missive of Ingenuity",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -12555,11 +12555,11 @@
     "recipeName": "Thalassian Missive of Multicraft",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -12576,11 +12576,11 @@
     "recipeName": "Thalassian Missive of Perception",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -12597,11 +12597,11 @@
     "recipeName": "Thalassian Missive of Resourcefulness",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -12618,11 +12618,11 @@
     "recipeName": "Thalassian Missive of the Aurora",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -12639,11 +12639,11 @@
     "recipeName": "Thalassian Missive of the Feverflare",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -12660,11 +12660,11 @@
     "recipeName": "Thalassian Missive of the Fireflash",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -12681,11 +12681,11 @@
     "recipeName": "Thalassian Missive of the Harmonious",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -12702,11 +12702,11 @@
     "recipeName": "Thalassian Missive of the Peerless",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -12723,11 +12723,11 @@
     "recipeName": "Thalassian Missive of the Quickblade",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -12744,7 +12744,7 @@
     "recipeName": "Thalassian Needle Set",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 4
       },
       {
@@ -12757,7 +12757,7 @@
     "recipeName": "Thalassian Phoenix Oil",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 5
       },
       {
@@ -12774,11 +12774,11 @@
     "recipeName": "Thalassian Phoenix Torque",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 20
       },
       {
@@ -12803,7 +12803,7 @@
     "recipeName": "Thalassian Pickaxe",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -12816,11 +12816,11 @@
     "recipeName": "Thalassian Scout Armor Kit",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -12837,11 +12837,11 @@
     "recipeName": "Thalassian Scrapmaster's Gauntlets",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12858,7 +12858,7 @@
     "recipeName": "Thalassian Scribe's Crystalline Lens",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12883,7 +12883,7 @@
     "recipeName": "Thalassian Sickle",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -12909,7 +12909,7 @@
     "recipeName": "Thalassian Skinning Knife",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 243060",
+        "reagentName": "Luminant Flux",
         "quantity": 3
       },
       {
@@ -12935,15 +12935,15 @@
     "recipeName": "Thalassian Tailor's Threads",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251691",
+        "reagentName": "Embroidery Floss",
         "quantity": 2
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -12960,11 +12960,11 @@
     "recipeName": "Thalassian Treatise on Alchemy",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -12981,11 +12981,11 @@
     "recipeName": "Thalassian Treatise on Blacksmithing",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -13002,11 +13002,11 @@
     "recipeName": "Thalassian Treatise on Enchanting",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -13023,11 +13023,11 @@
     "recipeName": "Thalassian Treatise on Engineering",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -13044,11 +13044,11 @@
     "recipeName": "Thalassian Treatise on Herbalism",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -13065,11 +13065,11 @@
     "recipeName": "Thalassian Treatise on Inscription",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -13086,11 +13086,11 @@
     "recipeName": "Thalassian Treatise on Jewelcrafting",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -13107,11 +13107,11 @@
     "recipeName": "Thalassian Treatise on Leatherworking",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
@@ -13128,11 +13128,11 @@
     "recipeName": "Thalassian Treatise on Mining",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 1
       },
       {
@@ -13149,11 +13149,11 @@
     "recipeName": "Thalassian Treatise on Skinning",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 1
       },
       {
@@ -13170,11 +13170,11 @@
     "recipeName": "Thalassian Treatise on Tailoring",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 1
       },
       {
@@ -13191,19 +13191,19 @@
     "recipeName": "Thalassian Wildseeker's Stridercap",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 238529",
+        "reagentName": "Majestic Hide",
         "quantity": 1
       },
       {
@@ -13216,19 +13216,19 @@
     "recipeName": "Thalassian Wildseeker's Workbag",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 40
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
-        "reagentName": "Unknown Reagent ID 238530",
+        "reagentName": "Majestic Fin",
         "quantity": 1
       },
       {
@@ -13254,7 +13254,7 @@
     "recipeName": "Transcribe: Blood",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251923",
+        "reagentName": "Thalassian Essence of the Faire",
         "quantity": 1
       }
     ]
@@ -13263,7 +13263,7 @@
     "recipeName": "Transcribe: Hunt",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251923",
+        "reagentName": "Thalassian Essence of the Faire",
         "quantity": 1
       }
     ]
@@ -13272,7 +13272,7 @@
     "recipeName": "Transcribe: Rot",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251923",
+        "reagentName": "Thalassian Essence of the Faire",
         "quantity": 1
       }
     ]
@@ -13281,7 +13281,7 @@
     "recipeName": "Transcribe: Void",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251923",
+        "reagentName": "Thalassian Essence of the Faire",
         "quantity": 1
       }
     ]
@@ -13290,11 +13290,11 @@
     "recipeName": "Transmute: Mote of Light",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 2
       }
     ]
@@ -13303,11 +13303,11 @@
     "recipeName": "Transmute: Mote of Primal Energy",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 2
       }
     ]
@@ -13316,11 +13316,11 @@
     "recipeName": "Transmute: Mote of Pure Void",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236951",
+        "reagentName": "Mote of Wild Magic",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 2
       }
     ]
@@ -13329,11 +13329,11 @@
     "recipeName": "Transmute: Mote of Wild Magic",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236949",
+        "reagentName": "Mote of Light",
         "quantity": 10
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 2
       }
     ]
@@ -13342,11 +13342,11 @@
     "recipeName": "Turbo-Junker's Multitool",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
@@ -13363,15 +13363,15 @@
     "recipeName": "Turbo-Junker's Multitool v9",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253302",
+        "reagentName": "Malleable Wireframe",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238528",
+        "reagentName": "Majestic Claw",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245345",
+        "reagentName": "Fused Vitality",
         "quantity": 20
       },
       {
@@ -13388,15 +13388,15 @@
     "recipeName": "Vantus Rune: Radiant",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 245882",
+        "reagentName": "Thalassian Songwater",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 245881",
+        "reagentName": "Lexicologist's Vellum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 2
       },
       {
@@ -13482,7 +13482,7 @@
     "recipeName": "Void-Shrouded Tincture",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 2
       },
       {
@@ -13503,15 +13503,15 @@
     "recipeName": "Void-touched Drums",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238525",
+        "reagentName": "Fantastic Fur",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 238522",
+        "reagentName": "Peerless Plumage",
         "quantity": 1
       },
       {
@@ -13528,15 +13528,15 @@
     "recipeName": "Voidlight Potion Cauldron",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 236780",
+        "reagentName": "Nocturnal Lotus",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 5
       },
       {
-        "reagentName": "Unknown Reagent ID 251285",
+        "reagentName": "Petrified Root",
         "quantity": 4
       },
       {
@@ -13553,11 +13553,11 @@
     "recipeName": "Voidstone Shielding Array",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236952",
+        "reagentName": "Mote of Pure Void",
         "quantity": 20
       },
       {
@@ -13578,11 +13578,11 @@
     "recipeName": "Voidstrider Saddlebag",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251665",
+        "reagentName": "Silverleaf Thread",
         "quantity": 3
       },
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 16
       },
       {
@@ -13599,7 +13599,7 @@
     "recipeName": "W-47CH D0G",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {
@@ -13637,7 +13637,7 @@
     "recipeName": "Wild Hanging Scroll",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 256963",
+        "reagentName": "Thalassian Lumber",
         "quantity": 18
       },
       {
@@ -13654,7 +13654,7 @@
     "recipeName": "Wondrous Synergist",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 242651",
+        "reagentName": "Stabilized Derivate",
         "quantity": 4
       },
       {
@@ -13683,11 +13683,11 @@
     "recipeName": "World Tender's Barkclasp",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -13716,11 +13716,11 @@
     "recipeName": "World Tender's Rootslippers",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -13749,11 +13749,11 @@
     "recipeName": "World Tender's Trunkplate",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -13782,11 +13782,11 @@
     "recipeName": "World Tree Rootwraps",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 251283",
+        "reagentName": "Tormented Tantalum",
         "quantity": 1
       },
       {
-        "reagentName": "Unknown Reagent ID 236950",
+        "reagentName": "Mote of Primal Energy",
         "quantity": 20
       },
       {
@@ -13815,7 +13815,7 @@
     "recipeName": "Wormhole Generator: Quel'Thalas",
     "reagents": [
       {
-        "reagentName": "Unknown Reagent ID 253303",
+        "reagentName": "Pile of Junk",
         "quantity": 3
       },
       {

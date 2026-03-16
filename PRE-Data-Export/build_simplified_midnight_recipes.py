@@ -82,12 +82,31 @@ def reagent_sort_key(slot_row: dict[str, Any]) -> tuple[int, int]:
     return (slot_index if slot_index is not None else 10**9, data_slot_index if data_slot_index is not None else 10**9)
 
 
+def build_reagent_name_by_item_id(reagents: list[dict[str, Any]]) -> dict[int, str]:
+    counts: dict[int, dict[str, int]] = {}
+    for row in reagents:
+        reagent_item_id = normalize_int(row.get("reagentItemID"))
+        reagent_item_name = normalize_name(row.get("reagentItemName"))
+        if reagent_item_id is None or not reagent_item_name:
+            continue
+
+        item_counts = counts.setdefault(reagent_item_id, {})
+        item_counts[reagent_item_name] = item_counts.get(reagent_item_name, 0) + 1
+
+    result: dict[int, str] = {}
+    for reagent_item_id, item_counts in counts.items():
+        best_name = max(item_counts.items(), key=lambda pair: pair[1])[0]
+        result[reagent_item_id] = best_name
+    return result
+
+
 def build_simplified(
     recipes: list[dict[str, Any]],
     reagents: list[dict[str, Any]],
     include_optional: bool,
 ) -> list[dict[str, Any]]:
     recipe_name_map = build_recipe_name_map(recipes)
+    reagent_name_by_item_id = build_reagent_name_by_item_id(reagents)
 
     deduped_slots: dict[tuple[int, int | None, int | None], dict[str, Any]] = {}
     for row in reagents:
@@ -128,6 +147,8 @@ def build_simplified(
             reagent_name = normalize_name(slot_row.get("slotText"))
             if not reagent_name:
                 reagent_name = normalize_name(slot_row.get("reagentItemName"))
+            if not reagent_name and reagent_item_id is not None:
+                reagent_name = reagent_name_by_item_id.get(reagent_item_id, "")
             if not reagent_name:
                 if reagent_item_id is not None:
                     reagent_name = f"Unknown Reagent ID {reagent_item_id}"

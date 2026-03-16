@@ -26,12 +26,23 @@ local L = {
     captureSkippedNotReady = "Trade skill UI is not ready yet; waiting for next update.",
     captureSkippedNoSkillLine = "Could not determine current profession skillLineID; waiting for next update.",
     captureUsedRecipeFallback = "Resolved profession via recipe fallback skillLineID=%d.",
+    finalizeWaitingForItemData = "Finalizing export: waiting for %d item names to load.",
+    finalizeForcedWithMissingNames = "Finalizing with %d reagent names still unresolved after retries.",
+    finalizeUnresolvedIDs = "Unresolved reagent itemIDs: %s",
+    finalizeAlreadyPending = "Finalize is already in progress; waiting for item data.",
 }
 
 local state = {
     isScanning = false,
     currentExport = nil,
+    finalizePending = false,
+    finalizeRetryCount = 0,
+    finalizeCheckQueued = false,
 }
+
+local FINALIZE_RETRY_INTERVAL_SECONDS = 1
+local FINALIZE_MAX_RETRIES = 8
+local finalizeScan
 
 local eventFrame = CreateFrame("Frame")
 
@@ -144,6 +155,171 @@ local function resolveItemNameByID(itemID)
 
     safeCall(C_Item.RequestLoadItemDataByID, itemID)
     return nil
+end
+
+local function countKeys(input)
+    local count = 0
+    for _ in pairs(input) do
+        count = count + 1
+    end
+    return count
+end
+
+local function formatItemIDSet(itemIDSet)
+    local ids = {}
+    for itemID in pairs(itemIDSet) do
+        ids[#ids + 1] = itemID
+    end
+
+    table.sort(ids)
+
+    local maxToPrint = 50
+    local display = {}
+    local limit = math.min(#ids, maxToPrint)
+    for index = 1, limit do
+        display[#display + 1] = tostring(ids[index])
+    end
+
+    if #ids > maxToPrint then
+        display[#display + 1] = string.format("...(+%d more)", #ids - maxToPrint)
+    end
+
+    return table.concat(display, ", ")
+end
+
+local function forEachExportReagent(exportData, callback)
+    if type(exportData) ~= "table" then
+        return
+    end
+
+    local professions = exportData.professions
+    if type(professions) ~= "table" then
+        return
+    end
+
+    for _, professionData in pairs(professions) do
+        if type(professionData) == "table" and type(professionData.recipes) == "table" then
+            for _, recipeData in ipairs(professionData.recipes) do
+                if type(recipeData) == "table" and type(recipeData.recipeReagentSlots) == "table" then
+                    for _, slotData in ipairs(recipeData.recipeReagentSlots) do
+                        if type(slotData) == "table" and type(slotData.reagents) == "table" then
+                            for _, reagentData in ipairs(slotData.reagents) do
+                                if type(reagentData) == "table" then
+                                    callback(reagentData)
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+local function enrichCurrentExportReagentItemNames(exportData)
+    forEachExportReagent(exportData, function(reagentData)
+        local itemID = reagentData.itemID
+        if type(itemID) ~= "number" then
+            return
+        end
+
+        if type(reagentData.itemName) == "string" and reagentData.itemName ~= "" then
+            return
+        end
+
+        local itemName = resolveItemNameByID(itemID)
+        if type(itemName) == "string" and itemName ~= "" then
+            reagentData.itemName = itemName
+        end
+    end)
+end
+
+local function collectUnresolvedReagentItemIDs(exportData)
+    local unresolved = {}
+    forEachExportReagent(exportData, function(reagentData)
+        local itemID = reagentData.itemID
+        local itemName = reagentData.itemName
+        if type(itemID) == "number" and (type(itemName) ~= "string" or itemName == "") then
+            unresolved[itemID] = true
+        end
+    end)
+    return unresolved
+end
+
+local function requestItemDataForSet(itemIDSet)
+    for itemID in pairs(itemIDSet) do
+        safeCall(C_Item.RequestLoadItemDataByID, itemID)
+    end
+end
+
+local function continueFinalizeAfterItemWarmup()
+    if not state.finalizePending then
+        return
+    end
+
+    local exportData = state.currentExport
+    if type(exportData) ~= "table" then
+        state.finalizePending = false
+        state.finalizeRetryCount = 0
+        state.finalizeCheckQueued = false
+        return
+    end
+
+    enrichCurrentExportReagentItemNames(exportData)
+    local unresolved = collectUnresolvedReagentItemIDs(exportData)
+    local unresolvedCount = countKeys(unresolved)
+    if unresolvedCount == 0 then
+        state.finalizePending = false
+        state.finalizeRetryCount = 0
+        finalizeScan()
+        return
+    end
+
+    state.finalizeRetryCount = state.finalizeRetryCount + 1
+    if state.finalizeRetryCount >= FINALIZE_MAX_RETRIES then
+        state.finalizePending = false
+        state.finalizeRetryCount = 0
+        log(L.finalizeForcedWithMissingNames, unresolvedCount)
+        log(L.finalizeUnresolvedIDs, formatItemIDSet(unresolved))
+        finalizeScan()
+        return
+    end
+
+    requestItemDataForSet(unresolved)
+    state.finalizeCheckQueued = true
+    C_Timer.After(FINALIZE_RETRY_INTERVAL_SECONDS, function()
+        state.finalizeCheckQueued = false
+        continueFinalizeAfterItemWarmup()
+    end)
+end
+
+local function startFinalizeSequence()
+    local exportData = state.currentExport
+    if type(exportData) ~= "table" then
+        finalizeScan()
+        return
+    end
+
+    enrichCurrentExportReagentItemNames(exportData)
+    local unresolved = collectUnresolvedReagentItemIDs(exportData)
+    local unresolvedCount = countKeys(unresolved)
+    if unresolvedCount == 0 then
+        finalizeScan()
+        return
+    end
+
+    state.finalizePending = true
+    state.finalizeRetryCount = 0
+    log(L.finalizeWaitingForItemData, unresolvedCount)
+    log(L.finalizeUnresolvedIDs, formatItemIDSet(unresolved))
+    requestItemDataForSet(unresolved)
+    if not state.finalizeCheckQueued then
+        state.finalizeCheckQueued = true
+        C_Timer.After(FINALIZE_RETRY_INTERVAL_SECONDS, function()
+            state.finalizeCheckQueued = false
+            continueFinalizeAfterItemWarmup()
+        end)
+    end
 end
 
 local function sanitize(value, seen, depth)
@@ -310,7 +486,7 @@ local function collectProfessionData(skillLineID)
     }
 end
 
-local function finalizeScan()
+finalizeScan = function()
     state.isScanning = false
 
     local exportData = state.currentExport
@@ -442,7 +618,12 @@ local function finishScan()
         return
     end
 
-    finalizeScan()
+    if state.finalizePending then
+        log(L.finalizeAlreadyPending)
+        return
+    end
+
+    startFinalizeSequence()
 end
 
 local function printStatus()
@@ -543,6 +724,17 @@ eventFrame:SetScript("OnEvent", function(_, event, ...)
         return
     end
 
+    if event == "GET_ITEM_INFO_RECEIVED" then
+        if state.finalizePending and not state.finalizeCheckQueued then
+            state.finalizeCheckQueued = true
+            C_Timer.After(0.1, function()
+                state.finalizeCheckQueued = false
+                continueFinalizeAfterItemWarmup()
+            end)
+        end
+        return
+    end
+
     if event == "TRADE_SKILL_SHOW"
         or event == "TRADE_SKILL_LIST_UPDATE"
         or event == "TRADE_SKILL_DETAILS_UPDATE"
@@ -559,3 +751,4 @@ eventFrame:RegisterEvent("TRADE_SKILL_SHOW")
 eventFrame:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
 eventFrame:RegisterEvent("TRADE_SKILL_DETAILS_UPDATE")
 eventFrame:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
+eventFrame:RegisterEvent("GET_ITEM_INFO_RECEIVED")

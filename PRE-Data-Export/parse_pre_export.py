@@ -53,6 +53,56 @@ def normalize_int(value: Any) -> int | None:
     return None
 
 
+def normalize_name(value: Any) -> str | None:
+    if isinstance(value, str):
+        stripped = value.strip()
+        if stripped:
+            return stripped
+    return None
+
+
+def build_reagent_candidates(raw_reagents: list[Any], fallback_reagents: list[Any]) -> list[dict[str, Any]]:
+    if not raw_reagents and not fallback_reagents:
+        return []
+
+    fallback_name_by_item_id: dict[int, str] = {}
+    for fallback in fallback_reagents:
+        if not isinstance(fallback, dict):
+            continue
+        fallback_item_id = normalize_int(fallback.get("itemID"))
+        fallback_item_name = normalize_name(fallback.get("itemName"))
+        if fallback_item_id is None or fallback_item_name is None:
+            continue
+        fallback_name_by_item_id[fallback_item_id] = fallback_item_name
+
+    reagent_candidates: list[dict[str, Any]] = []
+    max_len = max(len(raw_reagents), len(fallback_reagents))
+    for index in range(max_len):
+        raw_reagent = raw_reagents[index] if index < len(raw_reagents) and isinstance(raw_reagents[index], dict) else {}
+        fallback_reagent = (
+            fallback_reagents[index] if index < len(fallback_reagents) and isinstance(fallback_reagents[index], dict) else {}
+        )
+
+        item_id = normalize_int(raw_reagent.get("itemID"))
+        if item_id is None:
+            item_id = normalize_int(fallback_reagent.get("itemID"))
+
+        item_name = normalize_name(raw_reagent.get("itemName"))
+        if item_name is None:
+            item_name = normalize_name(fallback_reagent.get("itemName"))
+        if item_name is None and item_id is not None:
+            item_name = fallback_name_by_item_id.get(item_id)
+
+        reagent_candidates.append(
+            {
+                "itemID": item_id,
+                "itemName": item_name,
+            }
+        )
+
+    return reagent_candidates
+
+
 def profession_expansion_name(profession_data: dict[str, Any]) -> str:
     profession_info = profession_data.get("professionInfo")
     if isinstance(profession_info, dict):
@@ -236,7 +286,7 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                     raw = slot.get("raw") if isinstance(slot.get("raw"), dict) else {}
                     raw_reagents = listify(raw.get("reagents"))
                     fallback_reagents = listify(slot.get("reagents"))
-                    reagent_candidates = raw_reagents if raw_reagents else fallback_reagents
+                    reagent_candidates = build_reagent_candidates(raw_reagents, fallback_reagents)
 
                     quantity_required = normalize_int(raw.get("quantityRequired"))
                     required = raw.get("required")
