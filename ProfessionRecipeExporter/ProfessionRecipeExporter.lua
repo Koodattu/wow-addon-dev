@@ -403,6 +403,114 @@ local function extractRecipeSchematicReagents(schematic)
     return reagentSlots
 end
 
+local function buildDefaultCraftingReagents(schematic)
+    local craftingReagents = {}
+    if type(schematic) ~= "table" then
+        return craftingReagents
+    end
+
+    local slotSchematics = schematic.reagentSlotSchematics
+    if type(slotSchematics) ~= "table" then
+        return craftingReagents
+    end
+
+    for _, slot in ipairs(slotSchematics) do
+        if type(slot) == "table" and slot.required == true then
+            local dataSlotIndex = slot.dataSlotIndex
+            if type(dataSlotIndex) == "number" then
+                local selectedReagent = nil
+                if type(slot.reagents) == "table" then
+                    for _, slotReagent in ipairs(slot.reagents) do
+                        if type(slotReagent) == "table" then
+                            if type(slotReagent.itemID) == "number" then
+                                selectedReagent = {
+                                    itemID = slotReagent.itemID,
+                                }
+                                break
+                            elseif type(slotReagent.currencyID) == "number" then
+                                selectedReagent = {
+                                    currencyID = slotReagent.currencyID,
+                                }
+                                break
+                            end
+                        end
+                    end
+                end
+
+                if selectedReagent then
+                    local quantity = slot.quantityRequired
+                    if type(quantity) ~= "number" or quantity <= 0 then
+                        quantity = 1
+                    end
+
+                    craftingReagents[#craftingReagents + 1] = {
+                        reagent = selectedReagent,
+                        dataSlotIndex = dataSlotIndex,
+                        quantity = quantity,
+                    }
+                end
+            end
+        end
+    end
+
+    return craftingReagents
+end
+
+local function extractCraftingStatFlags(operationInfo)
+    local stats = {
+        affectedByMulticraft = false,
+        affectedByResourcefulness = false,
+        affectedByIngenuity = false,
+        bonusStats = {},
+    }
+
+    if type(operationInfo) ~= "table" then
+        return stats
+    end
+
+    local bonusStats = operationInfo.bonusStats
+    if type(bonusStats) ~= "table" then
+        return stats
+    end
+
+    for _, bonusStat in ipairs(bonusStats) do
+        if type(bonusStat) == "table" then
+            local bonusStatName = bonusStat.bonusStatName
+            if type(bonusStatName) == "string" and bonusStatName ~= "" then
+                stats.bonusStats[#stats.bonusStats + 1] = bonusStatName
+
+                local lowerName = string.lower(bonusStatName)
+                if string.find(lowerName, "multicraft", 1, true) then
+                    stats.affectedByMulticraft = true
+                end
+                if string.find(lowerName, "resourcefulness", 1, true) then
+                    stats.affectedByResourcefulness = true
+                end
+                if string.find(lowerName, "ingenuity", 1, true) then
+                    stats.affectedByIngenuity = true
+                end
+            end
+        end
+    end
+
+    return stats
+end
+
+local function extractSalvageTargets(recipeID)
+    local targets = {}
+    local salvageableItemIDs = safeCallList(C_TradeSkillUI.GetSalvagableItemIDs, recipeID)
+    for _, itemID in ipairs(salvageableItemIDs) do
+        if type(itemID) == "number" then
+            local itemName = resolveItemNameByID(itemID)
+            targets[#targets + 1] = {
+                itemID = itemID,
+                itemName = itemName,
+            }
+        end
+    end
+    return targets
+end
+
 local function collectCategoryData()
     local categories = {}
     local categoryIDs = safeCallList(C_TradeSkillUI.GetCategories)
@@ -440,6 +548,17 @@ local function collectRecipeData(recipeID, professionSkillLineID)
     local recipeItemLink = safeCall(C_TradeSkillUI.GetRecipeItemLink, recipeID)
     local recipeLink = safeCall(C_TradeSkillUI.GetRecipeLink, recipeID)
     local tradeSkillLineID, tradeSkillLineName, parentTradeSkillID = safeCall(C_TradeSkillUI.GetTradeSkillLineForRecipe, recipeID)
+    local isSalvageRecipe = type(recipeInfo) == "table" and recipeInfo.isSalvageRecipe == true
+    local defaultCraftingReagents = buildDefaultCraftingReagents(schematic)
+    local craftingOperationInfo = nil
+    if type(schematic) == "table" and schematic.hasCraftingOperationInfo then
+        craftingOperationInfo = safeCall(C_TradeSkillUI.GetCraftingOperationInfo, recipeID, defaultCraftingReagents, nil, false)
+    end
+    local craftingStatFlags = extractCraftingStatFlags(craftingOperationInfo)
+    local recipeSalvageTargets = {}
+    if isSalvageRecipe then
+        recipeSalvageTargets = extractSalvageTargets(recipeID)
+    end
 
     return {
         recipeID = recipeID,
@@ -450,6 +569,10 @@ local function collectRecipeData(recipeID, professionSkillLineID)
         recipeOutput = sanitize(outputItemData),
         qualityItemIDs = sanitize(qualityItemIDs),
         qualityIDs = sanitize(qualityIDs),
+        defaultCraftingReagents = sanitize(defaultCraftingReagents),
+        recipeOperationInfo = sanitize(craftingOperationInfo),
+        recipeCraftingStats = sanitize(craftingStatFlags),
+        recipeSalvageTargets = sanitize(recipeSalvageTargets),
         recipeRequirements = sanitize(requirements),
         recipeSourceText = sourceText,
         recipeItemLink = recipeItemLink,

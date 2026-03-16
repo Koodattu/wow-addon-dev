@@ -61,6 +61,12 @@ def normalize_name(value: Any) -> str | None:
     return None
 
 
+def normalize_bool(value: Any) -> bool | None:
+    if isinstance(value, bool):
+        return value
+    return None
+
+
 def build_reagent_candidates(raw_reagents: list[Any], fallback_reagents: list[Any]) -> list[dict[str, Any]]:
     if not raw_reagents and not fallback_reagents:
         return []
@@ -101,6 +107,24 @@ def build_reagent_candidates(raw_reagents: list[Any], fallback_reagents: list[An
         )
 
     return reagent_candidates
+
+
+def normalize_salvage_targets(raw_targets: Any) -> list[dict[str, Any]]:
+    targets: list[dict[str, Any]] = []
+    for raw_target in listify(raw_targets):
+        if not isinstance(raw_target, dict):
+            continue
+        item_id = normalize_int(raw_target.get("itemID"))
+        item_name = normalize_name(raw_target.get("itemName"))
+        if item_id is None:
+            continue
+        targets.append(
+            {
+                "itemID": item_id,
+                "itemName": item_name,
+            }
+        )
+    return targets
 
 
 def profession_expansion_name(profession_data: dict[str, Any]) -> str:
@@ -241,6 +265,10 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                 recipe_schematic = recipe.get("recipeSchematic") if isinstance(recipe.get("recipeSchematic"), dict) else {}
                 recipe_output = recipe.get("recipeOutput") if isinstance(recipe.get("recipeOutput"), dict) else {}
                 trade_skill_line = recipe.get("recipeTradeSkillLine") if isinstance(recipe.get("recipeTradeSkillLine"), dict) else {}
+                recipe_crafting_stats = (
+                    recipe.get("recipeCraftingStats") if isinstance(recipe.get("recipeCraftingStats"), dict) else {}
+                )
+                recipe_salvage_targets = normalize_salvage_targets(recipe.get("recipeSalvageTargets"))
 
                 category_id = normalize_int(recipe_info.get("categoryID"))
                 category_details = category_map.get(category_id or -1, {})
@@ -268,9 +296,16 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                     "outputQuantityMax": normalize_int(recipe_schematic.get("quantityMax")),
                     "qualityItemIDs": listify(recipe.get("qualityItemIDs")),
                     "qualityIDs": listify(recipe.get("qualityIDs")),
+                    "supportsCraftingStats": bool(recipe_info.get("supportsCraftingStats")),
+                    "canCreateMultiple": bool(recipe_info.get("canCreateMultiple")),
                     "isRecraft": bool(recipe_info.get("isRecraft")),
                     "isSalvageRecipe": bool(recipe_info.get("isSalvageRecipe")),
                     "craftable": bool(recipe_info.get("craftable")),
+                    "apiAffectedByMulticraft": normalize_bool(recipe_crafting_stats.get("affectedByMulticraft")),
+                    "apiAffectedByResourcefulness": normalize_bool(recipe_crafting_stats.get("affectedByResourcefulness")),
+                    "apiAffectedByIngenuity": normalize_bool(recipe_crafting_stats.get("affectedByIngenuity")),
+                    "apiBonusStats": listify(recipe_crafting_stats.get("bonusStats")),
+                    "salvageTargets": recipe_salvage_targets,
                 }
 
                 recipe_key = (profession_skill_line_id, recipe_id)

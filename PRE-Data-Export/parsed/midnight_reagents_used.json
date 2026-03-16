@@ -1,0 +1,2810 @@
+[
+  {
+    "reagentItemID": 242643,
+    "reagentName": "A Big Ol' Stick of Butter",
+    "usedInRecipeCount": 14,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 36
+  },
+  {
+    "reagentItemID": 240164,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 102,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 102
+  },
+  {
+    "reagentItemID": 240165,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 102,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 102
+  },
+  {
+    "reagentItemID": 240166,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 102,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 102
+  },
+  {
+    "reagentItemID": 240167,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 102,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 102
+  },
+  {
+    "reagentItemID": 244603,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 150,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 150
+  },
+  {
+    "reagentItemID": 244604,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 150,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 150
+  },
+  {
+    "reagentItemID": 244607,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 144,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 144
+  },
+  {
+    "reagentItemID": 244608,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 144,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 144
+  },
+  {
+    "reagentItemID": 244674,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 144,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 144
+  },
+  {
+    "reagentItemID": 244675,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 144,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 144
+  },
+  {
+    "reagentItemID": 245871,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245872,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245873,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245874,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245875,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245876,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245877,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 245878,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 248130,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 201,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 201
+  },
+  {
+    "reagentItemID": 248132,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 19,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 19
+  },
+  {
+    "reagentItemID": 248133,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 19,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 19
+  },
+  {
+    "reagentItemID": 248135,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 248136,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 248592,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 251487,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 251488,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 251489,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 108,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 108
+  },
+  {
+    "reagentItemID": 251490,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 108,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 108
+  },
+  {
+    "reagentItemID": 255843,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 255844,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 257735,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 257741,
+    "reagentName": "Add Embellishment",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 243578,
+    "reagentName": "Aetherlume",
+    "usedInRecipeCount": 42,
+    "professionNames": [
+      "Midnight Engineering",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 246
+  },
+  {
+    "reagentItemID": 243579,
+    "reagentName": "Aetherlume",
+    "usedInRecipeCount": 42,
+    "professionNames": [
+      "Midnight Engineering",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 246
+  },
+  {
+    "reagentItemID": 241280,
+    "reagentName": "Alchemy Combined Reagent",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 41
+  },
+  {
+    "reagentItemID": 241281,
+    "reagentName": "Alchemy Combined Reagent",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 41
+  },
+  {
+    "reagentItemID": 242554,
+    "reagentName": "Amani Lapis",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 242722,
+    "reagentName": "Amani Lapis",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 244697,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244698,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244699,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244700,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244701,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244702,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244703,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 244704,
+    "reagentName": "Amplify Secondary Stat",
+    "usedInRecipeCount": 51,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 51
+  },
+  {
+    "reagentItemID": 238371,
+    "reagentName": "Arcane Wyrmfish",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 237017,
+    "reagentName": "Arcanoweave",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 237018,
+    "reagentName": "Arcanoweave",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 239198,
+    "reagentName": "Arcanoweave Bolt",
+    "usedInRecipeCount": 29,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 304
+  },
+  {
+    "reagentItemID": 239200,
+    "reagentName": "Arcanoweave Bolt",
+    "usedInRecipeCount": 29,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 304
+  },
+  {
+    "reagentItemID": 236776,
+    "reagentName": "Argentleaf",
+    "usedInRecipeCount": 8,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 33
+  },
+  {
+    "reagentItemID": 236777,
+    "reagentName": "Argentleaf",
+    "usedInRecipeCount": 8,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 33
+  },
+  {
+    "reagentItemID": 245803,
+    "reagentName": "Argentleaf Pigment",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 10
+  },
+  {
+    "reagentItemID": 245804,
+    "reagentName": "Argentleaf Pigment",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 10
+  },
+  {
+    "reagentItemID": 246447,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 591,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 592
+  },
+  {
+    "reagentItemID": 246448,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 591,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 592
+  },
+  {
+    "reagentItemID": 246449,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 591,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 592
+  },
+  {
+    "reagentItemID": 246450,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 591,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 592
+  },
+  {
+    "reagentItemID": 247719,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 186,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 186
+  },
+  {
+    "reagentItemID": 247724,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 186,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 186
+  },
+  {
+    "reagentItemID": 247725,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 627,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 628
+  },
+  {
+    "reagentItemID": 247726,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 627,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 628
+  },
+  {
+    "reagentItemID": 247788,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 591,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 592
+  },
+  {
+    "reagentItemID": 260630,
+    "reagentName": "Artisan's Authenticity",
+    "usedInRecipeCount": 591,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 592
+  },
+  {
+    "reagentItemID": 236774,
+    "reagentName": "Azeroot",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking",
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 159
+  },
+  {
+    "reagentItemID": 236775,
+    "reagentName": "Azeroot",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking",
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 159
+  },
+  {
+    "reagentItemID": 238377,
+    "reagentName": "Blood Hunter",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 238369,
+    "reagentName": "Bloomtail Minnow",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 17
+  },
+  {
+    "reagentItemID": 236963,
+    "reagentName": "Bright Linen",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 1
+  },
+  {
+    "reagentItemID": 236965,
+    "reagentName": "Bright Linen",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 1
+  },
+  {
+    "reagentItemID": 239700,
+    "reagentName": "Bright Linen Bolt",
+    "usedInRecipeCount": 12,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 32
+  },
+  {
+    "reagentItemID": 239701,
+    "reagentName": "Bright Linen Bolt",
+    "usedInRecipeCount": 12,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 32
+  },
+  {
+    "reagentItemID": 237364,
+    "reagentName": "Brilliant Silver Ore",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 14
+  },
+  {
+    "reagentItemID": 237365,
+    "reagentName": "Brilliant Silver Ore",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 14
+  },
+  {
+    "reagentItemID": 238523,
+    "reagentName": "Carving Canine",
+    "usedInRecipeCount": 16,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 48
+  },
+  {
+    "reagentItemID": 245764,
+    "reagentName": "Codified Azeroot",
+    "usedInRecipeCount": 30,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 155
+  },
+  {
+    "reagentItemID": 245765,
+    "reagentName": "Codified Azeroot",
+    "usedInRecipeCount": 30,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 155
+  },
+  {
+    "reagentItemID": 256559,
+    "reagentName": "Competitor's Heraldry",
+    "usedInRecipeCount": 63,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 292
+  },
+  {
+    "reagentItemID": 256607,
+    "reagentName": "Competitor's Heraldry",
+    "usedInRecipeCount": 63,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 292
+  },
+  {
+    "reagentItemID": 256608,
+    "reagentName": "Competitor's Heraldry",
+    "usedInRecipeCount": 63,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 292
+  },
+  {
+    "reagentItemID": 242641,
+    "reagentName": "Cooking Spirits",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 17
+  },
+  {
+    "reagentItemID": 242786,
+    "reagentName": "Crystalline Glass",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 68
+  },
+  {
+    "reagentItemID": 242787,
+    "reagentName": "Crystalline Glass",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 68
+  },
+  {
+    "reagentItemID": 245814,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245815,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245816,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245817,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245818,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245819,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245820,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245821,
+    "reagentName": "Customize Crafting Stat",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 24
+  },
+  {
+    "reagentItemID": 245822,
+    "reagentName": "Customize Gathering Stat",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Blacksmithing"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 245823,
+    "reagentName": "Customize Gathering Stat",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Blacksmithing"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 245824,
+    "reagentName": "Customize Gathering Stat",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Blacksmithing"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 245825,
+    "reagentName": "Customize Gathering Stat",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Blacksmithing"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 245826,
+    "reagentName": "Customize Gathering Stat",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Blacksmithing"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 245827,
+    "reagentName": "Customize Gathering Stat",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Blacksmithing"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 245781,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245782,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245783,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245784,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245785,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245786,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245787,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245788,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245789,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245790,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245791,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245792,
+    "reagentName": "Customize Secondary Stats",
+    "usedInRecipeCount": 153,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 153
+  },
+  {
+    "reagentItemID": 245855,
+    "reagentName": "Darkmoon Deck: Blood",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 2
+  },
+  {
+    "reagentItemID": 245829,
+    "reagentName": "Darkmoon Deck: Hunt",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 2
+  },
+  {
+    "reagentItemID": 245846,
+    "reagentName": "Darkmoon Deck: Rot",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 2
+  },
+  {
+    "reagentItemID": 245750,
+    "reagentName": "Darkmoon Deck: Void",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 2
+  },
+  {
+    "reagentItemID": 243605,
+    "reagentName": "Dawn Crystal",
+    "usedInRecipeCount": 49,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 113
+  },
+  {
+    "reagentItemID": 243606,
+    "reagentName": "Dawn Crystal",
+    "usedInRecipeCount": 49,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 113
+  },
+  {
+    "reagentItemID": 237366,
+    "reagentName": "Dazzling Thorium",
+    "usedInRecipeCount": 48,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 91
+  },
+  {
+    "reagentItemID": 242788,
+    "reagentName": "Duskshrouded Stone",
+    "usedInRecipeCount": 38,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 212
+  },
+  {
+    "reagentItemID": 242789,
+    "reagentName": "Duskshrouded Stone",
+    "usedInRecipeCount": 38,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 212
+  },
+  {
+    "reagentItemID": 251691,
+    "reagentName": "Embroidery Floss",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 147
+  },
+  {
+    "reagentItemID": null,
+    "reagentName": "Empower",
+    "usedInRecipeCount": 172,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 27520
+  },
+  {
+    "reagentItemID": 38682,
+    "reagentName": "Enchanting Vellum",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 3
+  },
+  {
+    "reagentItemID": 243599,
+    "reagentName": "Eversinging Dust",
+    "usedInRecipeCount": 92,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 1115
+  },
+  {
+    "reagentItemID": 243600,
+    "reagentName": "Eversinging Dust",
+    "usedInRecipeCount": 92,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 1115
+  },
+  {
+    "reagentItemID": 242608,
+    "reagentName": "Eversong Diamond",
+    "usedInRecipeCount": 4,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 242712,
+    "reagentName": "Eversong Diamond",
+    "usedInRecipeCount": 4,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 238383,
+    "reagentName": "Eversong Trout",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 11
+  },
+  {
+    "reagentItemID": 238525,
+    "reagentName": "Fantastic Fur",
+    "usedInRecipeCount": 16,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 60
+  },
+  {
+    "reagentItemID": 242612,
+    "reagentName": "Flawless Amani Lapis",
+    "usedInRecipeCount": 7,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 7
+  },
+  {
+    "reagentItemID": 242727,
+    "reagentName": "Flawless Amani Lapis",
+    "usedInRecipeCount": 7,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 7
+  },
+  {
+    "reagentItemID": 242610,
+    "reagentName": "Flawless Harandar Peridot",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 242726,
+    "reagentName": "Flawless Harandar Peridot",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 9
+  },
+  {
+    "reagentItemID": 242613,
+    "reagentName": "Flawless Sanguine Garnet",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 242724,
+    "reagentName": "Flawless Sanguine Garnet",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 242611,
+    "reagentName": "Flawless Tenebrous Amethyst",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 242725,
+    "reagentName": "Flawless Tenebrous Amethyst",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 245345,
+    "reagentName": "Fused Vitality",
+    "usedInRecipeCount": 36,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 720
+  },
+  {
+    "reagentItemID": 242620,
+    "reagentName": "Glimmering Gemdust",
+    "usedInRecipeCount": 59,
+    "professionNames": [
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 366
+  },
+  {
+    "reagentItemID": 242621,
+    "reagentName": "Glimmering Gemdust",
+    "usedInRecipeCount": 59,
+    "professionNames": [
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 366
+  },
+  {
+    "reagentItemID": 238202,
+    "reagentName": "Gloaming Alloy",
+    "usedInRecipeCount": 49,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 279
+  },
+  {
+    "reagentItemID": 238203,
+    "reagentName": "Gloaming Alloy",
+    "usedInRecipeCount": 49,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 279
+  },
+  {
+    "reagentItemID": 242607,
+    "reagentName": "Harandar Peridot",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 242720,
+    "reagentName": "Harandar Peridot",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 239702,
+    "reagentName": "Imbued Bright Linen Bolt",
+    "usedInRecipeCount": 22,
+    "professionNames": [
+      "Midnight Engineering",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 96
+  },
+  {
+    "reagentItemID": 239703,
+    "reagentName": "Imbued Bright Linen Bolt",
+    "usedInRecipeCount": 22,
+    "professionNames": [
+      "Midnight Engineering",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 96
+  },
+  {
+    "reagentItemID": 253307,
+    "reagentName": "Infused Heliotrope",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 3
+  },
+  {
+    "reagentItemID": 244633,
+    "reagentName": "Infused Scalewoven Hide",
+    "usedInRecipeCount": 37,
+    "professionNames": [
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 37
+  },
+  {
+    "reagentItemID": 244634,
+    "reagentName": "Infused Scalewoven Hide",
+    "usedInRecipeCount": 37,
+    "professionNames": [
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 37
+  },
+  {
+    "reagentItemID": 240974,
+    "reagentName": "Kaleidoscopic Prism",
+    "usedInRecipeCount": 17,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 17
+  },
+  {
+    "reagentItemID": 240975,
+    "reagentName": "Kaleidoscopic Prism",
+    "usedInRecipeCount": 17,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 17
+  },
+  {
+    "reagentItemID": 245881,
+    "reagentName": "Lexicologist's Vellum",
+    "usedInRecipeCount": 34,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 241
+  },
+  {
+    "reagentItemID": 243581,
+    "reagentName": "Lumiflux",
+    "usedInRecipeCount": 94,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 207
+  },
+  {
+    "reagentItemID": 243582,
+    "reagentName": "Lumiflux",
+    "usedInRecipeCount": 94,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 207
+  },
+  {
+    "reagentItemID": 243060,
+    "reagentName": "Luminant Flux",
+    "usedInRecipeCount": 56,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 261
+  },
+  {
+    "reagentItemID": 238366,
+    "reagentName": "Lynxfish",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 238528,
+    "reagentName": "Majestic Claw",
+    "usedInRecipeCount": 24,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 31
+  },
+  {
+    "reagentItemID": 238530,
+    "reagentName": "Majestic Fin",
+    "usedInRecipeCount": 13,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 14
+  },
+  {
+    "reagentItemID": 238529,
+    "reagentName": "Majestic Hide",
+    "usedInRecipeCount": 19,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 23
+  },
+  {
+    "reagentItemID": 253302,
+    "reagentName": "Malleable Wireframe",
+    "usedInRecipeCount": 54,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 156
+  },
+  {
+    "reagentItemID": 236778,
+    "reagentName": "Mana Lily",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 42
+  },
+  {
+    "reagentItemID": 236779,
+    "reagentName": "Mana Lily",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 42
+  },
+  {
+    "reagentItemID": 245866,
+    "reagentName": "Mana Lily Pigment",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 10
+  },
+  {
+    "reagentItemID": 245867,
+    "reagentName": "Mana Lily Pigment",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 10
+  },
+  {
+    "reagentItemID": 242644,
+    "reagentName": "Mana-Wyrm Essence",
+    "usedInRecipeCount": 12,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 13
+  },
+  {
+    "reagentItemID": 236949,
+    "reagentName": "Mote of Light",
+    "usedInRecipeCount": 69,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 492
+  },
+  {
+    "reagentItemID": 236950,
+    "reagentName": "Mote of Primal Energy",
+    "usedInRecipeCount": 75,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 563
+  },
+  {
+    "reagentItemID": 236952,
+    "reagentName": "Mote of Pure Void",
+    "usedInRecipeCount": 45,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 257
+  },
+  {
+    "reagentItemID": 236951,
+    "reagentName": "Mote of Wild Magic",
+    "usedInRecipeCount": 88,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 903
+  },
+  {
+    "reagentItemID": 245801,
+    "reagentName": "Munsell Ink",
+    "usedInRecipeCount": 35,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 62
+  },
+  {
+    "reagentItemID": 245802,
+    "reagentName": "Munsell Ink",
+    "usedInRecipeCount": 35,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 62
+  },
+  {
+    "reagentItemID": 236780,
+    "reagentName": "Nocturnal Lotus",
+    "usedInRecipeCount": 8,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 18
+  },
+  {
+    "reagentItemID": 247811,
+    "reagentName": "Oil of Heartwood",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 238373,
+    "reagentName": "Ominous Octopus",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 7
+  },
+  {
+    "reagentItemID": 236761,
+    "reagentName": "Peacebloom",
+    "usedInRecipeCount": 21,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 142
+  },
+  {
+    "reagentItemID": 236767,
+    "reagentName": "Peacebloom",
+    "usedInRecipeCount": 21,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 142
+  },
+  {
+    "reagentItemID": 238522,
+    "reagentName": "Peerless Plumage",
+    "usedInRecipeCount": 15,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 20
+  },
+  {
+    "reagentItemID": 251285,
+    "reagentName": "Petrified Root",
+    "usedInRecipeCount": 61,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Cooking",
+      "Midnight Enchanting",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 253303,
+    "reagentName": "Pile of Junk",
+    "usedInRecipeCount": 28,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 144
+  },
+  {
+    "reagentItemID": 242640,
+    "reagentName": "Plant Protein",
+    "usedInRecipeCount": 13,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 80
+  },
+  {
+    "reagentItemID": 242646,
+    "reagentName": "Pouch of Spices",
+    "usedInRecipeCount": 13,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 37
+  },
+  {
+    "reagentItemID": 245807,
+    "reagentName": "Powder Pigment",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 40
+  },
+  {
+    "reagentItemID": 245808,
+    "reagentName": "Powder Pigment",
+    "usedInRecipeCount": 2,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 40
+  },
+  {
+    "reagentItemID": 242639,
+    "reagentName": "Practically Pork",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 58
+  },
+  {
+    "reagentItemID": 243602,
+    "reagentName": "Radiant Shard",
+    "usedInRecipeCount": 84,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 595
+  },
+  {
+    "reagentItemID": 243603,
+    "reagentName": "Radiant Shard",
+    "usedInRecipeCount": 84,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 595
+  },
+  {
+    "reagentItemID": 241306,
+    "reagentName": "Refreshing Serum",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 241307,
+    "reagentName": "Refreshing Serum",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 238197,
+    "reagentName": "Refulgent Copper Ingot",
+    "usedInRecipeCount": 39,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 224
+  },
+  {
+    "reagentItemID": 238198,
+    "reagentName": "Refulgent Copper Ingot",
+    "usedInRecipeCount": 39,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 224
+  },
+  {
+    "reagentItemID": 237359,
+    "reagentName": "Refulgent Copper Ore",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 31
+  },
+  {
+    "reagentItemID": 237361,
+    "reagentName": "Refulgent Copper Ore",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 31
+  },
+  {
+    "reagentItemID": 244174,
+    "reagentName": "Refulgent Copper Rod",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 1
+  },
+  {
+    "reagentItemID": 238372,
+    "reagentName": "Restored Songfish",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 242645,
+    "reagentName": "Ripened Vegetable Assortment",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 15
+  },
+  {
+    "reagentItemID": 238367,
+    "reagentName": "Root Crab",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 242553,
+    "reagentName": "Sanguine Garnet",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 242723,
+    "reagentName": "Sanguine Garnet",
+    "usedInRecipeCount": 6,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 236770,
+    "reagentName": "Sanguithorn",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 53
+  },
+  {
+    "reagentItemID": 236771,
+    "reagentName": "Sanguithorn",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 53
+  },
+  {
+    "reagentItemID": 245864,
+    "reagentName": "Sanguithorn Pigment",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 10
+  },
+  {
+    "reagentItemID": 245865,
+    "reagentName": "Sanguithorn Pigment",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 10
+  },
+  {
+    "reagentItemID": 244631,
+    "reagentName": "Scalewoven Hide",
+    "usedInRecipeCount": 12,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 17
+  },
+  {
+    "reagentItemID": 244632,
+    "reagentName": "Scalewoven Hide",
+    "usedInRecipeCount": 12,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 17
+  },
+  {
+    "reagentItemID": 265800,
+    "reagentName": "Secret Ingredient",
+    "usedInRecipeCount": 42,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 42
+  },
+  {
+    "reagentItemID": 265801,
+    "reagentName": "Secret Ingredient",
+    "usedInRecipeCount": 42,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 42
+  },
+  {
+    "reagentItemID": 265803,
+    "reagentName": "Secret Ingredient",
+    "usedInRecipeCount": 42,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 42
+  },
+  {
+    "reagentItemID": 238378,
+    "reagentName": "Shimmersiren",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 2
+  },
+  {
+    "reagentItemID": 245805,
+    "reagentName": "Sienna Ink",
+    "usedInRecipeCount": 37,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 64
+  },
+  {
+    "reagentItemID": 245806,
+    "reagentName": "Sienna Ink",
+    "usedInRecipeCount": 37,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 64
+  },
+  {
+    "reagentItemID": 251665,
+    "reagentName": "Silverleaf Thread",
+    "usedInRecipeCount": 66,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 783
+  },
+  {
+    "reagentItemID": 244637,
+    "reagentName": "Silvermoon Weapon Wrap",
+    "usedInRecipeCount": 33,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 33
+  },
+  {
+    "reagentItemID": 244638,
+    "reagentName": "Silvermoon Weapon Wrap",
+    "usedInRecipeCount": 33,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 33
+  },
+  {
+    "reagentItemID": 244635,
+    "reagentName": "Sin'dorei Armor Banding",
+    "usedInRecipeCount": 61,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 79
+  },
+  {
+    "reagentItemID": 244636,
+    "reagentName": "Sin'dorei Armor Banding",
+    "usedInRecipeCount": 61,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 79
+  },
+  {
+    "reagentItemID": 240972,
+    "reagentName": "Sin'dorei Lens",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 240973,
+    "reagentName": "Sin'dorei Lens",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 45
+  },
+  {
+    "reagentItemID": 238365,
+    "reagentName": "Sin'dorei Swarmer",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 20
+  },
+  {
+    "reagentItemID": 243737,
+    "reagentName": "Smuggler's Enchanted Edge",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 243738,
+    "reagentName": "Smuggler's Enchanted Edge",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 246211,
+    "reagentName": "Socket",
+    "usedInRecipeCount": 56,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 56
+  },
+  {
+    "reagentItemID": 246212,
+    "reagentName": "Socket",
+    "usedInRecipeCount": 56,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 56
+  },
+  {
+    "reagentItemID": 243574,
+    "reagentName": "Song Gear",
+    "usedInRecipeCount": 20,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 88
+  },
+  {
+    "reagentItemID": 243575,
+    "reagentName": "Song Gear",
+    "usedInRecipeCount": 20,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 88
+  },
+  {
+    "reagentItemID": 245766,
+    "reagentName": "Soul Cipher",
+    "usedInRecipeCount": 32,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 165
+  },
+  {
+    "reagentItemID": 245767,
+    "reagentName": "Soul Cipher",
+    "usedInRecipeCount": 32,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 165
+  },
+  {
+    "reagentItemID": 243576,
+    "reagentName": "Soul Sprocket",
+    "usedInRecipeCount": 38,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 145
+  },
+  {
+    "reagentItemID": 243577,
+    "reagentName": "Soul Sprocket",
+    "usedInRecipeCount": 38,
+    "professionNames": [
+      "Midnight Engineering"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 145
+  },
+  {
+    "reagentItemID": 232875,
+    "reagentName": "Spark",
+    "usedInRecipeCount": 98,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 214
+  },
+  {
+    "reagentItemID": 242651,
+    "reagentName": "Stabilized Derivate",
+    "usedInRecipeCount": 12,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 32
+  },
+  {
+    "reagentItemID": 238204,
+    "reagentName": "Sterling Alloy",
+    "usedInRecipeCount": 53,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 347
+  },
+  {
+    "reagentItemID": 238205,
+    "reagentName": "Sterling Alloy",
+    "usedInRecipeCount": 53,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 347
+  },
+  {
+    "reagentItemID": 237015,
+    "reagentName": "Sunfire Silk",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 237016,
+    "reagentName": "Sunfire Silk",
+    "usedInRecipeCount": 10,
+    "professionNames": [
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 239201,
+    "reagentName": "Sunfire Silk Bolt",
+    "usedInRecipeCount": 27,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 294
+  },
+  {
+    "reagentItemID": 239202,
+    "reagentName": "Sunfire Silk Bolt",
+    "usedInRecipeCount": 27,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 294
+  },
+  {
+    "reagentItemID": 240990,
+    "reagentName": "Sunglass Vial",
+    "usedInRecipeCount": 26,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 240991,
+    "reagentName": "Sunglass Vial",
+    "usedInRecipeCount": 26,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Enchanting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 130
+  },
+  {
+    "reagentItemID": 238384,
+    "reagentName": "Sunwell Fish",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 242647,
+    "reagentName": "Tavern Fixings",
+    "usedInRecipeCount": 21,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 53
+  },
+  {
+    "reagentItemID": 238374,
+    "reagentName": "Tender Lumifin",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 2
+  },
+  {
+    "reagentItemID": 242606,
+    "reagentName": "Tenebrous Amethyst",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 242721,
+    "reagentName": "Tenebrous Amethyst",
+    "usedInRecipeCount": 5,
+    "professionNames": [
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 251923,
+    "reagentName": "Thalassian Essence of the Faire",
+    "usedInRecipeCount": 4,
+    "professionNames": [
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4
+  },
+  {
+    "reagentItemID": 253403,
+    "reagentName": "Thalassian Filet",
+    "usedInRecipeCount": 11,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 70
+  },
+  {
+    "reagentItemID": 242642,
+    "reagentName": "Thalassian Herbs",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 5
+  },
+  {
+    "reagentItemID": 256963,
+    "reagentName": "Thalassian Lumber",
+    "usedInRecipeCount": 60,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 1438
+  },
+  {
+    "reagentItemID": 245882,
+    "reagentName": "Thalassian Songwater",
+    "usedInRecipeCount": 21,
+    "professionNames": [
+      "Midnight Enchanting",
+      "Midnight Inscription"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 40
+  },
+  {
+    "reagentItemID": 251283,
+    "reagentName": "Tormented Tantalum",
+    "usedInRecipeCount": 98,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Blacksmithing",
+      "Midnight Enchanting",
+      "Midnight Engineering",
+      "Midnight Inscription",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking",
+      "Midnight Tailoring"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 98
+  },
+  {
+    "reagentItemID": 238368,
+    "reagentName": "Twisted Tetra",
+    "usedInRecipeCount": 1,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 6
+  },
+  {
+    "reagentItemID": 237362,
+    "reagentName": "Umbral Tin Ore",
+    "usedInRecipeCount": 4,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 26
+  },
+  {
+    "reagentItemID": 237363,
+    "reagentName": "Umbral Tin Ore",
+    "usedInRecipeCount": 4,
+    "professionNames": [
+      "Midnight Blacksmithing",
+      "Midnight Engineering",
+      "Midnight Jewelcrafting"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 26
+  },
+  {
+    "reagentItemID": 238518,
+    "reagentName": "Void-Tempered Hide",
+    "usedInRecipeCount": 17,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Engineering",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 37
+  },
+  {
+    "reagentItemID": 238519,
+    "reagentName": "Void-Tempered Hide",
+    "usedInRecipeCount": 17,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Engineering",
+      "Midnight Jewelcrafting",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 37
+  },
+  {
+    "reagentItemID": 238511,
+    "reagentName": "Void-Tempered Leather",
+    "usedInRecipeCount": 70,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4135
+  },
+  {
+    "reagentItemID": 238512,
+    "reagentName": "Void-Tempered Leather",
+    "usedInRecipeCount": 70,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 4135
+  },
+  {
+    "reagentItemID": 238520,
+    "reagentName": "Void-Tempered Plating",
+    "usedInRecipeCount": 14,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Engineering",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 34
+  },
+  {
+    "reagentItemID": 238521,
+    "reagentName": "Void-Tempered Plating",
+    "usedInRecipeCount": 14,
+    "professionNames": [
+      "Midnight Alchemy",
+      "Midnight Engineering",
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 34
+  },
+  {
+    "reagentItemID": 238513,
+    "reagentName": "Void-Tempered Scales",
+    "usedInRecipeCount": 67,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 3615
+  },
+  {
+    "reagentItemID": 238514,
+    "reagentName": "Void-Tempered Scales",
+    "usedInRecipeCount": 67,
+    "professionNames": [
+      "Midnight Leatherworking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 3615
+  },
+  {
+    "reagentItemID": 238379,
+    "reagentName": "Warping Wise",
+    "usedInRecipeCount": 3,
+    "professionNames": [
+      "Midnight Cooking"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 8
+  },
+  {
+    "reagentItemID": 241282,
+    "reagentName": "Wondrous Synergist",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 34
+  },
+  {
+    "reagentItemID": 241283,
+    "reagentName": "Wondrous Synergist",
+    "usedInRecipeCount": 9,
+    "professionNames": [
+      "Midnight Alchemy"
+    ],
+    "totalRequiredQuantityAcrossRecipes": 34
+  }
+]
