@@ -162,7 +162,10 @@ def reagent_option_sort_key(slot_row: dict[str, Any]) -> tuple[int, int]:
     return (slot_key[0] * 10**6 + slot_key[1], option_sort)
 
 
-def normalize_salvage_targets(raw_targets: Any) -> list[dict[str, Any]]:
+def normalize_salvage_targets(
+    raw_targets: Any,
+    reagent_name_by_item_id: dict[int, str],
+) -> list[dict[str, Any]]:
     result: list[dict[str, Any]] = []
     for raw_target in raw_targets if isinstance(raw_targets, list) else []:
         if not isinstance(raw_target, dict):
@@ -170,10 +173,13 @@ def normalize_salvage_targets(raw_targets: Any) -> list[dict[str, Any]]:
         item_id = normalize_int(raw_target.get("itemID"))
         if item_id is None:
             continue
+        item_name = normalize_name(raw_target.get("itemName"))
+        if not item_name:
+            item_name = reagent_name_by_item_id.get(item_id, "")
         result.append(
             {
                 "itemID": item_id,
-                "itemName": normalize_name(raw_target.get("itemName")),
+                "itemName": item_name,
             }
         )
     return result
@@ -286,9 +292,6 @@ def build_simplified(
                     "recipeIDsReagent": set(),
                     "recipeIDsOutput": set(),
                     "professionNames": set(),
-                    "totalRequiredQuantityAcrossRecipes": 0,
-                    "totalOutputQuantityMinAcrossRecipes": 0,
-                    "totalOutputQuantityMaxAcrossRecipes": 0,
                     "entryTypes": set(),
                     "reagentQualities": set(),
                     "recipeOutputRanks": set(),
@@ -300,7 +303,6 @@ def build_simplified(
             profession_name = normalize_name(recipe_row.get("professionName"))
             if profession_name:
                 usage_row["professionNames"].add(profession_name)
-            usage_row["totalRequiredQuantityAcrossRecipes"] += quantity_value
             usage_row["entryTypes"].add("reagent")
 
             reagent_quality = normalize_int(slot_row.get("reagentQuality"))
@@ -316,10 +318,11 @@ def build_simplified(
             if output_item_id is not None:
                 output_item_ids = [output_item_id]
 
-        output_name = normalize_name(recipe_row.get("outputItemName")) or recipe_name
-        output_quantity_min = normalize_int(recipe_row.get("outputQuantityMin")) or 0
-        output_quantity_max = normalize_int(recipe_row.get("outputQuantityMax")) or output_quantity_min
-
+        output_name = normalize_name(recipe_row.get("outputItemName"))
+        if not output_name and output_qualities:
+            output_name = normalize_name(output_qualities[0].get("itemName"))
+        if not output_name:
+            output_name = recipe_name
         for output_item_id in output_item_ids:
             usage_row = item_usage.get(output_item_id)
             if usage_row is None:
@@ -329,9 +332,6 @@ def build_simplified(
                     "recipeIDsReagent": set(),
                     "recipeIDsOutput": set(),
                     "professionNames": set(),
-                    "totalRequiredQuantityAcrossRecipes": 0,
-                    "totalOutputQuantityMinAcrossRecipes": 0,
-                    "totalOutputQuantityMaxAcrossRecipes": 0,
                     "entryTypes": set(),
                     "reagentQualities": set(),
                     "recipeOutputRanks": set(),
@@ -343,8 +343,6 @@ def build_simplified(
             profession_name = normalize_name(recipe_row.get("professionName"))
             if profession_name:
                 usage_row["professionNames"].add(profession_name)
-            usage_row["totalOutputQuantityMinAcrossRecipes"] += output_quantity_min
-            usage_row["totalOutputQuantityMaxAcrossRecipes"] += output_quantity_max
             usage_row["entryTypes"].add("craftedOutput")
 
             for quality_entry in output_qualities:
@@ -370,7 +368,7 @@ def build_simplified(
                 "topCategoryID": normalize_int(recipe_row.get("topCategoryID")),
                 "topCategoryName": normalize_name(recipe_row.get("topCategoryName")),
                 "outputItemID": normalize_int(recipe_row.get("outputItemID")),
-                "outputItemName": normalize_name(recipe_row.get("outputItemName")),
+                "outputItemName": output_name,
                 "outputQuantityMin": normalize_int(recipe_row.get("outputQuantityMin")),
                 "outputQuantityMax": normalize_int(recipe_row.get("outputQuantityMax")),
                 "qualityItemIDs": normalize_int_list(recipe_row.get("qualityItemIDs")),
@@ -381,7 +379,10 @@ def build_simplified(
                 "affectedByResourcefulness": affected_by_resourcefulness,
                 "affectedByIngenuity": affected_by_ingenuity,
                 "apiBonusStats": recipe_row.get("apiBonusStats") if isinstance(recipe_row.get("apiBonusStats"), list) else [],
-                "salvageTargets": normalize_salvage_targets(recipe_row.get("salvageTargets")),
+                "salvageTargets": normalize_salvage_targets(
+                    recipe_row.get("salvageTargets"),
+                    reagent_name_by_item_id,
+                ),
                 "reagents": reagent_list,
             }
         )
@@ -390,20 +391,13 @@ def build_simplified(
 
     unique_reagents: list[dict[str, Any]] = []
     for usage_row in item_usage.values():
-        reagent_recipe_ids = sorted(usage_row["recipeIDsReagent"])
-        output_recipe_ids = sorted(usage_row["recipeIDsOutput"])
         profession_names = sorted(usage_row["professionNames"])
         unique_reagents.append(
             {
                 "itemID": usage_row["itemID"],
                 "itemName": usage_row["itemName"],
                 "entryTypes": sorted(usage_row["entryTypes"]),
-                "usedInRecipeCount": len(reagent_recipe_ids),
-                "craftedByRecipeCount": len(output_recipe_ids),
                 "professionNames": profession_names,
-                "totalRequiredQuantityAcrossRecipes": usage_row["totalRequiredQuantityAcrossRecipes"],
-                "totalOutputQuantityMinAcrossRecipes": usage_row["totalOutputQuantityMinAcrossRecipes"],
-                "totalOutputQuantityMaxAcrossRecipes": usage_row["totalOutputQuantityMaxAcrossRecipes"],
                 "reagentQualities": sorted(usage_row["reagentQualities"]),
                 "recipeOutputRanks": sorted(usage_row["recipeOutputRanks"]),
                 "recipeOutputQualityIDs": sorted(usage_row["recipeOutputQualityIDs"]),
