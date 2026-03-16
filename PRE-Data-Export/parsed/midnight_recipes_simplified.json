@@ -22,6 +22,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -374,6 +375,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -716,6 +718,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -1058,6 +1061,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -1405,6 +1409,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -1747,6 +1752,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -2084,6 +2090,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -2426,6 +2433,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -2773,6 +2781,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -3115,6 +3124,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -3462,6 +3472,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -3804,6 +3815,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -4141,6 +4153,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -4483,6 +4496,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -4825,6 +4839,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -5167,6 +5182,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -5509,6 +5525,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -5866,6 +5883,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -6037,6 +6055,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -6137,6 +6156,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -6308,6 +6328,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -6424,6 +6445,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -6546,6 +6568,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -6683,6 +6706,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -6794,6 +6818,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -6926,6 +6951,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -7073,6 +7099,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -7315,6 +7342,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -7532,6 +7560,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -7789,6 +7818,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -7930,6 +7960,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -8067,6 +8098,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -8264,6 +8296,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -8460,6 +8493,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -8552,6 +8586,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -8749,6 +8784,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -8990,6 +9026,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -9097,6 +9134,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -9254,6 +9292,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -9390,6 +9429,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -9557,6 +9597,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -9749,6 +9790,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -9926,6 +9968,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -10288,6 +10331,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -10650,6 +10694,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -11012,6 +11057,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -11314,6 +11360,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -11616,6 +11663,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -11892,6 +11940,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -12014,6 +12063,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -12296,6 +12346,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -12578,6 +12629,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -12880,6 +12932,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -13162,6 +13215,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -13444,6 +13498,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -13720,6 +13775,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -13851,6 +13907,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -13923,6 +13980,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -14285,6 +14343,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -14641,6 +14700,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -14803,6 +14863,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -14944,6 +15005,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -15106,6 +15168,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -15262,6 +15325,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -15394,6 +15458,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -15546,6 +15611,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -15676,6 +15742,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -15803,6 +15870,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -15940,6 +16008,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16077,6 +16146,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16208,6 +16278,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16325,6 +16396,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16472,6 +16544,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16603,6 +16676,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16749,6 +16823,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -16896,6 +16971,7 @@
         "itemQuality": 4
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17057,6 +17133,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17189,6 +17266,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17326,6 +17404,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17457,6 +17536,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17574,6 +17654,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17730,6 +17811,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -17892,6 +17974,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -18069,6 +18152,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -18246,6 +18330,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -18423,6 +18508,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -18600,6 +18686,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -18777,6 +18864,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -18939,6 +19027,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -19256,6 +19345,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -19538,6 +19628,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -19820,6 +19911,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -20137,6 +20229,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -20434,6 +20527,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -20716,6 +20810,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -21013,6 +21108,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -21295,6 +21391,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -21591,6 +21688,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -21707,6 +21805,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -21854,6 +21953,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -22071,6 +22171,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -22288,6 +22389,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -22505,6 +22607,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -22737,6 +22840,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -22909,6 +23013,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -23081,6 +23186,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -23253,6 +23359,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -23404,6 +23511,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -23446,6 +23554,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -23738,6 +23847,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -24030,6 +24140,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -24322,6 +24433,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -24614,6 +24726,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -24921,6 +25034,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -25072,6 +25186,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -25223,6 +25338,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -25374,6 +25490,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -25504,6 +25621,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -25666,6 +25784,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -25808,6 +25927,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -25995,6 +26115,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -26147,6 +26268,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -26299,6 +26421,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -26451,6 +26574,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -26603,6 +26727,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -26755,6 +26880,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -26901,6 +27027,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -27078,6 +27205,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -27212,6 +27340,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -27396,6 +27525,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -27580,6 +27710,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -27769,6 +27900,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -27953,6 +28085,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -28142,6 +28275,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -28326,6 +28460,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -28510,6 +28645,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -28633,6 +28769,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -28802,6 +28939,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -28971,6 +29109,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -29140,6 +29279,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -29263,6 +29403,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -29386,6 +29527,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -29489,6 +29631,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -29673,6 +29816,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -29842,6 +29986,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -29945,6 +30090,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -30114,6 +30260,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -30283,6 +30430,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -30386,6 +30534,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -30489,6 +30638,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -30658,6 +30808,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -30812,6 +30963,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -30981,6 +31133,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -31104,6 +31257,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -31227,6 +31381,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -31381,6 +31536,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -31504,6 +31660,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -31678,6 +31835,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -31852,6 +32010,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -32026,6 +32185,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -32200,6 +32360,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -32374,6 +32535,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -32548,6 +32710,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -32737,6 +32900,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -32926,6 +33090,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -33115,6 +33280,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -33304,6 +33470,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -33488,6 +33655,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -33672,6 +33840,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -33861,6 +34030,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -34050,6 +34220,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -34236,6 +34407,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -34387,6 +34559,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -34538,6 +34711,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -34689,6 +34863,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -34851,6 +35026,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -34981,6 +35157,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -35118,6 +35295,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -35248,6 +35426,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -35350,6 +35529,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -35596,6 +35776,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -35842,6 +36023,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -36129,6 +36311,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -36375,6 +36558,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -36622,6 +36806,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -36868,6 +37053,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -37114,6 +37300,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -37361,6 +37548,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -37608,6 +37796,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -37855,6 +38044,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -38101,6 +38291,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -38347,6 +38538,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -38593,6 +38785,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -38750,6 +38943,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -38916,6 +39110,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -39033,6 +39228,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -39159,6 +39355,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -39335,6 +39532,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -39511,6 +39709,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -39637,6 +39836,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -39757,6 +39957,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -39859,6 +40060,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -39985,6 +40187,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -40342,6 +40545,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -40698,6 +40902,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -40835,6 +41040,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -41012,6 +41218,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -41374,6 +41581,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -41751,6 +41959,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -42108,6 +42317,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -42465,6 +42675,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -42822,6 +43033,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -43179,6 +43391,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -43556,6 +43769,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -43933,6 +44147,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -44225,6 +44440,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -44511,6 +44727,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -44607,6 +44824,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -44739,6 +44957,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -44936,6 +45155,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -45133,6 +45353,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -45330,6 +45551,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -45527,6 +45749,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -45704,6 +45927,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -45881,6 +46105,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -46058,6 +46283,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -46235,6 +46461,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -46412,6 +46639,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -46589,6 +46817,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -46766,6 +46995,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -46943,6 +47173,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -47120,6 +47351,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -47297,6 +47529,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -47474,6 +47707,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -47636,6 +47870,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -47808,6 +48043,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -47985,6 +48221,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -48162,6 +48399,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -48339,6 +48577,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -48495,6 +48734,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -48596,6 +48836,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -48698,6 +48939,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49005,6 +49247,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49161,6 +49404,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49312,6 +49556,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49414,6 +49659,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49585,6 +49831,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49717,6 +49964,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -49934,6 +50182,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -50115,6 +50364,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -50216,6 +50466,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -50317,6 +50568,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -50424,6 +50676,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -50631,6 +50884,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -50763,6 +51017,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -51039,6 +51294,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -51181,6 +51437,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -51323,6 +51580,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -51465,6 +51723,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -51607,6 +51866,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -51749,6 +52009,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -51891,6 +52152,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52033,6 +52295,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52175,6 +52438,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52317,6 +52581,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52459,6 +52724,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52601,6 +52867,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52743,6 +53010,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -52885,6 +53153,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53027,6 +53296,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53169,6 +53439,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53311,6 +53582,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53453,6 +53725,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53595,6 +53868,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53737,6 +54011,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -53879,6 +54154,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54021,6 +54297,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54163,6 +54440,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54305,6 +54583,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54447,6 +54726,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54568,6 +54848,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54700,6 +54981,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -54862,6 +55144,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -55039,6 +55322,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -55175,6 +55459,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -55342,6 +55627,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -55442,6 +55728,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -55543,6 +55830,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -55730,6 +56018,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -55932,6 +56221,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56134,6 +56424,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56315,6 +56606,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56417,6 +56709,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56578,6 +56871,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56704,6 +56998,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56729,6 +57024,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -56788,6 +57084,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -56955,6 +57252,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -57202,6 +57500,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -57339,6 +57638,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -57526,6 +57826,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -57652,6 +57953,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -57853,6 +58155,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -57954,6 +58257,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58076,6 +58380,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58223,6 +58528,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58370,6 +58676,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58496,6 +58803,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58613,6 +58921,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58734,6 +59043,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -58851,6 +59161,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -59032,6 +59343,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59194,6 +59506,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59375,6 +59688,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59415,6 +59729,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59455,6 +59770,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59495,6 +59811,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59541,6 +59858,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -59693,6 +60011,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -59819,6 +60138,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -60010,6 +60330,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -60221,6 +60542,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -60378,6 +60700,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -60670,6 +60993,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -60841,6 +61165,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -60998,6 +61323,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -61200,6 +61526,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -61382,6 +61709,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -61532,6 +61860,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -61639,6 +61968,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -61840,6 +62170,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -61976,6 +62307,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -62072,6 +62404,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -62168,6 +62501,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -62318,6 +62652,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -62474,6 +62809,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -62666,6 +63002,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -62863,6 +63200,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -63225,6 +63563,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -63587,6 +63926,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -63949,6 +64289,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -64311,6 +64652,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -64667,6 +65009,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -64768,6 +65111,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -64854,6 +65198,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -64956,6 +65301,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -65338,6 +65684,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -65720,6 +66067,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -66082,6 +66430,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -66444,6 +66793,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -66806,6 +67156,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -67168,6 +67519,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -67530,6 +67882,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -67927,6 +68280,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -68078,6 +68432,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -68229,6 +68584,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -68380,6 +68736,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -68510,6 +68867,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -68617,6 +68975,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -68969,6 +69328,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -69273,6 +69633,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -69399,6 +69760,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -69463,6 +69825,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -69520,6 +69883,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -69651,6 +70015,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -69818,6 +70183,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -70095,6 +70461,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -70372,6 +70739,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -70627,6 +70995,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -70774,6 +71143,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -70920,6 +71290,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -71021,6 +71392,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -71128,6 +71500,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -71525,6 +71898,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -71681,6 +72055,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -71817,6 +72192,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -71913,6 +72289,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -72030,6 +72407,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -72212,6 +72590,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -72394,6 +72773,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -72576,6 +72956,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -72723,6 +73104,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -72890,6 +73272,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -73032,6 +73415,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -73324,6 +73708,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -73631,6 +74016,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -73767,6 +74153,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -74039,6 +74426,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -74311,6 +74699,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -74573,6 +74962,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -74845,6 +75235,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -75117,6 +75508,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -75389,6 +75781,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -75655,6 +76048,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -75802,6 +76196,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -76064,6 +76459,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -76336,6 +76732,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -76598,6 +76995,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -76860,6 +77258,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -77147,6 +77546,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -77298,6 +77698,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -77449,6 +77850,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -77600,6 +78002,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -77730,6 +78133,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -77811,6 +78215,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -77853,6 +78258,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -78074,6 +78480,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -78152,6 +78559,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -78301,6 +78709,7 @@
       14
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -78679,6 +79088,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -78850,6 +79260,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -78992,6 +79403,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -79148,6 +79560,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -79280,6 +79693,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -79457,6 +79871,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -79613,6 +80028,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -79714,6 +80130,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -79885,6 +80302,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80056,6 +80474,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80187,6 +80606,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80358,6 +80778,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80529,6 +80950,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80700,6 +81122,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80851,6 +81274,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -80982,6 +81406,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -81083,6 +81508,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -81185,6 +81611,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -81346,6 +81773,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -81442,6 +81870,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -81564,6 +81993,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -81856,6 +82286,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -82088,6 +82519,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -82300,6 +82732,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -82506,6 +82939,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -82623,6 +83057,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -82859,6 +83294,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -83101,6 +83537,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -83283,6 +83720,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -83383,6 +83821,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -83490,6 +83929,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -83641,6 +84081,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -83807,6 +84248,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -83929,6 +84371,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -84231,6 +84674,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -84533,6 +84977,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -84843,6 +85288,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -85145,6 +85591,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -85455,6 +85902,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -85745,6 +86193,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -86055,6 +86504,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -86339,6 +86789,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -86446,6 +86897,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -86657,6 +87109,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -86684,6 +87137,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -86836,6 +87290,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -87003,6 +87458,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -87210,6 +87666,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -87567,6 +88024,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -87944,6 +88402,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -88315,6 +88774,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -88437,6 +88897,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -88794,6 +89255,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -89151,6 +89613,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -89508,6 +89971,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -89865,6 +90329,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -90236,6 +90701,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -90338,6 +90804,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -90499,6 +90966,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -90635,6 +91103,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -90755,6 +91224,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -90896,6 +91366,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -91007,6 +91478,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -91124,6 +91596,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -91260,6 +91733,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -91422,6 +91896,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -91574,6 +92049,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -91750,6 +92226,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -91917,6 +92394,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -92059,6 +92537,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -92261,6 +92740,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -92427,6 +92907,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -92564,6 +93045,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -92716,6 +93198,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -92868,6 +93351,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -93020,6 +93504,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -93187,6 +93672,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -93359,6 +93845,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -93511,6 +93998,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -93677,6 +94165,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -93864,6 +94353,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -93995,6 +94485,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -94102,6 +94593,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -94298,6 +94790,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -94465,6 +94958,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -94582,6 +95076,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -94728,6 +95223,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -94930,6 +95426,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -95067,6 +95564,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -95198,6 +95696,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -95369,6 +95868,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -95506,6 +96006,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -95658,6 +96159,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -95948,6 +96450,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -96238,6 +96741,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -96563,6 +97067,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -96740,6 +97245,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -97050,6 +97556,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -97352,6 +97859,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -97662,6 +98170,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -97964,6 +98473,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -98281,6 +98791,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -98443,6 +98954,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -98640,6 +99152,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -98781,6 +99294,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -98918,6 +99432,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -99280,6 +99795,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -99652,6 +100168,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -100024,6 +100541,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -100396,6 +100914,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -100748,6 +101267,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -101100,6 +101620,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -101452,6 +101973,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -101804,6 +102326,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -102156,6 +102679,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -102502,6 +103026,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -102624,6 +103149,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -102986,6 +103512,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -103342,6 +103869,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -103423,6 +103951,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -103525,6 +104054,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -103737,6 +104267,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -103878,6 +104409,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104035,6 +104567,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104176,6 +104709,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104342,6 +104876,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104449,6 +104984,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104631,6 +105167,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104778,6 +105315,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -104960,6 +105498,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -105107,6 +105646,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -105254,6 +105794,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -105426,6 +105967,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -105598,6 +106140,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -105764,6 +106307,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -105866,6 +106410,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -106123,6 +106668,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -106340,6 +106886,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -106576,6 +107123,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -106713,6 +107261,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -106875,6 +107424,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -107037,6 +107587,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -107234,6 +107785,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -107456,6 +108008,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -107653,6 +108206,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -107815,6 +108369,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -108012,6 +108567,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -108174,6 +108730,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -108336,6 +108893,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -108523,6 +109081,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -108710,6 +109269,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -108912,6 +109472,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -109043,6 +109604,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -109139,6 +109701,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -109250,6 +109813,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -109382,6 +109946,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -109544,6 +110109,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -109644,6 +110210,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -109801,6 +110368,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -109968,6 +110536,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -110135,6 +110704,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -110302,6 +110872,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -110419,6 +110990,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -110586,6 +111158,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -110852,6 +111425,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -111138,6 +111712,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -111445,6 +112020,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -111780,6 +112356,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -112115,6 +112692,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -112450,6 +113028,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -112785,6 +113364,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -113120,6 +113700,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -113455,6 +114036,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -113790,6 +114372,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -114125,6 +114708,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -114442,6 +115026,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -114744,6 +115329,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -115006,6 +115592,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -115323,6 +115910,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -115585,6 +116173,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -115902,6 +116491,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -116219,6 +116809,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -116536,6 +117127,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -116853,6 +117445,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -117125,6 +117718,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -117442,6 +118036,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -117759,6 +118354,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -117921,6 +118517,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -118238,6 +118835,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -118400,6 +118998,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -118717,6 +119316,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -119023,6 +119623,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -119285,6 +119886,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -119620,6 +120222,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -119955,6 +120558,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -120290,6 +120894,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -120625,6 +121230,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -120960,6 +121566,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -121222,6 +121829,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -121557,6 +122165,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -121829,6 +122438,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -122164,6 +122774,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -122499,6 +123110,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -122771,6 +123383,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -123033,6 +123646,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -123295,6 +123909,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -123612,6 +124227,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -123774,6 +124390,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -124091,6 +124708,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -124377,6 +124995,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -124684,6 +125303,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -124946,6 +125566,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -125253,6 +125874,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -125525,6 +126147,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -125832,6 +126455,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -126139,6 +126763,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -126401,6 +127026,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -126708,6 +127334,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -127015,6 +127642,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -127322,6 +127950,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -127629,6 +128258,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -127941,6 +128571,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -128207,6 +128838,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -128524,6 +129156,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -128841,6 +129474,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -129127,6 +129761,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -129444,6 +130079,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -129605,6 +130241,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -129717,6 +130354,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -129884,6 +130522,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130051,6 +130690,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130183,6 +130823,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130345,6 +130986,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130512,6 +131154,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130679,6 +131322,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130790,6 +131434,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -130907,6 +131552,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -131084,6 +131730,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -131261,6 +131908,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -131438,6 +132086,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -131615,6 +132264,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -131792,6 +132442,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -131969,6 +132620,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -132146,6 +132798,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -132323,6 +132976,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -132500,6 +133154,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -132677,6 +133332,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -132854,6 +133510,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -133031,6 +133688,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -133193,6 +133851,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -133325,6 +133984,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -133462,6 +134122,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -133669,6 +134330,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -133841,6 +134503,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -134003,6 +134666,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -134155,6 +134819,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -134332,6 +134997,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -134483,6 +135149,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -134589,6 +135256,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -134746,6 +135414,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -135047,6 +135716,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135208,6 +135878,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135334,6 +136005,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135460,6 +136132,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135586,6 +136259,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135712,6 +136386,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135838,6 +136513,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -135964,6 +136640,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136090,6 +136767,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136216,6 +136894,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136342,6 +137021,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136468,6 +137148,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136600,6 +137281,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136762,6 +137444,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -136924,6 +137607,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -137043,6 +137727,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137129,6 +137814,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137267,6 +137953,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137405,6 +138092,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137543,6 +138231,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137681,6 +138370,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137797,6 +138487,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -137913,6 +138604,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -138029,6 +138721,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -138151,6 +138844,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -138353,6 +139047,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -138564,6 +139259,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -138681,6 +139377,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -138853,6 +139550,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -139004,6 +139702,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -139155,6 +139854,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -139306,6 +140006,7 @@
         "itemQuality": null
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": true,
@@ -139436,6 +140137,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -139546,6 +140248,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -139678,6 +140381,7 @@
         "itemQuality": 1
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -139839,6 +140543,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140001,6 +140706,7 @@
         "itemQuality": 4
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140168,6 +140874,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140349,6 +141056,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140445,6 +141153,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140586,6 +141295,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140703,6 +141413,7 @@
         "itemQuality": 2
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": true,
     "affectedByResourcefulness": true,
@@ -140874,6 +141585,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -140975,6 +141687,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -141092,6 +141805,7 @@
         "itemQuality": 3
       }
     ],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -141299,6 +142013,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -141546,6 +142261,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -141773,6 +142489,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -142000,6 +142717,7 @@
       8
     ],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,
@@ -142221,6 +142939,7 @@
     "qualityItemIDs": [],
     "qualityIDs": [],
     "outputQualities": [],
+    "enchantTargetOutputs": [],
     "supportsCraftingStats": true,
     "affectedByMulticraft": false,
     "affectedByResourcefulness": false,

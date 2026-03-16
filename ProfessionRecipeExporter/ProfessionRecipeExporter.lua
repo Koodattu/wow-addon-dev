@@ -559,6 +559,107 @@ local function buildOutputQualityEntries(qualityItemIDs, qualityIDs)
     return entries
 end
 
+local function getQualityIDList(qualityIDs)
+    local qualityIDList = safeCallList(function()
+        return qualityIDs
+    end)
+    local result = {}
+    for _, qualityID in ipairs(qualityIDList) do
+        if type(qualityID) == "number" then
+            result[#result + 1] = qualityID
+        end
+    end
+    return result
+end
+
+local function extractItemIDFromLink(link)
+    if type(link) ~= "string" then
+        return nil
+    end
+    local itemID = link:match("Hitem:(%d+):")
+    if itemID then
+        return tonumber(itemID)
+    end
+    return nil
+end
+
+local function buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
+    if type(outputInfo) ~= "table" then
+        return nil
+    end
+
+    local itemID = outputInfo.itemID
+    if type(itemID) ~= "number" then
+        itemID = extractItemIDFromLink(outputInfo.hyperlink)
+    end
+    if type(itemID) ~= "number" then
+        itemID = extractItemIDFromLink(outputInfo.itemLink)
+    end
+
+    if type(itemID) ~= "number" then
+        return nil
+    end
+
+    local itemName = resolveItemNameByID(itemID)
+    local itemQuality = safeCall(C_Item.GetItemQualityByID, itemID)
+
+    return {
+        targetGUID = targetGUID,
+        qualityID = qualityID,
+        rank = rank,
+        itemID = itemID,
+        itemName = itemName,
+        itemQuality = itemQuality,
+        outputInfo = sanitize(outputInfo),
+    }
+end
+
+local function extractEnchantTargetOutputs(recipeID, recipeInfo, defaultCraftingReagents, qualityIDs)
+    local outputs = {}
+    if type(recipeInfo) ~= "table" then
+        return outputs
+    end
+
+    local recipeType = recipeInfo.recipeType
+    local enchantRecipeType = Enum and Enum.TradeskillRecipeType and Enum.TradeskillRecipeType.Enchant or 3
+    if recipeType ~= enchantRecipeType then
+        return outputs
+    end
+
+    local qualityIDList = getQualityIDList(qualityIDs)
+    local enchantTargetGUIDs = safeCallList(C_TradeSkillUI.GetEnchantItems, recipeID, defaultCraftingReagents)
+    for _, targetGUID in ipairs(enchantTargetGUIDs) do
+        if type(targetGUID) == "string" and targetGUID ~= "" then
+            local canStoreEnchant = safeCall(C_TradeSkillUI.CanStoreEnchantInItem, targetGUID)
+            if canStoreEnchant == true then
+                if #qualityIDList > 0 then
+                    for rank, qualityID in ipairs(qualityIDList) do
+                        local outputInfo = safeCall(
+                            C_TradeSkillUI.GetRecipeOutputItemData,
+                            recipeID,
+                            defaultCraftingReagents,
+                            targetGUID,
+                            qualityID
+                        )
+                        local entry = buildEnchantTargetOutputEntry(targetGUID, qualityID, outputInfo, rank)
+                        if entry then
+                            outputs[#outputs + 1] = entry
+                        end
+                    end
+                else
+                    local outputInfo = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, targetGUID)
+                    local entry = buildEnchantTargetOutputEntry(targetGUID, nil, outputInfo, nil)
+                    if entry then
+                        outputs[#outputs + 1] = entry
+                    end
+                end
+            end
+        end
+    end
+
+    return outputs
+end
+
 local function collectCategoryData()
     local categories = {}
     local categoryIDs = safeCallList(C_TradeSkillUI.GetCategories)
@@ -608,6 +709,12 @@ local function collectRecipeData(recipeID, professionSkillLineID)
     if isSalvageRecipe then
         recipeSalvageTargets = extractSalvageTargets(recipeID)
     end
+    local recipeEnchantTargetOutputs = extractEnchantTargetOutputs(
+        recipeID,
+        recipeInfo,
+        defaultCraftingReagents,
+        qualityIDs
+    )
 
     return {
         recipeID = recipeID,
@@ -619,6 +726,7 @@ local function collectRecipeData(recipeID, professionSkillLineID)
         qualityItemIDs = sanitize(qualityItemIDs),
         qualityIDs = sanitize(qualityIDs),
         recipeOutputQualities = sanitize(outputQualityEntries),
+        recipeEnchantTargetOutputs = sanitize(recipeEnchantTargetOutputs),
         defaultCraftingReagents = sanitize(defaultCraftingReagents),
         recipeOperationInfo = sanitize(craftingOperationInfo),
         recipeCraftingStats = sanitize(craftingStatFlags),

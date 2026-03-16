@@ -153,6 +153,28 @@ def normalize_output_quality_entries(raw_entries: Any) -> list[dict[str, Any]]:
     return normalized
 
 
+def normalize_enchant_target_outputs(raw_entries: Any) -> list[dict[str, Any]]:
+    normalized: list[dict[str, Any]] = []
+    for raw_entry in listify(raw_entries):
+        if not isinstance(raw_entry, dict):
+            continue
+        item_id = normalize_int(raw_entry.get("itemID"))
+        if item_id is None:
+            continue
+        normalized.append(
+            {
+                "rank": normalize_int(raw_entry.get("rank")),
+                "qualityID": normalize_int(raw_entry.get("qualityID")),
+                "itemID": item_id,
+                "itemName": normalize_name(raw_entry.get("itemName")),
+                "itemQuality": normalize_int(raw_entry.get("itemQuality")),
+                "targetGUID": normalize_name(raw_entry.get("targetGUID")),
+            }
+        )
+    normalized.sort(key=lambda row: (normalize_int(row.get("rank")) or 10**9, normalize_int(row.get("itemID")) or 0))
+    return normalized
+
+
 def profession_expansion_name(profession_data: dict[str, Any]) -> str:
     profession_info = profession_data.get("professionInfo")
     if isinstance(profession_info, dict):
@@ -296,6 +318,7 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                 )
                 recipe_salvage_targets = normalize_salvage_targets(recipe.get("recipeSalvageTargets"))
                 recipe_output_qualities = normalize_output_quality_entries(recipe.get("recipeOutputQualities"))
+                recipe_enchant_target_outputs = normalize_enchant_target_outputs(recipe.get("recipeEnchantTargetOutputs"))
 
                 category_id = normalize_int(recipe_info.get("categoryID"))
                 category_details = category_map.get(category_id or -1, {})
@@ -325,6 +348,7 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                     "qualityItemIDs": listify(recipe.get("qualityItemIDs")),
                     "qualityIDs": listify(recipe.get("qualityIDs")),
                     "outputQualities": recipe_output_qualities,
+                    "enchantTargetOutputs": recipe_enchant_target_outputs,
                     "supportsCraftingStats": bool(recipe_info.get("supportsCraftingStats")),
                     "canCreateMultiple": bool(recipe_info.get("canCreateMultiple")),
                     "isRecraft": bool(recipe_info.get("isRecraft")),

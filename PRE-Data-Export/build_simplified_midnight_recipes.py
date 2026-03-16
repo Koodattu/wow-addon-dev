@@ -206,6 +206,28 @@ def normalize_output_qualities(raw_entries: Any) -> list[dict[str, Any]]:
     return result
 
 
+def normalize_enchant_target_outputs(raw_entries: Any) -> list[dict[str, Any]]:
+    result: list[dict[str, Any]] = []
+    for raw_entry in raw_entries if isinstance(raw_entries, list) else []:
+        if not isinstance(raw_entry, dict):
+            continue
+        item_id = normalize_int(raw_entry.get("itemID"))
+        if item_id is None:
+            continue
+        result.append(
+            {
+                "rank": normalize_int(raw_entry.get("rank")),
+                "qualityID": normalize_int(raw_entry.get("qualityID")),
+                "itemID": item_id,
+                "itemName": normalize_name(raw_entry.get("itemName")),
+                "itemQuality": normalize_int(raw_entry.get("itemQuality")),
+                "targetGUID": normalize_name(raw_entry.get("targetGUID")),
+            }
+        )
+    result.sort(key=lambda row: (normalize_int(row.get("rank")) or 10**9, normalize_int(row.get("itemID")) or 0))
+    return result
+
+
 def build_inferred_reagent_ranks(item_rows: list[dict[str, Any]]) -> dict[int, int]:
     grouped: dict[str, list[int]] = {}
     for row in item_rows:
@@ -341,6 +363,18 @@ def build_simplified(
 
         output_item_ids: list[int] = []
         output_qualities = normalize_output_qualities(recipe_row.get("outputQualities"))
+        enchant_target_outputs = normalize_enchant_target_outputs(recipe_row.get("enchantTargetOutputs"))
+        if not output_qualities and enchant_target_outputs:
+            output_qualities = [
+                {
+                    "rank": entry.get("rank"),
+                    "qualityID": entry.get("qualityID"),
+                    "itemID": entry.get("itemID"),
+                    "itemName": entry.get("itemName"),
+                    "itemQuality": entry.get("itemQuality"),
+                }
+                for entry in enchant_target_outputs
+            ]
         if output_qualities:
             output_item_ids = [entry["itemID"] for entry in output_qualities if normalize_int(entry.get("itemID")) is not None]
         else:
@@ -404,6 +438,7 @@ def build_simplified(
                 "qualityItemIDs": normalize_int_list(recipe_row.get("qualityItemIDs")),
                 "qualityIDs": normalize_int_list(recipe_row.get("qualityIDs")),
                 "outputQualities": output_qualities,
+                "enchantTargetOutputs": enchant_target_outputs,
                 "supportsCraftingStats": bool(recipe_row.get("supportsCraftingStats")),
                 "affectedByMulticraft": affected_by_multicraft,
                 "affectedByResourcefulness": affected_by_resourcefulness,
