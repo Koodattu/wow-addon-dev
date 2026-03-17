@@ -67,6 +67,57 @@ def normalize_bool(value: Any) -> bool | None:
     return None
 
 
+PLACEHOLDER_REAGENT_NAMES = {
+    "add embellishment",
+    "artisan's authenticity",
+    "customize gathering stat",
+    "customize gathering stats",
+    "customize secondary stat",
+    "customize secondary stats",
+    "secret ingredient",
+}
+
+
+def is_placeholder_reagent_name(name: str | None) -> bool:
+    normalized = normalize_name(name)
+    if normalized is None:
+        return False
+    return normalized.lower() in PLACEHOLDER_REAGENT_NAMES
+
+
+def choose_preferred_reagent_name(primary: str | None, secondary: str | None) -> str | None:
+    primary_name = normalize_name(primary)
+    secondary_name = normalize_name(secondary)
+
+    if primary_name and not is_placeholder_reagent_name(primary_name):
+        return primary_name
+    if secondary_name and not is_placeholder_reagent_name(secondary_name):
+        return secondary_name
+    if primary_name:
+        return primary_name
+    return secondary_name
+
+
+def merge_reagent_records(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    existing_export_id = normalize_int(existing.get("exportID"))
+    incoming_export_id = normalize_int(incoming.get("exportID"))
+    incoming_is_newer = (incoming_export_id or -1) >= (existing_export_id or -1)
+
+    preferred = dict(incoming if incoming_is_newer else existing)
+    fallback = existing if incoming_is_newer else incoming
+
+    preferred["reagentItemName"] = choose_preferred_reagent_name(
+        preferred.get("reagentItemName"),
+        fallback.get("reagentItemName"),
+    )
+
+    for key in ("reagentItemID", "reagentQuality", "itemQuality", "slotText"):
+        if preferred.get(key) is None and fallback.get(key) is not None:
+            preferred[key] = fallback.get(key)
+
+    return preferred
+
+
 def build_reagent_candidates(raw_reagents: list[Any], fallback_reagents: list[Any]) -> list[dict[str, Any]]:
     if not raw_reagents and not fallback_reagents:
         return []
@@ -99,16 +150,20 @@ def build_reagent_candidates(raw_reagents: list[Any], fallback_reagents: list[An
         if item_name is None and item_id is not None:
             item_name = fallback_name_by_item_id.get(item_id)
 
+        reagent_quality = normalize_int(raw_reagent.get("reagentQuality")) if isinstance(raw_reagent, dict) else None
+        if reagent_quality is None:
+            reagent_quality = normalize_int(fallback_reagent.get("reagentQuality"))
+
+        item_quality = normalize_int(raw_reagent.get("itemQuality")) if isinstance(raw_reagent, dict) else None
+        if item_quality is None:
+            item_quality = normalize_int(fallback_reagent.get("itemQuality"))
+
         reagent_candidates.append(
             {
                 "itemID": item_id,
                 "itemName": item_name,
-                "reagentQuality": normalize_int(raw_reagent.get("reagentQuality"))
-                if isinstance(raw_reagent, dict)
-                else None,
-                "itemQuality": normalize_int(raw_reagent.get("itemQuality"))
-                if isinstance(raw_reagent, dict)
-                else None,
+                "reagentQuality": reagent_quality,
+                "itemQuality": item_quality,
             }
         )
 
@@ -426,8 +481,10 @@ def flatten_exports(data: dict[str, Any]) -> tuple[list[dict[str, Any]], list[di
                             quantity_required,
                         )
                         existing_reagent = reagents_by_key.get(reagent_key)
-                        if existing_reagent is None or (export_id or -1) >= (existing_reagent.get("exportID") or -1):
+                        if existing_reagent is None:
                             reagents_by_key[reagent_key] = reagent_record
+                        else:
+                            reagents_by_key[reagent_key] = merge_reagent_records(existing_reagent, reagent_record)
 
     recipes = sorted(
         recipes_by_key.values(),

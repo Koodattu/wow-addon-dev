@@ -125,19 +125,48 @@ def reagent_sort_key(slot_row: dict[str, Any]) -> tuple[int, int]:
     return (slot_index if slot_index is not None else 10**9, data_slot_index if data_slot_index is not None else 10**9)
 
 
+PLACEHOLDER_REAGENT_NAMES = {
+    "add embellishment",
+    "artisan's authenticity",
+    "customize gathering stat",
+    "customize gathering stats",
+    "customize secondary stat",
+    "customize secondary stats",
+    "secret ingredient",
+}
+
+
+def is_placeholder_reagent_name(name: str) -> bool:
+    normalized = normalize_name(name)
+    if not normalized:
+        return False
+    return normalized.lower() in PLACEHOLDER_REAGENT_NAMES
+
+
 def build_reagent_name_by_item_id(reagents: list[dict[str, Any]]) -> dict[int, str]:
     counts: dict[int, dict[str, int]] = {}
+    fallback_counts: dict[int, dict[str, int]] = {}
     for row in reagents:
         reagent_item_id = normalize_int(row.get("reagentItemID"))
         reagent_item_name = normalize_name(row.get("reagentItemName"))
         if reagent_item_id is None or not reagent_item_name:
             continue
 
+        item_fallback_counts = fallback_counts.setdefault(reagent_item_id, {})
+        item_fallback_counts[reagent_item_name] = item_fallback_counts.get(reagent_item_name, 0) + 1
+
+        if is_placeholder_reagent_name(reagent_item_name):
+            continue
+
         item_counts = counts.setdefault(reagent_item_id, {})
         item_counts[reagent_item_name] = item_counts.get(reagent_item_name, 0) + 1
 
     result: dict[int, str] = {}
-    for reagent_item_id, item_counts in counts.items():
+    all_item_ids = set(counts) | set(fallback_counts)
+    for reagent_item_id in all_item_ids:
+        item_counts = counts.get(reagent_item_id) or fallback_counts.get(reagent_item_id) or {}
+        if not item_counts:
+            continue
         best_name = max(item_counts.items(), key=lambda pair: pair[1])[0]
         result[reagent_item_id] = best_name
     return result
@@ -148,11 +177,15 @@ def reagent_name_from_row(
     reagent_name_by_item_id: dict[int, str],
 ) -> tuple[int | None, str]:
     reagent_item_id = normalize_int(slot_row.get("reagentItemID"))
-    reagent_name = normalize_name(slot_row.get("slotText"))
-    if not reagent_name:
-        reagent_name = normalize_name(slot_row.get("reagentItemName"))
+    reagent_name = normalize_name(slot_row.get("reagentItemName"))
+    if reagent_name and is_placeholder_reagent_name(reagent_name):
+        reagent_name = ""
     if not reagent_name and reagent_item_id is not None:
         reagent_name = reagent_name_by_item_id.get(reagent_item_id, "")
+    if not reagent_name:
+        slot_text = normalize_name(slot_row.get("slotText"))
+        if slot_text and not is_placeholder_reagent_name(slot_text):
+            reagent_name = slot_text
     if not reagent_name:
         if reagent_item_id is not None:
             reagent_name = f"Unknown Reagent ID {reagent_item_id}"
@@ -381,6 +414,7 @@ def build_simplified(
                     "reagentQualities": set(),
                     "recipeOutputRanks": set(),
                     "recipeOutputQualityIDs": set(),
+                    "itemQualities": set(),
                 }
                 item_usage[reagent_item_id] = usage_row
 
@@ -393,6 +427,10 @@ def build_simplified(
             reagent_quality = normalize_int(slot_row.get("reagentQuality"))
             if reagent_quality is not None:
                 usage_row["reagentQualities"].add(reagent_quality)
+
+            reagent_item_quality = normalize_int(slot_row.get("itemQuality"))
+            if reagent_item_quality is not None:
+                usage_row["itemQualities"].add(reagent_item_quality)
 
         output_item_ids: list[int] = []
         output_qualities = normalize_output_qualities(recipe_row.get("outputQualities"))
@@ -462,6 +500,7 @@ def build_simplified(
                     "reagentQualities": set(),
                     "recipeOutputRanks": set(),
                     "recipeOutputQualityIDs": set(),
+                    "itemQualities": set(),
                 }
                 item_usage[output_item_id] = usage_row
 
@@ -477,10 +516,13 @@ def build_simplified(
                     continue
                 output_rank = normalize_int(quality_entry.get("rank"))
                 output_quality_id = normalize_int(quality_entry.get("qualityID"))
+                output_item_quality = normalize_int(quality_entry.get("itemQuality"))
                 if output_rank is not None:
                     usage_row["recipeOutputRanks"].add(output_rank)
                 if output_quality_id is not None:
                     usage_row["recipeOutputQualityIDs"].add(output_quality_id)
+                if output_item_quality is not None:
+                    usage_row["itemQualities"].add(output_item_quality)
 
         simplified.append(
             {
@@ -534,6 +576,7 @@ def build_simplified(
                 "reagentQualities": sorted(usage_row["reagentQualities"]),
                 "recipeOutputRanks": sorted(usage_row["recipeOutputRanks"]),
                 "recipeOutputQualityIDs": sorted(usage_row["recipeOutputQualityIDs"]),
+                "itemQualities": sorted(usage_row["itemQualities"]),
                 "reagentItemID": usage_row["itemID"],
                 "reagentName": usage_row["itemName"],
             }
@@ -541,6 +584,9 @@ def build_simplified(
 
     inferred_reagent_ranks = build_inferred_reagent_ranks(unique_reagents)
     for row in unique_reagents:
+        item_qualities = row.get("itemQualities") if isinstance(row.get("itemQualities"), list) else []
+        row["itemQuality"] = item_qualities[0] if item_qualities else None
+
         explicit_reagent_qualities = row.get("reagentQualities") if isinstance(row.get("reagentQualities"), list) else []
         explicit_output_ranks = row.get("recipeOutputRanks") if isinstance(row.get("recipeOutputRanks"), list) else []
         item_id = normalize_int(row.get("itemID"))
@@ -562,6 +608,7 @@ def build_simplified(
         row["inferredReagentRankByNameID"] = inferred_rank
 
     for row in unique_reagents:
+        row.pop("itemQualities", None)
         row.pop("reagentQualities", None)
         row.pop("recipeOutputRanks", None)
         row.pop("recipeOutputQualityIDs", None)
