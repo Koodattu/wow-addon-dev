@@ -1,0 +1,6931 @@
+[
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 765,
+    "inputItemName": "Silverleaf",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 785,
+    "inputItemName": "Mageroyal",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 2447,
+    "inputItemName": "Peacebloom",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 2449,
+    "inputItemName": "Earthroot",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 2450,
+    "inputItemName": "Briarthorn",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 2452,
+    "inputItemName": "Swiftthistle",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 2453,
+    "inputItemName": "Bruiseweed",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3355,
+    "inputItemName": "Wild Steelbloom",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3356,
+    "inputItemName": "Kingsblood",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3357,
+    "inputItemName": "Liferoot",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3358,
+    "inputItemName": "Khadgar's Whisker",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3369,
+    "inputItemName": "Grave Moss",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3818,
+    "inputItemName": "Fadeleaf",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3819,
+    "inputItemName": "Dragon's Teeth",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3820,
+    "inputItemName": "Stranglekelp",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 3821,
+    "inputItemName": "Goldthorn",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 4625,
+    "inputItemName": "Firebloom",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 8831,
+    "inputItemName": "Purple Lotus",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 8838,
+    "inputItemName": "Sungrass",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 8839,
+    "inputItemName": "Blindweed",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 8845,
+    "inputItemName": "Ghost Mushroom",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 8846,
+    "inputItemName": "Gromsblood",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 13463,
+    "inputItemName": "Dreamfoil",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 13464,
+    "inputItemName": "Golden Sansam",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 13465,
+    "inputItemName": "Mountain Silversage",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 13466,
+    "inputItemName": "Sorrowmoss",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "inputItemID": 13467,
+    "inputItemName": "Icecap",
+    "observedOutputItemIDs": [
+      198390
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210796,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210797,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210798,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210799,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210800,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210801,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210802,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210803,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210804,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210805,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210806,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 210807,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "inputItemID": 220141,
+    "inputItemName": "Specular Rainbowfish",
+    "observedOutputItemIDs": [
+      222545
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222654,
+    "inputItemName": "Ace of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222655,
+    "inputItemName": "Two of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222656,
+    "inputItemName": "Three of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222657,
+    "inputItemName": "Four of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222658,
+    "inputItemName": "Five of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222659,
+    "inputItemName": "Six of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222660,
+    "inputItemName": "Seven of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222661,
+    "inputItemName": "Eight of Symbiosis",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222663,
+    "inputItemName": "Ace of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222664,
+    "inputItemName": "Two of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222665,
+    "inputItemName": "Three of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222666,
+    "inputItemName": "Four of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222667,
+    "inputItemName": "Five of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222668,
+    "inputItemName": "Six of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222669,
+    "inputItemName": "Seven of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222670,
+    "inputItemName": "Eight of Radiance",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222672,
+    "inputItemName": "Ace of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222673,
+    "inputItemName": "Two of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222674,
+    "inputItemName": "Three of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222675,
+    "inputItemName": "Four of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222676,
+    "inputItemName": "Five of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222677,
+    "inputItemName": "Six of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222678,
+    "inputItemName": "Seven of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "inputItemID": 222679,
+    "inputItemName": "Eight of Vivacity",
+    "observedOutputItemIDs": [
+      222622
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222654,
+    "inputItemName": "Ace of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222655,
+    "inputItemName": "Two of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222656,
+    "inputItemName": "Three of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222657,
+    "inputItemName": "Four of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222658,
+    "inputItemName": "Five of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222659,
+    "inputItemName": "Six of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222660,
+    "inputItemName": "Seven of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222661,
+    "inputItemName": "Eight of Symbiosis",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222663,
+    "inputItemName": "Ace of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222664,
+    "inputItemName": "Two of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222665,
+    "inputItemName": "Three of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222666,
+    "inputItemName": "Four of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222667,
+    "inputItemName": "Five of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222668,
+    "inputItemName": "Six of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222669,
+    "inputItemName": "Seven of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222670,
+    "inputItemName": "Eight of Radiance",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222681,
+    "inputItemName": "Ace of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222682,
+    "inputItemName": "Two of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222683,
+    "inputItemName": "Three of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222684,
+    "inputItemName": "Four of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222685,
+    "inputItemName": "Five of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222686,
+    "inputItemName": "Six of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222687,
+    "inputItemName": "Seven of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "inputItemID": 222688,
+    "inputItemName": "Eight of Ascension",
+    "observedOutputItemIDs": [
+      222623
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222663,
+    "inputItemName": "Ace of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222664,
+    "inputItemName": "Two of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222665,
+    "inputItemName": "Three of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222666,
+    "inputItemName": "Four of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222667,
+    "inputItemName": "Five of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222668,
+    "inputItemName": "Six of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222669,
+    "inputItemName": "Seven of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222670,
+    "inputItemName": "Eight of Radiance",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222672,
+    "inputItemName": "Ace of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222673,
+    "inputItemName": "Two of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222674,
+    "inputItemName": "Three of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222675,
+    "inputItemName": "Four of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222676,
+    "inputItemName": "Five of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222677,
+    "inputItemName": "Six of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222678,
+    "inputItemName": "Seven of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222679,
+    "inputItemName": "Eight of Vivacity",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222681,
+    "inputItemName": "Ace of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222682,
+    "inputItemName": "Two of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222683,
+    "inputItemName": "Three of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222684,
+    "inputItemName": "Four of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222685,
+    "inputItemName": "Five of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222686,
+    "inputItemName": "Six of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222687,
+    "inputItemName": "Seven of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "inputItemID": 222688,
+    "inputItemName": "Eight of Ascension",
+    "observedOutputItemIDs": [
+      222624
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222654,
+    "inputItemName": "Ace of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222655,
+    "inputItemName": "Two of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222656,
+    "inputItemName": "Three of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222657,
+    "inputItemName": "Four of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222658,
+    "inputItemName": "Five of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222659,
+    "inputItemName": "Six of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222660,
+    "inputItemName": "Seven of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222661,
+    "inputItemName": "Eight of Symbiosis",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222672,
+    "inputItemName": "Ace of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222673,
+    "inputItemName": "Two of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222674,
+    "inputItemName": "Three of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222675,
+    "inputItemName": "Four of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222676,
+    "inputItemName": "Five of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222677,
+    "inputItemName": "Six of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222678,
+    "inputItemName": "Seven of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222679,
+    "inputItemName": "Eight of Vivacity",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222681,
+    "inputItemName": "Ace of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222682,
+    "inputItemName": "Two of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222683,
+    "inputItemName": "Three of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222684,
+    "inputItemName": "Four of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222685,
+    "inputItemName": "Five of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222686,
+    "inputItemName": "Six of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222687,
+    "inputItemName": "Seven of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "inputItemID": 222688,
+    "inputItemName": "Eight of Ascension",
+    "observedOutputItemIDs": [
+      222625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245830,
+    "inputItemName": "Ace of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245831,
+    "inputItemName": "Two of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245832,
+    "inputItemName": "Three of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245833,
+    "inputItemName": "Four of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245834,
+    "inputItemName": "Five of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245835,
+    "inputItemName": "Six of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245836,
+    "inputItemName": "Seven of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245837,
+    "inputItemName": "Eight of Hunt",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245847,
+    "inputItemName": "Ace of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245848,
+    "inputItemName": "Two of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245849,
+    "inputItemName": "Three of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245850,
+    "inputItemName": "Four of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245851,
+    "inputItemName": "Five of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245852,
+    "inputItemName": "Six of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245853,
+    "inputItemName": "Seven of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245854,
+    "inputItemName": "Eight of Rot",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245856,
+    "inputItemName": "Ace of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245857,
+    "inputItemName": "Two of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245858,
+    "inputItemName": "Three of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245859,
+    "inputItemName": "Four of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245860,
+    "inputItemName": "Five of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245861,
+    "inputItemName": "Six of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245862,
+    "inputItemName": "Seven of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "inputItemID": 245863,
+    "inputItemName": "Eight of Blood",
+    "observedOutputItemIDs": [
+      245813
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230079,
+    "recipeName": "Inscribe: Void",
+    "inputItemID": 245802,
+    "inputItemName": "Munsell Ink",
+    "observedOutputItemIDs": [
+      251922
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230079,
+    "recipeName": "Inscribe: Void",
+    "inputItemID": 245806,
+    "inputItemName": "Sienna Ink",
+    "observedOutputItemIDs": [
+      251922
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230079,
+    "recipeName": "Inscribe: Void",
+    "inputItemID": 251923,
+    "inputItemName": "Thalassian Essence of the Faire",
+    "observedOutputItemIDs": [
+      251922
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245830,
+    "inputItemName": "Ace of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245831,
+    "inputItemName": "Two of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245832,
+    "inputItemName": "Three of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245833,
+    "inputItemName": "Four of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245834,
+    "inputItemName": "Five of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245835,
+    "inputItemName": "Six of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245836,
+    "inputItemName": "Seven of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245837,
+    "inputItemName": "Eight of Hunt",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245838,
+    "inputItemName": "Ace of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245839,
+    "inputItemName": "Two of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245840,
+    "inputItemName": "Three of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245841,
+    "inputItemName": "Four of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245842,
+    "inputItemName": "Five of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245843,
+    "inputItemName": "Six of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245844,
+    "inputItemName": "Seven of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245845,
+    "inputItemName": "Eight of Void",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245856,
+    "inputItemName": "Ace of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245857,
+    "inputItemName": "Two of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245858,
+    "inputItemName": "Three of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245859,
+    "inputItemName": "Four of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245860,
+    "inputItemName": "Five of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245861,
+    "inputItemName": "Six of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245862,
+    "inputItemName": "Seven of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "inputItemID": 245863,
+    "inputItemName": "Eight of Blood",
+    "observedOutputItemIDs": [
+      245811
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230081,
+    "recipeName": "Inscribe: Rot",
+    "inputItemID": 245802,
+    "inputItemName": "Munsell Ink",
+    "observedOutputItemIDs": [
+      251920
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230081,
+    "recipeName": "Inscribe: Rot",
+    "inputItemID": 245806,
+    "inputItemName": "Sienna Ink",
+    "observedOutputItemIDs": [
+      251920
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230081,
+    "recipeName": "Inscribe: Rot",
+    "inputItemID": 251923,
+    "inputItemName": "Thalassian Essence of the Faire",
+    "observedOutputItemIDs": [
+      251920
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245838,
+    "inputItemName": "Ace of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245839,
+    "inputItemName": "Two of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245840,
+    "inputItemName": "Three of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245841,
+    "inputItemName": "Four of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245842,
+    "inputItemName": "Five of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245843,
+    "inputItemName": "Six of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245844,
+    "inputItemName": "Seven of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245845,
+    "inputItemName": "Eight of Void",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245847,
+    "inputItemName": "Ace of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245848,
+    "inputItemName": "Two of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245849,
+    "inputItemName": "Three of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245850,
+    "inputItemName": "Four of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245851,
+    "inputItemName": "Five of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245852,
+    "inputItemName": "Six of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245853,
+    "inputItemName": "Seven of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245854,
+    "inputItemName": "Eight of Rot",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245856,
+    "inputItemName": "Ace of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245857,
+    "inputItemName": "Two of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245858,
+    "inputItemName": "Three of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245859,
+    "inputItemName": "Four of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245860,
+    "inputItemName": "Five of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245861,
+    "inputItemName": "Six of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245862,
+    "inputItemName": "Seven of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "inputItemID": 245863,
+    "inputItemName": "Eight of Blood",
+    "observedOutputItemIDs": [
+      245812
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230083,
+    "recipeName": "Inscribe: Hunt",
+    "inputItemID": 245802,
+    "inputItemName": "Munsell Ink",
+    "observedOutputItemIDs": [
+      251921
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230083,
+    "recipeName": "Inscribe: Hunt",
+    "inputItemID": 245806,
+    "inputItemName": "Sienna Ink",
+    "observedOutputItemIDs": [
+      251921
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230083,
+    "recipeName": "Inscribe: Hunt",
+    "inputItemID": 251923,
+    "inputItemName": "Thalassian Essence of the Faire",
+    "observedOutputItemIDs": [
+      251921
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245830,
+    "inputItemName": "Ace of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245831,
+    "inputItemName": "Two of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245832,
+    "inputItemName": "Three of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245833,
+    "inputItemName": "Four of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245834,
+    "inputItemName": "Five of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245835,
+    "inputItemName": "Six of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245836,
+    "inputItemName": "Seven of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245837,
+    "inputItemName": "Eight of Hunt",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245838,
+    "inputItemName": "Ace of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245839,
+    "inputItemName": "Two of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245840,
+    "inputItemName": "Three of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245841,
+    "inputItemName": "Four of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245842,
+    "inputItemName": "Five of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245843,
+    "inputItemName": "Six of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245844,
+    "inputItemName": "Seven of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245845,
+    "inputItemName": "Eight of Void",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245847,
+    "inputItemName": "Ace of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245848,
+    "inputItemName": "Two of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245849,
+    "inputItemName": "Three of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245850,
+    "inputItemName": "Four of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245851,
+    "inputItemName": "Five of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245852,
+    "inputItemName": "Six of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245853,
+    "inputItemName": "Seven of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "inputItemID": 245854,
+    "inputItemName": "Eight of Rot",
+    "observedOutputItemIDs": [
+      245810
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230085,
+    "recipeName": "Inscribe: Blood",
+    "inputItemID": 245802,
+    "inputItemName": "Munsell Ink",
+    "observedOutputItemIDs": [
+      251919
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230085,
+    "recipeName": "Inscribe: Blood",
+    "inputItemID": 245806,
+    "inputItemName": "Sienna Ink",
+    "observedOutputItemIDs": [
+      251919
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230085,
+    "recipeName": "Inscribe: Blood",
+    "inputItemID": 251923,
+    "inputItemName": "Thalassian Essence of the Faire",
+    "observedOutputItemIDs": [
+      251919
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 2450,
+    "inputItemName": "Briarthorn",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 22786,
+    "inputItemName": "Dreaming Glory",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 36903,
+    "inputItemName": "Adder's Tongue",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 52983,
+    "inputItemName": "Cinderbloom",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 89639,
+    "inputItemName": "Desecrated Herb",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 109126,
+    "inputItemName": "Gorgrond Flytrap",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 124103,
+    "inputItemName": "Foxflower",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 152511,
+    "inputItemName": "Sea Stalk",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 168589,
+    "inputItemName": "Marrowroot",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 191470,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 191471,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 191472,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 210796,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 210797,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 210798,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 236774,
+    "inputItemName": "Azeroot",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "inputItemID": 236775,
+    "inputItemName": "Azeroot",
+    "observedOutputItemIDs": [
+      262642
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 3818,
+    "inputItemName": "Fadeleaf",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 22785,
+    "inputItemName": "Felweed",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 36905,
+    "inputItemName": "Lichbloom",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 52985,
+    "inputItemName": "Azshara's Veil",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 89639,
+    "inputItemName": "Desecrated Herb",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 109128,
+    "inputItemName": "Nagrand Arrowbloom",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 128304,
+    "inputItemName": "Yseralline Seed",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 152505,
+    "inputItemName": "Riverbud",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 169701,
+    "inputItemName": "Death Blossom",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 191470,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 191471,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 191472,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 210805,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 210806,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 210807,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 236774,
+    "inputItemName": "Azeroot",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "inputItemID": 236775,
+    "inputItemName": "Azeroot",
+    "observedOutputItemIDs": [
+      262639
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 2447,
+    "inputItemName": "Peacebloom",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 22787,
+    "inputItemName": "Ragveil",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 36906,
+    "inputItemName": "Icethorn",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 52988,
+    "inputItemName": "Whiptail",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 79010,
+    "inputItemName": "Snow Lily",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 109129,
+    "inputItemName": "Talador Orchid",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 124104,
+    "inputItemName": "Fjarnskaggl",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 152508,
+    "inputItemName": "Winter's Kiss",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 168586,
+    "inputItemName": "Rising Glory",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 191464,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 191465,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 191466,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 210796,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 210797,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 210798,
+    "inputItemName": "Mycobloom",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 236761,
+    "inputItemName": "Tranquility Bloom",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "inputItemID": 236767,
+    "inputItemName": "Tranquility Bloom",
+    "observedOutputItemIDs": [
+      260947
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 765,
+    "inputItemName": "Silverleaf",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 22789,
+    "inputItemName": "Terocone",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 36906,
+    "inputItemName": "Icethorn",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 52984,
+    "inputItemName": "Stormvine",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 72235,
+    "inputItemName": "Silkweed",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 109124,
+    "inputItemName": "Frostweed",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 124102,
+    "inputItemName": "Dreamleaf",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 152507,
+    "inputItemName": "Akunda's Bite",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 169701,
+    "inputItemName": "Death Blossom",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 191467,
+    "inputItemName": "Bubble Poppy",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 191468,
+    "inputItemName": "Bubble Poppy",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 191469,
+    "inputItemName": "Bubble Poppy",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 210799,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 210800,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 210801,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 236776,
+    "inputItemName": "Argentleaf",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "inputItemID": 236777,
+    "inputItemName": "Argentleaf",
+    "observedOutputItemIDs": [
+      262643
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 2452,
+    "inputItemName": "Swiftthistle",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 22785,
+    "inputItemName": "Felweed",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 36903,
+    "inputItemName": "Adder's Tongue",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 52985,
+    "inputItemName": "Azshara's Veil",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 72234,
+    "inputItemName": "Green Tea Leaf",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 109128,
+    "inputItemName": "Nagrand Arrowbloom",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 124102,
+    "inputItemName": "Dreamleaf",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 152505,
+    "inputItemName": "Riverbud",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 170554,
+    "inputItemName": "Vigil's Torch",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 191467,
+    "inputItemName": "Bubble Poppy",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 191468,
+    "inputItemName": "Bubble Poppy",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 191469,
+    "inputItemName": "Bubble Poppy",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 210805,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 210806,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 210807,
+    "inputItemName": "Blessing Blossom",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 236770,
+    "inputItemName": "Sanguithorn",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "inputItemID": 236771,
+    "inputItemName": "Sanguithorn",
+    "observedOutputItemIDs": [
+      262647
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 8838,
+    "inputItemName": "Sungrass",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 22786,
+    "inputItemName": "Dreaming Glory",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 36901,
+    "inputItemName": "Goldclover",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 52988,
+    "inputItemName": "Whiptail",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 72234,
+    "inputItemName": "Green Tea Leaf",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 109126,
+    "inputItemName": "Gorgrond Flytrap",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 124104,
+    "inputItemName": "Fjarnskaggl",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 152511,
+    "inputItemName": "Sea Stalk",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 168586,
+    "inputItemName": "Rising Glory",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 191464,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 191465,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 191466,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 210808,
+    "inputItemName": "Arathor's Spear",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 210809,
+    "inputItemName": "Arathor's Spear",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 210810,
+    "inputItemName": "Arathor's Spear",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 236778,
+    "inputItemName": "Mana Lily",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "inputItemID": 236779,
+    "inputItemName": "Mana Lily",
+    "observedOutputItemIDs": [
+      262648
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 13464,
+    "inputItemName": "Golden Sansam",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 22792,
+    "inputItemName": "Nightmare Vine",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 36901,
+    "inputItemName": "Goldclover",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 52986,
+    "inputItemName": "Heartblossom",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 72237,
+    "inputItemName": "Rain Poppy",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 109125,
+    "inputItemName": "Fireweed",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 124103,
+    "inputItemName": "Foxflower",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 152509,
+    "inputItemName": "Siren's Pollen",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 168583,
+    "inputItemName": "Widowbloom",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 191470,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 191471,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 191472,
+    "inputItemName": "Writhebark",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 210799,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 210800,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 210801,
+    "inputItemName": "Luredrop",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 236770,
+    "inputItemName": "Sanguithorn",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "inputItemID": 236771,
+    "inputItemName": "Sanguithorn",
+    "observedOutputItemIDs": [
+      262656
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 785,
+    "inputItemName": "Mageroyal",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 22791,
+    "inputItemName": "Netherbloom",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 36904,
+    "inputItemName": "Tiger Lily",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 52983,
+    "inputItemName": "Cinderbloom",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 72237,
+    "inputItemName": "Rain Poppy",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 109125,
+    "inputItemName": "Fireweed",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 151565,
+    "inputItemName": "Astral Glory",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 152506,
+    "inputItemName": "Star Moss",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 168583,
+    "inputItemName": "Widowbloom",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 191464,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 191465,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 191466,
+    "inputItemName": "Saxifrage",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 210808,
+    "inputItemName": "Arathor's Spear",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 210809,
+    "inputItemName": "Arathor's Spear",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 210810,
+    "inputItemName": "Arathor's Spear",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 236778,
+    "inputItemName": "Mana Lily",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "inputItemID": 236779,
+    "inputItemName": "Mana Lily",
+    "observedOutputItemIDs": [
+      262655
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 2453,
+    "inputItemName": "Bruiseweed",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 22789,
+    "inputItemName": "Terocone",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 36905,
+    "inputItemName": "Lichbloom",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 52984,
+    "inputItemName": "Stormvine",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 72235,
+    "inputItemName": "Silkweed",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 109127,
+    "inputItemName": "Starflower",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 128304,
+    "inputItemName": "Yseralline Seed",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 152509,
+    "inputItemName": "Siren's Pollen",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 168589,
+    "inputItemName": "Marrowroot",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 191460,
+    "inputItemName": "Hochenblume",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 191461,
+    "inputItemName": "Hochenblume",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 191462,
+    "inputItemName": "Hochenblume",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 210802,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 210803,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 210804,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 236761,
+    "inputItemName": "Tranquility Bloom",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "inputItemID": 236767,
+    "inputItemName": "Tranquility Bloom",
+    "observedOutputItemIDs": [
+      262628
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 3356,
+    "inputItemName": "Kingsblood",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 22793,
+    "inputItemName": "Mana Thistle",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 36907,
+    "inputItemName": "Talandra's Rose",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 52987,
+    "inputItemName": "Twilight Jasmine",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 79011,
+    "inputItemName": "Fool's Cap",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 109129,
+    "inputItemName": "Talador Orchid",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 124101,
+    "inputItemName": "Aethril",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 168487,
+    "inputItemName": "Zin'anthid",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 170554,
+    "inputItemName": "Vigil's Torch",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 191460,
+    "inputItemName": "Hochenblume",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 191461,
+    "inputItemName": "Hochenblume",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 191462,
+    "inputItemName": "Hochenblume",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 210802,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 210803,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 210804,
+    "inputItemName": "Orbinid",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 236776,
+    "inputItemName": "Argentleaf",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "inputItemID": 236777,
+    "inputItemName": "Argentleaf",
+    "observedOutputItemIDs": [
+      262625
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236761,
+    "inputItemName": "Tranquility Bloom",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236767,
+    "inputItemName": "Tranquility Bloom",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236770,
+    "inputItemName": "Sanguithorn",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236771,
+    "inputItemName": "Sanguithorn",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236776,
+    "inputItemName": "Argentleaf",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236777,
+    "inputItemName": "Argentleaf",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236778,
+    "inputItemName": "Mana Lily",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "inputItemID": 236779,
+    "inputItemName": "Mana Lily",
+    "observedOutputItemIDs": [
+      262908
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 382995,
+    "recipeName": "Classic Prospecting",
+    "inputItemID": 2770,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 382995,
+    "recipeName": "Classic Prospecting",
+    "inputItemID": 2771,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 382995,
+    "recipeName": "Classic Prospecting",
+    "inputItemID": 2772,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 382995,
+    "recipeName": "Classic Prospecting",
+    "inputItemID": 3858,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 382995,
+    "recipeName": "Classic Prospecting",
+    "inputItemID": 10620,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210930,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210931,
+    "inputItemName": "Bismuth",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210932,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210933,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210934,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210935,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210936,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210937,
+    "inputItemName": "Ironclaw Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210938,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 210939,
+    "inputItemName": "Null Stone",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 213398,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 240216,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "inputItemID": 249218,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 212495,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 212498,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 212505,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 212508,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 212511,
+    "inputItemName": "Ostentatious Onyx",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213453,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213454,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213455,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213456,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213457,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213458,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213459,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213460,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213461,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213462,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213463,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213464,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213465,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213466,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213467,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213468,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213469,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213470,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213471,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213472,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213473,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213474,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213475,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213476,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213477,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213478,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213479,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213480,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213481,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213482,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213483,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213484,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213485,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213486,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213487,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213488,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213489,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213490,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213491,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213492,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213493,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213494,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213495,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213496,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213497,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213498,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213499,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213500,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213501,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213502,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213503,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213504,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213505,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213506,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213507,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213508,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213509,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213510,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213511,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213512,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213515,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213516,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "inputItemID": 213517,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237359,
+    "inputItemName": "Refulgent Copper Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237361,
+    "inputItemName": "Refulgent Copper Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237362,
+    "inputItemName": "Umbral Tin Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237363,
+    "inputItemName": "Umbral Tin Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237364,
+    "inputItemName": "Brilliant Silver Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237365,
+    "inputItemName": "Brilliant Silver Ore",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "inputItemID": 237366,
+    "inputItemName": "Dazzling Thorium",
+    "observedOutputItemIDs": [
+      194709
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242553,
+    "inputItemName": "Sanguine Garnet",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242554,
+    "inputItemName": "Amani Lapis",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242606,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242607,
+    "inputItemName": "Harandar Peridot",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242608,
+    "inputItemName": "Eversong Diamond",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242610,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242611,
+    "inputItemName": "Flawless Tenebrous Amethyst",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242612,
+    "inputItemName": "Flawless Amani Lapis",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242613,
+    "inputItemName": "Flawless Sanguine Garnet",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242712,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242720,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242721,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242722,
+    "inputItemName": "Amani Lapis",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242723,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242724,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242725,
+    "inputItemName": "Flawless Tenebrous Amethyst",
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242726,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "inputItemID": 242727,
+    "inputItemName": null,
+    "observedOutputItemIDs": [
+      201926
+    ],
+    "observedOutputItemNames": []
+  }
+]

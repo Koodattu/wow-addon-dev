@@ -1,0 +1,4482 @@
+[
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "categoryID": 1726,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 13467,
+        "itemName": "Icecap"
+      },
+      {
+        "itemID": 13466,
+        "itemName": "Sorrowmoss"
+      },
+      {
+        "itemID": 13465,
+        "itemName": "Mountain Silversage"
+      },
+      {
+        "itemID": 13464,
+        "itemName": "Golden Sansam"
+      },
+      {
+        "itemID": 13463,
+        "itemName": "Dreamfoil"
+      },
+      {
+        "itemID": 8846,
+        "itemName": "Gromsblood"
+      },
+      {
+        "itemID": 8845,
+        "itemName": "Ghost Mushroom"
+      },
+      {
+        "itemID": 8839,
+        "itemName": "Blindweed"
+      },
+      {
+        "itemID": 8838,
+        "itemName": "Sungrass"
+      },
+      {
+        "itemID": 8831,
+        "itemName": "Purple Lotus"
+      },
+      {
+        "itemID": 4625,
+        "itemName": "Firebloom"
+      },
+      {
+        "itemID": 3821,
+        "itemName": "Goldthorn"
+      },
+      {
+        "itemID": 3820,
+        "itemName": "Stranglekelp"
+      },
+      {
+        "itemID": 3819,
+        "itemName": "Dragon's Teeth"
+      },
+      {
+        "itemID": 3818,
+        "itemName": "Fadeleaf"
+      },
+      {
+        "itemID": 3369,
+        "itemName": "Grave Moss"
+      },
+      {
+        "itemID": 3358,
+        "itemName": "Khadgar's Whisker"
+      },
+      {
+        "itemID": 3357,
+        "itemName": "Liferoot"
+      },
+      {
+        "itemID": 3356,
+        "itemName": "Kingsblood"
+      },
+      {
+        "itemID": 3355,
+        "itemName": "Wild Steelbloom"
+      },
+      {
+        "itemID": 2453,
+        "itemName": "Bruiseweed"
+      },
+      {
+        "itemID": 2452,
+        "itemName": "Swiftthistle"
+      },
+      {
+        "itemID": 2450,
+        "itemName": "Briarthorn"
+      },
+      {
+        "itemID": 2449,
+        "itemName": "Earthroot"
+      },
+      {
+        "itemID": 2447,
+        "itemName": "Peacebloom"
+      },
+      {
+        "itemID": 785,
+        "itemName": "Mageroyal"
+      },
+      {
+        "itemID": 765,
+        "itemName": "Silverleaf"
+      }
+    ],
+    "inputProbeCount": 27
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "categoryID": 1949,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 210796,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210797,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210798,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210799,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210800,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210801,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210802,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210803,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210804,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210805,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210806,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210807,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 220141,
+        "itemName": "Specular Rainbowfish"
+      }
+    ],
+    "inputProbeCount": 13
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222654,
+        "itemName": "Ace of Symbiosis"
+      },
+      {
+        "itemID": 222672,
+        "itemName": "Ace of Vivacity"
+      },
+      {
+        "itemID": 222663,
+        "itemName": "Ace of Radiance"
+      },
+      {
+        "itemID": 222655,
+        "itemName": "Two of Symbiosis"
+      },
+      {
+        "itemID": 222656,
+        "itemName": "Three of Symbiosis"
+      },
+      {
+        "itemID": 222657,
+        "itemName": "Four of Symbiosis"
+      },
+      {
+        "itemID": 222658,
+        "itemName": "Five of Symbiosis"
+      },
+      {
+        "itemID": 222659,
+        "itemName": "Six of Symbiosis"
+      },
+      {
+        "itemID": 222660,
+        "itemName": "Seven of Symbiosis"
+      },
+      {
+        "itemID": 222661,
+        "itemName": "Eight of Symbiosis"
+      },
+      {
+        "itemID": 222664,
+        "itemName": "Two of Radiance"
+      },
+      {
+        "itemID": 222665,
+        "itemName": "Three of Radiance"
+      },
+      {
+        "itemID": 222666,
+        "itemName": "Four of Radiance"
+      },
+      {
+        "itemID": 222667,
+        "itemName": "Five of Radiance"
+      },
+      {
+        "itemID": 222668,
+        "itemName": "Six of Radiance"
+      },
+      {
+        "itemID": 222669,
+        "itemName": "Seven of Radiance"
+      },
+      {
+        "itemID": 222670,
+        "itemName": "Eight of Radiance"
+      },
+      {
+        "itemID": 222673,
+        "itemName": "Two of Vivacity"
+      },
+      {
+        "itemID": 222674,
+        "itemName": "Three of Vivacity"
+      },
+      {
+        "itemID": 222675,
+        "itemName": "Four of Vivacity"
+      },
+      {
+        "itemID": 222676,
+        "itemName": "Five of Vivacity"
+      },
+      {
+        "itemID": 222677,
+        "itemName": "Six of Vivacity"
+      },
+      {
+        "itemID": 222678,
+        "itemName": "Seven of Vivacity"
+      },
+      {
+        "itemID": 222679,
+        "itemName": "Eight of Vivacity"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222654,
+        "itemName": "Ace of Symbiosis"
+      },
+      {
+        "itemID": 222663,
+        "itemName": "Ace of Radiance"
+      },
+      {
+        "itemID": 222681,
+        "itemName": "Ace of Ascension"
+      },
+      {
+        "itemID": 222655,
+        "itemName": "Two of Symbiosis"
+      },
+      {
+        "itemID": 222656,
+        "itemName": "Three of Symbiosis"
+      },
+      {
+        "itemID": 222657,
+        "itemName": "Four of Symbiosis"
+      },
+      {
+        "itemID": 222658,
+        "itemName": "Five of Symbiosis"
+      },
+      {
+        "itemID": 222659,
+        "itemName": "Six of Symbiosis"
+      },
+      {
+        "itemID": 222660,
+        "itemName": "Seven of Symbiosis"
+      },
+      {
+        "itemID": 222661,
+        "itemName": "Eight of Symbiosis"
+      },
+      {
+        "itemID": 222682,
+        "itemName": "Two of Ascension"
+      },
+      {
+        "itemID": 222683,
+        "itemName": "Three of Ascension"
+      },
+      {
+        "itemID": 222684,
+        "itemName": "Four of Ascension"
+      },
+      {
+        "itemID": 222685,
+        "itemName": "Five of Ascension"
+      },
+      {
+        "itemID": 222686,
+        "itemName": "Six of Ascension"
+      },
+      {
+        "itemID": 222687,
+        "itemName": "Seven of Ascension"
+      },
+      {
+        "itemID": 222688,
+        "itemName": "Eight of Ascension"
+      },
+      {
+        "itemID": 222664,
+        "itemName": "Two of Radiance"
+      },
+      {
+        "itemID": 222665,
+        "itemName": "Three of Radiance"
+      },
+      {
+        "itemID": 222666,
+        "itemName": "Four of Radiance"
+      },
+      {
+        "itemID": 222667,
+        "itemName": "Five of Radiance"
+      },
+      {
+        "itemID": 222668,
+        "itemName": "Six of Radiance"
+      },
+      {
+        "itemID": 222669,
+        "itemName": "Seven of Radiance"
+      },
+      {
+        "itemID": 222670,
+        "itemName": "Eight of Radiance"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222663,
+        "itemName": "Ace of Radiance"
+      },
+      {
+        "itemID": 222672,
+        "itemName": "Ace of Vivacity"
+      },
+      {
+        "itemID": 222681,
+        "itemName": "Ace of Ascension"
+      },
+      {
+        "itemID": 222682,
+        "itemName": "Two of Ascension"
+      },
+      {
+        "itemID": 222683,
+        "itemName": "Three of Ascension"
+      },
+      {
+        "itemID": 222684,
+        "itemName": "Four of Ascension"
+      },
+      {
+        "itemID": 222685,
+        "itemName": "Five of Ascension"
+      },
+      {
+        "itemID": 222686,
+        "itemName": "Six of Ascension"
+      },
+      {
+        "itemID": 222687,
+        "itemName": "Seven of Ascension"
+      },
+      {
+        "itemID": 222688,
+        "itemName": "Eight of Ascension"
+      },
+      {
+        "itemID": 222664,
+        "itemName": "Two of Radiance"
+      },
+      {
+        "itemID": 222665,
+        "itemName": "Three of Radiance"
+      },
+      {
+        "itemID": 222666,
+        "itemName": "Four of Radiance"
+      },
+      {
+        "itemID": 222667,
+        "itemName": "Five of Radiance"
+      },
+      {
+        "itemID": 222668,
+        "itemName": "Six of Radiance"
+      },
+      {
+        "itemID": 222669,
+        "itemName": "Seven of Radiance"
+      },
+      {
+        "itemID": 222670,
+        "itemName": "Eight of Radiance"
+      },
+      {
+        "itemID": 222673,
+        "itemName": "Two of Vivacity"
+      },
+      {
+        "itemID": 222674,
+        "itemName": "Three of Vivacity"
+      },
+      {
+        "itemID": 222675,
+        "itemName": "Four of Vivacity"
+      },
+      {
+        "itemID": 222676,
+        "itemName": "Five of Vivacity"
+      },
+      {
+        "itemID": 222677,
+        "itemName": "Six of Vivacity"
+      },
+      {
+        "itemID": 222678,
+        "itemName": "Seven of Vivacity"
+      },
+      {
+        "itemID": 222679,
+        "itemName": "Eight of Vivacity"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222681,
+        "itemName": "Ace of Ascension"
+      },
+      {
+        "itemID": 222682,
+        "itemName": "Two of Ascension"
+      },
+      {
+        "itemID": 222683,
+        "itemName": "Three of Ascension"
+      },
+      {
+        "itemID": 222684,
+        "itemName": "Four of Ascension"
+      },
+      {
+        "itemID": 222685,
+        "itemName": "Five of Ascension"
+      },
+      {
+        "itemID": 222686,
+        "itemName": "Six of Ascension"
+      },
+      {
+        "itemID": 222687,
+        "itemName": "Seven of Ascension"
+      },
+      {
+        "itemID": 222688,
+        "itemName": "Eight of Ascension"
+      },
+      {
+        "itemID": 222654,
+        "itemName": "Ace of Symbiosis"
+      },
+      {
+        "itemID": 222655,
+        "itemName": "Two of Symbiosis"
+      },
+      {
+        "itemID": 222656,
+        "itemName": "Three of Symbiosis"
+      },
+      {
+        "itemID": 222657,
+        "itemName": "Four of Symbiosis"
+      },
+      {
+        "itemID": 222658,
+        "itemName": "Five of Symbiosis"
+      },
+      {
+        "itemID": 222659,
+        "itemName": "Six of Symbiosis"
+      },
+      {
+        "itemID": 222660,
+        "itemName": "Seven of Symbiosis"
+      },
+      {
+        "itemID": 222661,
+        "itemName": "Eight of Symbiosis"
+      },
+      {
+        "itemID": 222672,
+        "itemName": "Ace of Vivacity"
+      },
+      {
+        "itemID": 222673,
+        "itemName": "Two of Vivacity"
+      },
+      {
+        "itemID": 222674,
+        "itemName": "Three of Vivacity"
+      },
+      {
+        "itemID": 222675,
+        "itemName": "Four of Vivacity"
+      },
+      {
+        "itemID": 222676,
+        "itemName": "Five of Vivacity"
+      },
+      {
+        "itemID": 222677,
+        "itemName": "Six of Vivacity"
+      },
+      {
+        "itemID": 222678,
+        "itemName": "Seven of Vivacity"
+      },
+      {
+        "itemID": 222679,
+        "itemName": "Eight of Vivacity"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245830,
+        "itemName": "Ace of Hunt"
+      },
+      {
+        "itemID": 245831,
+        "itemName": "Two of Hunt"
+      },
+      {
+        "itemID": 245832,
+        "itemName": "Three of Hunt"
+      },
+      {
+        "itemID": 245833,
+        "itemName": "Four of Hunt"
+      },
+      {
+        "itemID": 245834,
+        "itemName": "Five of Hunt"
+      },
+      {
+        "itemID": 245835,
+        "itemName": "Six of Hunt"
+      },
+      {
+        "itemID": 245836,
+        "itemName": "Seven of Hunt"
+      },
+      {
+        "itemID": 245837,
+        "itemName": "Eight of Hunt"
+      },
+      {
+        "itemID": 245847,
+        "itemName": "Ace of Rot"
+      },
+      {
+        "itemID": 245848,
+        "itemName": "Two of Rot"
+      },
+      {
+        "itemID": 245849,
+        "itemName": "Three of Rot"
+      },
+      {
+        "itemID": 245850,
+        "itemName": "Four of Rot"
+      },
+      {
+        "itemID": 245851,
+        "itemName": "Five of Rot"
+      },
+      {
+        "itemID": 245852,
+        "itemName": "Six of Rot"
+      },
+      {
+        "itemID": 245853,
+        "itemName": "Seven of Rot"
+      },
+      {
+        "itemID": 245854,
+        "itemName": "Eight of Rot"
+      },
+      {
+        "itemID": 245856,
+        "itemName": "Ace of Blood"
+      },
+      {
+        "itemID": 245857,
+        "itemName": "Two of Blood"
+      },
+      {
+        "itemID": 245858,
+        "itemName": "Three of Blood"
+      },
+      {
+        "itemID": 245859,
+        "itemName": "Four of Blood"
+      },
+      {
+        "itemID": 245860,
+        "itemName": "Five of Blood"
+      },
+      {
+        "itemID": 245861,
+        "itemName": "Six of Blood"
+      },
+      {
+        "itemID": 245862,
+        "itemName": "Seven of Blood"
+      },
+      {
+        "itemID": 245863,
+        "itemName": "Eight of Blood"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230079,
+    "recipeName": "Inscribe: Void",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245830,
+        "itemName": "Ace of Hunt"
+      },
+      {
+        "itemID": 245831,
+        "itemName": "Two of Hunt"
+      },
+      {
+        "itemID": 245832,
+        "itemName": "Three of Hunt"
+      },
+      {
+        "itemID": 245833,
+        "itemName": "Four of Hunt"
+      },
+      {
+        "itemID": 245834,
+        "itemName": "Five of Hunt"
+      },
+      {
+        "itemID": 245835,
+        "itemName": "Six of Hunt"
+      },
+      {
+        "itemID": 245836,
+        "itemName": "Seven of Hunt"
+      },
+      {
+        "itemID": 245837,
+        "itemName": "Eight of Hunt"
+      },
+      {
+        "itemID": 245838,
+        "itemName": "Ace of Void"
+      },
+      {
+        "itemID": 245839,
+        "itemName": "Two of Void"
+      },
+      {
+        "itemID": 245840,
+        "itemName": "Three of Void"
+      },
+      {
+        "itemID": 245841,
+        "itemName": "Four of Void"
+      },
+      {
+        "itemID": 245842,
+        "itemName": "Five of Void"
+      },
+      {
+        "itemID": 245843,
+        "itemName": "Six of Void"
+      },
+      {
+        "itemID": 245844,
+        "itemName": "Seven of Void"
+      },
+      {
+        "itemID": 245845,
+        "itemName": "Eight of Void"
+      },
+      {
+        "itemID": 245856,
+        "itemName": "Ace of Blood"
+      },
+      {
+        "itemID": 245857,
+        "itemName": "Two of Blood"
+      },
+      {
+        "itemID": 245858,
+        "itemName": "Three of Blood"
+      },
+      {
+        "itemID": 245859,
+        "itemName": "Four of Blood"
+      },
+      {
+        "itemID": 245860,
+        "itemName": "Five of Blood"
+      },
+      {
+        "itemID": 245861,
+        "itemName": "Six of Blood"
+      },
+      {
+        "itemID": 245862,
+        "itemName": "Seven of Blood"
+      },
+      {
+        "itemID": 245863,
+        "itemName": "Eight of Blood"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230081,
+    "recipeName": "Inscribe: Rot",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245838,
+        "itemName": "Ace of Void"
+      },
+      {
+        "itemID": 245839,
+        "itemName": "Two of Void"
+      },
+      {
+        "itemID": 245840,
+        "itemName": "Three of Void"
+      },
+      {
+        "itemID": 245841,
+        "itemName": "Four of Void"
+      },
+      {
+        "itemID": 245842,
+        "itemName": "Five of Void"
+      },
+      {
+        "itemID": 245843,
+        "itemName": "Six of Void"
+      },
+      {
+        "itemID": 245844,
+        "itemName": "Seven of Void"
+      },
+      {
+        "itemID": 245845,
+        "itemName": "Eight of Void"
+      },
+      {
+        "itemID": 245847,
+        "itemName": "Ace of Rot"
+      },
+      {
+        "itemID": 245848,
+        "itemName": "Two of Rot"
+      },
+      {
+        "itemID": 245849,
+        "itemName": "Three of Rot"
+      },
+      {
+        "itemID": 245850,
+        "itemName": "Four of Rot"
+      },
+      {
+        "itemID": 245851,
+        "itemName": "Five of Rot"
+      },
+      {
+        "itemID": 245852,
+        "itemName": "Six of Rot"
+      },
+      {
+        "itemID": 245853,
+        "itemName": "Seven of Rot"
+      },
+      {
+        "itemID": 245854,
+        "itemName": "Eight of Rot"
+      },
+      {
+        "itemID": 245856,
+        "itemName": "Ace of Blood"
+      },
+      {
+        "itemID": 245857,
+        "itemName": "Two of Blood"
+      },
+      {
+        "itemID": 245858,
+        "itemName": "Three of Blood"
+      },
+      {
+        "itemID": 245859,
+        "itemName": "Four of Blood"
+      },
+      {
+        "itemID": 245860,
+        "itemName": "Five of Blood"
+      },
+      {
+        "itemID": 245861,
+        "itemName": "Six of Blood"
+      },
+      {
+        "itemID": 245862,
+        "itemName": "Seven of Blood"
+      },
+      {
+        "itemID": 245863,
+        "itemName": "Eight of Blood"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230083,
+    "recipeName": "Inscribe: Hunt",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245830,
+        "itemName": "Ace of Hunt"
+      },
+      {
+        "itemID": 245831,
+        "itemName": "Two of Hunt"
+      },
+      {
+        "itemID": 245832,
+        "itemName": "Three of Hunt"
+      },
+      {
+        "itemID": 245833,
+        "itemName": "Four of Hunt"
+      },
+      {
+        "itemID": 245834,
+        "itemName": "Five of Hunt"
+      },
+      {
+        "itemID": 245835,
+        "itemName": "Six of Hunt"
+      },
+      {
+        "itemID": 245836,
+        "itemName": "Seven of Hunt"
+      },
+      {
+        "itemID": 245837,
+        "itemName": "Eight of Hunt"
+      },
+      {
+        "itemID": 245838,
+        "itemName": "Ace of Void"
+      },
+      {
+        "itemID": 245839,
+        "itemName": "Two of Void"
+      },
+      {
+        "itemID": 245840,
+        "itemName": "Three of Void"
+      },
+      {
+        "itemID": 245841,
+        "itemName": "Four of Void"
+      },
+      {
+        "itemID": 245842,
+        "itemName": "Five of Void"
+      },
+      {
+        "itemID": 245843,
+        "itemName": "Six of Void"
+      },
+      {
+        "itemID": 245844,
+        "itemName": "Seven of Void"
+      },
+      {
+        "itemID": 245845,
+        "itemName": "Eight of Void"
+      },
+      {
+        "itemID": 245847,
+        "itemName": "Ace of Rot"
+      },
+      {
+        "itemID": 245848,
+        "itemName": "Two of Rot"
+      },
+      {
+        "itemID": 245849,
+        "itemName": "Three of Rot"
+      },
+      {
+        "itemID": 245850,
+        "itemName": "Four of Rot"
+      },
+      {
+        "itemID": 245851,
+        "itemName": "Five of Rot"
+      },
+      {
+        "itemID": 245852,
+        "itemName": "Six of Rot"
+      },
+      {
+        "itemID": 245853,
+        "itemName": "Seven of Rot"
+      },
+      {
+        "itemID": 245854,
+        "itemName": "Eight of Rot"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1230085,
+    "recipeName": "Inscribe: Blood",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2450,
+        "itemName": "Briarthorn"
+      },
+      {
+        "itemID": 22786,
+        "itemName": "Dreaming Glory"
+      },
+      {
+        "itemID": 36903,
+        "itemName": "Adder's Tongue"
+      },
+      {
+        "itemID": 52983,
+        "itemName": "Cinderbloom"
+      },
+      {
+        "itemID": 89639,
+        "itemName": "Desecrated Herb"
+      },
+      {
+        "itemID": 109126,
+        "itemName": "Gorgrond Flytrap"
+      },
+      {
+        "itemID": 124103,
+        "itemName": "Foxflower"
+      },
+      {
+        "itemID": 152511,
+        "itemName": "Sea Stalk"
+      },
+      {
+        "itemID": 168589,
+        "itemName": "Marrowroot"
+      },
+      {
+        "itemID": 191470,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191471,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191472,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 210796,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210797,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210798,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 236774,
+        "itemName": "Azeroot"
+      },
+      {
+        "itemID": 236775,
+        "itemName": "Azeroot"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 3818,
+        "itemName": "Fadeleaf"
+      },
+      {
+        "itemID": 22785,
+        "itemName": "Felweed"
+      },
+      {
+        "itemID": 36905,
+        "itemName": "Lichbloom"
+      },
+      {
+        "itemID": 52985,
+        "itemName": "Azshara's Veil"
+      },
+      {
+        "itemID": 89639,
+        "itemName": "Desecrated Herb"
+      },
+      {
+        "itemID": 109128,
+        "itemName": "Nagrand Arrowbloom"
+      },
+      {
+        "itemID": 128304,
+        "itemName": "Yseralline Seed"
+      },
+      {
+        "itemID": 152505,
+        "itemName": "Riverbud"
+      },
+      {
+        "itemID": 169701,
+        "itemName": "Death Blossom"
+      },
+      {
+        "itemID": 191470,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191471,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191472,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 210805,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210806,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210807,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 236774,
+        "itemName": "Azeroot"
+      },
+      {
+        "itemID": 236775,
+        "itemName": "Azeroot"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2447,
+        "itemName": "Peacebloom"
+      },
+      {
+        "itemID": 22787,
+        "itemName": "Ragveil"
+      },
+      {
+        "itemID": 36906,
+        "itemName": "Icethorn"
+      },
+      {
+        "itemID": 52988,
+        "itemName": "Whiptail"
+      },
+      {
+        "itemID": 79010,
+        "itemName": "Snow Lily"
+      },
+      {
+        "itemID": 109129,
+        "itemName": "Talador Orchid"
+      },
+      {
+        "itemID": 124104,
+        "itemName": "Fjarnskaggl"
+      },
+      {
+        "itemID": 152508,
+        "itemName": "Winter's Kiss"
+      },
+      {
+        "itemID": 168586,
+        "itemName": "Rising Glory"
+      },
+      {
+        "itemID": 191464,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191465,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191466,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 210796,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210797,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210798,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 236761,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236767,
+        "itemName": "Tranquility Bloom"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 765,
+        "itemName": "Silverleaf"
+      },
+      {
+        "itemID": 22789,
+        "itemName": "Terocone"
+      },
+      {
+        "itemID": 36906,
+        "itemName": "Icethorn"
+      },
+      {
+        "itemID": 52984,
+        "itemName": "Stormvine"
+      },
+      {
+        "itemID": 72235,
+        "itemName": "Silkweed"
+      },
+      {
+        "itemID": 109124,
+        "itemName": "Frostweed"
+      },
+      {
+        "itemID": 124102,
+        "itemName": "Dreamleaf"
+      },
+      {
+        "itemID": 152507,
+        "itemName": "Akunda's Bite"
+      },
+      {
+        "itemID": 169701,
+        "itemName": "Death Blossom"
+      },
+      {
+        "itemID": 191467,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191468,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191469,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 210799,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210800,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210801,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 236776,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236777,
+        "itemName": "Argentleaf"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2452,
+        "itemName": "Swiftthistle"
+      },
+      {
+        "itemID": 22785,
+        "itemName": "Felweed"
+      },
+      {
+        "itemID": 36903,
+        "itemName": "Adder's Tongue"
+      },
+      {
+        "itemID": 52985,
+        "itemName": "Azshara's Veil"
+      },
+      {
+        "itemID": 72234,
+        "itemName": "Green Tea Leaf"
+      },
+      {
+        "itemID": 109128,
+        "itemName": "Nagrand Arrowbloom"
+      },
+      {
+        "itemID": 124102,
+        "itemName": "Dreamleaf"
+      },
+      {
+        "itemID": 152505,
+        "itemName": "Riverbud"
+      },
+      {
+        "itemID": 170554,
+        "itemName": "Vigil's Torch"
+      },
+      {
+        "itemID": 191467,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191468,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191469,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 210805,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210806,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210807,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 236770,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236771,
+        "itemName": "Sanguithorn"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 8838,
+        "itemName": "Sungrass"
+      },
+      {
+        "itemID": 22786,
+        "itemName": "Dreaming Glory"
+      },
+      {
+        "itemID": 36901,
+        "itemName": "Goldclover"
+      },
+      {
+        "itemID": 52988,
+        "itemName": "Whiptail"
+      },
+      {
+        "itemID": 72234,
+        "itemName": "Green Tea Leaf"
+      },
+      {
+        "itemID": 109126,
+        "itemName": "Gorgrond Flytrap"
+      },
+      {
+        "itemID": 124104,
+        "itemName": "Fjarnskaggl"
+      },
+      {
+        "itemID": 152511,
+        "itemName": "Sea Stalk"
+      },
+      {
+        "itemID": 168586,
+        "itemName": "Rising Glory"
+      },
+      {
+        "itemID": 191464,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191465,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191466,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 210808,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210809,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210810,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 236778,
+        "itemName": "Mana Lily"
+      },
+      {
+        "itemID": 236779,
+        "itemName": "Mana Lily"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 13464,
+        "itemName": "Golden Sansam"
+      },
+      {
+        "itemID": 22792,
+        "itemName": "Nightmare Vine"
+      },
+      {
+        "itemID": 36901,
+        "itemName": "Goldclover"
+      },
+      {
+        "itemID": 52986,
+        "itemName": "Heartblossom"
+      },
+      {
+        "itemID": 72237,
+        "itemName": "Rain Poppy"
+      },
+      {
+        "itemID": 109125,
+        "itemName": "Fireweed"
+      },
+      {
+        "itemID": 124103,
+        "itemName": "Foxflower"
+      },
+      {
+        "itemID": 152509,
+        "itemName": "Siren's Pollen"
+      },
+      {
+        "itemID": 168583,
+        "itemName": "Widowbloom"
+      },
+      {
+        "itemID": 191470,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191471,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191472,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 210799,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210800,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210801,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 236770,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236771,
+        "itemName": "Sanguithorn"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 785,
+        "itemName": "Mageroyal"
+      },
+      {
+        "itemID": 22791,
+        "itemName": "Netherbloom"
+      },
+      {
+        "itemID": 36904,
+        "itemName": "Tiger Lily"
+      },
+      {
+        "itemID": 52983,
+        "itemName": "Cinderbloom"
+      },
+      {
+        "itemID": 72237,
+        "itemName": "Rain Poppy"
+      },
+      {
+        "itemID": 109125,
+        "itemName": "Fireweed"
+      },
+      {
+        "itemID": 151565,
+        "itemName": "Astral Glory"
+      },
+      {
+        "itemID": 152506,
+        "itemName": "Star Moss"
+      },
+      {
+        "itemID": 168583,
+        "itemName": "Widowbloom"
+      },
+      {
+        "itemID": 191464,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191465,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191466,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 210808,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210809,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210810,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 236778,
+        "itemName": "Mana Lily"
+      },
+      {
+        "itemID": 236779,
+        "itemName": "Mana Lily"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2453,
+        "itemName": "Bruiseweed"
+      },
+      {
+        "itemID": 22789,
+        "itemName": "Terocone"
+      },
+      {
+        "itemID": 36905,
+        "itemName": "Lichbloom"
+      },
+      {
+        "itemID": 52984,
+        "itemName": "Stormvine"
+      },
+      {
+        "itemID": 72235,
+        "itemName": "Silkweed"
+      },
+      {
+        "itemID": 109127,
+        "itemName": "Starflower"
+      },
+      {
+        "itemID": 128304,
+        "itemName": "Yseralline Seed"
+      },
+      {
+        "itemID": 152509,
+        "itemName": "Siren's Pollen"
+      },
+      {
+        "itemID": 168589,
+        "itemName": "Marrowroot"
+      },
+      {
+        "itemID": 191460,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191461,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191462,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 210802,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210803,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210804,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 236761,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236767,
+        "itemName": "Tranquility Bloom"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 3356,
+        "itemName": "Kingsblood"
+      },
+      {
+        "itemID": 22793,
+        "itemName": "Mana Thistle"
+      },
+      {
+        "itemID": 36907,
+        "itemName": "Talandra's Rose"
+      },
+      {
+        "itemID": 52987,
+        "itemName": "Twilight Jasmine"
+      },
+      {
+        "itemID": 79011,
+        "itemName": "Fool's Cap"
+      },
+      {
+        "itemID": 109129,
+        "itemName": "Talador Orchid"
+      },
+      {
+        "itemID": 124101,
+        "itemName": "Aethril"
+      },
+      {
+        "itemID": 168487,
+        "itemName": "Zin'anthid"
+      },
+      {
+        "itemID": 170554,
+        "itemName": "Vigil's Torch"
+      },
+      {
+        "itemID": 191460,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191461,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191462,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 210802,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210804,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210803,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 236776,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236777,
+        "itemName": "Argentleaf"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2878,
+    "professionName": "Khaz Algar Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "categoryID": 2406,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 236761,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236767,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236770,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236771,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236776,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236777,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236778,
+        "itemName": "Mana Lily"
+      },
+      {
+        "itemID": 236779,
+        "itemName": "Mana Lily"
+      }
+    ],
+    "inputProbeCount": 8
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 382994,
+    "recipeName": "Classic Milling",
+    "categoryID": 1726,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 13467,
+        "itemName": "Icecap"
+      },
+      {
+        "itemID": 13466,
+        "itemName": "Sorrowmoss"
+      },
+      {
+        "itemID": 13465,
+        "itemName": "Mountain Silversage"
+      },
+      {
+        "itemID": 13464,
+        "itemName": "Golden Sansam"
+      },
+      {
+        "itemID": 13463,
+        "itemName": "Dreamfoil"
+      },
+      {
+        "itemID": 8846,
+        "itemName": "Gromsblood"
+      },
+      {
+        "itemID": 8845,
+        "itemName": "Ghost Mushroom"
+      },
+      {
+        "itemID": 8839,
+        "itemName": "Blindweed"
+      },
+      {
+        "itemID": 8838,
+        "itemName": "Sungrass"
+      },
+      {
+        "itemID": 8831,
+        "itemName": "Purple Lotus"
+      },
+      {
+        "itemID": 4625,
+        "itemName": "Firebloom"
+      },
+      {
+        "itemID": 3821,
+        "itemName": "Goldthorn"
+      },
+      {
+        "itemID": 3820,
+        "itemName": "Stranglekelp"
+      },
+      {
+        "itemID": 3819,
+        "itemName": "Dragon's Teeth"
+      },
+      {
+        "itemID": 3818,
+        "itemName": "Fadeleaf"
+      },
+      {
+        "itemID": 3369,
+        "itemName": "Grave Moss"
+      },
+      {
+        "itemID": 3358,
+        "itemName": "Khadgar's Whisker"
+      },
+      {
+        "itemID": 3357,
+        "itemName": "Liferoot"
+      },
+      {
+        "itemID": 3356,
+        "itemName": "Kingsblood"
+      },
+      {
+        "itemID": 3355,
+        "itemName": "Wild Steelbloom"
+      },
+      {
+        "itemID": 2453,
+        "itemName": "Bruiseweed"
+      },
+      {
+        "itemID": 2452,
+        "itemName": "Swiftthistle"
+      },
+      {
+        "itemID": 2450,
+        "itemName": "Briarthorn"
+      },
+      {
+        "itemID": 2449,
+        "itemName": "Earthroot"
+      },
+      {
+        "itemID": 2447,
+        "itemName": "Peacebloom"
+      },
+      {
+        "itemID": 785,
+        "itemName": "Mageroyal"
+      },
+      {
+        "itemID": 765,
+        "itemName": "Silverleaf"
+      }
+    ],
+    "inputProbeCount": 27
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 444181,
+    "recipeName": "Khaz Algar Milling",
+    "categoryID": 1949,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 210796,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210797,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210798,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210799,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210800,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210801,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210802,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210803,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210804,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210805,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210806,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210807,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 220141,
+        "itemName": "Specular Rainbowfish"
+      }
+    ],
+    "inputProbeCount": 13
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 444224,
+    "recipeName": "Transcribe: Ascension",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222654,
+        "itemName": "Ace of Symbiosis"
+      },
+      {
+        "itemID": 222672,
+        "itemName": "Ace of Vivacity"
+      },
+      {
+        "itemID": 222663,
+        "itemName": "Ace of Radiance"
+      },
+      {
+        "itemID": 222655,
+        "itemName": "Two of Symbiosis"
+      },
+      {
+        "itemID": 222656,
+        "itemName": "Three of Symbiosis"
+      },
+      {
+        "itemID": 222657,
+        "itemName": "Four of Symbiosis"
+      },
+      {
+        "itemID": 222658,
+        "itemName": "Five of Symbiosis"
+      },
+      {
+        "itemID": 222659,
+        "itemName": "Six of Symbiosis"
+      },
+      {
+        "itemID": 222660,
+        "itemName": "Seven of Symbiosis"
+      },
+      {
+        "itemID": 222661,
+        "itemName": "Eight of Symbiosis"
+      },
+      {
+        "itemID": 222664,
+        "itemName": "Two of Radiance"
+      },
+      {
+        "itemID": 222665,
+        "itemName": "Three of Radiance"
+      },
+      {
+        "itemID": 222666,
+        "itemName": "Four of Radiance"
+      },
+      {
+        "itemID": 222667,
+        "itemName": "Five of Radiance"
+      },
+      {
+        "itemID": 222668,
+        "itemName": "Six of Radiance"
+      },
+      {
+        "itemID": 222669,
+        "itemName": "Seven of Radiance"
+      },
+      {
+        "itemID": 222670,
+        "itemName": "Eight of Radiance"
+      },
+      {
+        "itemID": 222673,
+        "itemName": "Two of Vivacity"
+      },
+      {
+        "itemID": 222674,
+        "itemName": "Three of Vivacity"
+      },
+      {
+        "itemID": 222675,
+        "itemName": "Four of Vivacity"
+      },
+      {
+        "itemID": 222676,
+        "itemName": "Five of Vivacity"
+      },
+      {
+        "itemID": 222677,
+        "itemName": "Six of Vivacity"
+      },
+      {
+        "itemID": 222678,
+        "itemName": "Seven of Vivacity"
+      },
+      {
+        "itemID": 222679,
+        "itemName": "Eight of Vivacity"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 444225,
+    "recipeName": "Transcribe: Vivacity",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222654,
+        "itemName": "Ace of Symbiosis"
+      },
+      {
+        "itemID": 222663,
+        "itemName": "Ace of Radiance"
+      },
+      {
+        "itemID": 222681,
+        "itemName": null
+      },
+      {
+        "itemID": 222655,
+        "itemName": "Two of Symbiosis"
+      },
+      {
+        "itemID": 222656,
+        "itemName": "Three of Symbiosis"
+      },
+      {
+        "itemID": 222657,
+        "itemName": "Four of Symbiosis"
+      },
+      {
+        "itemID": 222658,
+        "itemName": "Five of Symbiosis"
+      },
+      {
+        "itemID": 222659,
+        "itemName": "Six of Symbiosis"
+      },
+      {
+        "itemID": 222660,
+        "itemName": "Seven of Symbiosis"
+      },
+      {
+        "itemID": 222661,
+        "itemName": "Eight of Symbiosis"
+      },
+      {
+        "itemID": 222682,
+        "itemName": null
+      },
+      {
+        "itemID": 222683,
+        "itemName": null
+      },
+      {
+        "itemID": 222684,
+        "itemName": null
+      },
+      {
+        "itemID": 222685,
+        "itemName": null
+      },
+      {
+        "itemID": 222686,
+        "itemName": null
+      },
+      {
+        "itemID": 222687,
+        "itemName": null
+      },
+      {
+        "itemID": 222688,
+        "itemName": null
+      },
+      {
+        "itemID": 222664,
+        "itemName": "Two of Radiance"
+      },
+      {
+        "itemID": 222665,
+        "itemName": "Three of Radiance"
+      },
+      {
+        "itemID": 222666,
+        "itemName": "Four of Radiance"
+      },
+      {
+        "itemID": 222667,
+        "itemName": "Five of Radiance"
+      },
+      {
+        "itemID": 222668,
+        "itemName": "Six of Radiance"
+      },
+      {
+        "itemID": 222669,
+        "itemName": "Seven of Radiance"
+      },
+      {
+        "itemID": 222670,
+        "itemName": "Eight of Radiance"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 444226,
+    "recipeName": "Transcribe: Symbiosis",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222663,
+        "itemName": "Ace of Radiance"
+      },
+      {
+        "itemID": 222672,
+        "itemName": "Ace of Vivacity"
+      },
+      {
+        "itemID": 222681,
+        "itemName": null
+      },
+      {
+        "itemID": 222682,
+        "itemName": null
+      },
+      {
+        "itemID": 222683,
+        "itemName": null
+      },
+      {
+        "itemID": 222684,
+        "itemName": null
+      },
+      {
+        "itemID": 222685,
+        "itemName": null
+      },
+      {
+        "itemID": 222686,
+        "itemName": null
+      },
+      {
+        "itemID": 222687,
+        "itemName": null
+      },
+      {
+        "itemID": 222688,
+        "itemName": null
+      },
+      {
+        "itemID": 222664,
+        "itemName": "Two of Radiance"
+      },
+      {
+        "itemID": 222665,
+        "itemName": "Three of Radiance"
+      },
+      {
+        "itemID": 222666,
+        "itemName": "Four of Radiance"
+      },
+      {
+        "itemID": 222667,
+        "itemName": "Five of Radiance"
+      },
+      {
+        "itemID": 222668,
+        "itemName": "Six of Radiance"
+      },
+      {
+        "itemID": 222669,
+        "itemName": "Seven of Radiance"
+      },
+      {
+        "itemID": 222670,
+        "itemName": "Eight of Radiance"
+      },
+      {
+        "itemID": 222673,
+        "itemName": "Two of Vivacity"
+      },
+      {
+        "itemID": 222674,
+        "itemName": "Three of Vivacity"
+      },
+      {
+        "itemID": 222675,
+        "itemName": "Four of Vivacity"
+      },
+      {
+        "itemID": 222676,
+        "itemName": "Five of Vivacity"
+      },
+      {
+        "itemID": 222677,
+        "itemName": "Six of Vivacity"
+      },
+      {
+        "itemID": 222678,
+        "itemName": "Seven of Vivacity"
+      },
+      {
+        "itemID": 222679,
+        "itemName": "Eight of Vivacity"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 444227,
+    "recipeName": "Transcribe: Radiance",
+    "categoryID": 2064,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 222681,
+        "itemName": null
+      },
+      {
+        "itemID": 222682,
+        "itemName": null
+      },
+      {
+        "itemID": 222683,
+        "itemName": null
+      },
+      {
+        "itemID": 222684,
+        "itemName": null
+      },
+      {
+        "itemID": 222685,
+        "itemName": null
+      },
+      {
+        "itemID": 222686,
+        "itemName": null
+      },
+      {
+        "itemID": 222687,
+        "itemName": null
+      },
+      {
+        "itemID": 222688,
+        "itemName": null
+      },
+      {
+        "itemID": 222654,
+        "itemName": "Ace of Symbiosis"
+      },
+      {
+        "itemID": 222655,
+        "itemName": "Two of Symbiosis"
+      },
+      {
+        "itemID": 222656,
+        "itemName": "Three of Symbiosis"
+      },
+      {
+        "itemID": 222657,
+        "itemName": "Four of Symbiosis"
+      },
+      {
+        "itemID": 222658,
+        "itemName": "Five of Symbiosis"
+      },
+      {
+        "itemID": 222659,
+        "itemName": "Six of Symbiosis"
+      },
+      {
+        "itemID": 222660,
+        "itemName": "Seven of Symbiosis"
+      },
+      {
+        "itemID": 222661,
+        "itemName": "Eight of Symbiosis"
+      },
+      {
+        "itemID": 222672,
+        "itemName": "Ace of Vivacity"
+      },
+      {
+        "itemID": 222673,
+        "itemName": "Two of Vivacity"
+      },
+      {
+        "itemID": 222674,
+        "itemName": "Three of Vivacity"
+      },
+      {
+        "itemID": 222675,
+        "itemName": "Four of Vivacity"
+      },
+      {
+        "itemID": 222676,
+        "itemName": "Five of Vivacity"
+      },
+      {
+        "itemID": 222677,
+        "itemName": "Six of Vivacity"
+      },
+      {
+        "itemID": 222678,
+        "itemName": "Seven of Vivacity"
+      },
+      {
+        "itemID": 222679,
+        "itemName": "Eight of Vivacity"
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230078,
+    "recipeName": "Transcribe: Void",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245830,
+        "itemName": "Ace of Hunt"
+      },
+      {
+        "itemID": 245831,
+        "itemName": "Two of Hunt"
+      },
+      {
+        "itemID": 245832,
+        "itemName": null
+      },
+      {
+        "itemID": 245833,
+        "itemName": "Four of Hunt"
+      },
+      {
+        "itemID": 245834,
+        "itemName": null
+      },
+      {
+        "itemID": 245835,
+        "itemName": null
+      },
+      {
+        "itemID": 245836,
+        "itemName": "Seven of Hunt"
+      },
+      {
+        "itemID": 245837,
+        "itemName": null
+      },
+      {
+        "itemID": 245847,
+        "itemName": null
+      },
+      {
+        "itemID": 245848,
+        "itemName": null
+      },
+      {
+        "itemID": 245849,
+        "itemName": null
+      },
+      {
+        "itemID": 245850,
+        "itemName": null
+      },
+      {
+        "itemID": 245851,
+        "itemName": null
+      },
+      {
+        "itemID": 245852,
+        "itemName": null
+      },
+      {
+        "itemID": 245853,
+        "itemName": null
+      },
+      {
+        "itemID": 245854,
+        "itemName": null
+      },
+      {
+        "itemID": 245856,
+        "itemName": null
+      },
+      {
+        "itemID": 245857,
+        "itemName": null
+      },
+      {
+        "itemID": 245858,
+        "itemName": null
+      },
+      {
+        "itemID": 245859,
+        "itemName": "Four of Blood"
+      },
+      {
+        "itemID": 245860,
+        "itemName": null
+      },
+      {
+        "itemID": 245861,
+        "itemName": null
+      },
+      {
+        "itemID": 245862,
+        "itemName": null
+      },
+      {
+        "itemID": 245863,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230079,
+    "recipeName": "Inscribe: Void",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230080,
+    "recipeName": "Transcribe: Rot",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245830,
+        "itemName": "Ace of Hunt"
+      },
+      {
+        "itemID": 245831,
+        "itemName": "Two of Hunt"
+      },
+      {
+        "itemID": 245832,
+        "itemName": null
+      },
+      {
+        "itemID": 245833,
+        "itemName": "Four of Hunt"
+      },
+      {
+        "itemID": 245834,
+        "itemName": null
+      },
+      {
+        "itemID": 245835,
+        "itemName": null
+      },
+      {
+        "itemID": 245836,
+        "itemName": "Seven of Hunt"
+      },
+      {
+        "itemID": 245837,
+        "itemName": null
+      },
+      {
+        "itemID": 245838,
+        "itemName": null
+      },
+      {
+        "itemID": 245839,
+        "itemName": null
+      },
+      {
+        "itemID": 245840,
+        "itemName": null
+      },
+      {
+        "itemID": 245841,
+        "itemName": null
+      },
+      {
+        "itemID": 245842,
+        "itemName": "Five of Void"
+      },
+      {
+        "itemID": 245843,
+        "itemName": "Six of Void"
+      },
+      {
+        "itemID": 245844,
+        "itemName": null
+      },
+      {
+        "itemID": 245845,
+        "itemName": null
+      },
+      {
+        "itemID": 245856,
+        "itemName": null
+      },
+      {
+        "itemID": 245857,
+        "itemName": null
+      },
+      {
+        "itemID": 245858,
+        "itemName": null
+      },
+      {
+        "itemID": 245859,
+        "itemName": "Four of Blood"
+      },
+      {
+        "itemID": 245860,
+        "itemName": null
+      },
+      {
+        "itemID": 245861,
+        "itemName": null
+      },
+      {
+        "itemID": 245862,
+        "itemName": null
+      },
+      {
+        "itemID": 245863,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230081,
+    "recipeName": "Inscribe: Rot",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230082,
+    "recipeName": "Transcribe: Hunt",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245838,
+        "itemName": null
+      },
+      {
+        "itemID": 245839,
+        "itemName": null
+      },
+      {
+        "itemID": 245840,
+        "itemName": null
+      },
+      {
+        "itemID": 245841,
+        "itemName": null
+      },
+      {
+        "itemID": 245842,
+        "itemName": "Five of Void"
+      },
+      {
+        "itemID": 245843,
+        "itemName": "Six of Void"
+      },
+      {
+        "itemID": 245844,
+        "itemName": null
+      },
+      {
+        "itemID": 245845,
+        "itemName": null
+      },
+      {
+        "itemID": 245847,
+        "itemName": null
+      },
+      {
+        "itemID": 245848,
+        "itemName": null
+      },
+      {
+        "itemID": 245849,
+        "itemName": null
+      },
+      {
+        "itemID": 245850,
+        "itemName": null
+      },
+      {
+        "itemID": 245851,
+        "itemName": null
+      },
+      {
+        "itemID": 245852,
+        "itemName": null
+      },
+      {
+        "itemID": 245853,
+        "itemName": null
+      },
+      {
+        "itemID": 245854,
+        "itemName": null
+      },
+      {
+        "itemID": 245856,
+        "itemName": null
+      },
+      {
+        "itemID": 245857,
+        "itemName": null
+      },
+      {
+        "itemID": 245858,
+        "itemName": null
+      },
+      {
+        "itemID": 245859,
+        "itemName": "Four of Blood"
+      },
+      {
+        "itemID": 245860,
+        "itemName": null
+      },
+      {
+        "itemID": 245861,
+        "itemName": null
+      },
+      {
+        "itemID": 245862,
+        "itemName": null
+      },
+      {
+        "itemID": 245863,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230083,
+    "recipeName": "Inscribe: Hunt",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230084,
+    "recipeName": "Transcribe: Blood",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 245830,
+        "itemName": "Ace of Hunt"
+      },
+      {
+        "itemID": 245831,
+        "itemName": "Two of Hunt"
+      },
+      {
+        "itemID": 245832,
+        "itemName": null
+      },
+      {
+        "itemID": 245833,
+        "itemName": "Four of Hunt"
+      },
+      {
+        "itemID": 245834,
+        "itemName": null
+      },
+      {
+        "itemID": 245835,
+        "itemName": null
+      },
+      {
+        "itemID": 245836,
+        "itemName": "Seven of Hunt"
+      },
+      {
+        "itemID": 245837,
+        "itemName": null
+      },
+      {
+        "itemID": 245838,
+        "itemName": null
+      },
+      {
+        "itemID": 245839,
+        "itemName": null
+      },
+      {
+        "itemID": 245840,
+        "itemName": null
+      },
+      {
+        "itemID": 245841,
+        "itemName": null
+      },
+      {
+        "itemID": 245842,
+        "itemName": "Five of Void"
+      },
+      {
+        "itemID": 245843,
+        "itemName": "Six of Void"
+      },
+      {
+        "itemID": 245844,
+        "itemName": null
+      },
+      {
+        "itemID": 245845,
+        "itemName": null
+      },
+      {
+        "itemID": 245847,
+        "itemName": null
+      },
+      {
+        "itemID": 245848,
+        "itemName": null
+      },
+      {
+        "itemID": 245849,
+        "itemName": null
+      },
+      {
+        "itemID": 245850,
+        "itemName": null
+      },
+      {
+        "itemID": 245851,
+        "itemName": null
+      },
+      {
+        "itemID": 245852,
+        "itemName": null
+      },
+      {
+        "itemID": 245853,
+        "itemName": null
+      },
+      {
+        "itemID": 245854,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 24
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1230085,
+    "recipeName": "Inscribe: Blood",
+    "categoryID": 2409,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 251923,
+        "itemName": "Thalassian Essence of the Faire"
+      },
+      {
+        "itemID": 245806,
+        "itemName": "Sienna Ink"
+      },
+      {
+        "itemID": 245802,
+        "itemName": "Munsell Ink"
+      }
+    ],
+    "inputProbeCount": 3
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1267108,
+    "recipeName": "Brown Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2450,
+        "itemName": "Briarthorn"
+      },
+      {
+        "itemID": 22786,
+        "itemName": "Dreaming Glory"
+      },
+      {
+        "itemID": 36903,
+        "itemName": "Adder's Tongue"
+      },
+      {
+        "itemID": 52983,
+        "itemName": "Cinderbloom"
+      },
+      {
+        "itemID": 89639,
+        "itemName": "Desecrated Herb"
+      },
+      {
+        "itemID": 109126,
+        "itemName": "Gorgrond Flytrap"
+      },
+      {
+        "itemID": 124103,
+        "itemName": "Foxflower"
+      },
+      {
+        "itemID": 152511,
+        "itemName": "Sea Stalk"
+      },
+      {
+        "itemID": 168589,
+        "itemName": "Marrowroot"
+      },
+      {
+        "itemID": 191470,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191471,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191472,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 210796,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210797,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210798,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 236774,
+        "itemName": "Azeroot"
+      },
+      {
+        "itemID": 236775,
+        "itemName": "Azeroot"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268662,
+    "recipeName": "Black Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 3818,
+        "itemName": "Fadeleaf"
+      },
+      {
+        "itemID": 22785,
+        "itemName": "Felweed"
+      },
+      {
+        "itemID": 36905,
+        "itemName": "Lichbloom"
+      },
+      {
+        "itemID": 52985,
+        "itemName": "Azshara's Veil"
+      },
+      {
+        "itemID": 89639,
+        "itemName": "Desecrated Herb"
+      },
+      {
+        "itemID": 109128,
+        "itemName": "Nagrand Arrowbloom"
+      },
+      {
+        "itemID": 128304,
+        "itemName": "Yseralline Seed"
+      },
+      {
+        "itemID": 152505,
+        "itemName": "Riverbud"
+      },
+      {
+        "itemID": 169701,
+        "itemName": "Death Blossom"
+      },
+      {
+        "itemID": 191470,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191471,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191472,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 210805,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210806,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210807,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 236774,
+        "itemName": "Azeroot"
+      },
+      {
+        "itemID": 236775,
+        "itemName": "Azeroot"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268770,
+    "recipeName": "White Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2447,
+        "itemName": "Peacebloom"
+      },
+      {
+        "itemID": 22787,
+        "itemName": "Ragveil"
+      },
+      {
+        "itemID": 36906,
+        "itemName": "Icethorn"
+      },
+      {
+        "itemID": 52988,
+        "itemName": "Whiptail"
+      },
+      {
+        "itemID": 79010,
+        "itemName": "Snow Lily"
+      },
+      {
+        "itemID": 109129,
+        "itemName": "Talador Orchid"
+      },
+      {
+        "itemID": 124104,
+        "itemName": "Fjarnskaggl"
+      },
+      {
+        "itemID": 152508,
+        "itemName": "Winter's Kiss"
+      },
+      {
+        "itemID": 168586,
+        "itemName": "Rising Glory"
+      },
+      {
+        "itemID": 191464,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191465,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191466,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 210796,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210797,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 210798,
+        "itemName": "Mycobloom"
+      },
+      {
+        "itemID": 236761,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236767,
+        "itemName": "Tranquility Bloom"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268984,
+    "recipeName": "Blue Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 765,
+        "itemName": "Silverleaf"
+      },
+      {
+        "itemID": 22789,
+        "itemName": "Terocone"
+      },
+      {
+        "itemID": 36906,
+        "itemName": "Icethorn"
+      },
+      {
+        "itemID": 52984,
+        "itemName": "Stormvine"
+      },
+      {
+        "itemID": 72235,
+        "itemName": "Silkweed"
+      },
+      {
+        "itemID": 109124,
+        "itemName": "Frostweed"
+      },
+      {
+        "itemID": 124102,
+        "itemName": "Dreamleaf"
+      },
+      {
+        "itemID": 152507,
+        "itemName": "Akunda's Bite"
+      },
+      {
+        "itemID": 169701,
+        "itemName": "Death Blossom"
+      },
+      {
+        "itemID": 191467,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191468,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191469,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 210799,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210800,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210801,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 236776,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236777,
+        "itemName": "Argentleaf"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268985,
+    "recipeName": "Green Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2452,
+        "itemName": "Swiftthistle"
+      },
+      {
+        "itemID": 22785,
+        "itemName": "Felweed"
+      },
+      {
+        "itemID": 36903,
+        "itemName": "Adder's Tongue"
+      },
+      {
+        "itemID": 52985,
+        "itemName": "Azshara's Veil"
+      },
+      {
+        "itemID": 72234,
+        "itemName": "Green Tea Leaf"
+      },
+      {
+        "itemID": 109128,
+        "itemName": "Nagrand Arrowbloom"
+      },
+      {
+        "itemID": 124102,
+        "itemName": "Dreamleaf"
+      },
+      {
+        "itemID": 152505,
+        "itemName": "Riverbud"
+      },
+      {
+        "itemID": 170554,
+        "itemName": "Vigil's Torch"
+      },
+      {
+        "itemID": 191467,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191468,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 191469,
+        "itemName": "Bubble Poppy"
+      },
+      {
+        "itemID": 210805,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210806,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 210807,
+        "itemName": "Blessing Blossom"
+      },
+      {
+        "itemID": 236770,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236771,
+        "itemName": "Sanguithorn"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268989,
+    "recipeName": "Yellow Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 8838,
+        "itemName": "Sungrass"
+      },
+      {
+        "itemID": 22786,
+        "itemName": "Dreaming Glory"
+      },
+      {
+        "itemID": 36901,
+        "itemName": "Goldclover"
+      },
+      {
+        "itemID": 52988,
+        "itemName": "Whiptail"
+      },
+      {
+        "itemID": 72234,
+        "itemName": "Green Tea Leaf"
+      },
+      {
+        "itemID": 109126,
+        "itemName": "Gorgrond Flytrap"
+      },
+      {
+        "itemID": 124104,
+        "itemName": "Fjarnskaggl"
+      },
+      {
+        "itemID": 152511,
+        "itemName": "Sea Stalk"
+      },
+      {
+        "itemID": 168586,
+        "itemName": "Rising Glory"
+      },
+      {
+        "itemID": 191464,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191465,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191466,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 210808,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210809,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210810,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 236778,
+        "itemName": "Mana Lily"
+      },
+      {
+        "itemID": 236779,
+        "itemName": "Mana Lily"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268993,
+    "recipeName": "Orange Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 13464,
+        "itemName": "Golden Sansam"
+      },
+      {
+        "itemID": 22792,
+        "itemName": "Nightmare Vine"
+      },
+      {
+        "itemID": 36901,
+        "itemName": "Goldclover"
+      },
+      {
+        "itemID": 52986,
+        "itemName": "Heartblossom"
+      },
+      {
+        "itemID": 72237,
+        "itemName": "Rain Poppy"
+      },
+      {
+        "itemID": 109125,
+        "itemName": "Fireweed"
+      },
+      {
+        "itemID": 124103,
+        "itemName": "Foxflower"
+      },
+      {
+        "itemID": 152509,
+        "itemName": "Siren's Pollen"
+      },
+      {
+        "itemID": 168583,
+        "itemName": "Widowbloom"
+      },
+      {
+        "itemID": 191470,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191471,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 191472,
+        "itemName": "Writhebark"
+      },
+      {
+        "itemID": 210799,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210800,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 210801,
+        "itemName": "Luredrop"
+      },
+      {
+        "itemID": 236770,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236771,
+        "itemName": "Sanguithorn"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268998,
+    "recipeName": "Red Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 785,
+        "itemName": "Mageroyal"
+      },
+      {
+        "itemID": 22791,
+        "itemName": "Netherbloom"
+      },
+      {
+        "itemID": 36904,
+        "itemName": "Tiger Lily"
+      },
+      {
+        "itemID": 52983,
+        "itemName": "Cinderbloom"
+      },
+      {
+        "itemID": 72237,
+        "itemName": "Rain Poppy"
+      },
+      {
+        "itemID": 109125,
+        "itemName": "Fireweed"
+      },
+      {
+        "itemID": 151565,
+        "itemName": "Astral Glory"
+      },
+      {
+        "itemID": 152506,
+        "itemName": "Star Moss"
+      },
+      {
+        "itemID": 168583,
+        "itemName": "Widowbloom"
+      },
+      {
+        "itemID": 191464,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191465,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 191466,
+        "itemName": "Saxifrage"
+      },
+      {
+        "itemID": 210808,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210809,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 210810,
+        "itemName": "Arathor's Spear"
+      },
+      {
+        "itemID": 236778,
+        "itemName": "Mana Lily"
+      },
+      {
+        "itemID": 236779,
+        "itemName": "Mana Lily"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1268999,
+    "recipeName": "Teal Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 2453,
+        "itemName": "Bruiseweed"
+      },
+      {
+        "itemID": 22789,
+        "itemName": "Terocone"
+      },
+      {
+        "itemID": 36905,
+        "itemName": "Lichbloom"
+      },
+      {
+        "itemID": 52984,
+        "itemName": "Stormvine"
+      },
+      {
+        "itemID": 72235,
+        "itemName": "Silkweed"
+      },
+      {
+        "itemID": 109127,
+        "itemName": "Starflower"
+      },
+      {
+        "itemID": 128304,
+        "itemName": "Yseralline Seed"
+      },
+      {
+        "itemID": 152509,
+        "itemName": "Siren's Pollen"
+      },
+      {
+        "itemID": 168589,
+        "itemName": "Marrowroot"
+      },
+      {
+        "itemID": 191460,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191461,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191462,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 210802,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210803,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210804,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 236761,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236767,
+        "itemName": "Tranquility Bloom"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1269057,
+    "recipeName": "Purple Dye Pigment",
+    "categoryID": 2710,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 3356,
+        "itemName": "Kingsblood"
+      },
+      {
+        "itemID": 22793,
+        "itemName": "Mana Thistle"
+      },
+      {
+        "itemID": 36907,
+        "itemName": "Talandra's Rose"
+      },
+      {
+        "itemID": 52987,
+        "itemName": "Twilight Jasmine"
+      },
+      {
+        "itemID": 79011,
+        "itemName": "Fool's Cap"
+      },
+      {
+        "itemID": 109129,
+        "itemName": "Talador Orchid"
+      },
+      {
+        "itemID": 124101,
+        "itemName": "Aethril"
+      },
+      {
+        "itemID": 168487,
+        "itemName": "Zin'anthid"
+      },
+      {
+        "itemID": 170554,
+        "itemName": "Vigil's Torch"
+      },
+      {
+        "itemID": 191460,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191461,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 191462,
+        "itemName": "Hochenblume"
+      },
+      {
+        "itemID": 210802,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210804,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 210803,
+        "itemName": "Orbinid"
+      },
+      {
+        "itemID": 236776,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236777,
+        "itemName": "Argentleaf"
+      }
+    ],
+    "inputProbeCount": 17
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2913,
+    "professionName": "Midnight Inscription",
+    "recipeID": 1269575,
+    "recipeName": "Midnight Milling",
+    "categoryID": 2406,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 236761,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236767,
+        "itemName": "Tranquility Bloom"
+      },
+      {
+        "itemID": 236770,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236771,
+        "itemName": "Sanguithorn"
+      },
+      {
+        "itemID": 236776,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236777,
+        "itemName": "Argentleaf"
+      },
+      {
+        "itemID": 236778,
+        "itemName": "Mana Lily"
+      },
+      {
+        "itemID": 236779,
+        "itemName": "Mana Lily"
+      }
+    ],
+    "inputProbeCount": 8
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 382995,
+    "recipeName": "Classic Prospecting",
+    "categoryID": 1727,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 10620,
+        "itemName": null
+      },
+      {
+        "itemID": 3858,
+        "itemName": null
+      },
+      {
+        "itemID": 2772,
+        "itemName": null
+      },
+      {
+        "itemID": 2771,
+        "itemName": null
+      },
+      {
+        "itemID": 2770,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 5
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434018,
+    "recipeName": "Algari Prospecting",
+    "categoryID": 1946,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 210930,
+        "itemName": null
+      },
+      {
+        "itemID": 210931,
+        "itemName": "Bismuth"
+      },
+      {
+        "itemID": 210932,
+        "itemName": null
+      },
+      {
+        "itemID": 210933,
+        "itemName": null
+      },
+      {
+        "itemID": 210934,
+        "itemName": null
+      },
+      {
+        "itemID": 210935,
+        "itemName": null
+      },
+      {
+        "itemID": 210936,
+        "itemName": null
+      },
+      {
+        "itemID": 210937,
+        "itemName": "Ironclaw Ore"
+      },
+      {
+        "itemID": 210938,
+        "itemName": null
+      },
+      {
+        "itemID": 213398,
+        "itemName": null
+      },
+      {
+        "itemID": 210939,
+        "itemName": "Null Stone"
+      },
+      {
+        "itemID": 240216,
+        "itemName": null
+      },
+      {
+        "itemID": 249218,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 13
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 434020,
+    "recipeName": "Algari Crushing",
+    "categoryID": 1946,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 213453,
+        "itemName": null
+      },
+      {
+        "itemID": 213454,
+        "itemName": null
+      },
+      {
+        "itemID": 213455,
+        "itemName": null
+      },
+      {
+        "itemID": 213456,
+        "itemName": null
+      },
+      {
+        "itemID": 213457,
+        "itemName": null
+      },
+      {
+        "itemID": 213458,
+        "itemName": null
+      },
+      {
+        "itemID": 213459,
+        "itemName": null
+      },
+      {
+        "itemID": 213460,
+        "itemName": null
+      },
+      {
+        "itemID": 213461,
+        "itemName": null
+      },
+      {
+        "itemID": 213462,
+        "itemName": null
+      },
+      {
+        "itemID": 213463,
+        "itemName": null
+      },
+      {
+        "itemID": 213464,
+        "itemName": null
+      },
+      {
+        "itemID": 213465,
+        "itemName": null
+      },
+      {
+        "itemID": 213466,
+        "itemName": null
+      },
+      {
+        "itemID": 213467,
+        "itemName": null
+      },
+      {
+        "itemID": 213468,
+        "itemName": null
+      },
+      {
+        "itemID": 213469,
+        "itemName": null
+      },
+      {
+        "itemID": 213470,
+        "itemName": null
+      },
+      {
+        "itemID": 213471,
+        "itemName": null
+      },
+      {
+        "itemID": 213472,
+        "itemName": null
+      },
+      {
+        "itemID": 213473,
+        "itemName": null
+      },
+      {
+        "itemID": 213474,
+        "itemName": null
+      },
+      {
+        "itemID": 213475,
+        "itemName": null
+      },
+      {
+        "itemID": 213476,
+        "itemName": null
+      },
+      {
+        "itemID": 213477,
+        "itemName": null
+      },
+      {
+        "itemID": 213478,
+        "itemName": null
+      },
+      {
+        "itemID": 213479,
+        "itemName": null
+      },
+      {
+        "itemID": 213480,
+        "itemName": null
+      },
+      {
+        "itemID": 213481,
+        "itemName": null
+      },
+      {
+        "itemID": 213482,
+        "itemName": null
+      },
+      {
+        "itemID": 213483,
+        "itemName": null
+      },
+      {
+        "itemID": 213484,
+        "itemName": null
+      },
+      {
+        "itemID": 213485,
+        "itemName": null
+      },
+      {
+        "itemID": 213486,
+        "itemName": null
+      },
+      {
+        "itemID": 213487,
+        "itemName": null
+      },
+      {
+        "itemID": 213488,
+        "itemName": null
+      },
+      {
+        "itemID": 213489,
+        "itemName": null
+      },
+      {
+        "itemID": 213490,
+        "itemName": null
+      },
+      {
+        "itemID": 213491,
+        "itemName": null
+      },
+      {
+        "itemID": 213492,
+        "itemName": null
+      },
+      {
+        "itemID": 213493,
+        "itemName": null
+      },
+      {
+        "itemID": 213494,
+        "itemName": null
+      },
+      {
+        "itemID": 213495,
+        "itemName": null
+      },
+      {
+        "itemID": 213496,
+        "itemName": null
+      },
+      {
+        "itemID": 213497,
+        "itemName": null
+      },
+      {
+        "itemID": 213498,
+        "itemName": null
+      },
+      {
+        "itemID": 213499,
+        "itemName": null
+      },
+      {
+        "itemID": 213500,
+        "itemName": null
+      },
+      {
+        "itemID": 213501,
+        "itemName": null
+      },
+      {
+        "itemID": 213502,
+        "itemName": null
+      },
+      {
+        "itemID": 213503,
+        "itemName": null
+      },
+      {
+        "itemID": 213504,
+        "itemName": null
+      },
+      {
+        "itemID": 213505,
+        "itemName": null
+      },
+      {
+        "itemID": 213506,
+        "itemName": null
+      },
+      {
+        "itemID": 213507,
+        "itemName": null
+      },
+      {
+        "itemID": 213508,
+        "itemName": null
+      },
+      {
+        "itemID": 213509,
+        "itemName": null
+      },
+      {
+        "itemID": 213510,
+        "itemName": null
+      },
+      {
+        "itemID": 213511,
+        "itemName": null
+      },
+      {
+        "itemID": 213512,
+        "itemName": null
+      },
+      {
+        "itemID": 213515,
+        "itemName": null
+      },
+      {
+        "itemID": 213516,
+        "itemName": null
+      },
+      {
+        "itemID": 213517,
+        "itemName": null
+      },
+      {
+        "itemID": 212498,
+        "itemName": null
+      },
+      {
+        "itemID": 212495,
+        "itemName": null
+      },
+      {
+        "itemID": 212505,
+        "itemName": null
+      },
+      {
+        "itemID": 212508,
+        "itemName": null
+      },
+      {
+        "itemID": 212511,
+        "itemName": "Ostentatious Onyx"
+      }
+    ],
+    "inputProbeCount": 68
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231127,
+    "recipeName": "Midnight Prospecting",
+    "categoryID": 2245,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 237359,
+        "itemName": "Refulgent Copper Ore"
+      },
+      {
+        "itemID": 237361,
+        "itemName": "Refulgent Copper Ore"
+      },
+      {
+        "itemID": 237362,
+        "itemName": "Umbral Tin Ore"
+      },
+      {
+        "itemID": 237363,
+        "itemName": "Umbral Tin Ore"
+      },
+      {
+        "itemID": 237364,
+        "itemName": "Brilliant Silver Ore"
+      },
+      {
+        "itemID": 237365,
+        "itemName": "Brilliant Silver Ore"
+      },
+      {
+        "itemID": 237366,
+        "itemName": "Dazzling Thorium"
+      }
+    ],
+    "inputProbeCount": 7
+  },
+  {
+    "exportID": 3,
+    "professionSkillLineID": 2914,
+    "professionName": "Midnight Jewelcrafting",
+    "recipeID": 1231132,
+    "recipeName": "Midnight Crushing",
+    "categoryID": 2245,
+    "recipeType": null,
+    "salvageTargets": [
+      {
+        "itemID": 242612,
+        "itemName": "Flawless Amani Lapis"
+      },
+      {
+        "itemID": 242727,
+        "itemName": null
+      },
+      {
+        "itemID": 242554,
+        "itemName": "Amani Lapis"
+      },
+      {
+        "itemID": 242722,
+        "itemName": "Amani Lapis"
+      },
+      {
+        "itemID": 242608,
+        "itemName": "Eversong Diamond"
+      },
+      {
+        "itemID": 242712,
+        "itemName": null
+      },
+      {
+        "itemID": 242610,
+        "itemName": null
+      },
+      {
+        "itemID": 242726,
+        "itemName": null
+      },
+      {
+        "itemID": 242607,
+        "itemName": "Harandar Peridot"
+      },
+      {
+        "itemID": 242720,
+        "itemName": null
+      },
+      {
+        "itemID": 242611,
+        "itemName": "Flawless Tenebrous Amethyst"
+      },
+      {
+        "itemID": 242725,
+        "itemName": "Flawless Tenebrous Amethyst"
+      },
+      {
+        "itemID": 242606,
+        "itemName": null
+      },
+      {
+        "itemID": 242721,
+        "itemName": null
+      },
+      {
+        "itemID": 242613,
+        "itemName": "Flawless Sanguine Garnet"
+      },
+      {
+        "itemID": 242724,
+        "itemName": null
+      },
+      {
+        "itemID": 242553,
+        "itemName": "Sanguine Garnet"
+      },
+      {
+        "itemID": 242723,
+        "itemName": null
+      }
+    ],
+    "inputProbeCount": 18
+  }
+]

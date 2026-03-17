@@ -8,6 +8,10 @@ local defaults = {
     salvageRunCount = 0,
     latestSalvageExportID = nil,
     salvageExports = {},
+    salvageTrackingEnabled = true,
+    salvageTrackingSessionCounter = 0,
+    latestSalvageTrackingSessionID = nil,
+    salvageTrackingSessions = {},
 }
 
 local L = {
@@ -31,7 +35,13 @@ local L = {
     salvageScanNotRunning = "No active salvage scan. Use /pre salvagescan to start.",
     salvageProfessionCaptured = "Captured salvage recipes for profession skillLineID=%d.",
     salvageProfessionUpdated = "Updated salvage recipes for profession skillLineID=%d.",
-    commandHelp = "Commands: /pre scan, /pre finish, /pre salvagescan, /pre salvagedone, /pre status, /pre latest, /pre clear",
+    salvageTrackingSessionStarted = "Salvage tracking session started (#%d).",
+    salvageTrackingEnabled = "Salvage auto-tracking enabled.",
+    salvageTrackingDisabled = "Salvage auto-tracking disabled.",
+    salvageTrackingStatus = "Salvage tracking: %s. Sessions=%d, LatestSessionID=%s, CurrentSessionID=%s.",
+    salvageTrackingCleared = "Salvage tracking history cleared.",
+    salvageTrackingLatest = "Latest salvage tracking session: ProfessionRecipeExporterDB.salvageTrackingSessions[%d]",
+    commandHelp = "Commands: /pre scan, /pre finish, /pre salvagescan, /pre salvagedone, /pre salvagelogstatus, /pre salvagelogon, /pre salvagelogoff, /pre salvagelogclear, /pre salvageloglatest, /pre status, /pre latest, /pre clear",
     dataCleared = "All saved export data cleared.",
     captureSkippedNotReady = "Trade skill UI is not ready yet; waiting for next update.",
     captureSkippedNoSkillLine = "Could not determine current profession skillLineID; waiting for next update.",
@@ -50,6 +60,9 @@ local state = {
     finalizePending = false,
     finalizeRetryCount = 0,
     finalizeCheckQueued = false,
+    salvageTrackingHooked = false,
+    currentSalvageTrackingSession = nil,
+    pendingSalvageCalls = {},
 }
 
 local FINALIZE_RETRY_INTERVAL_SECONDS = 1
@@ -57,6 +70,7 @@ local FINALIZE_MAX_RETRIES = 8
 local DEBUG_ENCHANT_OUTPUTS = false
 local DEBUG_MIDNIGHT_RECIPES = false
 local finalizeScan
+local sanitize
 
 local eventFrame = CreateFrame("Frame")
 
@@ -246,6 +260,308 @@ local function safeToString(value)
     return "<unstringable>"
 end
 
+local function isSalvageTrackingEnabled()
+    return ProfessionRecipeExporterDB and ProfessionRecipeExporterDB.salvageTrackingEnabled == true
+end
+
+local function getCurrentISOTime()
+    return date("!%Y-%m-%dT%H:%M:%SZ")
+end
+
+local function getOrCreateSalvageTrackingSession()
+    if not ProfessionRecipeExporterDB then
+        return nil
+    end
+
+    if type(state.currentSalvageTrackingSession) == "table" then
+        return state.currentSalvageTrackingSession
+    end
+
+    local db = ProfessionRecipeExporterDB
+    db.salvageTrackingSessionCounter = (db.salvageTrackingSessionCounter or 0) + 1
+    local sessionID = db.salvageTrackingSessionCounter
+
+    local classLocalized, classFile = UnitClass("player")
+    local raceLocalized, raceFile = UnitRace("player")
+
+    local session = {
+        sessionID = sessionID,
+        startedAtEpoch = time(),
+        startedAtISO8601 = getCurrentISOTime(),
+        player = {
+            name = UnitName("player"),
+            realm = GetRealmName(),
+            classLocalized = classLocalized,
+            classFile = classFile,
+            raceLocalized = raceLocalized,
+            raceFile = raceFile,
+            faction = UnitFactionGroup("player"),
+            level = UnitLevel("player"),
+        },
+        craftCalls = {},
+        craftBeginEvents = {},
+        spellcastSucceededEvents = {},
+        craftResultEvents = {},
+        counters = {
+            craftCallID = 0,
+            craftBeginEventID = 0,
+            spellcastEventID = 0,
+            craftResultEventID = 0,
+        },
+    }
+
+    db.salvageTrackingSessions[sessionID] = session
+    db.latestSalvageTrackingSessionID = sessionID
+    state.currentSalvageTrackingSession = session
+    state.pendingSalvageCalls = {}
+
+    log(L.salvageTrackingSessionStarted, sessionID)
+    return session
+end
+
+local function getRecipeNameByID(recipeID)
+    if type(recipeID) ~= "number" then
+        return nil
+    end
+
+    local recipeInfo = safeCall(C_TradeSkillUI.GetRecipeInfo, recipeID)
+    if type(recipeInfo) == "table" and type(recipeInfo.name) == "string" and recipeInfo.name ~= "" then
+        return recipeInfo.name
+    end
+
+    return nil
+end
+
+local function buildItemLocationSnapshot(itemLocation)
+    if type(itemLocation) ~= "table" then
+        return nil
+    end
+
+    local snapshot = {
+        itemID = safeCall(C_Item.GetItemID, itemLocation),
+        itemGUID = safeCall(C_Item.GetItemGUID, itemLocation),
+    }
+
+    if type(itemLocation.GetBagAndSlot) == "function" then
+        local bagIndex, slotIndex = safeCall(itemLocation.GetBagAndSlot, itemLocation)
+        if type(bagIndex) == "number" then
+            snapshot.bagIndex = bagIndex
+        end
+        if type(slotIndex) == "number" then
+            snapshot.slotIndex = slotIndex
+        end
+    end
+
+    return snapshot
+end
+
+local function getMostRecentPendingSalvageCall()
+    for index = #state.pendingSalvageCalls, 1, -1 do
+        local pending = state.pendingSalvageCalls[index]
+        if type(pending) == "table" and (pending.remainingCrafts or 0) > 0 then
+            return pending
+        end
+    end
+    return nil
+end
+
+local function getPendingSalvageCallByRecipe(recipeSpellID)
+    if type(recipeSpellID) ~= "number" then
+        return nil
+    end
+    for _, pending in ipairs(state.pendingSalvageCalls) do
+        if type(pending) == "table"
+            and pending.recipeSpellID == recipeSpellID
+            and (pending.remainingCrafts or 0) > 0
+        then
+            return pending
+        end
+    end
+    return nil
+end
+
+local function recordCraftSalvageCall(recipeSpellID, numCasts, itemTargetLocation, craftingReagentInfo, applyConcentration)
+    if not isSalvageTrackingEnabled() then
+        return
+    end
+
+    local session = getOrCreateSalvageTrackingSession()
+    if not session then
+        return
+    end
+
+    local casts = (type(numCasts) == "number" and numCasts > 0) and numCasts or 1
+    session.counters.craftCallID = (session.counters.craftCallID or 0) + 1
+    local craftCallID = session.counters.craftCallID
+
+    local callRecord = {
+        craftCallID = craftCallID,
+        timestampEpoch = time(),
+        timestampISO8601 = getCurrentISOTime(),
+        recipeSpellID = recipeSpellID,
+        recipeName = getRecipeNameByID(recipeSpellID),
+        numCasts = casts,
+        applyConcentration = applyConcentration == true,
+        itemTarget = sanitize(buildItemLocationSnapshot(itemTargetLocation)),
+        craftingReagentInfo = sanitize(craftingReagentInfo),
+    }
+
+    table.insert(session.craftCalls, callRecord)
+    table.insert(state.pendingSalvageCalls, {
+        craftCallID = craftCallID,
+        recipeSpellID = recipeSpellID,
+        remainingCrafts = casts,
+        lastUpdateEpoch = time(),
+    })
+end
+
+local function recordCraftBegin(recipeSpellID)
+    if not isSalvageTrackingEnabled() then
+        return
+    end
+
+    local session = getOrCreateSalvageTrackingSession()
+    if not session then
+        return
+    end
+
+    local pending = getPendingSalvageCallByRecipe(recipeSpellID) or getMostRecentPendingSalvageCall()
+
+    session.counters.craftBeginEventID = (session.counters.craftBeginEventID or 0) + 1
+    table.insert(session.craftBeginEvents, {
+        craftBeginEventID = session.counters.craftBeginEventID,
+        timestampEpoch = time(),
+        timestampISO8601 = getCurrentISOTime(),
+        recipeSpellID = recipeSpellID,
+        recipeName = getRecipeNameByID(recipeSpellID),
+        linkedCraftCallID = pending and pending.craftCallID or nil,
+    })
+end
+
+local function recordSpellcastSucceeded(unitTarget, castGUID, spellID, castBarID)
+    if not isSalvageTrackingEnabled() then
+        return
+    end
+
+    if unitTarget ~= "player" then
+        return
+    end
+
+    local session = getOrCreateSalvageTrackingSession()
+    if not session then
+        return
+    end
+
+    local pending = getPendingSalvageCallByRecipe(spellID)
+    if pending then
+        pending.remainingCrafts = math.max(0, (pending.remainingCrafts or 0) - 1)
+        pending.lastUpdateEpoch = time()
+    end
+
+    session.counters.spellcastEventID = (session.counters.spellcastEventID or 0) + 1
+    table.insert(session.spellcastSucceededEvents, {
+        spellcastEventID = session.counters.spellcastEventID,
+        timestampEpoch = time(),
+        timestampISO8601 = getCurrentISOTime(),
+        unitTarget = unitTarget,
+        castGUID = castGUID,
+        spellID = spellID,
+        castBarID = castBarID,
+        linkedCraftCallID = pending and pending.craftCallID or nil,
+    })
+end
+
+local function inferRecipeSpellIDFromResultData(craftingItemResultData)
+    if type(craftingItemResultData) ~= "table" then
+        return nil
+    end
+
+    local candidateKeys = {
+        "recipeSpellID",
+        "recipeID",
+        "spellID",
+    }
+
+    for _, key in ipairs(candidateKeys) do
+        local value = craftingItemResultData[key]
+        if type(value) == "number" and value > 0 then
+            return value
+        end
+    end
+
+    return nil
+end
+
+local function summarizeCraftResultData(craftingItemResultData)
+    if type(craftingItemResultData) ~= "table" then
+        return nil
+    end
+
+    local summary = {
+        operationID = craftingItemResultData.operationID,
+        quantity = craftingItemResultData.quantity,
+        multicraft = craftingItemResultData.multicraft,
+        craftingQuality = craftingItemResultData.craftingQuality,
+        itemID = craftingItemResultData.itemID,
+        hyperlink = craftingItemResultData.hyperlink,
+        concentrationSpent = craftingItemResultData.concentrationSpent,
+        ingenuityRefund = craftingItemResultData.ingenuityRefund,
+        hasIngenuityProc = craftingItemResultData.hasIngenuityProc,
+        hasResourcesReturned = type(craftingItemResultData.resourcesReturned) == "table" and #craftingItemResultData.resourcesReturned > 0 or false,
+    }
+
+    if summary.itemID == nil and type(summary.hyperlink) == "string" then
+        local parsedItemID = summary.hyperlink:match("Hitem:(%d+):")
+        if parsedItemID then
+            summary.itemID = tonumber(parsedItemID)
+        end
+    end
+
+    return summary
+end
+
+local function recordCraftResultEvent(craftingItemResultData)
+    if not isSalvageTrackingEnabled() then
+        return
+    end
+
+    local session = getOrCreateSalvageTrackingSession()
+    if not session then
+        return
+    end
+
+    local inferredRecipeSpellID = inferRecipeSpellIDFromResultData(craftingItemResultData)
+    local pending = getPendingSalvageCallByRecipe(inferredRecipeSpellID) or getMostRecentPendingSalvageCall()
+
+    session.counters.craftResultEventID = (session.counters.craftResultEventID or 0) + 1
+    table.insert(session.craftResultEvents, {
+        craftResultEventID = session.counters.craftResultEventID,
+        timestampEpoch = time(),
+        timestampISO8601 = getCurrentISOTime(),
+        inferredRecipeSpellID = inferredRecipeSpellID,
+        inferredRecipeName = getRecipeNameByID(inferredRecipeSpellID),
+        linkedCraftCallID = pending and pending.craftCallID or nil,
+        resultSummary = sanitize(summarizeCraftResultData(craftingItemResultData)),
+        rawData = sanitize(craftingItemResultData),
+    })
+end
+
+local function hookSalvageCraftCallIfNeeded()
+    if state.salvageTrackingHooked then
+        return
+    end
+
+    if type(C_TradeSkillUI) ~= "table" or type(C_TradeSkillUI.CraftSalvage) ~= "function" then
+        return
+    end
+
+    hooksecurefunc(C_TradeSkillUI, "CraftSalvage", function(recipeSpellID, numCasts, itemTargetLocation, craftingReagentInfo, applyConcentration)
+        recordCraftSalvageCall(recipeSpellID, numCasts, itemTargetLocation, craftingReagentInfo, applyConcentration)
+    end)
+
+    state.salvageTrackingHooked = true
+end
+
 local function resolveItemNameByID(itemID)
     if type(itemID) ~= "number" then
         return nil
@@ -430,7 +746,7 @@ local function startFinalizeSequence()
     end
 end
 
-local function sanitize(value, seen, depth)
+sanitize = function(value, seen, depth)
     local valueType = type(value)
     if valueType == "nil" or valueType == "boolean" or valueType == "number" or valueType == "string" then
         return value
@@ -1567,6 +1883,65 @@ local function clearData()
     log(L.dataCleared)
 end
 
+local function printSalvageLogStatus()
+    local db = ProfessionRecipeExporterDB
+    local enabledText = db.salvageTrackingEnabled and "enabled" or "disabled"
+    local sessionCount = 0
+    for _ in pairs(db.salvageTrackingSessions or {}) do
+        sessionCount = sessionCount + 1
+    end
+
+    local latestSessionID = db.latestSalvageTrackingSessionID
+    local currentSessionID = state.currentSalvageTrackingSession and state.currentSalvageTrackingSession.sessionID or nil
+    log(
+        L.salvageTrackingStatus,
+        enabledText,
+        sessionCount,
+        tostring(latestSessionID),
+        tostring(currentSessionID)
+    )
+end
+
+local function setSalvageTrackingEnabled(enabled)
+    ProfessionRecipeExporterDB.salvageTrackingEnabled = enabled == true
+    if ProfessionRecipeExporterDB.salvageTrackingEnabled then
+        getOrCreateSalvageTrackingSession()
+        log(L.salvageTrackingEnabled)
+    else
+        log(L.salvageTrackingDisabled)
+    end
+end
+
+local function clearSalvageTrackingHistory()
+    local db = ProfessionRecipeExporterDB
+    db.salvageTrackingSessions = {}
+    db.salvageTrackingSessionCounter = 0
+    db.latestSalvageTrackingSessionID = nil
+    state.currentSalvageTrackingSession = nil
+    state.pendingSalvageCalls = {}
+    log(L.salvageTrackingCleared)
+
+    if db.salvageTrackingEnabled then
+        getOrCreateSalvageTrackingSession()
+    end
+end
+
+local function printLatestSalvageTrackingPathHint()
+    local db = ProfessionRecipeExporterDB
+    local latestSessionID = db.latestSalvageTrackingSessionID
+    if type(latestSessionID) ~= "number" then
+        log("No salvage tracking session available yet.")
+        return
+    end
+
+    if type(db.salvageTrackingSessions[latestSessionID]) ~= "table" then
+        log("Latest salvage tracking session ID exists but no data found.")
+        return
+    end
+
+    log(L.salvageTrackingLatest, latestSessionID)
+end
+
 local function handleSlashCommand(input)
     local command = input and input:match("^%s*(%S+)")
     if not command then
@@ -1592,6 +1967,31 @@ local function handleSlashCommand(input)
 
     if command == "salvagedone" then
         finishSalvageScan()
+        return
+    end
+
+    if command == "salvagelogstatus" then
+        printSalvageLogStatus()
+        return
+    end
+
+    if command == "salvagelogon" then
+        setSalvageTrackingEnabled(true)
+        return
+    end
+
+    if command == "salvagelogoff" then
+        setSalvageTrackingEnabled(false)
+        return
+    end
+
+    if command == "salvagelogclear" then
+        clearSalvageTrackingHistory()
+        return
+    end
+
+    if command == "salvageloglatest" then
+        printLatestSalvageTrackingPathHint()
         return
     end
 
@@ -1661,9 +2061,31 @@ eventFrame:SetScript("OnEvent", function(_, event, ...)
         end
 
         ensureDatabase()
+        hookSalvageCraftCallIfNeeded()
+        if ProfessionRecipeExporterDB.salvageTrackingEnabled then
+            getOrCreateSalvageTrackingSession()
+        end
         SLASH_PROFESSIONRECIPEEXPORTER1 = "/pre"
         SlashCmdList.PROFESSIONRECIPEEXPORTER = handleSlashCommand
         log(L.loaded)
+        return
+    end
+
+    if event == "TRADE_SKILL_CRAFT_BEGIN" then
+        local recipeSpellID = ...
+        recordCraftBegin(recipeSpellID)
+        return
+    end
+
+    if event == "UNIT_SPELLCAST_SUCCEEDED" then
+        local unitTarget, castGUID, spellID, castBarID = ...
+        recordSpellcastSucceeded(unitTarget, castGUID, spellID, castBarID)
+        return
+    end
+
+    if event == "TRADE_SKILL_ITEM_CRAFTED_RESULT" then
+        local craftingItemResultData = ...
+        recordCraftResultEvent(craftingItemResultData)
         return
     end
 
@@ -1698,3 +2120,6 @@ eventFrame:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
 eventFrame:RegisterEvent("TRADE_SKILL_DETAILS_UPDATE")
 eventFrame:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
 eventFrame:RegisterEvent("GET_ITEM_INFO_RECEIVED")
+eventFrame:RegisterEvent("TRADE_SKILL_CRAFT_BEGIN")
+eventFrame:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
+eventFrame:RegisterEvent("TRADE_SKILL_ITEM_CRAFTED_RESULT")

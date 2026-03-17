@@ -1,4 +1,4 @@
-## Interface: 110200
+## Interface: 120000, 120001
 ## Title: MidnightAHScanner
 ## Notes: Scans Auction House data with ReplicateItems and stores aggregated prices
 ## Author: Juha

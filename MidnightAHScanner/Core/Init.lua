@@ -6,6 +6,8 @@ local runtime = {
     isAHOpen = false,
     isScanning = false,
     scanStartedAt = nil,
+    scanExpiresAt = nil,
+    lastProgressReportMinute = nil,
 }
 
 local db
@@ -78,6 +80,7 @@ frame:SetScript("OnEvent", function(_, event, arg1)
         frame:RegisterEvent("AUCTION_HOUSE_SHOW")
         frame:RegisterEvent("AUCTION_HOUSE_CLOSED")
         frame:RegisterEvent("REPLICATE_ITEM_LIST_UPDATE")
+        frame:RegisterEvent("AUCTION_HOUSE_THROTTLED_MESSAGE_DROPPED")
         frame:UnregisterEvent("PLAYER_LOGIN")
         frame:UnregisterEvent("ADDON_LOADED")
         return
@@ -90,13 +93,23 @@ frame:SetScript("OnEvent", function(_, event, arg1)
 
     if event == "AUCTION_HOUSE_CLOSED" then
         runtime.isAHOpen = false
-        runtime.isScanning = false
-        runtime.scanStartedAt = nil
+        ns.Scanner:AbortScan(runtime)
         return
     end
 
     if event == "REPLICATE_ITEM_LIST_UPDATE" and runtime.isScanning then
         ns.Scanner:FinalizeScan(db, runtime)
+        return
+    end
+
+    if event == "AUCTION_HOUSE_THROTTLED_MESSAGE_DROPPED" and runtime.isScanning then
+        printMsg(getText("SCAN_THROTTLED"))
+    end
+end)
+
+frame:SetScript("OnUpdate", function()
+    if runtime.isScanning then
+        ns.Scanner:CheckTimeout(runtime)
     end
 end)
 

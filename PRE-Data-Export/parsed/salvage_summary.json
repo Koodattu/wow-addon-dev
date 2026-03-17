@@ -1,0 +1,12 @@
+{
+  "exportID": 3,
+  "completedAtISO8601": "2026-03-17T20:53:46Z",
+  "startedAtISO8601": "2026-03-17T20:53:35Z",
+  "salvageRecipeCount": 55,
+  "inputProbeCount": 955,
+  "outputFiles": {
+    "salvageRecipes": "salvage_recipes_only.json",
+    "salvageInputResults": "salvage_input_results.json",
+    "salvageInputOutputMap": "salvage_input_output_map.json"
+  }
+}
