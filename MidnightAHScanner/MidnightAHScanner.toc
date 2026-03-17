@@ -1,0 +1,12 @@
+## Interface: 110200
+## Title: MidnightAHScanner
+## Notes: Scans Auction House data with ReplicateItems and stores aggregated prices
+## Author: Juha
+## Version: 0.1.0
+## DefaultState: enabled
+## SavedVariables: MidnightAHScannerDB
+
+Core/Localization.lua
+Core/DB.lua
+Core/AuctionScan.lua
+Core/Init.lua

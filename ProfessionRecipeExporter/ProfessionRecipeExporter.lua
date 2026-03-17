@@ -5,6 +5,9 @@ local defaults = {
     runCount = 0,
     latestExportID = nil,
     exports = {},
+    salvageRunCount = 0,
+    latestSalvageExportID = nil,
+    salvageExports = {},
 }
 
 local L = {
@@ -21,7 +24,14 @@ local L = {
     statusIdle = "Status: idle.",
     statusRunning = "Status: scanning (%d professions captured).",
     statusLatest = "Latest export #%d: %d professions, %d recipes, %s.",
-    commandHelp = "Commands: /pre scan, /pre finish, /pre status, /pre latest, /pre clear",
+    salvageScanStarted = "Salvage scan started.",
+    salvageScanInstruction = "Open a profession window to capture salvage recipes. Use /pre salvagedone when done.",
+    salvageScanFinished = "Salvage scan finished. Export #%d saved (%d professions, %d salvage recipes).",
+    salvageScanAlreadyRunning = "Salvage scan is already running.",
+    salvageScanNotRunning = "No active salvage scan. Use /pre salvagescan to start.",
+    salvageProfessionCaptured = "Captured salvage recipes for profession skillLineID=%d.",
+    salvageProfessionUpdated = "Updated salvage recipes for profession skillLineID=%d.",
+    commandHelp = "Commands: /pre scan, /pre finish, /pre salvagescan, /pre salvagedone, /pre status, /pre latest, /pre clear",
     dataCleared = "All saved export data cleared.",
     captureSkippedNotReady = "Trade skill UI is not ready yet; waiting for next update.",
     captureSkippedNoSkillLine = "Could not determine current profession skillLineID; waiting for next update.",
@@ -35,6 +45,8 @@ local L = {
 local state = {
     isScanning = false,
     currentExport = nil,
+    isSalvageScanning = false,
+    currentSalvageExport = nil,
     finalizePending = false,
     finalizeRetryCount = 0,
     finalizeCheckQueued = false,
@@ -1121,6 +1133,152 @@ local function collectProfessionData(skillLineID)
     }
 end
 
+local function findFirstBagItemGUID(itemID)
+    if type(itemID) ~= "number" then
+        return nil, nil, nil
+    end
+
+    local bagStart = Enum and Enum.BagIndex and Enum.BagIndex.Backpack or 0
+    local bagEnd = Enum and Enum.BagIndex and Enum.BagIndex.ReagentBag or 5
+
+    for bagIndex = bagStart, bagEnd do
+        local numSlots = safeCall(C_Container.GetContainerNumSlots, bagIndex)
+        if type(numSlots) == "number" and numSlots > 0 then
+            for slotIndex = 1, numSlots do
+                local containerInfo = safeCall(C_Container.GetContainerItemInfo, bagIndex, slotIndex)
+                if type(containerInfo) == "table" and containerInfo.itemID == itemID then
+                    local itemGUID = containerInfo.itemGUID
+                    if (type(itemGUID) ~= "string" or itemGUID == "")
+                        and type(ItemLocation) == "table"
+                        and type(ItemLocation.CreateFromBagAndSlot) == "function"
+                    then
+                        local itemLocation = ItemLocation:CreateFromBagAndSlot(bagIndex, slotIndex)
+                        itemGUID = safeCall(C_Item.GetItemGUID, itemLocation)
+                    end
+
+                    if type(itemGUID) == "string" and itemGUID ~= "" then
+                        return itemGUID, bagIndex, slotIndex
+                    end
+                end
+            end
+        end
+    end
+
+    return nil, nil, nil
+end
+
+local function collectSalvageRecipeData(recipeID, professionSkillLineID)
+    local recipeInfo = safeCall(C_TradeSkillUI.GetRecipeInfo, recipeID)
+    if type(recipeInfo) ~= "table" or recipeInfo.isSalvageRecipe ~= true then
+        return nil
+    end
+
+    local schematic = safeCall(C_TradeSkillUI.GetRecipeSchematic, recipeID, false)
+    local defaultCraftingReagents = buildDefaultCraftingReagents(schematic)
+    local recipeSalvageTargets = extractSalvageTargets(recipeID)
+    local recipeOutputBase = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID)
+    local tradeSkillLineID, tradeSkillLineName, parentTradeSkillID = safeCall(C_TradeSkillUI.GetTradeSkillLineForRecipe, recipeID)
+
+    local inputProbes = {}
+    for _, target in ipairs(recipeSalvageTargets) do
+        local targetItemID = target.itemID
+        local ownedCount = safeCall(C_Item.GetItemCount, targetItemID) or 0
+        local itemGUID, bagIndex, slotIndex = findFirstBagItemGUID(targetItemID)
+
+        local outputNoAllocation = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, nil)
+        if type(outputNoAllocation) ~= "table" then
+            outputNoAllocation = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID)
+        end
+
+        local outputWithAllocation = nil
+        local outputWithAllocationNoReagents = nil
+        if type(itemGUID) == "string" and itemGUID ~= "" then
+            outputWithAllocation = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, defaultCraftingReagents, itemGUID)
+            outputWithAllocationNoReagents = safeCall(C_TradeSkillUI.GetRecipeOutputItemData, recipeID, nil, itemGUID)
+        end
+
+        inputProbes[#inputProbes + 1] = {
+            itemID = targetItemID,
+            itemName = target.itemName,
+            ownedCount = ownedCount,
+            hasAllocationItem = type(itemGUID) == "string" and itemGUID ~= "",
+            allocationItemGUID = itemGUID,
+            bagIndex = bagIndex,
+            slotIndex = slotIndex,
+            outputNoAllocation = sanitize(outputNoAllocation),
+            outputWithAllocation = sanitize(outputWithAllocation),
+            outputWithAllocationNoReagents = sanitize(outputWithAllocationNoReagents),
+        }
+    end
+
+    return {
+        recipeID = recipeID,
+        professionSkillLineID = professionSkillLineID,
+        recipeInfo = sanitize(recipeInfo),
+        recipeSchematic = sanitize(schematic),
+        recipeOutputBase = sanitize(recipeOutputBase),
+        defaultCraftingReagents = sanitize(defaultCraftingReagents),
+        recipeSalvageTargets = sanitize(recipeSalvageTargets),
+        inputProbes = sanitize(inputProbes),
+        recipeTradeSkillLine = {
+            tradeSkillLineID = tradeSkillLineID,
+            tradeSkillLineName = tradeSkillLineName,
+            parentTradeSkillID = parentTradeSkillID,
+        },
+    }
+end
+
+local function collectProfessionSalvageData(skillLineID)
+    local professionInfoBySkillLine = safeCall(C_TradeSkillUI.GetProfessionInfoBySkillLineID, skillLineID)
+    local recipeIDs = safeCallList(C_TradeSkillUI.GetAllRecipeIDs)
+    local salvageRecipes = {}
+
+    for _, recipeID in ipairs(recipeIDs) do
+        local recipeData = collectSalvageRecipeData(recipeID, skillLineID)
+        if recipeData then
+            salvageRecipes[#salvageRecipes + 1] = recipeData
+        end
+    end
+
+    return {
+        skillLineID = skillLineID,
+        collectedAtEpoch = time(),
+        professionInfo = sanitize(professionInfoBySkillLine),
+        salvageRecipes = salvageRecipes,
+        salvageRecipeCount = #salvageRecipes,
+    }
+end
+
+local function finalizeSalvageScan()
+    state.isSalvageScanning = false
+
+    local exportData = state.currentSalvageExport
+    if not exportData then
+        return
+    end
+
+    local db = ProfessionRecipeExporterDB
+    db.salvageRunCount = (db.salvageRunCount or 0) + 1
+    local exportID = db.salvageRunCount
+
+    exportData.exportID = exportID
+    exportData.completedAtEpoch = time()
+    exportData.completedAtISO8601 = date("!%Y-%m-%dT%H:%M:%SZ")
+    exportData.totalProfessionsScanned = 0
+    exportData.totalSalvageRecipesScanned = 0
+
+    for _, professionData in pairs(exportData.professions) do
+        exportData.totalProfessionsScanned = exportData.totalProfessionsScanned + 1
+        exportData.totalSalvageRecipesScanned = exportData.totalSalvageRecipesScanned + (professionData.salvageRecipeCount or 0)
+    end
+
+    db.salvageExports[exportID] = exportData
+    db.latestSalvageExportID = exportID
+    state.currentSalvageExport = nil
+
+    log(L.salvageScanFinished, exportID, exportData.totalProfessionsScanned, exportData.totalSalvageRecipesScanned)
+end
+
 finalizeScan = function()
     state.isScanning = false
 
@@ -1214,7 +1372,46 @@ local function captureCurrentProfession()
     end
 end
 
+local function captureCurrentSalvageProfession()
+    if not state.isSalvageScanning then
+        return
+    end
+
+    local isReady = safeCall(C_TradeSkillUI.IsTradeSkillReady)
+    if not isReady then
+        log(L.captureSkippedNotReady)
+        return
+    end
+
+    local currentExport = state.currentSalvageExport
+    if not currentExport then
+        state.isSalvageScanning = false
+        return
+    end
+
+    local skillLineID = resolveCurrentSkillLineID()
+    if type(skillLineID) ~= "number" then
+        log(L.captureSkippedNoSkillLine)
+        return
+    end
+
+    currentExport.professions = currentExport.professions or {}
+    local hadPrevious = currentExport.professions[skillLineID] ~= nil
+    currentExport.professions[skillLineID] = collectProfessionSalvageData(skillLineID)
+
+    if hadPrevious then
+        log(L.salvageProfessionUpdated, skillLineID)
+    else
+        log(L.salvageProfessionCaptured, skillLineID)
+    end
+end
+
 local function beginScan()
+    if state.isSalvageScanning then
+        log(L.salvageScanAlreadyRunning)
+        return
+    end
+
     if state.isScanning then
         log(L.scanAlreadyRunning)
         return
@@ -1247,6 +1444,45 @@ local function beginScan()
     log(L.scanInstruction)
 end
 
+local function beginSalvageScan()
+    if state.isScanning then
+        log(L.scanAlreadyRunning)
+        return
+    end
+
+    if state.isSalvageScanning then
+        log(L.salvageScanAlreadyRunning)
+        return
+    end
+
+    state.isSalvageScanning = true
+    local classLocalized, classFile = UnitClass("player")
+    local raceLocalized, raceFile = UnitRace("player")
+    state.currentSalvageExport = {
+        schemaVersion = 1,
+        exportType = "salvage",
+        addonName = ADDON_NAME,
+        gameVersion = select(1, GetBuildInfo()),
+        interfaceVersion = select(4, GetBuildInfo()),
+        startedAtEpoch = time(),
+        startedAtISO8601 = date("!%Y-%m-%dT%H:%M:%SZ"),
+        player = {
+            name = UnitName("player"),
+            realm = GetRealmName(),
+            classLocalized = classLocalized,
+            classFile = classFile,
+            raceLocalized = raceLocalized,
+            raceFile = raceFile,
+            faction = UnitFactionGroup("player"),
+            level = UnitLevel("player"),
+        },
+        professions = {},
+    }
+
+    log(L.salvageScanStarted)
+    log(L.salvageScanInstruction)
+end
+
 local function finishScan()
     if not state.isScanning then
         log(L.scanNotRunning)
@@ -1261,7 +1497,29 @@ local function finishScan()
     startFinalizeSequence()
 end
 
+local function finishSalvageScan()
+    if not state.isSalvageScanning then
+        log(L.salvageScanNotRunning)
+        return
+    end
+
+    finalizeSalvageScan()
+end
+
 local function printStatus()
+    if state.isSalvageScanning then
+        local currentExport = state.currentSalvageExport
+        local capturedCount = 0
+        if currentExport and currentExport.professions then
+            for _ in pairs(currentExport.professions) do
+                capturedCount = capturedCount + 1
+            end
+        end
+
+        log("Status: salvage scanning (%d professions captured).", capturedCount)
+        return
+    end
+
     if state.isScanning then
         local currentExport = state.currentExport
         local capturedCount = 0
@@ -1322,8 +1580,18 @@ local function handleSlashCommand(input)
         return
     end
 
+    if command == "salvagescan" then
+        beginSalvageScan()
+        return
+    end
+
     if command == "finish" then
         finishScan()
+        return
+    end
+
+    if command == "salvagedone" then
+        finishSalvageScan()
         return
     end
 
@@ -1417,6 +1685,9 @@ eventFrame:SetScript("OnEvent", function(_, event, ...)
     then
         if state.isScanning then
             captureCurrentProfession()
+        end
+        if state.isSalvageScanning then
+            captureCurrentSalvageProfession()
         end
     end
 end)
