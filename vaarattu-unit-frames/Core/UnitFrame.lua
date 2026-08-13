@@ -3,12 +3,22 @@ local oUF = UUF.oUF
 local raidFrameIndex = 0
 local raidStyleRegistered = false
 
+local function ShowUnitTooltip(unitFrame)
+	if not unitFrame.__unit then return end
+	GameTooltip_SetDefaultAnchor(GameTooltip, unitFrame)
+	GameTooltip:SetUnit(unitFrame.__unit)
+end
+
+local function HideUnitTooltip()
+	GameTooltip:Hide()
+end
+
 local function ApplyScripts(unitFrame)
     unitFrame:RegisterForClicks("AnyUp")
     unitFrame:SetAttribute("*type1", "target")
     unitFrame:SetAttribute("*type2", "togglemenu")
-    unitFrame:HookScript("OnEnter", UnitFrame_OnEnter)
-    unitFrame:HookScript("OnLeave", UnitFrame_OnLeave)
+    unitFrame:HookScript("OnEnter", ShowUnitTooltip)
+    unitFrame:HookScript("OnLeave", HideUnitTooltip)
 end
 
 function UUF:CreateUnitFrame(unitFrame, unit)
