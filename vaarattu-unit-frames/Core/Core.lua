@@ -1,9 +1,9 @@
 local _, UUF = ...
-local UnhaltedUnitFrames = LibStub("AceAddon-3.0"):NewAddon("UnhaltedUnitFrames")
+local VaarattuUnitFrames = LibStub("AceAddon-3.0"):NewAddon("VaarattuUnitFrames")
 
-function UnhaltedUnitFrames:OnInitialize()
+function VaarattuUnitFrames:OnInitialize()
     UUF.db = LibStub("AceDB-3.0"):New("UUFDB", UUF:GetDefaultDB(), true)
-    UUF.LDS:EnhanceDatabase(UUF.db, "UnhaltedUnitFrames")
+    UUF.LDS:EnhanceDatabase(UUF.db, "VaarattuUnitFrames")
     UUF.TAG_UPDATE_INTERVAL = UUF.db.profile.General.TagUpdateInterval or 0.25
     UUF.SEPARATOR = UUF.db.profile.General.Separator or "||"
     UUF.TOT_SEPARATOR = UUF.db.profile.General.ToTSeparator or "»"
@@ -20,7 +20,7 @@ function UnhaltedUnitFrames:OnInitialize()
 	playerSpecializationChangedEventFrame:SetScript("OnEvent", function(_, event, ...) if InCombatLockdown() then return end if event ~= "PLAYER_SPECIALIZATION_CHANGED" then return end local unit = ... if unit == "player" then C_Timer.After(0.1, UUF.RefreshProfiles) end end)
 end
 
-function UnhaltedUnitFrames:OnEnable()
+function VaarattuUnitFrames:OnEnable()
     UUF:Init()
     UUF:CreatePositionController()
     UUF:SpawnUnitFrame("player")
@@ -32,5 +32,5 @@ function UnhaltedUnitFrames:OnEnable()
     UUF:SpawnUnitFrame("boss")
     UUF:SpawnUnitFrame("party")
     UUF:SpawnUnitFrame("raid")
-	if SCMAPI and SCMAPI.RegisterAnchorParents then SCMAPI.RegisterAnchorParents("UnhaltedUnitFrames", UUF.SCMAnchors) end
+	if SCMAPI and SCMAPI.RegisterAnchorParents then SCMAPI.RegisterAnchorParents("VaarattuUnitFrames", UUF.SCMAnchors) end
 end

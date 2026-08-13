@@ -146,38 +146,38 @@ local Threat = {
 local StatusTextures = {
     Combat = {
         ["DEFAULT"] = "|TInterface\\CharacterFrame\\UI-StateIcon:20:20:0:0:64:64:32:64:0:31|t",
-        ["COMBAT0"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat0.tga:18:18|t",
-        ["COMBAT1"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat1.tga:18:18|t",
-        ["COMBAT2"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat2.tga:18:18|t",
-        ["COMBAT3"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat3.tga:18:18|t",
-        ["COMBAT4"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat4.tga:18:18|t",
-        ["COMBAT5"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat5.tga:18:18|t",
-        ["COMBAT6"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat6.tga:18:18|t",
-        ["COMBAT7"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat7.tga:18:18|t",
-        ["COMBAT8"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat8.png:18:18|t",
+        ["COMBAT0"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat0.tga:18:18|t",
+        ["COMBAT1"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat1.tga:18:18|t",
+        ["COMBAT2"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat2.tga:18:18|t",
+        ["COMBAT3"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat3.tga:18:18|t",
+        ["COMBAT4"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat4.tga:18:18|t",
+        ["COMBAT5"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat5.tga:18:18|t",
+        ["COMBAT6"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat6.tga:18:18|t",
+        ["COMBAT7"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat7.tga:18:18|t",
+        ["COMBAT8"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat8.png:18:18|t",
     },
 
     Resting = {
         ["DEFAULT"] = "|TInterface\\CharacterFrame\\UI-StateIcon:18:18:0:0:64:64:0:32:0:27|t",
-        ["RESTING0"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting0.tga:18:18|t",
-        ["RESTING1"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting1.tga:18:18|t",
-        ["RESTING2"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting2.tga:18:18|t",
-        ["RESTING3"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting3.tga:18:18|t",
-        ["RESTING4"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting4.tga:18:18|t",
-        ["RESTING5"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting5.tga:18:18|t",
-        ["RESTING6"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting6.tga:18:18|t",
-        ["RESTING7"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting7.tga:18:18|t",
-        ["RESTING8"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting8.png:18:18|t",
+        ["RESTING0"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting0.tga:18:18|t",
+        ["RESTING1"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting1.tga:18:18|t",
+        ["RESTING2"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting2.tga:18:18|t",
+        ["RESTING3"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting3.tga:18:18|t",
+        ["RESTING4"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting4.tga:18:18|t",
+        ["RESTING5"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting5.tga:18:18|t",
+        ["RESTING6"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting6.tga:18:18|t",
+        ["RESTING7"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting7.tga:18:18|t",
+        ["RESTING8"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting8.png:18:18|t",
     }
 }
 
 local RoleTextures = {
 	["Default"] = "|A:UI-LFG-RoleIcon-Tank-Micro-Raid:18:18|a |A:UI-LFG-RoleIcon-Healer-Micro-Raid:18:18|a |A:UI-LFG-RoleIcon-DPS-Micro-Raid:18:18|a",
-	["Blizzard"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Blizzard\\Tank.tga:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Blizzard\\Healer.tga:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Blizzard\\DPS.tga:18:18|t",
-	["Colour"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Colour\\Tank.tga:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Colour\\Healer.tga:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Colour\\DPS.tga:18:18|t",
-	["White"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\White\\Tank.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\White\\Healer.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\White\\DPS.png:18:18|t",
-	["ElvUI"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\ElvUI\\Tank.tga:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\ElvUI\\Healer.tga:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\ElvUI\\DPS.tga:18:18|t",
-	["Square"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Square\\Tank.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Square\\Healer.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Square\\DPS.png:18:18|t",
+	["Blizzard"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Blizzard\\Tank.tga:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Blizzard\\Healer.tga:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Blizzard\\DPS.tga:18:18|t",
+	["Colour"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Colour\\Tank.tga:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Colour\\Healer.tga:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Colour\\DPS.tga:18:18|t",
+	["White"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\White\\Tank.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\White\\Healer.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\White\\DPS.png:18:18|t",
+	["ElvUI"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\ElvUI\\Tank.tga:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\ElvUI\\Healer.tga:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\ElvUI\\DPS.tga:18:18|t",
+	["Square"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Square\\Tank.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Square\\Healer.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Square\\DPS.png:18:18|t",
 }
 
 local function EnableAurasTestMode(unit)
@@ -275,13 +275,8 @@ end
 
 local function GenerateSupportText(parentFrame)
     local SupportOptions = {
-        -- "Support Me on |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Ko-Fi.png:13:18|t |cFF8080FFKo-Fi|r!",
-        -- "Support Me on |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Patreon.png:14:14|t |cFF8080FFPatreon|r!",
-        -- "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\PayPal.png:20:18|t |cFF8080FFPayPal Donations|r are appreciated!",
-        "Join the |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Discord.png:18:18|t |cFF8080FFDiscord|r Community!",
-        "Report Issues / Feedback on |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\GitHub.png:18:18|t |cFF8080FFGitHub|r!",
-        "Follow Me on |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Twitch.png:18:14|t |cFF8080FFTwitch|r!",
-        "|cFF8080FFSupport|r is truly appreciated |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Emotes\\peepoLove.png:18:18|t " .. "|cFF8080FFDevelopment|r takes time & effort."
+		"Report Vaarattu Unit Frames issues or contribute on |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Support\\GitHub.png:18:18|t |cFF8080FFGitHub|r!",
+		"|cFF8080FFCommunity development|r keeps Vaarattu Unit Frames moving forward."
     }
     parentFrame.statustext:SetText(SupportOptions[math.random(1, #SupportOptions)])
 end
@@ -2222,8 +2217,8 @@ local function CreateReadyCheckIndicatorSettings(containerParent, unit, updateCa
 	local TextureDropdown = AG:Create("Dropdown")
 	TextureDropdown:SetList({
 		["Default"] = "|A:UI-LFG-ReadyMark-Raid:18:18|a |A:UI-LFG-DeclineMark-Raid:18:18|a |A:UI-LFG-PendingMark-Raid:18:18|a",
-		["White"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Ready.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\White\\NotReady.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Pending.png:18:18|t",
-        ["HiRes"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Ready.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\NotReady.png:18:18|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Pending.png:18:18|t",
+		["White"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Ready.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\White\\NotReady.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Pending.png:18:18|t",
+        ["HiRes"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Ready.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\NotReady.png:18:18|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Pending.png:18:18|t",
 	}, {"Default", "White", "HiRes"})
 	TextureDropdown:SetLabel("Ready Check Texture")
 	TextureDropdown:SetValue(ReadyCheckDB.Texture)
@@ -2719,8 +2714,8 @@ local function CreateQuestIndicatorSettings(containerParent, updateCallback)
     local TextureDropdown = AG:Create("Dropdown")
     TextureDropdown:SetList({
         ["DEFAULT"] = "|TInterface\\TargetingFrame\\PortraitQuestBadge:20:20|t",
-        ["QUEST0"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Quest\\Quest01.png:20:6|t",
-        ["QUEST1"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Quest\\Quest02.png:20:20|t",
+        ["QUEST0"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Quest\\Quest01.png:20:6|t",
+        ["QUEST1"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Quest\\Quest02.png:20:20|t",
     }, {"DEFAULT", "QUEST0", "QUEST1"})
     TextureDropdown:SetLabel("Quest Texture")
     TextureDropdown:SetValue(QuestIndicatorDB.Texture or "DEFAULT")
@@ -2799,8 +2794,8 @@ local function CreateClassificationIndicatorSettings(containerParent, updateCall
     TextureDropdown:SetList({
         ["CLASSIFICATION0"] = "|A:nameplates-icon-elite-gold:20:20|a |A:nameplates-icon-elite-silver:20:20|a |A:nameplates-icon-elite-silver:20:20|a |A:nameplates-icon-elite-gold:20:20|a",
         ["CLASSIFICATION1"] = "|A:VignetteEvent-SuperTracked:20:20|a |A:VignetteEvent:20:20|a |A:VignetteKillElite-SuperTracked:20:20|a |A:vignettekillboss:20:20|a",
-        ["CLASSIFICATION2"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\Elite.png:20:20|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\Rare.png:20:20|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\RareElite.png:20:20|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\WorldBoss.png:20:20|t",
-        ["CLASSIFICATION3"] = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Elite.png:20:20|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Rare.png:20:20|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\RareElite.png:20:20|t |TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\WorldBoss.png:20:20|t",
+        ["CLASSIFICATION2"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\Elite.png:20:20|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\Rare.png:20:20|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\RareElite.png:20:20|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\WorldBoss.png:20:20|t",
+        ["CLASSIFICATION3"] = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Elite.png:20:20|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Rare.png:20:20|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\RareElite.png:20:20|t |TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\WorldBoss.png:20:20|t",
     }, {"CLASSIFICATION0", "CLASSIFICATION1", "CLASSIFICATION2", "CLASSIFICATION3"})
     TextureDropdown:SetLabel("Classification Texture")
     TextureDropdown:SetValue(ClassificationIndicatorDB.Texture or "DEFAULT")
@@ -4497,7 +4492,7 @@ local function CreateProfileSettings(containerParent)
     ExportingHeading:SetFullWidth(true)
     SharingContainer:AddChild(ExportingHeading)
 
-    GUIWidgets.CreateInformationTag(SharingContainer, "You can export your profile by pressing |cFF8080FFExport Profile|r button below & share the string with other |cFF8080FFUnhalted|r Unit Frame users.")
+    GUIWidgets.CreateInformationTag(SharingContainer, "You can export your profile by pressing |cFF8080FFExport Profile|r below and share the string with other |cFF8080FFVaarattu|r Unit Frames users.")
 
     local ExportingEditBox = AG:Create("EditBox")
     ExportingEditBox:SetLabel("Export String...")
@@ -4593,41 +4588,21 @@ function UUF:CreateGUI()
             CreateUIScaleSettings(ScrollFrame)
             CreateColourSettings(ScrollFrame)
 
-            local SupportMeContainer = AG:Create("InlineGroup")
-            SupportMeContainer:SetTitle("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Emotes\\peepoLove.png:18:18|t  How To Support " .. UUF.PRETTY_ADDON_NAME .. " Development")
-            SupportMeContainer:SetLayout("Flow")
-            SupportMeContainer:SetFullWidth(true)
-            ScrollFrame:AddChild(SupportMeContainer)
+			local ProjectContainer = AG:Create("InlineGroup")
+			ProjectContainer:SetTitle(UUF.PRETTY_ADDON_NAME .. " Project")
+			ProjectContainer:SetLayout("Flow")
+			ProjectContainer:SetFullWidth(true)
+			ScrollFrame:AddChild(ProjectContainer)
 
-            local TwitchInteractive = AG:Create("InteractiveLabel")
-            TwitchInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Twitch.png:25:21|t |cFF8080FFTwitch|r")
-            TwitchInteractive:SetFont("Fonts\\FRIZQT__.TTF", 13, "OUTLINE")
-            TwitchInteractive:SetJustifyV("MIDDLE")
-            TwitchInteractive:SetRelativeWidth(0.33)
-            TwitchInteractive:SetCallback("OnClick", function() UUF:OpenURL("Support Me on Twitch", "https://www.twitch.tv/unhaltedgb") end)
-            TwitchInteractive:SetCallback("OnEnter", function() TwitchInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Twitch.png:25:21|t |cFFFFFFFFTwitch|r") end)
-            TwitchInteractive:SetCallback("OnLeave", function() TwitchInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Twitch.png:25:21|t |cFF8080FFTwitch|r") end)
-            SupportMeContainer:AddChild(TwitchInteractive)
-
-            local DiscordInteractive = AG:Create("InteractiveLabel")
-            DiscordInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Discord.png:21:21|t |cFF8080FFDiscord|r")
-            DiscordInteractive:SetFont("Fonts\\FRIZQT__.TTF", 13, "OUTLINE")
-            DiscordInteractive:SetJustifyV("MIDDLE")
-            DiscordInteractive:SetRelativeWidth(0.33)
-            DiscordInteractive:SetCallback("OnClick", function() UUF:OpenURL("Support Me on Discord", "https://discord.gg/UZCgWRYvVE") end)
-            DiscordInteractive:SetCallback("OnEnter", function() DiscordInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Discord.png:21:21|t |cFFFFFFFFDiscord|r") end)
-            DiscordInteractive:SetCallback("OnLeave", function() DiscordInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Discord.png:21:21|t |cFF8080FFDiscord|r") end)
-            SupportMeContainer:AddChild(DiscordInteractive)
-
-            local GithubInteractive = AG:Create("InteractiveLabel")
-            GithubInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Github.png:21:21|t |cFF8080FFGithub|r")
-            GithubInteractive:SetFont("Fonts\\FRIZQT__.TTF", 13, "OUTLINE")
-            GithubInteractive:SetJustifyV("MIDDLE")
-            GithubInteractive:SetRelativeWidth(0.33)
-            GithubInteractive:SetCallback("OnClick", function() UUF:OpenURL("Support Me on Github", "https://github.com/dalehuntgb/UnhaltedUnitFrames") end)
-            GithubInteractive:SetCallback("OnEnter", function() GithubInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Github.png:21:21|t |cFFFFFFFFGithub|r") end)
-            GithubInteractive:SetCallback("OnLeave", function() GithubInteractive:SetText("|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Support\\Github.png:21:21|t |cFF8080FFGithub|r") end)
-            SupportMeContainer:AddChild(GithubInteractive)
+			local GithubInteractive = AG:Create("InteractiveLabel")
+			GithubInteractive:SetText("|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Support\\Github.png:21:21|t |cFF8080FFGitHub|r")
+			GithubInteractive:SetFont("Fonts\\FRIZQT__.TTF", 13, "OUTLINE")
+			GithubInteractive:SetJustifyV("MIDDLE")
+			GithubInteractive:SetFullWidth(true)
+			GithubInteractive:SetCallback("OnClick", function() UUF:OpenURL("Vaarattu Unit Frames on GitHub", "https://github.com/Koodattu/wow-addon-dev") end)
+			GithubInteractive:SetCallback("OnEnter", function() GithubInteractive:SetText("|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Support\\Github.png:21:21|t |cFFFFFFFFGitHub|r") end)
+			GithubInteractive:SetCallback("OnLeave", function() GithubInteractive:SetText("|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Support\\Github.png:21:21|t |cFF8080FFGitHub|r") end)
+			ProjectContainer:AddChild(GithubInteractive)
 
             ScrollFrame:DoLayout()
         elseif MainTab == "GlobalToggles" then

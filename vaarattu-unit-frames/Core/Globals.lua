@@ -25,50 +25,50 @@ UUF.LDS = LibStub("LibDualSpec-1.0")
 UUF.AG = LibStub("AceGUI-3.0")
 UUF.LD = LibStub("LibDispel-1.0")
 UUF.BACKDROP = { bgFile = "Interface\\Buttons\\WHITE8X8", edgeFile = "Interface\\Buttons\\WHITE8X8", edgeSize = 1, insets = {left = 0, right = 0, top = 0, bottom = 0} }
-UUF.INFOBUTTON = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\InfoButton.png:16:16|t "
-UUF.ADDON_NAME = C_AddOns.GetAddOnMetadata("UnhaltedUnitFrames", "Title")
-UUF.ADDON_VERSION = C_AddOns.GetAddOnMetadata("UnhaltedUnitFrames", "Version")
-UUF.ADDON_AUTHOR = C_AddOns.GetAddOnMetadata("UnhaltedUnitFrames", "Author")
-UUF.ADDON_LOGO = "|TInterface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Logo:11:12|t"
+UUF.INFOBUTTON = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\InfoButton.png:16:16|t "
+UUF.ADDON_NAME = C_AddOns.GetAddOnMetadata("VaarattuUnitFrames", "Title")
+UUF.ADDON_VERSION = C_AddOns.GetAddOnMetadata("VaarattuUnitFrames", "Version")
+UUF.ADDON_AUTHOR = C_AddOns.GetAddOnMetadata("VaarattuUnitFrames", "Author")
+UUF.ADDON_LOGO = "|TInterface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Logo:11:12|t"
 UUF.PRETTY_ADDON_NAME = UUF.ADDON_LOGO .. " " .. UUF.ADDON_NAME
 
-UUF.LSM:Register("statusbar", "Better Blizzard", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\BetterBlizzard.blp")
-UUF.LSM:Register("statusbar", "Dragonflight", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Dragonflight.tga")
-UUF.LSM:Register("statusbar", "Skyline", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Skyline.tga")
-UUF.LSM:Register("statusbar", "Stripes", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Stripes.png")
-UUF.LSM:Register("statusbar", "Thin Stripes", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ThinStripes.png")
+UUF.LSM:Register("statusbar", "Better Blizzard", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\BetterBlizzard.blp")
+UUF.LSM:Register("statusbar", "Dragonflight", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Dragonflight.tga")
+UUF.LSM:Register("statusbar", "Skyline", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Skyline.tga")
+UUF.LSM:Register("statusbar", "Stripes", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Stripes.png")
+UUF.LSM:Register("statusbar", "Thin Stripes", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ThinStripes.png")
 
-UUF.LSM:Register("background", "Dragonflight", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Backgrounds\\Dragonflight_BG.tga")
+UUF.LSM:Register("background", "Dragonflight", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Backgrounds\\Dragonflight_BG.tga")
 
-UUF.LSM:Register("font", "Expressway", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Fonts\\Expressway.ttf")
-UUF.LSM:Register("font", "Avante", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Fonts\\Avante.ttf")
-UUF.LSM:Register("font", "Avantgarde (Book)", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Fonts\\AvantGarde\\Book.ttf")
-UUF.LSM:Register("font", "Avantgarde (Book Oblique)", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Fonts\\AvantGarde\\BookOblique.ttf")
-UUF.LSM:Register("font", "Avantgarde (Demi)", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Fonts\\AvantGarde\\Demi.ttf")
-UUF.LSM:Register("font", "Avantgarde (Regular)", "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Fonts\\AvantGarde\\Regular.ttf")
+UUF.LSM:Register("font", "Expressway", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Fonts\\Expressway.ttf")
+UUF.LSM:Register("font", "Avante", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Fonts\\Avante.ttf")
+UUF.LSM:Register("font", "Avantgarde (Book)", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Fonts\\AvantGarde\\Book.ttf")
+UUF.LSM:Register("font", "Avantgarde (Book Oblique)", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Fonts\\AvantGarde\\BookOblique.ttf")
+UUF.LSM:Register("font", "Avantgarde (Demi)", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Fonts\\AvantGarde\\Demi.ttf")
+UUF.LSM:Register("font", "Avantgarde (Regular)", "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Fonts\\AvantGarde\\Regular.ttf")
 
 UUF.StatusTextures = {
     Combat = {
-        ["COMBAT0"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat0.tga",
-        ["COMBAT1"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat1.tga",
-        ["COMBAT2"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat2.tga",
-        ["COMBAT3"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat3.tga",
-        ["COMBAT4"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat4.tga",
-        ["COMBAT5"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat5.tga",
-        ["COMBAT6"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat6.tga",
-        ["COMBAT7"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat7.tga",
-        ["COMBAT8"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Combat\\Combat8.png",
+        ["COMBAT0"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat0.tga",
+        ["COMBAT1"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat1.tga",
+        ["COMBAT2"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat2.tga",
+        ["COMBAT3"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat3.tga",
+        ["COMBAT4"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat4.tga",
+        ["COMBAT5"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat5.tga",
+        ["COMBAT6"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat6.tga",
+        ["COMBAT7"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat7.tga",
+        ["COMBAT8"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Combat\\Combat8.png",
     },
     Resting = {
-        ["RESTING0"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting0.tga",
-        ["RESTING1"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting1.tga",
-        ["RESTING2"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting2.tga",
-        ["RESTING3"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting3.tga",
-        ["RESTING4"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting4.tga",
-        ["RESTING5"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting5.tga",
-        ["RESTING6"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting6.tga",
-        ["RESTING7"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting7.tga",
-        ["RESTING8"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Status\\Resting\\Resting8.png",
+        ["RESTING0"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting0.tga",
+        ["RESTING1"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting1.tga",
+        ["RESTING2"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting2.tga",
+        ["RESTING3"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting3.tga",
+        ["RESTING4"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting4.tga",
+        ["RESTING5"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting5.tga",
+        ["RESTING6"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting6.tga",
+        ["RESTING7"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting7.tga",
+        ["RESTING8"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Status\\Resting\\Resting8.png",
     },
 }
 
@@ -86,63 +86,63 @@ UUF.ClassificationTextures = {
         ["worldboss"] = "vignettekillboss",
     },
     ["CLASSIFICATION2"] = {
-        ["elite"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\Elite.png",
-        ["rare"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\Rare.png",
-        ["rareelite"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\RareElite.png",
-        ["worldboss"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Classic\\WorldBoss.png",
+        ["elite"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\Elite.png",
+        ["rare"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\Rare.png",
+        ["rareelite"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\RareElite.png",
+        ["worldboss"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Classic\\WorldBoss.png",
     },
     ["CLASSIFICATION3"] = {
-        ["elite"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Elite.png",
-        ["rare"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Rare.png",
-        ["rareelite"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\RareElite.png",
-        ["worldboss"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Classification\\Minimalist\\WorldBoss.png",
+        ["elite"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Elite.png",
+        ["rare"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\Rare.png",
+        ["rareelite"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\RareElite.png",
+        ["worldboss"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Classification\\Minimalist\\WorldBoss.png",
     },
 }
 
 UUF.QuestTextures = {
     ["DEFAULT"] = "Interface\\TargetingFrame\\PortraitQuestBadge",
-    ["QUEST0"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Quest\\Quest01.png",
-    ["QUEST1"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Quest\\Quest02.png",
+    ["QUEST0"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Quest\\Quest01.png",
+    ["QUEST1"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Quest\\Quest02.png",
 }
 
 UUF.RoleTextures = {
     ["Blizzard"] = {
-        ["TANK"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Blizzard\\Tank.tga",
-        ["HEALER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Blizzard\\Healer.tga",
-        ["DAMAGER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Blizzard\\DPS.tga",
+        ["TANK"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Blizzard\\Tank.tga",
+        ["HEALER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Blizzard\\Healer.tga",
+        ["DAMAGER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Blizzard\\DPS.tga",
     },
     ["Colour"] = {
-        ["TANK"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Colour\\Tank.tga",
-        ["HEALER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Colour\\Healer.tga",
-        ["DAMAGER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Colour\\DPS.tga",
+        ["TANK"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Colour\\Tank.tga",
+        ["HEALER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Colour\\Healer.tga",
+        ["DAMAGER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Colour\\DPS.tga",
     },
     ["White"] = {
-        ["TANK"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\White\\Tank.png",
-        ["HEALER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\White\\Healer.png",
-        ["DAMAGER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\White\\DPS.png",
+        ["TANK"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\White\\Tank.png",
+        ["HEALER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\White\\Healer.png",
+        ["DAMAGER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\White\\DPS.png",
     },
     ["ElvUI"] = {
-        ["TANK"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\ElvUI\\Tank.tga",
-        ["HEALER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\ElvUI\\Healer.tga",
-        ["DAMAGER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\ElvUI\\DPS.tga",
+        ["TANK"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\ElvUI\\Tank.tga",
+        ["HEALER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\ElvUI\\Healer.tga",
+        ["DAMAGER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\ElvUI\\DPS.tga",
     },
 	["Square"] = {
-		["TANK"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Square\\Tank.png",
-		["HEALER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Square\\Healer.png",
-		["DAMAGER"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Role\\Square\\DPS.png",
+		["TANK"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Square\\Tank.png",
+		["HEALER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Square\\Healer.png",
+		["DAMAGER"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Role\\Square\\DPS.png",
 	},
 }
 
 UUF.ReadyCheckTextures = {
 	["White"] = {
-		["READY"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Ready.png",
-		["NOTREADY"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\White\\NotReady.png",
-		["WAITING"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Pending.png",
+		["READY"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Ready.png",
+		["NOTREADY"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\White\\NotReady.png",
+		["WAITING"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\White\\Pending.png",
 	},
     ["HiRes"] = {
-		["READY"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Ready.png",
-		["NOTREADY"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\NotReady.png",
-		["WAITING"] = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Pending.png",
+		["READY"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Ready.png",
+		["NOTREADY"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\NotReady.png",
+		["WAITING"] = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ReadyCheck\\HiRes\\Pending.png",
 	},
 }
 
@@ -289,8 +289,10 @@ end
 
 local function SetupSlashCommands()
     SLASH_UUF1 = "/uuf"
-    SLASH_UUF2 = "/unhaltedunitframes"
-    SLASH_UUF3 = "/uf"
+    SLASH_UUF2 = "/vaarattuunitframes"
+    SLASH_UUF3 = "/vuf"
+    SLASH_UUF4 = "/uf"
+    SLASH_UUF5 = "/unhaltedunitframes"
     SlashCmdList["UUF"] = function() UUF:CreateGUI() end
     if UUF.db.global.DisplayLoginMessage then UUF:PrettyPrint("'|cFF8080FF/uuf|r' for in-game configuration.") end
 
@@ -397,12 +399,12 @@ local function AddAnchorsToBCDM()
     if not C_AddOns.IsAddOnLoaded("BetterCooldownManager") then return end
     if select(4, GetBuildInfo()) >= 121000 then return end
     local UUF_Anchors = {
-        ["UUF_Player"] = "|cFF8080FFUnhalted|rUnitFrames: Player Frame",
-        ["UUF_Target"] = "|cFF8080FFUnhalted|rUnitFrames: Target Frame",
-        ["UUF_Pet"] = "|cFF8080FFUnhalted|rUnitFrames: Pet Frame",
+        ["UUF_Player"] = "|cFF8080FFVaarattu|r Unit Frames: Player Frame",
+        ["UUF_Target"] = "|cFF8080FFVaarattu|r Unit Frames: Target Frame",
+        ["UUF_Pet"] = "|cFF8080FFVaarattu|r Unit Frames: Pet Frame",
     }
     if BCDMG then
-        BCDMG:AddAnchors("UnhaltedUnitFrames", {"Utility", "CustomViewer", "Custom", "AdditionalCustom", "Item", "ItemSpell", "Trinket"}, UUF_Anchors)
+        BCDMG:AddAnchors("VaarattuUnitFrames", {"Utility", "CustomViewer", "Custom", "AdditionalCustom", "Item", "ItemSpell", "Trinket"}, UUF_Anchors)
     end
 end
 

@@ -40,7 +40,7 @@ function UUF:CreateUnitDispelHighlight(unitFrame, unit)
 		if DispelHighlightDB.Style == "GRADIENT" then
 			DispelHighlight:SetPoint("TOPLEFT", unitFrame, "TOPLEFT", 1, -1)
 			DispelHighlight:SetPoint("BOTTOMRIGHT", unitFrame, "BOTTOMRIGHT", -1, 1)
-			DispelHighlight:SetTexture("Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Gradient.png")
+			DispelHighlight:SetTexture("Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Gradient.png")
 			DispelHighlight:SetAlpha(1)
 		else
 			local barTexture = unitFrame.Health and unitFrame.Health:GetStatusBarTexture()
@@ -77,7 +77,7 @@ function UUF:UpdateUnitDispelHighlight(unitFrame, unit)
 			if DispelHighlightDB.Style == "GRADIENT" then
 				unitFrame.DispelHighlight:SetPoint("TOPLEFT", unitFrame, "TOPLEFT", 1, -1)
 				unitFrame.DispelHighlight:SetPoint("BOTTOMRIGHT", unitFrame, "BOTTOMRIGHT", -1, 1)
-				unitFrame.DispelHighlight:SetTexture("Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Gradient.png")
+				unitFrame.DispelHighlight:SetTexture("Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Gradient.png")
 				unitFrame.DispelHighlight:SetAlpha(1)
 			else
 				local barTexture = unitFrame.Health and unitFrame.Health:GetStatusBarTexture()

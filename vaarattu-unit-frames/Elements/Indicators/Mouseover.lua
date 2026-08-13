@@ -14,7 +14,7 @@ function UUF:CreateUnitMouseoverIndicator(unitFrame, unit)
         MouseoverHighlight:SetBackdropBorderColor(MouseoverDB.Colour[1], MouseoverDB.Colour[2], MouseoverDB.Colour[3], MouseoverDB.HighlightOpacity)
     elseif MouseoverDB.Style == "GRADIENT" then
         MouseoverHighlight:SetBackdrop({
-            bgFile = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Gradient.png",
+            bgFile = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Gradient.png",
             edgeFile = nil,
             tile = false, tileSize = 0, edgeSize = 0,
             insets = { left = 0, right = 0, top = 0, bottom = 0 },
@@ -48,7 +48,7 @@ function UUF:UpdateUnitMouseoverIndicator(unitFrame, unit)
             unitFrame.MouseoverHighlight:SetBackdropBorderColor(MouseoverDB.Colour[1], MouseoverDB.Colour[2], MouseoverDB.Colour[3], MouseoverDB.HighlightOpacity)
         elseif MouseoverDB.Style == "GRADIENT" then
             unitFrame.MouseoverHighlight:SetBackdrop({
-                bgFile = "Interface\\AddOns\\UnhaltedUnitFrames\\Media\\Textures\\Gradient.png",
+                bgFile = "Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\Gradient.png",
                 edgeFile = nil,
                 tile = false, tileSize = 0, edgeSize = 0,
                 insets = { left = 0, right = 0, top = 0, bottom = 0 },
