@@ -36,10 +36,10 @@ local _, ns = ...
 local oUF = ns.oUF
 
 local function Update(self, event, unit)
-	if(unit and unit ~= self.unit) then return end
+	if(unit and unit ~= self.__unit) then return end
 
 	local element = self.PvPIndicator
-	unit = unit or self.unit
+	unit = unit or self.__unit
 
 	--[[ Callback: PvPIndicator:PreUpdate(unit)
 	Called before the element has been updated.
@@ -53,23 +53,22 @@ local function Update(self, event, unit)
 
 	local status
 	local factionGroup = UnitFactionGroup(unit) or 'Neutral'
-	local honorLevel = UnitHonorLevel(unit)
-	local honorRewardInfo = not issecretvalue(honorLevel) and C_PvP.GetHonorRewardInfo(honorLevel)
+	local honorRewardInfo = C_PvP.GetHonorRewardInfo(UnitHonorLevel(unit))
 
 	if(UnitIsPVPFreeForAll(unit)) then
 		status = 'FFA'
 	else
 		local isPvP = UnitIsPVP(unit)
 		if(factionGroup ~= 'Neutral' and not issecretvalue(isPvP) and isPvP) then
-		if(unit == 'player' and UnitIsMercenary(unit)) then
-			if(factionGroup == 'Horde') then
-				factionGroup = 'Alliance'
-			elseif(factionGroup == 'Alliance') then
-				factionGroup = 'Horde'
+			if(unit == 'player' and UnitIsMercenary(unit)) then
+				if(factionGroup == 'Horde') then
+					factionGroup = 'Alliance'
+				elseif(factionGroup == 'Alliance') then
+					factionGroup = 'Horde'
+				end
 			end
-		end
 
-		status = factionGroup
+			status = factionGroup
 		end
 	end
 
@@ -122,7 +121,7 @@ local function Path(self, ...)
 end
 
 local function ForceUpdate(element)
-	return Path(element.__owner, 'ForceUpdate', element.__owner.unit)
+	return Path(element.__owner, 'ForceUpdate', element.__owner.__unit)
 end
 
 local function Enable(self)

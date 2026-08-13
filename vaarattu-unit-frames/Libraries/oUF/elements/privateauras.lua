@@ -126,13 +126,11 @@ local function Update(self)
 		end
 
 		table.insert(element.anchors, C_UnitAuras.AddPrivateAuraAnchor({
-			unitToken = element.__owner.unit,
+			unitToken = element.__owner.__unit,
 			auraIndex = index,
 			parent = aura,
 			isContainer = false,
-			showCooldownFrame = not element.disableCooldown,
-			showCooldownEdge = false,
-			showDispelIcon = false,
+			showCountdownFrame = not element.disableCooldown,
 			showCountdownNumbers = not element.disableCooldownText,
 			iconInfo = {
 				iconWidth = aura:GetWidth(),

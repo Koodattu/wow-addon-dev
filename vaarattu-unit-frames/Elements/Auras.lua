@@ -2,6 +2,11 @@ local _, UUF = ...
 local oUF = UUF.oUF
 
 local AURA_GROUP_KEY = "UUF"
+local initializedUnitFrames = setmetatable({}, {__mode = "k"})
+
+oUF:RegisterInitCallback(function(unitFrame)
+	initializedUnitFrames[unitFrame] = true
+end)
 
 local filterModifiers = {
 	RaidPlayerDispellable = "RAID_PLAYER_DISPELLABLE",
@@ -285,10 +290,10 @@ local function ConfigurePrivateAuras(unitFrame, unit, AurasDB)
 	if enabled then
 		unitFrame.PrivateAuras = container
 		container:Show()
-		if not unitFrame:IsElementEnabled("PrivateAuras") then unitFrame:EnableElement("PrivateAuras") end
+		if initializedUnitFrames[unitFrame] and not unitFrame:IsElementEnabled("PrivateAuras") then unitFrame:EnableElement("PrivateAuras") end
 		if container.ForceUpdate then container:ForceUpdate() end
 	else
-		if unitFrame:IsElementEnabled("PrivateAuras") then unitFrame:DisableElement("PrivateAuras") end
+		if initializedUnitFrames[unitFrame] and unitFrame:IsElementEnabled("PrivateAuras") then unitFrame:DisableElement("PrivateAuras") end
 		unitFrame.PrivateAuras = nil
 		container:Hide()
 	end
