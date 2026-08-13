@@ -3,7 +3,7 @@ local StatusBarInterpolation = Enum.StatusBarInterpolation
 local oUF = UUF.oUF
 
 local function SetHealthBackgroundColour(unitFrame, unit, HealthBarDB, forceUpdate)
-	local backgroundUnit = unitFrame.unit or unit
+	local backgroundUnit = unitFrame.__unit or unit
 	local isDead = HealthBarDB.ColourBackdropWhenDead and UnitIsDeadOrGhost(backgroundUnit)
 	local backgroundClass
 	local backgroundClassIsSecret
@@ -83,7 +83,7 @@ function UUF:CreateUnitHealthBar(unitFrame, unit)
             maxHP = maxHP or 1
             curHP = curHP or 0
             unitHP:SetMinMaxValues(0, maxHP)
-            unitHP:SetValue(UnitHealthMissing(unitFrame.unit, true), unitFrame.Health.smoothing)
+            unitHP:SetValue(UnitHealthMissing(unitFrame.__unit, true), unitFrame.Health.smoothing)
 			SetHealthBackgroundColour(unitFrame, unit, UUF:GetUnitDB(unitFrame, unit).HealthBar)
         end
 

@@ -343,7 +343,7 @@ InterruptCooldownFrame:SetScript("OnEvent", function()
 	for i = 1, 9 do
 		local unitFrame = i == 1 and UUF.PLAYER or i == 2 and UUF.TARGET or i == 3 and UUF.FOCUS or i == 4 and UUF.PET or UUF["BOSS" .. (i - 4)]
 		local castBar = unitFrame and unitFrame.Castbar
-		local unit = unitFrame and unitFrame.unit
+		local unit = unitFrame and unitFrame.__unit
 		local UnitDB = unit and UUF.db.profile.Units[UUF:GetNormalizedUnit(unit)]
 		if castBar and castBar:IsShown() and (castBar.casting or castBar.channeling or castBar.empowering) and UnitDB and UnitDB.CastBar then SetCastBarColour(castBar, unit, UnitDB.CastBar) end
 	end

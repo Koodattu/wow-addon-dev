@@ -373,16 +373,16 @@ function UUF:LoadCustomColours()
 
     if General.Colours.Dispel then
         local dispelMap = {
-            Magic = oUF.Enum.DispelType.Magic,
-            Curse = oUF.Enum.DispelType.Curse,
-            Disease = oUF.Enum.DispelType.Disease,
-            Poison = oUF.Enum.DispelType.Poison,
-            Bleed = oUF.Enum.DispelType.Bleed,
+            Magic = true,
+            Curse = true,
+            Disease = true,
+            Poison = true,
+            Bleed = true,
         }
-        for dispelType, index in pairs(dispelMap) do
+        for dispelType in pairs(dispelMap) do
             local color = General.Colours.Dispel[dispelType]
             if color then
-                oUF.colors.dispel[index] = oUF:CreateColor(color[1], color[2], color[3])
+                oUF.colors.dispel[dispelType] = oUF:CreateColor(color[1], color[2], color[3])
             end
         end
         UUF.dispelColorGeneration = (UUF.dispelColorGeneration or 0) + 1
@@ -458,7 +458,7 @@ function UUF:GetUnitColour(unit)
 end
 
 function UUF:GetClassColour(unitFrame)
-    local _, class = UnitClass(unitFrame.unit)
+    local _, class = UnitClass(unitFrame.__unit)
 	local classColour
 	if UUF:IsSecretValue(class) then
 		classColour = C_ClassColor.GetClassColor(class)

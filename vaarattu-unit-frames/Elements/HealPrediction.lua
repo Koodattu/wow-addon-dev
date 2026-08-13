@@ -223,16 +223,34 @@ function UUF:CreateUnitHealPrediction(unitFrame, unit)
     local AbsorbDB = UUF:GetUnitDB(unitFrame, unit).HealPrediction.Absorbs
     local HealAbsorbDB = UUF:GetUnitDB(unitFrame, unit).HealPrediction.HealAbsorbs
 
+    local health = unitFrame.Health
+    local healthPostUpdate = health.PostUpdate
     unitFrame.HealthPrediction = {
-        healingPlayer = IncomingHealDB.Enabled and CreateIncomingHeal(unitFrame, unit),
-        damageAbsorb = AbsorbDB.Enabled and CreateUnitAbsorbs(unitFrame, unit),
-        damageAbsorbClampMode = 2,
+        healingPlayer = CreateIncomingHeal(unitFrame, unit),
+        damageAbsorb = CreateUnitAbsorbs(unitFrame, unit),
         overDamageAbsorb = AbsorbDB.Enabled and AbsorbDB.ShowOverAbsorb and AbsorbDB.Position == "ATTACH" and CreateUnitOverAbsorbs(unitFrame, unit),
-        healAbsorb = HealAbsorbDB.Enabled and CreateUnitHealAbsorbs(unitFrame, unit),
-        healAbsorbClampMode = 1,
-        healAbsorbMode = 1,
-        PostUpdate = function(_, updateUnit) UpdateUnitOverAbsorbs(unitFrame, updateUnit) end,
+        healAbsorb = CreateUnitHealAbsorbs(unitFrame, unit),
     }
+
+    function unitFrame.HealthPrediction:ForceUpdate()
+        if health.ForceUpdate then health:ForceUpdate() end
+    end
+
+    health.HealingPlayer = unitFrame.HealthPrediction.healingPlayer
+    health.DamageAbsorb = unitFrame.HealthPrediction.damageAbsorb
+    health.HealAbsorb = unitFrame.HealthPrediction.healAbsorb
+    health.incomingHealClampMode = Enum.UnitIncomingHealClampMode.MaximumHealth
+    health.damageAbsorbClampMode = Enum.UnitDamageAbsorbClampMode.MaximumHealth
+    health.healAbsorbClampMode = Enum.UnitHealAbsorbClampMode.MaximumHealth
+    health.healAbsorbMode = Enum.UnitHealAbsorbMode.Total
+    health.PostUpdate = function(healthElement, updateUnit, ...)
+        if healthPostUpdate then healthPostUpdate(healthElement, updateUnit, ...) end
+        UpdateUnitOverAbsorbs(unitFrame, updateUnit)
+    end
+
+    if not IncomingHealDB.Enabled then unitFrame.HealthPrediction.healingPlayer:Hide() end
+    if not AbsorbDB.Enabled then unitFrame.HealthPrediction.damageAbsorb:Hide() end
+    if not HealAbsorbDB.Enabled then unitFrame.HealthPrediction.healAbsorb:Hide() end
 end
 
 function UUF:UpdateUnitHealPrediction(unitFrame, unit)
@@ -243,7 +261,7 @@ function UUF:UpdateUnitHealPrediction(unitFrame, unit)
     if unitFrame.HealthPrediction then
         if IncomingHealDB.Enabled then
             unitFrame.HealthPrediction.healingPlayer = unitFrame.HealthPrediction.healingPlayer or CreateIncomingHeal(unitFrame, unit)
-            unitFrame.HealthPrediction.healingPlayerClampMode = 2
+            unitFrame.Health.HealingPlayer = unitFrame.HealthPrediction.healingPlayer
             unitFrame.HealthPrediction.healingPlayer:Show()
             if IncomingHealDB.UseStripedTexture then unitFrame.HealthPrediction.healingPlayer:SetStatusBarTexture("Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ThinStripes.png") else unitFrame.HealthPrediction.healingPlayer:SetStatusBarTexture(UUF.Media.Foreground) end
             unitFrame.HealthPrediction.healingPlayer:SetStatusBarColor(IncomingHealDB.Colour[1], IncomingHealDB.Colour[2], IncomingHealDB.Colour[3], IncomingHealDB.Colour[4])
@@ -293,8 +311,7 @@ function UUF:UpdateUnitHealPrediction(unitFrame, unit)
         end
         if AbsorbDB.Enabled then
             unitFrame.HealthPrediction.damageAbsorb = unitFrame.HealthPrediction.damageAbsorb or CreateUnitAbsorbs(unitFrame, unit)
-            unitFrame.HealthPrediction.damageAbsorbClampMode = 2
-            unitFrame.HealthPrediction.PostUpdate = function(_, updateUnit) UpdateUnitOverAbsorbs(unitFrame, updateUnit) end
+            unitFrame.Health.DamageAbsorb = unitFrame.HealthPrediction.damageAbsorb
             unitFrame.HealthPrediction.damageAbsorb:Show()
             if AbsorbDB.UseStripedTexture then unitFrame.HealthPrediction.damageAbsorb:SetStatusBarTexture("Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ThinStripes.png") else unitFrame.HealthPrediction.damageAbsorb:SetStatusBarTexture(UUF.Media.Foreground) end
             unitFrame.HealthPrediction.damageAbsorb:SetStatusBarColor(AbsorbDB.Colour[1], AbsorbDB.Colour[2], AbsorbDB.Colour[3], AbsorbDB.Colour[4])
@@ -356,7 +373,7 @@ function UUF:UpdateUnitHealPrediction(unitFrame, unit)
         end
         if HealAbsorbDB.Enabled then
             unitFrame.HealthPrediction.healAbsorb = unitFrame.HealthPrediction.healAbsorb or CreateUnitHealAbsorbs(unitFrame, unit)
-            unitFrame.HealthPrediction.healAbsorbClampMode = 1
+            unitFrame.Health.HealAbsorb = unitFrame.HealthPrediction.healAbsorb
             unitFrame.HealthPrediction.healAbsorb:Show()
             if HealAbsorbDB.UseStripedTexture then unitFrame.HealthPrediction.healAbsorb:SetStatusBarTexture("Interface\\AddOns\\VaarattuUnitFrames\\Media\\Textures\\ThinStripes.png") else unitFrame.HealthPrediction.healAbsorb:SetStatusBarTexture(UUF.Media.Foreground) end
             unitFrame.HealthPrediction.healAbsorb:SetStatusBarColor(HealAbsorbDB.Colour[1], HealAbsorbDB.Colour[2], HealAbsorbDB.Colour[3], HealAbsorbDB.Colour[4])

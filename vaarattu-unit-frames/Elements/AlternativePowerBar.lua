@@ -7,11 +7,11 @@ local ALTERNATIVE_POWER_BAR_EVENTS = {
 }
 
 local function UpdateUnitPowerBarValues(unitFrame, event, unit)
-    if unit and unit ~= unitFrame.unit then return end
-    if not UnitExists(unitFrame.unit) then return end
+    if unit and unit ~= unitFrame.__unit then return end
+    if not UnitExists(unitFrame.__unit) then return end
 
-    local value = UnitPower(unitFrame.unit, Enum.PowerType.Mana)
-    unitFrame.Status:SetMinMaxValues(0, UnitPowerMax(unitFrame.unit, Enum.PowerType.Mana))
+    local value = UnitPower(unitFrame.__unit, Enum.PowerType.Mana)
+    unitFrame.Status:SetMinMaxValues(0, UnitPowerMax(unitFrame.__unit, Enum.PowerType.Mana))
     unitFrame.Status:SetValue(value)
 end
 

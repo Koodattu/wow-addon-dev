@@ -2,11 +2,11 @@ local _, UUF = ...
 local oUF = UUF.oUF
 
 local dispelTypeMap = {
-    Magic = oUF.Enum.DispelType.Magic,
-    Curse = oUF.Enum.DispelType.Curse,
-    Disease = oUF.Enum.DispelType.Disease,
-    Poison = oUF.Enum.DispelType.Poison,
-    Bleed = oUF.Enum.DispelType.Bleed,
+    Magic = 1,
+    Curse = 2,
+    Disease = 3,
+    Poison = 4,
+    Bleed = 11,
 }
 
 local DispelHighlightFrames = {}
@@ -24,7 +24,7 @@ function UUF:UpdateDispelColorCurve(unitFrame)
     if not unitFrame.dispelColorCurve then return end
     unitFrame.dispelColorCurve:ClearPoints()
     for dispelType, index in pairs(dispelTypeMap) do
-        local color = oUF.colors.dispel[index]
+        local color = oUF.colors.dispel[dispelType]
         if color then
             unitFrame.dispelColorCurve:AddPoint(index, color)
         end

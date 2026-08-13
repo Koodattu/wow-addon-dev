@@ -6,6 +6,9 @@ local initializedUnitFrames = setmetatable({}, {__mode = "k"})
 
 oUF:RegisterInitCallback(function(unitFrame)
 	initializedUnitFrames[unitFrame] = true
+	if unitFrame.PrivateAuras and unitFrame.PrivateAuras.ForceUpdate then
+		unitFrame.PrivateAuras:ForceUpdate()
+	end
 end)
 
 local filterModifiers = {
@@ -228,7 +231,7 @@ local function CreateSecureAuraContainer(unitFrame, unit, nameSuffix, auraDBKey,
 		},
 		initializeFrame = function(button) InitializeAuraButton(button, unitFrame, unit, auraDBKey, auraType) end,
 	})
-	container:SetUnit(unitFrame.unit or unit)
+	container:SetUnit(unitFrame.__unit or unit)
 	return container
 end
 
@@ -256,12 +259,77 @@ local function ConfigureSecureAuraContainer(container, unitFrame, unit, AuraDB, 
 		if button then StyleAuraButton(button, unitFrame, unit, container.auraDBKey) end
 	end
 
-	local unitToken = unitFrame.unit or unit
+	local unitToken = unitFrame.__unit or unit
 	if container:GetUnit() ~= unitToken then container:SetUnit(unitToken) end
 	local enabled = AuraDB.Enabled and not UUF.AURA_TEST_MODE
 	container:SetEnabled(enabled)
 	container:SetShown(enabled)
 	if enabled then container:UpdateAllAuras() end
+end
+
+local function ResetPrivateAuraAnchors(container)
+	container.anchors = container.anchors or {}
+	for _, anchorID in ipairs(container.anchors) do
+		C_UnitAuras.RemovePrivateAuraAnchor(anchorID)
+	end
+	table.wipe(container.anchors)
+end
+
+local function PositionPrivateAura(container, aura, auraIndex)
+	local width = container.width or container.size or 16
+	local height = container.height or container.size or 16
+	local spacingX = container.spacingX or container.spacing or 0
+	local spacingY = container.spacingY or container.spacing or 0
+	local cols = math.max(container.maxCols or math.floor(container:GetWidth() / (width + spacingX) + 0.5), 1)
+	local col = (auraIndex - 1) % cols
+	local row = math.floor((auraIndex - 1) / cols)
+	local growthX = container.growthX == "LEFT" and -1 or 1
+	local growthY = container.growthY == "DOWN" and -1 or 1
+	local anchor = container.initialAnchor or "BOTTOMLEFT"
+
+	aura:ClearAllPoints()
+	aura:SetPoint(anchor, container, anchor, col * (width + spacingX) * growthX, row * (height + spacingY) * growthY)
+end
+
+local function UpdatePrivateAuraAnchors(unitFrame, container)
+	ResetPrivateAuraAnchors(container)
+
+	for auraIndex = 1, (container.num or 6) do
+		local aura = container[auraIndex]
+		if not aura then
+			aura = CreateFrame("Frame", nil, container)
+			aura.Icon = CreateFrame("Frame", nil, aura)
+			aura.Icon:SetAllPoints()
+			container[auraIndex] = aura
+		end
+
+		aura:SetSize(container.width or container.size or 16, container.height or container.size or 16)
+		PositionPrivateAura(container, aura, auraIndex)
+
+		local anchorID = C_UnitAuras.AddPrivateAuraAnchor({
+			unitToken = unitFrame.__unit,
+			auraIndex = auraIndex,
+			parent = aura,
+			showCooldownFrame = not container.disableCooldown,
+			showCooldownEdge = false,
+			showCountdownNumbers = not container.disableCooldownText,
+			showDispelIcon = false,
+			isContainer = false,
+			iconInfo = {
+				iconWidth = aura:GetWidth(),
+				iconHeight = aura:GetHeight(),
+				iconAnchor = {
+					point = "CENTER",
+					relativeTo = aura.Icon,
+					relativePoint = "CENTER",
+					offsetX = 0,
+					offsetY = 0,
+				},
+				borderScale = container.borderScale,
+			},
+		})
+		if anchorID then table.insert(container.anchors, anchorID) end
+	end
 end
 
 local function ConfigurePrivateAuras(unitFrame, unit, AurasDB)
@@ -328,6 +396,9 @@ function UUF:CreateUnitAuras(unitFrame, unit)
 	end
 	if AurasDB.PrivateAuras then
 		unitFrame.PrivateAuraContainer = CreateFrame("Frame", UUF:FetchFrameName(unit) .. "_PrivateAurasContainer", unitFrame)
+		unitFrame.PrivateAuraContainer.Override = function()
+			UpdatePrivateAuraAnchors(unitFrame, unitFrame.PrivateAuraContainer)
+		end
 	end
 	UUF:UpdateUnitAuras(unitFrame, unit)
 end
