@@ -367,7 +367,8 @@ end
 
 oUF.Tags.Methods["curpp:manapercent:healer"] = function(unit)
     if not unit or not UnitExists(unit) then return "" end
-    if UnitGroupRolesAssigned(unit) ~= "HEALER" then return "" end
+	local role = UnitGroupRolesAssigned(unit)
+	if UUF:IsSecretValue(role) or role ~= "HEALER" then return "" end
     local unitPower = UnitPower(unit, Enum.PowerType.Mana)
     if unitPower then
         local powerPercent = UnitPowerPercent(unit, Enum.PowerType.Mana, true, CurveConstants.ScaleTo100)
@@ -377,7 +378,8 @@ end
 
 oUF.Tags.Methods["curpp:manapercent:healer:colour"] = function(unit)
     if not unit then return end
-    if UnitGroupRolesAssigned(unit) ~= "HEALER" then return end
+	local role = UnitGroupRolesAssigned(unit)
+	if UUF:IsSecretValue(role) or role ~= "HEALER" then return end
     local unitPower = UnitPower(unit, Enum.PowerType.Mana)
     if unitPower then
         local powerPercent = UnitPowerPercent(unit, Enum.PowerType.Mana, true, CurveConstants.ScaleTo100)
@@ -391,7 +393,8 @@ end
 
 oUF.Tags.Methods["curpp:manapercent-with-sign:healer"] = function(unit)
     if not unit or not UnitExists(unit) then return "" end
-    if UnitGroupRolesAssigned(unit) ~= "HEALER" then return "" end
+	local role = UnitGroupRolesAssigned(unit)
+	if UUF:IsSecretValue(role) or role ~= "HEALER" then return "" end
     local unitPower = UnitPower(unit, Enum.PowerType.Mana)
     if unitPower then
         local powerPercent = UnitPowerPercent(unit, Enum.PowerType.Mana, true, CurveConstants.ScaleTo100)
@@ -401,7 +404,8 @@ end
 
 oUF.Tags.Methods["curpp:manapercent-with-sign:healer:colour"] = function(unit)
     if not unit then return end
-    if UnitGroupRolesAssigned(unit) ~= "HEALER" then return end
+	local role = UnitGroupRolesAssigned(unit)
+	if UUF:IsSecretValue(role) or role ~= "HEALER" then return end
     local unitPower = UnitPower(unit, Enum.PowerType.Mana)
     if unitPower then
         local powerPercent = UnitPowerPercent(unit, Enum.PowerType.Mana, true, CurveConstants.ScaleTo100)
@@ -495,6 +499,7 @@ end
 oUF.Tags.Methods["name:colour"] = function(unit)
     local classColourR, classColourG, classColourB = UUF:GetUnitColour(unit)
     local unitName = UnitName(unit) or ""
+	if UUF:IsSecretValue(unitName) then return unitName end
     return string.format("|cff%02x%02x%02x%s|r", classColourR * 255, classColourG * 255, classColourB * 255, unitName)
 end
 
@@ -502,7 +507,9 @@ oUF.Tags.Methods["name:target"] = function(unit)
     local targetUnit = unit and (unit .. "target")
     local arrowSeperator = UUF.TOT_SEPARATOR
     if not targetUnit or not UnitExists(targetUnit) then return "" end
-    return string.format(" %s %s", arrowSeperator, UnitName(targetUnit) or "")
+	local unitName = UnitName(targetUnit) or ""
+	if UUF:IsSecretValue(unitName) then return unitName end
+	return string.format(" %s %s", arrowSeperator, unitName)
 end
 
 oUF.Tags.Methods["name:target:colour"] = function(unit)
@@ -511,6 +518,7 @@ oUF.Tags.Methods["name:target:colour"] = function(unit)
     if not targetUnit or not UnitExists(targetUnit) then return "" end
     local classColourR, classColourG, classColourB = UUF:GetUnitColour(targetUnit)
     local unitName = UnitName(targetUnit) or ""
+	if UUF:IsSecretValue(unitName) then return unitName end
     return string.format(" %s |cff%02x%02x%02x%s|r", arrowSeperator, classColourR * 255, classColourG * 255, classColourB * 255, unitName)
 end
 
@@ -546,6 +554,7 @@ for i = 1, 25 do
     oUF.Tags.Methods["name:short:" .. i .. ":colour"] = function(unit)
         local classColourR, classColourG, classColourB = UUF:GetUnitColour(unit)
         local shortenedName = ShortenUnitName(unit, i)
+		if UUF:IsSecretValue(shortenedName) then return shortenedName end
         return string.format("|cff%02x%02x%02x%s|r", classColourR * 255, classColourG * 255, classColourB * 255, shortenedName)
     end
 end
@@ -556,6 +565,7 @@ for i = 1, 25 do
         if not targetUnit or not UnitExists(targetUnit) then return "" end
         local shortenedName = ShortenUnitName(targetUnit, i)
         local arrowSeperator = UUF.TOT_SEPARATOR
+		if UUF:IsSecretValue(shortenedName) then return shortenedName end
         return string.format(" %s %s", arrowSeperator, shortenedName)
     end
 end
@@ -567,6 +577,7 @@ for i = 1, 25 do
         local classColourR, classColourG, classColourB = UUF:GetUnitColour(targetUnit)
         local shortenedName = ShortenUnitName(targetUnit, i)
         local arrowSeperator = UUF.TOT_SEPARATOR
+		if UUF:IsSecretValue(shortenedName) then return shortenedName end
         return string.format(" %s |cff%02x%02x%02x%s|r", arrowSeperator, classColourR * 255, classColourG * 255, classColourB * 255, shortenedName)
     end
 end

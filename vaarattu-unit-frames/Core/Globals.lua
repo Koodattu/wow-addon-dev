@@ -439,7 +439,12 @@ end
 function UUF:GetUnitColour(unit)
     if UnitIsPlayer(unit) or UnitInPartyIsAI(unit) then
         local _, class = UnitClass(unit)
-        local classColour = class and RAID_CLASS_COLORS[class]
+		local classColour
+		if UUF:IsSecretValue(class) then
+			classColour = C_ClassColor.GetClassColor(class)
+		elseif class then
+			classColour = RAID_CLASS_COLORS[class]
+		end
         if classColour then return classColour.r, classColour.g, classColour.b end
     end
     local reaction = UnitReaction(unit, "player")
@@ -452,7 +457,12 @@ end
 
 function UUF:GetClassColour(unitFrame)
     local _, class = UnitClass(unitFrame.unit)
-    local classColour = RAID_CLASS_COLORS[class]
+	local classColour
+	if UUF:IsSecretValue(class) then
+		classColour = C_ClassColor.GetClassColor(class)
+	elseif class then
+		classColour = RAID_CLASS_COLORS[class]
+	end
     if classColour then
         return {classColour.r, classColour.g, classColour.b, 1}
     end

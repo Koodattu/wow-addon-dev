@@ -170,7 +170,7 @@ local function Visibility(self, event, unit)
 	local barInfo = GetUnitPowerBarInfoByID(barID)
 	element.__barID = barID
 	element.__barInfo = barInfo
-	if(barInfo and (barInfo.showOnRaid and (UnitInParty(unit) or UnitInRaid(unit))
+	if(barInfo and (barInfo.showOnRaid and (UnitInParty(unit) or UnitInRaid(unit) ~= nil)
 		or not barInfo.hideFromOthers
 		or unitIsUnit(unit, 'player')))
 	then

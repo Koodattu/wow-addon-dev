@@ -5,7 +5,12 @@ local function SetCastBarColour(castBar, unit, CastBarDB)
 	if CastBarDB.ColourByClass then
 		local unitForClass = unit == "pet" and "player" or unit
 		local unitClass = select(2, UnitClass(unitForClass))
-		local unitColor = RAID_CLASS_COLORS[unitClass]
+		local unitColor
+		if UUF:IsSecretValue(unitClass) then
+			unitColor = C_ClassColor.GetClassColor(unitClass)
+		elseif unitClass then
+			unitColor = RAID_CLASS_COLORS[unitClass]
+		end
 		if unitColor then r, g, b, a = unitColor.r, unitColor.g, unitColor.b, CastBarDB.ForegroundOpacity end
 	end
 	if not r then r, g, b, a = unpack(CastBarDB.Foreground) end

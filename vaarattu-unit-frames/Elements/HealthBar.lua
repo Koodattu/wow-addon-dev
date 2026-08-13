@@ -6,13 +6,16 @@ local function SetHealthBackgroundColour(unitFrame, unit, HealthBarDB, forceUpda
 	local backgroundUnit = unitFrame.unit or unit
 	local isDead = HealthBarDB.ColourBackdropWhenDead and UnitIsDeadOrGhost(backgroundUnit)
 	local backgroundClass
+	local backgroundClassIsSecret
 	local backgroundReaction
 	if HealthBarDB.ColourBackgroundByClass then
 		local unitToColour = backgroundUnit ~= "pet" and backgroundUnit or "player"
 		backgroundClass = select(2, UnitClass(unitToColour))
-		if not backgroundClass then backgroundReaction = UnitReaction(unitToColour, "player") end
+		backgroundClassIsSecret = UUF:IsSecretValue(backgroundClass)
+		if backgroundClassIsSecret then backgroundClass = nil end
+		if not backgroundClass and not backgroundClassIsSecret then backgroundReaction = UnitReaction(unitToColour, "player") end
 	end
-	if not forceUpdate and unitFrame.HealthBackgroundClass == backgroundClass and unitFrame.HealthBackgroundReaction == backgroundReaction and unitFrame.HealthBackgroundIsDead == isDead then return end
+	if not forceUpdate and not backgroundClassIsSecret and unitFrame.HealthBackgroundClass == backgroundClass and unitFrame.HealthBackgroundReaction == backgroundReaction and unitFrame.HealthBackgroundIsDead == isDead then return end
 	unitFrame.HealthBackgroundClass = backgroundClass
 	unitFrame.HealthBackgroundReaction = backgroundReaction
 	unitFrame.HealthBackgroundIsDead = isDead

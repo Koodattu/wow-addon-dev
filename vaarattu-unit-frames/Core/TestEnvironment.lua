@@ -605,28 +605,7 @@ local function UpdateBossTestEnvironment(element)
 					BossFrame:EnableElement("Castbar")
 				end
 			end
-			for j = 1, (BossFrame.BuffContainer and BossFrame.BuffContainer.maxFake or 0) do
-				local button = BossFrame.BuffContainer["fake" .. j]
-				if button then button:Hide() end
-			end
-			for j = 1, (BossFrame.DebuffContainer and BossFrame.DebuffContainer.maxFake or 0) do
-				local button = BossFrame.DebuffContainer["fake" .. j]
-				if button then button:Hide() end
-			end
-			for j = 1, (BossFrame.CustomAuraContainer and BossFrame.CustomAuraContainer.maxFake or 0) do
-				local button = BossFrame.CustomAuraContainer["fake" .. j]
-				if button then button:Hide() end
-			end
-			if BuffsDB.Enabled or DebuffsDB.Enabled then
-				if not BossFrame:IsElementEnabled("Auras") then BossFrame:EnableElement("Auras") end
-				if BossFrame.BuffContainer and BossFrame.BuffContainer.ForceUpdate then BossFrame.BuffContainer:ForceUpdate() end
-				if BossFrame.DebuffContainer and BossFrame.DebuffContainer.ForceUpdate then BossFrame.DebuffContainer:ForceUpdate() end
-			end
-			if CustomDB and CustomDB.Enabled then
-				BossFrame.CustomAuras = BossFrame.CustomAuraContainer
-				if not BossFrame:IsElementEnabled("CustomAuras") then BossFrame:EnableElement("CustomAuras") end
-				if BossFrame.CustomAuraContainer and BossFrame.CustomAuraContainer.ForceUpdate then BossFrame.CustomAuraContainer:ForceUpdate() end
-			end
+			UUF:UpdateUnitAuras(BossFrame, "boss" .. i)
 			BossFrame:Hide()
 		end
 	end

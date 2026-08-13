@@ -280,13 +280,14 @@ end
 local function FriendlyIsInRange(unit, frame)
 	if UnitIsPlayer(unit) then
 		if isRetail then
-			if UnitPhaseReason(unit) then return false end
+			local phaseReason = UnitPhaseReason(unit)
+			if not UUF:IsSecretValue(phaseReason) and phaseReason then return false end
 		end
 	end
 
 	local inRange, wasChecked = UnitInRange(unit)
 	if UUF:IsSecretValue(wasChecked) then
-		if UnitInParty(unit) or UnitInRaid(unit) then
+		if UnitInParty(unit) or UnitInRaid(unit) ~= nil then
 			frame.RangeIsInRange = inRange
 			frame.RangeWasChecked = wasChecked
 			return

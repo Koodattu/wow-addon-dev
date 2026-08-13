@@ -58,6 +58,7 @@ local function Update(self, event)
 	else
 		isLeader = UnitLeadsAnyGroup(unit)
 	end
+	if(issecretvalue(isLeader)) then isLeader = false end
 
 	if(isLeader) then
 		if(isInLFGInstance) then

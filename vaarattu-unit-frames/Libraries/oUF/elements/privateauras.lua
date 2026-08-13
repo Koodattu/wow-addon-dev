@@ -130,7 +130,9 @@ local function Update(self)
 			auraIndex = index,
 			parent = aura,
 			isContainer = false,
-			showCountdownFrame = not element.disableCooldown,
+			showCooldownFrame = not element.disableCooldown,
+			showCooldownEdge = false,
+			showDispelIcon = false,
 			showCountdownNumbers = not element.disableCooldownText,
 			iconInfo = {
 				iconWidth = aura:GetWidth(),

@@ -43,7 +43,7 @@ local function Update(self, event)
 	end
 
 	local role, isShown
-	if(UnitInRaid(unit) and not UnitHasVehicleUI(unit)) then
+	if(UnitInRaid(unit) ~= nil and not UnitHasVehicleUI(unit)) then
 		if(GetPartyAssignment('MAINTANK', unit)) then
 			isShown = true
 			element:SetAtlas('RaidFrame-Icon-MainTank', element.useAtlasSize)

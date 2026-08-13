@@ -237,13 +237,15 @@ local tagStrings = {
 	end]],
 
 	['leader'] = [[function(u)
-		if(UnitIsGroupLeader(u)) then
+		local isLeader = UnitIsGroupLeader(u)
+		if(not issecretvalue(isLeader) and isLeader) then
 			return 'L'
 		end
 	end]],
 
 	['leaderlong']  = [[function(u)
-		if(UnitIsGroupLeader(u)) then
+		local isLeader = UnitIsGroupLeader(u)
+		if(not issecretvalue(isLeader) and isLeader) then
 			return 'Leader'
 		end
 	end]],
@@ -318,15 +320,20 @@ local tagStrings = {
 	end]],
 
 	['pvp'] = [[function(u)
-		if(UnitIsPVP(u)) then
+		local isPvP = UnitIsPVP(u)
+		if(not issecretvalue(isPvP) and isPvP) then
 			return 'PvP'
 		end
 	end]],
 
 	['raidcolor'] = [[function(u)
 		local _, class = UnitClass(u)
-		if(class) then
-			return _COLORS.class[class]:GenerateHexColorMarkup()
+		if(class ~= nil) then
+			if(issecretvalue(class)) then
+				return C_ClassColor.GetClassColor(class):GenerateHexColorMarkup()
+			else
+				return _COLORS.class[class]:GenerateHexColorMarkup()
+			end
 		else
 			local id = u:match('arena(%d)$')
 			if(id) then
@@ -367,7 +374,9 @@ local tagStrings = {
 
 	['sex'] = [[function(u)
 		local s = UnitSex(u)
-		if(s == 2) then
+		if(issecretvalue(s)) then
+			return
+		elseif(s == 2) then
 			return 'Male'
 		elseif(s == 3) then
 			return 'Female'

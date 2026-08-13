@@ -99,6 +99,10 @@ end
 
 function UUF:UpdateUnitDispelState(unitFrame, unit)
 	if not unitFrame.DispelHighlight then return end
+	if C_Secrets.ShouldAurasBeSecret() then
+		unitFrame.DispelHighlight:Hide()
+		return
+	end
 	if not UUF:GetUnitDB(unitFrame, unit).HealthBar.DispelHighlight.Enabled then
 		unitFrame.DispelHighlight:Hide()
 		return

@@ -437,11 +437,15 @@ function UUF:LayoutGroupFrames(groupType)
 		for _, partyFrame in ipairs(UUF.PARTY_FRAMES) do partyFrames[#partyFrames + 1] = partyFrame end
 		table.sort(partyFrames, function(firstFrame, secondFrame)
 			if Frame.SortBy == "NAME" then
-				return (UnitName(firstFrame.unit) or firstFrame.unit or "") < (UnitName(secondFrame.unit) or secondFrame.unit or "")
+				local firstName = UnitName(firstFrame.unit)
+				local secondName = UnitName(secondFrame.unit)
+				if not UUF:IsSecretValue(firstName) and not UUF:IsSecretValue(secondName) then
+					return (firstName or firstFrame.unit or "") < (secondName or secondFrame.unit or "")
+				end
 			elseif Frame.SortBy == "ROLE" then
 				local firstRole = UUF.PARTY_TEST_MODE and firstFrame.testRole or UnitGroupRolesAssigned(firstFrame.unit)
 				local secondRole = UUF.PARTY_TEST_MODE and secondFrame.testRole or UnitGroupRolesAssigned(secondFrame.unit)
-				if firstRole ~= secondRole then
+				if not UUF:IsSecretValue(firstRole) and not UUF:IsSecretValue(secondRole) and firstRole ~= secondRole then
 					for _, orderedRole in ipairs(Frame.RoleOrder or {}) do
 						if firstRole == orderedRole then return true end
 						if secondRole == orderedRole then return false end
