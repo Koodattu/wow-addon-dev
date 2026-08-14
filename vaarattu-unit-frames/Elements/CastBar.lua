@@ -14,12 +14,12 @@ local function SetCastBarColour(castBar, unit, CastBarDB)
 		if unitColor then r, g, b, a = unitColor.r, unitColor.g, unitColor.b, CastBarDB.ForegroundOpacity end
 	end
 	if not r then r, g, b, a = unpack(CastBarDB.Foreground) end
-	if UUF.IsInterruptOnCooldown and C_CurveUtil.EvaluateColorValueFromBoolean and (castBar.casting or castBar.channeling or castBar.empowering) and castBar.notInterruptible ~= nil and UnitCanAttack("player", unit) and UUF:IsInterruptOnCooldown() then
+	if UUF.IsInterruptOnCooldown and C_CurveUtil.EvaluateColorValueFromBoolean and castBar.UUFCastActive and UnitCanAttack("player", unit) and UUF:IsInterruptOnCooldown() then
 		local CDR, CDG, CDB, CDA = unpack(CastBarDB.InterruptCooldownColour or CastBarDB.InterruptOnCooldownColour)
-		r = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.notInterruptible, r, CDR)
-		g = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.notInterruptible, g, CDG)
-		b = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.notInterruptible, b, CDB)
-		a = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.notInterruptible, a or 1, CDA or a or 1)
+		r = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.UUFNotInterruptible, r, CDR)
+		g = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.UUFNotInterruptible, g, CDG)
+		b = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.UUFNotInterruptible, b, CDB)
+		a = C_CurveUtil.EvaluateColorValueFromBoolean(castBar.UUFNotInterruptible, a or 1, CDA or a or 1)
 	end
 	castBar:SetStatusBarColor(r, g, b, a)
 end
@@ -124,34 +124,40 @@ function UUF:CreateUnitCastBar(unitFrame, unit)
         unitFrame.Castbar.Time = DurationText
         if CastBarDB.Icon.Enabled then unitFrame.Castbar.Icon = CastBar.Icon else unitFrame.Castbar.Icon = nil end
         unitFrame.Castbar:HookScript("OnValueChanged", function(self, value) if self.Castbar then self.Castbar:SetValue(value) end end)
-        unitFrame.Castbar:HookScript("OnHide", function() CastBarContainer:Hide() end)
+        unitFrame.Castbar:HookScript("OnHide", function(frameCastBar)
+			frameCastBar.UUFCastActive = false
+			frameCastBar.UUFNotInterruptible = nil
+			if frameCastBar.NotInterruptibleOverlay then frameCastBar.NotInterruptibleOverlay:SetAlpha(0) end
+			CastBarContainer:Hide()
+		end)
 
-        unitFrame.Castbar.PostCastStart = function(frameCastBar)
-			local currentCastBarDB = UUF:GetUnitDB(unitFrame, unit).CastBar
+        unitFrame.Castbar.PostCastStart = function(frameCastBar, castUnit, _, notInterruptible, spellName)
+			local currentCastBarDB = UUF:GetUnitDB(unitFrame, castUnit).CastBar
 			local currentSpellNameDB = currentCastBarDB.Text.SpellName
-			SetCastBarColour(frameCastBar, unit, currentCastBarDB)
+			frameCastBar.UUFCastActive = true
+			frameCastBar.UUFNotInterruptible = notInterruptible
+			SetCastBarColour(frameCastBar, castUnit, currentCastBarDB)
 
-            local spellInfo = C_Spell.GetSpellInfo(frameCastBar.spellID)
-            local spellName = spellInfo and spellInfo.name
-            if spellName then
+			if UUF:IsSecretValue(spellName) or spellName then
                 if not UUF:IsSecretValue(spellName) then
 					if currentSpellNameDB.MaxChars and currentSpellNameDB.MaxChars > 0 then spellName = string.format("%." .. currentSpellNameDB.MaxChars .. "s", spellName) end
                     spellName = UUF:CleanTruncateUTF8String(spellName)
                 end
-				local targetName = currentCastBarDB.ShowTarget and not UnitSpellTargetName and UnitName(unit .. "target")
-				if currentCastBarDB.ShowTarget and UnitSpellTargetName and (frameCastBar.casting or (frameCastBar.channeling or frameCastBar.empowering) and UnitShouldDisplaySpellTargetName(unit)) then targetName = UnitSpellTargetName(unit) end
+				local targetName = currentCastBarDB.ShowTarget and not UnitSpellTargetName and UnitName(castUnit .. "target")
+				if currentCastBarDB.ShowTarget and UnitSpellTargetName and UnitShouldDisplaySpellTargetName(castUnit) then targetName = UnitSpellTargetName(castUnit) end
                 if UUF:IsSecretValue(targetName) or targetName then frameCastBar.Text:SetFormattedText("%s » %s", spellName, targetName) else frameCastBar.Text:SetText(spellName) end
             else
                 frameCastBar.Text:SetText("")
             end
 
-            if frameCastBar.NotInterruptibleOverlay and frameCastBar.notInterruptible ~= nil then frameCastBar.NotInterruptibleOverlay:SetAlphaFromBoolean(frameCastBar.notInterruptible, 1, 0) end
+			if frameCastBar.NotInterruptibleOverlay then frameCastBar.NotInterruptibleOverlay:SetAlphaFromBoolean(notInterruptible, 1, 0) end
             CastBarContainer:Show()
         end
 
-        unitFrame.Castbar.PostCastInterruptible = function(frameCastBar)
-            if frameCastBar.NotInterruptibleOverlay and frameCastBar.notInterruptible ~= nil then frameCastBar.NotInterruptibleOverlay:SetAlphaFromBoolean(frameCastBar.notInterruptible, 1, 0) end
-			SetCastBarColour(frameCastBar, unit, UUF:GetUnitDB(unitFrame, unit).CastBar)
+        unitFrame.Castbar.PostCastInterruptible = function(frameCastBar, castUnit, _, notInterruptible)
+			frameCastBar.UUFNotInterruptible = notInterruptible
+            if frameCastBar.NotInterruptibleOverlay then frameCastBar.NotInterruptibleOverlay:SetAlphaFromBoolean(notInterruptible, 1, 0) end
+			SetCastBarColour(frameCastBar, castUnit, UUF:GetUnitDB(unitFrame, castUnit).CastBar)
         end
         unitFrame.Castbar.PostCastFail = function(frameCastBar)
 			frameCastBar:SetStatusBarColor(unpack(UUF:GetUnitDB(unitFrame, unit).CastBar.InterruptedFailedColour))
@@ -345,6 +351,6 @@ InterruptCooldownFrame:SetScript("OnEvent", function()
 		local castBar = unitFrame and unitFrame.Castbar
 		local unit = unitFrame and unitFrame.__unit
 		local UnitDB = unit and UUF.db.profile.Units[UUF:GetNormalizedUnit(unit)]
-		if castBar and castBar:IsShown() and (castBar.casting or castBar.channeling or castBar.empowering) and UnitDB and UnitDB.CastBar then SetCastBarColour(castBar, unit, UnitDB.CastBar) end
+		if castBar and castBar:IsShown() and castBar.UUFCastActive and UnitDB and UnitDB.CastBar then SetCastBarColour(castBar, unit, UnitDB.CastBar) end
 	end
 end)
