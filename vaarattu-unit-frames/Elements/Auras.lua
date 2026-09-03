@@ -108,6 +108,7 @@ local function InitializeAuraButton(button, unitFrame, unit, auraDBKey, auraType
 
 	local cooldown = CreateFrame("Cooldown", "$parentCooldown", button, "CooldownFrameTemplate")
 	cooldown:SetAllPoints()
+	cooldown:SetHideCountdownNumbers(true)
 	button.Cooldown = cooldown
 	button:SetDurationCooldown(cooldown)
 
@@ -208,8 +209,8 @@ local function ConfigureFlowLayout(container, AuraDB)
 	container:SetFlowLayoutPadding(0, 0, 0, 0)
 end
 
-local function CreateSecureAuraContainer(unitFrame, unit, nameSuffix, auraDBKey, auraType)
-	local container = CreateFrame("AuraContainer", UUF:FetchFrameName(unit) .. nameSuffix, unitFrame, "CustomAuraContainerTemplate")
+local function CreateSecureAuraContainer(unitFrame, unit, auraDBKey, auraType)
+	local container = unitFrame:CreateAuras()
 	container.groupKey = AURA_GROUP_KEY
 	container.auraDBKey = auraDBKey
 	container.auraType = auraType
@@ -388,11 +389,11 @@ end
 
 function UUF:CreateUnitAuras(unitFrame, unit)
 	local AurasDB = UUF:GetUnitDB(unitFrame, unit).Auras
-	unitFrame.BuffContainer = CreateSecureAuraContainer(unitFrame, unit, "_BuffsContainer", "Buffs", "HELPFUL")
-	unitFrame.DebuffContainer = CreateSecureAuraContainer(unitFrame, unit, "_DebuffsContainer", "Debuffs", "HARMFUL")
+	unitFrame.BuffContainer = CreateSecureAuraContainer(unitFrame, unit, "Buffs", "HELPFUL")
+	unitFrame.DebuffContainer = CreateSecureAuraContainer(unitFrame, unit, "Debuffs", "HARMFUL")
 	if AurasDB.Custom then
 		local auraType = AurasDB.Custom.Type == "Debuffs" and "HARMFUL" or "HELPFUL"
-		unitFrame.CustomAuraContainer = CreateSecureAuraContainer(unitFrame, unit, "_CustomAurasContainer", "Custom", auraType)
+		unitFrame.CustomAuraContainer = CreateSecureAuraContainer(unitFrame, unit, "Custom", auraType)
 	end
 	if AurasDB.PrivateAuras then
 		unitFrame.PrivateAuraContainer = CreateFrame("Frame", UUF:FetchFrameName(unit) .. "_PrivateAurasContainer", unitFrame)
