@@ -1,0 +1,48 @@
+name: Refresh addon libraries
+
+on:
+  schedule:
+    - cron: '23 4 7 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: addon-library-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+      - name: Install Lua syntax checker
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends lua5.1
+      - run: python -B -m unittest discover -s tests -p 'test_update_libraries.py'
+      - name: Update and validate libraries
+        run: python -B scripts/update_libraries.py --update --luac luac5.1 --summary "$RUNNER_TEMP/library-update.md"
+      - id: pull-request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
+        with:
+          branch: codex/library-updates
+          delete-branch: true
+          commit-message: 'chore: update vendored addon libraries'
+          title: 'Update vendored addon libraries'
+          body-path: '${{ runner.temp }}/library-update.md'
+          add-paths: |
+            .github/vendor-libraries.json
+            vaarattu-unit-frames/Libraries/oUF
+      - name: Run CI for the update PR
+        if: steps.pull-request.outputs.pull-request-operation == 'created' || steps.pull-request.outputs.pull-request-operation == 'updated'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_BRANCH: ${{ steps.pull-request.outputs.pull-request-branch }}
+        run: gh workflow run library-checks.yml --ref "$PR_BRANCH"
