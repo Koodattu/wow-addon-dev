@@ -79,7 +79,13 @@ local function StyleAuraButton(button, unitFrame, unit, auraDBKey)
 
 	button:SetSize(AuraDB.Size, AuraDB.Size)
 	button.Icon:SetTexCoord(0.07, 0.93, 0.07, 0.93)
-	button.Border:SetAlpha(AuraDB.ShowType and 1 or 0)
+	button:ClearDispelTypeTextures()
+	button:AddDispelTypeTexture(button.Border, {
+		style = Enum.CustomAuraButtonDispelTypeTextureStyle.Border,
+		showWhenHarmful = AuraDB.ShowType,
+		showWhenHelpful = AuraDB.ShowType,
+		customDispelColorMap = oUF.colors.dispel,
+	})
 
 	button.Cooldown:SetDrawEdge(false)
 	button.Cooldown:SetDrawSwipe(not AuraDB.DisableCooldown)
@@ -132,12 +138,6 @@ local function InitializeAuraButton(button, unitFrame, unit, auraDBKey, auraType
 	local border = button:CreateTexture(nil, "OVERLAY")
 	border:SetAllPoints()
 	button.Border = border
-	button:AddDispelTypeTexture(border, {
-		style = Enum.CustomAuraButtonDispelTypeTextureStyle.Border,
-		showWhenHarmful = true,
-		showWhenHelpful = true,
-		customDispelColorMap = oUF.colors.dispel,
-	})
 
 	StyleAuraButton(button, unitFrame, unit, auraDBKey)
 end
