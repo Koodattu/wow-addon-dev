@@ -74,6 +74,10 @@ local function GetAuraDB(unitFrame, unit, auraDBKey)
 end
 
 local function StyleAuraButton(button, unitFrame, unit, auraDBKey)
+	-- Container buttons deny addon access while auras are secret.
+	local canAccess = button:CanBeAccessedInContext()
+	if UUF:IsSecretValue(canAccess) or not canAccess then return end
+
 	local AuraDB = GetAuraDB(unitFrame, unit, auraDBKey)
 	if not AuraDB then return end
 
